@@ -124,7 +124,44 @@ $regex_matches = array(
     '/multi-browser/' => 'Multi-Browser XP',
     '/multizilla/' => 'MultiZilla',
     '/mxnitro/' => 'MxNitro',
-    '/myibrow/' => 'My Internet Browser'
+    '/myibrow/' => 'My Internet Browser',
+    '/ncsa(_|\s)mosaic/' => 'NCSA Mosaic',
+    '/netbox|netgem/' => 'NetBox',
+    '/netcaptor/' => 'NetCaptor',
+    '/netpositive/' => 'NetPositive',
+    '/netscape|navigator/' => 'Netscape Navigator',
+    '/netsurf/' => 'NetSurf',
+    '/offbyone/' => 'Off By One',
+    '/omniweb/' => 'OmniWeb',
+    '/opera|opr|oupeng|\smms\/\d/' => 'Opera',
+    '/juzibrowser/' => 'Orange Browser',
+    '/orca/' => 'Orca',
+    '/otter/' => 'Otter',
+    '/owb/' => 'Odyssey Web Browser',
+    '/palemoon/' => 'Pale Moon',
+    '/patriott/' => 'Patriott',
+    '/perk/' => 'Perk',
+    '/phaseout/' => 'Phaseout',
+    '/phoenix/' => 'Phoenix',
+    '/^pb/' => 'PirateBrowser',
+    '/polarity/' => 'Polarity',
+    '/playstation 4/' => 'PS4 Web Browser',
+    '/puffin/' => 'Puffin',
+    '/qiyu/' => 'Qiyu',
+    '/qqbrowser/' => 'QQbrowser',
+    '/qtweb/' => 'QtWeb',
+    '/qupzilla/' => 'QupZilla',
+    '/qutebrowser/' => 'qutebrowser',
+    '/nichrome/' => 'Rambler Browser',
+    '/rekonq/' => 'Rekonq',
+    '/roccat/' => 'Roccat Browser',
+    '/rockmelt/' => 'RockMelt',
+    '/ryouko/' => 'Ryouko',
+    '/saayaa/' => 'SaaYaa Explorer',
+    '/salam browser/' => 'Salam Browser',
+    '/smart-tv/' => 'Samsung TV Browser',
+    '/seamonkey/' => 'SeaMonkey',
+    '/secure/' => 'Secure Browser'
 );
 
 $skip_browsers = array(
@@ -132,11 +169,12 @@ $skip_browsers = array(
     'Chrome',
     'Firefox',
     'Internet Explorer',
-    'Mozilla'
+    'Mozilla',
+    'Safari'
 );
 
 $regex = false;
-// $regex = '/myibrow/';
+// $regex = '/\smms\/\d/';
 
 $last_browser = false;
 
