@@ -1,0 +1,2250 @@
+{
+    "/2345(explorer|browser)/": {
+        "browser_name": "2345 Explorer",
+        "weight": 10
+    },
+    "/360[s|e]e/": {
+        "browser_name": "360 Browser",
+        "weight": 10
+    },
+    "/nintendo 3ds/": {
+        "browser_name": "Nintendo 3DS Browser",
+        "weight": 10
+    },
+    "/kuaiso/": {
+        "browser_name": "7 Star Browser",
+        "weight": 10
+    },
+    "/abolimba/": {
+        "browser_name": "Abolimba",
+        "weight": 10
+    },
+    "/abrowse\\b/": {
+        "browser_name": "ABrowse",
+        "weight": 10
+    },
+    "/acoo browser/": {
+        "browser_name": "Acoo Browser",
+        "weight": 10
+    },
+    "/alienforce/": {
+        "browser_name": "Alienforce",
+        "weight": 10
+    },
+    "/amaya/": {
+        "browser_name": "Amaya",
+        "weight": 10
+    },
+    "/amiga-aweb/": {
+        "browser_name": "Amiga Aweb",
+        "weight": 10
+    },
+    "/amigavoyager/": {
+        "browser_name": "Amiga Voyager",
+        "weight": 10
+    },
+    "/amigo|mrchrome/": {
+        "browser_name": "Amigo",
+        "weight": 9
+    },
+    "/antfresco/": {
+        "browser_name": "ANT Fresco",
+        "weight": 10
+    },
+    "/antgalio/": {
+        "browser_name": "ANT Galio",
+        "weight": 10
+    },
+    "/aol\\b/": {
+        "browser_name": "AOL Explorer",
+        "weight": 10
+    },
+    "/aolshield/": {
+        "browser_name": "AOL Shield",
+        "weight": 10
+    },
+    "/arora/": {
+        "browser_name": "Arora",
+        "weight": 10
+    },
+    "/avant(\\s|b)/": {
+        "browser_name": "Avant Browser",
+        "weight": 10
+    },
+    "/avast|asw/": {
+        "browser_name": "Avast Secure Browser",
+        "weight": 10
+    },
+    "/aviator/": {
+        "browser_name": "Aviator",
+        "weight": 10
+    },
+    "/avirascout/": {
+        "browser_name": "Avira Scout",
+        "weight": 10
+    },
+    "/baidubrowser|bdbrowser|flyflow/": {
+        "browser_name": "Baidu Browser",
+        "weight": 10
+    },
+    "/spark\\//": {
+        "browser_name": "Baidu Spark",
+        "weight": 10
+    },
+    "/basilisk/": {
+        "browser_name": "Basilisk",
+        "weight": 10
+    },
+    "/beamrise/": {
+        "browser_name": "Beamrise",
+        "weight": 10
+    },
+    "/beonex/": {
+        "browser_name": "Beonex",
+        "weight": 10
+    },
+    "/blackbird/": {
+        "browser_name": "Blackbird",
+        "weight": 10
+    },
+    "/blackhawk/": {
+        "browser_name": "BlackHawk",
+        "weight": 10
+    },
+    "/bolt/": {
+        "browser_name": "Bolt",
+        "weight": 10
+    },
+    "/brave/": {
+        "browser_name": "Brave",
+        "weight": 10
+    },
+    "/briskbard/": {
+        "browser_name": "BriskBard",
+        "weight": 10
+    },
+    "/browzar/": {
+        "browser_name": "Browzar",
+        "weight": 10
+    },
+    "/bunjalloo/": {
+        "browser_name": "Bunjalloo",
+        "weight": 10
+    },
+    "/camino|chimera/": {
+        "browser_name": "Camino",
+        "weight": 10
+    },
+    "/charon/": {
+        "browser_name": "Charon",
+        "weight": 10
+    },
+    "/chedot/": {
+        "browser_name": "Chedot",
+        "weight": 10
+    },
+    "/cheshire/": {
+        "browser_name": "Cheshire",
+        "weight": 10
+    },
+    "/headlesschrome/": {
+        "browser_name": "Chrome Headless",
+        "weight": 10
+    },
+    "/chromium/": {
+        "browser_name": "Chromium",
+        "weight": 10
+    },
+    "/\\sdragon\\b/": {
+        "browser_name": "Chromodo",
+        "weight": 10
+    },
+    "/classilla/": {
+        "browser_name": "Classilla",
+        "weight": 10
+    },
+    "/lbbrowser|acheetahi|liebaofast/": {
+        "browser_name": "CM Browser",
+        "weight": 10
+    },
+    "/corom|coc_coc_browser/": {
+        "browser_name": "Coc Coc",
+        "weight": 10
+    },
+    "/columbus/": {
+        "browser_name": "Columbus",
+        "weight": 10
+    },
+    "/cometbird/": {
+        "browser_name": "CometBird",
+        "weight": 10
+    },
+    "/comodo_dragon/": {
+        "browser_name": "Comodo Dragon",
+        "weight": 10
+    },
+    "/conkeror/": {
+        "browser_name": "Conkeror",
+        "weight": 10
+    },
+    "/coolnovo/": {
+        "browser_name": "CoolNovo",
+        "weight": 10
+    },
+    "/crazy browser/": {
+        "browser_name": "Crazy Browser",
+        "weight": 10
+    },
+    "/cuam/": {
+        "browser_name": "Cuam",
+        "weight": 10
+    },
+    "/cunaguaro/": {
+        "browser_name": "Cunaguaro",
+        "weight": 10
+    },
+    "/cyberdog/": {
+        "browser_name": "Cyberdog",
+        "weight": 10
+    },
+    "/cyberfox/": {
+        "browser_name": "Cyberfox",
+        "weight": 10
+    },
+    "/deepnet explorer/": {
+        "browser_name": "Deepnet Explorer",
+        "weight": 10
+    },
+    "/demeter/": {
+        "browser_name": "Demeter",
+        "weight": 10
+    },
+    "/deskbrowse/": {
+        "browser_name": "DeskBrowse",
+        "weight": 10
+    },
+    "/dillo/": {
+        "browser_name": "Dillo",
+        "weight": 10
+    },
+    "/doczilla/": {
+        "browser_name": "DocZilla",
+        "weight": 10
+    },
+    "/dooble/": {
+        "browser_name": "Dooble",
+        "weight": 10
+    },
+    "/dplus/": {
+        "browser_name": "DPlus",
+        "weight": 10
+    },
+    "/edbrowse/": {
+        "browser_name": "Edbrowse",
+        "weight": 10
+    },
+    "/elinks/": {
+        "browser_name": "Elinks",
+        "weight": 10
+    },
+    "/enigma browser/": {
+        "browser_name": "Enigma Browser",
+        "weight": 10
+    },
+    "/epic/": {
+        "browser_name": "Epic",
+        "weight": 10
+    },
+    "/escape/": {
+        "browser_name": "Espial TV Browser",
+        "weight": 10
+    },
+    "/firebird/": {
+        "browser_name": "Firebird",
+        "weight": 10
+    },
+    "/bonecho|granparadiso|lorentz|minefield|namoroka|shiretoko|fennec|fxios|firefox/": {
+        "browser_name": "Firefox",
+        "weight": 8
+    },
+    "/fireweb navigator/": {
+        "browser_name": "Fireweb Navigator",
+        "weight": 10
+    },
+    "/flock/": {
+        "browser_name": "Flock",
+        "weight": 10
+    },
+    "/fluid/": {
+        "browser_name": "Fluid",
+        "weight": 10
+    },
+    "/framafox/": {
+        "browser_name": "Framafox",
+        "weight": 10
+    },
+    "/navigateur web/": {
+        "browser_name": "Freebox Browser",
+        "weight": 10
+    },
+    "/freeu/": {
+        "browser_name": "FreeU",
+        "weight": 10
+    },
+    "/galeon/": {
+        "browser_name": "Galeon",
+        "weight": 10
+    },
+    "/globalmojo/": {
+        "browser_name": "GlobalMojo",
+        "weight": 10
+    },
+    "/epiphany/": {
+        "browser_name": "GNOME Web",
+        "weight": 10
+    },
+    "/greenbrowser/": {
+        "browser_name": "GreenBrowser",
+        "weight": 10
+    },
+    "/hotjava/": {
+        "browser_name": "HotJava",
+        "weight": 10
+    },
+    "/hv3/": {
+        "browser_name": "Hv3",
+        "weight": 10
+    },
+    "/hydra browser/": {
+        "browser_name": "Hydra Browser",
+        "weight": 10
+    },
+    "/ibm webexplorer/": {
+        "browser_name": "IBM WebExplorer",
+        "weight": 10
+    },
+    "/ibrowse\\b/": {
+        "browser_name": "IBrowse",
+        "weight": 10
+    },
+    "/icab/": {
+        "browser_name": "iCab",
+        "weight": 10
+    },
+    "/ice\\s?browser/": {
+        "browser_name": "ICE Browser",
+        "weight": 10
+    },
+    "/iceape/": {
+        "browser_name": "IceApe",
+        "weight": 10
+    },
+    "/icecat/": {
+        "browser_name": "IceCat",
+        "weight": 10
+    },
+    "/icedragon/": {
+        "browser_name": "IceDragon",
+        "weight": 10
+    },
+    "/iceweasel/": {
+        "browser_name": "IceWeasel",
+        "weight": 10
+    },
+    "/internetsurfboard/": {
+        "browser_name": "InternetSurfboard",
+        "weight": 10
+    },
+    "/irider/": {
+        "browser_name": "iRider",
+        "weight": 10
+    },
+    "/iridium/": {
+        "browser_name": "Iridium",
+        "weight": 10
+    },
+    "/iron/": {
+        "browser_name": "Iron",
+        "weight": 10
+    },
+    "/k-meleon/": {
+        "browser_name": "K-Meleon",
+        "weight": 10
+    },
+    "/k-ninja/": {
+        "browser_name": "K-Ninja",
+        "weight": 10
+    },
+    "/kapiko/": {
+        "browser_name": "Kapiko",
+        "weight": 10
+    },
+    "/kazehakase/": {
+        "browser_name": "Kazehakase",
+        "weight": 10
+    },
+    "/kinza/": {
+        "browser_name": "Kinza",
+        "weight": 10
+    },
+    "/strata/": {
+        "browser_name": "Kirix Strata",
+        "weight": 10
+    },
+    "/kkman/": {
+        "browser_name": "KKman",
+        "weight": 10
+    },
+    "/konqueror/": {
+        "browser_name": "Konqueror",
+        "weight": 10
+    },
+    "/kylo/": {
+        "browser_name": "Kylo",
+        "weight": 10
+    },
+    "/lbrowser/": {
+        "browser_name": "LBrowser",
+        "weight": 10
+    },
+    "/cern-linemode/": {
+        "browser_name": "Line Mode Browser",
+        "weight": 10
+    },
+    "/links\\s/": {
+        "browser_name": "Links",
+        "weight": 10
+    },
+    "/lobo/": {
+        "browser_name": "Lobo",
+        "weight": 10
+    },
+    "/lolifox/": {
+        "browser_name": "lolifox",
+        "weight": 10
+    },
+    "/lovense/": {
+        "browser_name": "Lovense Browser",
+        "weight": 10
+    },
+    "/lunascape/": {
+        "browser_name": "Lunascape",
+        "weight": 10
+    },
+    "/lynx/": {
+        "browser_name": "Lynx",
+        "weight": 10
+    },
+    "/madfox/": {
+        "browser_name": "Madfox",
+        "weight": 10
+    },
+    "/maple/": {
+        "browser_name": "Maple Browser",
+        "weight": 10
+    },
+    "/maxthon|mxbrowser|myie2/": {
+        "browser_name": "Maxthon",
+        "weight": 10
+    },
+    "/edg(ios|a)|edge/": {
+        "browser_name": "Microsoft Edge",
+        "weight": 10
+    },
+    "/midori/": {
+        "browser_name": "Midori",
+        "weight": 10
+    },
+    "/min\\//": {
+        "browser_name": "Min",
+        "weight": 10
+    },
+    "/minibrowser/": {
+        "browser_name": "Mini Browser",
+        "weight": 10
+    },
+    "/multi-browser/": {
+        "browser_name": "Multi-Browser XP",
+        "weight": 10
+    },
+    "/multizilla/": {
+        "browser_name": "MultiZilla",
+        "weight": 10
+    },
+    "/mxnitro/": {
+        "browser_name": "MxNitro",
+        "weight": 10
+    },
+    "/myibrow/": {
+        "browser_name": "My Internet Browser",
+        "weight": 10
+    },
+    "/ncsa(_|\\s)mosaic/": {
+        "browser_name": "NCSA Mosaic",
+        "weight": 10
+    },
+    "/netbox|netgem/": {
+        "browser_name": "NetBox",
+        "weight": 10
+    },
+    "/netcaptor/": {
+        "browser_name": "NetCaptor",
+        "weight": 10
+    },
+    "/netpositive/": {
+        "browser_name": "NetPositive",
+        "weight": 10
+    },
+    "/netscape|navigator/": {
+        "browser_name": "Netscape Navigator",
+        "weight": 10
+    },
+    "/netsurf/": {
+        "browser_name": "NetSurf",
+        "weight": 10
+    },
+    "/offbyone/": {
+        "browser_name": "Off By One",
+        "weight": 10
+    },
+    "/omniweb/": {
+        "browser_name": "OmniWeb",
+        "weight": 10
+    },
+    "/opera|opr|oupeng|\\smms\\/\\d|opios|opt\\//": {
+        "browser_name": "Opera",
+        "weight": 8
+    },
+    "/juzibrowser/": {
+        "browser_name": "Orange Browser",
+        "weight": 10
+    },
+    "/orca/": {
+        "browser_name": "Orca",
+        "weight": 10
+    },
+    "/otter/": {
+        "browser_name": "Otter",
+        "weight": 10
+    },
+    "/owb/": {
+        "browser_name": "Odyssey Web Browser",
+        "weight": 10
+    },
+    "/palemoon/": {
+        "browser_name": "Pale Moon",
+        "weight": 10
+    },
+    "/patriott/": {
+        "browser_name": "Patriott",
+        "weight": 10
+    },
+    "/perk/": {
+        "browser_name": "Perk",
+        "weight": 10
+    },
+    "/phaseout/": {
+        "browser_name": "Phaseout",
+        "weight": 10
+    },
+    "/phoenix/": {
+        "browser_name": "Phoenix",
+        "weight": 10
+    },
+    "/^pb/": {
+        "browser_name": "PirateBrowser",
+        "weight": 10
+    },
+    "/polarity/": {
+        "browser_name": "Polarity",
+        "weight": 10
+    },
+    "/playstation/": {
+        "browser_name": "PS4 Web Browser",
+        "weight": 10
+    },
+    "/puffin/": {
+        "browser_name": "Puffin",
+        "weight": 10
+    },
+    "/qiyu/": {
+        "browser_name": "Qiyu",
+        "weight": 10
+    },
+    "/qqbrowser/": {
+        "browser_name": "QQbrowser",
+        "weight": 10
+    },
+    "/qtweb/": {
+        "browser_name": "QtWeb",
+        "weight": 10
+    },
+    "/qupzilla/": {
+        "browser_name": "QupZilla",
+        "weight": 10
+    },
+    "/qutebrowser/": {
+        "browser_name": "qutebrowser",
+        "weight": 10
+    },
+    "/nichrome/": {
+        "browser_name": "Rambler Browser",
+        "weight": 10
+    },
+    "/rekonq/": {
+        "browser_name": "Rekonq",
+        "weight": 10
+    },
+    "/roccat/": {
+        "browser_name": "Roccat Browser",
+        "weight": 10
+    },
+    "/rockmelt/": {
+        "browser_name": "RockMelt",
+        "weight": 10
+    },
+    "/ryouko/": {
+        "browser_name": "Ryouko",
+        "weight": 10
+    },
+    "/saayaa/": {
+        "browser_name": "SaaYaa Explorer",
+        "weight": 10
+    },
+    "/salam browser/": {
+        "browser_name": "Salam Browser",
+        "weight": 10
+    },
+    "/smart-tv/": {
+        "browser_name": "Samsung TV Browser",
+        "weight": 10
+    },
+    "/seamonkey/": {
+        "browser_name": "SeaMonkey",
+        "weight": 9
+    },
+    "/secure/": {
+        "browser_name": "Secure Browser",
+        "weight": 10
+    },
+    "/sraf/": {
+        "browser_name": "Seraphic Sraf",
+        "weight": 10
+    },
+    "/seznam.cz|sznprohlizec/": {
+        "browser_name": "Seznam.cz Browser",
+        "weight": 10
+    },
+    "/shiira/": {
+        "browser_name": "Shiira",
+        "weight": 10
+    },
+    "/sitekiosk/": {
+        "browser_name": "SiteKiosk",
+        "weight": 10
+    },
+    "/skipstone/": {
+        "browser_name": "SkipStone",
+        "weight": 10
+    },
+    "/slack/": {
+        "browser_name": "Slack App",
+        "weight": 10
+    },
+    "/sleipnir/": {
+        "browser_name": "Sleipnir",
+        "weight": 10
+    },
+    "/slimboat/": {
+        "browser_name": "SlimBoat",
+        "weight": 10
+    },
+    "/slimbrowser/": {
+        "browser_name": "SlimBrowser",
+        "weight": 10
+    },
+    "/slimerjs/": {
+        "browser_name": "SlimerJS",
+        "weight": 10
+    },
+    "/metasr/": {
+        "browser_name": "Sogou Explorer",
+        "weight": 10
+    },
+    "/sparksafe/": {
+        "browser_name": "Spark Security Browser",
+        "weight": 10
+    },
+    "/sputnikbrowser/": {
+        "browser_name": "Sputnik Browser",
+        "weight": 10
+    },
+    "/stainless/": {
+        "browser_name": "Stainless",
+        "weight": 10
+    },
+    "/valve steam gameoverlay/": {
+        "browser_name": "Steam Game Overlay",
+        "weight": 10
+    },
+    "/sundance/": {
+        "browser_name": "Sundance",
+        "weight": 10
+    },
+    "/sundial/": {
+        "browser_name": "Sundial",
+        "weight": 10
+    },
+    "/sunrise/": {
+        "browser_name": "Sunrise",
+        "weight": 10
+    },
+    "/superbird/": {
+        "browser_name": "Superbird",
+        "weight": 10
+    },
+    "/swiftfox/": {
+        "browser_name": "Swiftfox",
+        "weight": 10
+    },
+    "/swiftweasel/": {
+        "browser_name": "Swiftweasel",
+        "weight": 10
+    },
+    "/to-browser/": {
+        "browser_name": "t-online.de Browser",
+        "weight": 10
+    },
+    "/taobrowser/": {
+        "browser_name": "Taobao Browser",
+        "weight": 10
+    },
+    "/tenfourfox/": {
+        "browser_name": "TenFourFox",
+        "weight": 10
+    },
+    "/qtcarbrowser/": {
+        "browser_name": "Tesla Car Browser",
+        "weight": 10
+    },
+    "/theworld/": {
+        "browser_name": "TheWorld Browser",
+        "weight": 10
+    },
+    "/tjusig/": {
+        "browser_name": "Tjusig",
+        "weight": 10
+    },
+    "/tencenttraveler/": {
+        "browser_name": "TT Explorer",
+        "weight": 10
+    },
+    "/tulipchain/": {
+        "browser_name": "Tulip Chain",
+        "weight": 10
+    },
+    "/tungstenbrowser/": {
+        "browser_name": "Tungsten",
+        "weight": 10
+    },
+    "/twitter/": {
+        "browser_name": "Twitter App",
+        "weight": 10
+    },
+    "/ubrowser|ucweb|ucbrowser/": {
+        "browser_name": "UC Browser",
+        "weight": 10
+    },
+    "/ultrabrowser/": {
+        "browser_name": "UltraBrowser",
+        "weight": 10
+    },
+    "/ur\\//": {
+        "browser_name": "UR Browser",
+        "weight": 10
+    },
+    "/usejump/": {
+        "browser_name": "UseJump",
+        "weight": 10
+    },
+    "/uzbl/": {
+        "browser_name": "Uzbl",
+        "weight": 10
+    },
+    "/sparrow/": {
+        "browser_name": "Sparrow",
+        "weight": 10
+    },
+    "/vimprobable/": {
+        "browser_name": "Vimprobable",
+        "weight": 10
+    },
+    "/vivaldi/": {
+        "browser_name": "Vivaldi",
+        "weight": 10
+    },
+    "/airwatch browser/": {
+        "browser_name": "VMWare Browser",
+        "weight": 10
+    },
+    "/vonkeror/": {
+        "browser_name": "Vonkeror",
+        "weight": 10
+    },
+    "/w3m/": {
+        "browser_name": "w3m",
+        "weight": 10
+    },
+    "/waterfox/": {
+        "browser_name": "Waterfox",
+        "weight": 10
+    },
+    "/wbbrowse/": {
+        "browser_name": "WbBrowse",
+        "weight": 10
+    },
+    "/webexplorer/": {
+        "browser_name": "Web Explorer",
+        "weight": 10
+    },
+    "/webianshell/": {
+        "browser_name": "Webian Shell",
+        "weight": 10
+    },
+    "/webpositive/": {
+        "browser_name": "WebPositive",
+        "weight": 10
+    },
+    "/webrender/": {
+        "browser_name": "WebRender",
+        "weight": 10
+    },
+    "/weltweitimnetzbrowser/": {
+        "browser_name": "Weltweitimnetz Browser",
+        "weight": 10
+    },
+    "/whale/": {
+        "browser_name": "Whale",
+        "weight": 10
+    },
+    "/wib\\//": {
+        "browser_name": "WIB",
+        "weight": 10
+    },
+    "/nintendo wiiu/": {
+        "browser_name": "Wii U Internet Browser",
+        "weight": 10
+    },
+    "/wkiosk/": {
+        "browser_name": "wKiosk",
+        "weight": 10
+    },
+    "/worldwideweb/": {
+        "browser_name": "WorldWideWeb",
+        "weight": 10
+    },
+    "/wyzo/": {
+        "browser_name": "Wyzo",
+        "weight": 10
+    },
+    "/x-smiles/": {
+        "browser_name": "X-Smiles",
+        "weight": 10
+    },
+    "/xvast/": {
+        "browser_name": "Xvast",
+        "weight": 10
+    },
+    "/yabrowser/": {
+        "browser_name": "Yandex.Browser",
+        "weight": 10
+    },
+    "/yrcweblink/": {
+        "browser_name": "YRC Weblink",
+        "weight": 10
+    },
+    "/\\bzbrowser\\//": {
+        "browser_name": "zBrowser",
+        "weight": 10
+    },
+    "/zipzap/": {
+        "browser_name": "ZipZap",
+        "weight": 10
+    },
+    "/avantgo/": {
+        "browser_name": "AvantGo",
+        "weight": 10
+    },
+    "/axel/": {
+        "browser_name": "Axel",
+        "weight": 10
+    },
+    "/sbl-bot/": {
+        "browser_name": "BlackWidow",
+        "weight": 10
+    },
+    "/bluecrab/": {
+        "browser_name": "BlueCrab",
+        "weight": 10
+    },
+    "/cyotek/": {
+        "browser_name": "Cyotek WebCopy",
+        "weight": 10
+    },
+    "/getright/": {
+        "browser_name": "GetRight",
+        "weight": 10
+    },
+    "/httrack/": {
+        "browser_name": "HTTrack",
+        "weight": 10
+    },
+    "/isilox\\//": {
+        "browser_name": "iSiloX",
+        "weight": 10
+    },
+    "/isiloxc/": {
+        "browser_name": "iSiloXC",
+        "weight": 10
+    },
+    "/jobo/": {
+        "browser_name": "JoBo",
+        "weight": 10
+    },
+    "/joc web spider/": {
+        "browser_name": "JOC Web Spider",
+        "weight": 10
+    },
+    "/offline explorer|web downloader/": {
+        "browser_name": "Offline Explorer",
+        "weight": 10
+    },
+    "/sitesucker/": {
+        "browser_name": "SiteSucker",
+        "weight": 10
+    },
+    "/superbot/": {
+        "browser_name": "SuperBot",
+        "weight": 10
+    },
+    "/teleport pro/": {
+        "browser_name": "Teleport Pro",
+        "weight": 10
+    },
+    "/webcopier/": {
+        "browser_name": "WebCopier",
+        "weight": 10
+    },
+    "/webfetch/": {
+        "browser_name": "webfetch",
+        "weight": 10
+    },
+    "/webstripper/": {
+        "browser_name": "WebStripper",
+        "weight": 10
+    },
+    "/webzip/": {
+        "browser_name": "WebZIP",
+        "weight": 10
+    },
+    "/wget/": {
+        "browser_name": "Wget",
+        "weight": 10
+    },
+    "/xaldon(_|\\s)webspider/": {
+        "browser_name": "Xaldon WebSpider",
+        "weight": 10
+    },
+    "/alohabrowser/": {
+        "browser_name": "Aloha Browser",
+        "weight": 10
+    },
+    "/atomicbrowser/": {
+        "browser_name": "Atomic Web Browser",
+        "weight": 10
+    },
+    "/bline/": {
+        "browser_name": "B-Line",
+        "weight": 10
+    },
+    "/bingweb/": {
+        "browser_name": "Bing Search App",
+        "weight": 10
+    },
+    "/blackberry\\d|playbook/": {
+        "browser_name": "BlackBerry Browser",
+        "weight": 10
+    },
+    "/blazer/": {
+        "browser_name": "Blazer",
+        "weight": 10
+    },
+    "/bowser/": {
+        "browser_name": "Bowser",
+        "weight": 10
+    },
+    "/crmo|crios|\\/jrn|chrome/": {
+        "browser_name": "Chrome",
+        "weight": 9
+    },
+    "/coast/": {
+        "browser_name": "Coast",
+        "weight": 10
+    },
+    "/cornowser/": {
+        "browser_name": "Cornowser",
+        "weight": 10
+    },
+    "/diigobrowser/": {
+        "browser_name": "Diigo",
+        "weight": 10
+    },
+    "/dolfin/": {
+        "browser_name": "Dolphin",
+        "weight": 10
+    },
+    "/ddg/": {
+        "browser_name": "DuckDuckGo",
+        "weight": 10
+    },
+    "/ecosia/": {
+        "browser_name": "Ecosia",
+        "weight": 10
+    },
+    "/egenciam/": {
+        "browser_name": "Egencia App",
+        "weight": 10
+    },
+    "/focus/": {
+        "browser_name": "Firefox Focus",
+        "weight": 10
+    },
+    "/klar/": {
+        "browser_name": "Firefox Klar",
+        "weight": 10
+    },
+    "/gobrowser/": {
+        "browser_name": "GO Browser",
+        "weight": 10
+    },
+    "/gsa\\//": {
+        "browser_name": "Google App",
+        "weight": 10
+    },
+    "/ie\\b|msie|iemobile|zune|windows phone/": {
+        "browser_name": "Internet Explorer",
+        "weight": 8
+    },
+    "/instagram/": {
+        "browser_name": "Instagram App",
+        "weight": 10
+    },
+    "/isivioo/": {
+        "browser_name": "isivioo",
+        "weight": 10
+    },
+    "/jasmine/": {
+        "browser_name": "Jasmine",
+        "weight": 10
+    },
+    "/kindle/": {
+        "browser_name": "Kindle Browser",
+        "weight": 10
+    },
+    "/browser\\/phantom/": {
+        "browser_name": "LG Phantom Browser",
+        "weight": 10
+    },
+    "/\\bline\\//": {
+        "browser_name": "LINE App",
+        "weight": 10
+    },
+    "/linkedin/": {
+        "browser_name": "LinkedIn App",
+        "weight": 10
+    },
+    "/mcent/": {
+        "browser_name": "mCent",
+        "weight": 10
+    },
+    "/mzbrowser/": {
+        "browser_name": "Meizu Browser",
+        "weight": 10
+    },
+    "/tablet browser|maemo/": {
+        "browser_name": "MicroB",
+        "weight": 10
+    },
+    "/minimo/": {
+        "browser_name": "Minimo",
+        "weight": 10
+    },
+    "/miuibrowser/": {
+        "browser_name": "MIUI Browser",
+        "weight": 10
+    },
+    "/samsungbrowser/": {
+        "browser_name": "Samsung Browser",
+        "weight": 10
+    },
+    "/mot-/": {
+        "browser_name": "Motorola Internet Browser",
+        "weight": 10
+    },
+    "/netfront\\/|nf-browser|danger hiptop/": {
+        "browser_name": "NetFront",
+        "weight": 10
+    },
+    "/netfrontlifebrowser/": {
+        "browser_name": "NetFront Life",
+        "weight": 10
+    },
+    "/ninesky/": {
+        "browser_name": "NineSky",
+        "weight": 10
+    },
+    "/sylera/": {
+        "browser_name": "Sylera",
+        "weight": 10
+    },
+    "/symbian(o|\\/)|nokian9/": {
+        "browser_name": "Nokia Web Browser",
+        "weight": 10
+    },
+    "/ntentbrowser/": {
+        "browser_name": "NTENT Browser",
+        "weight": 10
+    },
+    "/obigo|wap2|v10c browser|au-mic|vx9600/": {
+        "browser_name": "Obigo",
+        "weight": 10
+    },
+    "/onebrowser/": {
+        "browser_name": "ONE Browser",
+        "weight": 10
+    },
+    "/up.browser/": {
+        "browser_name": "Openwave Browser",
+        "weight": 10
+    },
+    "/pre\\//": {
+        "browser_name": "Palm Pre Web Browser",
+        "weight": 10
+    },
+    "/pinterest/": {
+        "browser_name": "Pinterest App",
+        "weight": 10
+    },
+    "/polaris/": {
+        "browser_name": "Polaris",
+        "weight": 10
+    },
+    "/quark/": {
+        "browser_name": "Quark",
+        "weight": 10
+    },
+    "/quickbrowser/": {
+        "browser_name": "Quick Browser",
+        "weight": 10
+    },
+    "/qwantbrowser/": {
+        "browser_name": "Qwant",
+        "weight": 10
+    },
+    "/relaxmelodies/": {
+        "browser_name": "Relax Melodies App",
+        "weight": 10
+    },
+    "/mobilesafari|mobile\\/\\w+$|safari/": {
+        "browser_name": "Safari",
+        "weight": 6
+    },
+    "/sailfish browser/": {
+        "browser_name": "Sailfish Browser",
+        "weight": 10
+    },
+    "/web by citrix/": {
+        "browser_name": "Secure Web",
+        "weight": 10
+    },
+    "/semc-browser/": {
+        "browser_name": "SEMC Browser",
+        "weight": 10
+    },
+    "/silk/": {
+        "browser_name": "Silk",
+        "weight": 10
+    },
+    "/skyfire/": {
+        "browser_name": "Skyfire",
+        "weight": 10
+    },
+    "/snapchat/": {
+        "browser_name": "Snapchat",
+        "weight": 10
+    },
+    "/surfbrowser/": {
+        "browser_name": "Surf Browser",
+        "weight": 10
+    },
+    "/swing/": {
+        "browser_name": "Swing",
+        "weight": 10
+    },
+    "/swoodoo/": {
+        "browser_name": "Swoodoo App",
+        "weight": 10
+    },
+    "/tear/": {
+        "browser_name": "Tear",
+        "weight": 10
+    },
+    "/teashark/": {
+        "browser_name": "TeaShark",
+        "weight": 10
+    },
+    "/tenta/": {
+        "browser_name": "Tenta Browser",
+        "weight": 10
+    },
+    "/tizen/": {
+        "browser_name": "Tizen Browser",
+        "weight": 10
+    },
+    "/ubuntu;/": {
+        "browser_name": "Ubuntu Web Browser",
+        "weight": 7
+    },
+    "/uzardweb/": {
+        "browser_name": "uZard Web",
+        "weight": 10
+    },
+    "/vivobrowser/": {
+        "browser_name": "Vivo Browser",
+        "weight": 10
+    },
+    "/wosbrowser/": {
+        "browser_name": "wOSBrowser",
+        "weight": 10
+    },
+    "/yelpapp/": {
+        "browser_name": "Yelp App",
+        "weight": 10
+    },
+    "/yolobrowser/": {
+        "browser_name": "Yolo Browser",
+        "weight": 10
+    },
+    "/airmail/": {
+        "browser_name": "AirMail",
+        "weight": 10
+    },
+    "/barca/": {
+        "browser_name": "Barca",
+        "weight": 10
+    },
+    "/seznamemail/": {
+        "browser_name": "Email.cz",
+        "weight": 10
+    },
+    "/eudora/": {
+        "browser_name": "Eudora",
+        "weight": 10
+    },
+    "/evolution/": {
+        "browser_name": "Evolution",
+        "weight": 10
+    },
+    "/fossamail/": {
+        "browser_name": "FossaMail",
+        "weight": 10
+    },
+    "/framabird/": {
+        "browser_name": "Framabird",
+        "weight": 10
+    },
+    "/freebox/": {
+        "browser_name": "Freebox Mail",
+        "weight": 10
+    },
+    "/gcmail/": {
+        "browser_name": "GcMail",
+        "weight": 10
+    },
+    "/ggpht.com/": {
+        "browser_name": "Gmail",
+        "weight": 10
+    },
+    "/lotus-notes/": {
+        "browser_name": "Lotus Notes",
+        "weight": 10
+    },
+    "/mailbar/": {
+        "browser_name": "MailBar",
+        "weight": 10
+    },
+    "/msoffice|microsoft( office)? outlook/": {
+        "browser_name": "Outlook",
+        "weight": 10
+    },
+    "/pocomail/": {
+        "browser_name": "PocoMail",
+        "weight": 10
+    },
+    "/postbox/": {
+        "browser_name": "Postbox",
+        "weight": 10
+    },
+    "/ramblermail/": {
+        "browser_name": "RamblerMail",
+        "weight": 10
+    },
+    "/shredder/": {
+        "browser_name": "Shredder",
+        "weight": 10
+    },
+    "/spicebird/": {
+        "browser_name": "Spicebird",
+        "weight": 10
+    },
+    "/the bat!/": {
+        "browser_name": "The Bat!",
+        "weight": 10
+    },
+    "/thunderbird/": {
+        "browser_name": "Thunderbird",
+        "weight": 10
+    },
+    "/unibox/": {
+        "browser_name": "Unibox",
+        "weight": 10
+    },
+    "/trident|officelive/": {
+        "browser_name": "Windows Live Mail",
+        "weight": 8
+    },
+    "/yahoomobile/": {
+        "browser_name": "Yahoo Mobile Mail",
+        "weight": 10
+    },
+    "/zdesktop/": {
+        "browser_name": "Zimbra Desktop",
+        "weight": 10
+    },
+    "/adobeair/": {
+        "browser_name": "Adobe AIR Runtime",
+        "weight": 10
+    },
+    "/android-async-http/": {
+        "browser_name": "Android Asynchronous Http Client",
+        "weight": 10
+    },
+    "/dalvik/": {
+        "browser_name": "Android HttpURLConnection",
+        "weight": 10
+    },
+    "/anemone/": {
+        "browser_name": "Anemone",
+        "weight": 10
+    },
+    "/anglesharp/": {
+        "browser_name": "AngleSharp",
+        "weight": 10
+    },
+    "/ahc\\/|apache-http(async)?client/": {
+        "browser_name": "Apache Http Client",
+        "weight": 10
+    },
+    "/axios/": {
+        "browser_name": "axios",
+        "weight": 10
+    },
+    "/binget/": {
+        "browser_name": "BinGet",
+        "weight": 10
+    },
+    "/cfnetwork/": {
+        "browser_name": "CFNetwork",
+        "weight": 10
+    },
+    "/csquery/": {
+        "browser_name": "CsQuery",
+        "weight": 10
+    },
+    "/cssutils/": {
+        "browser_name": "cssutils",
+        "weight": 10
+    },
+    "/^curl/": {
+        "browser_name": "cURL",
+        "weight": 10
+    },
+    "/eventmachine/": {
+        "browser_name": "EventMachine",
+        "weight": 10
+    },
+    "/faraday/": {
+        "browser_name": "Faraday",
+        "weight": 10
+    },
+    "/feed::find/": {
+        "browser_name": "Feed::Find",
+        "weight": 10
+    },
+    "/go(\\s|-)(http|[\\d.]+)(\\s|-)(client|package)/": {
+        "browser_name": "Go HTTP Package",
+        "weight": 10
+    },
+    "/goose/": {
+        "browser_name": "goose-extractor",
+        "weight": 10
+    },
+    "/gstreamer/": {
+        "browser_name": "GStreamer",
+        "weight": 10
+    },
+    "/guzzle/": {
+        "browser_name": "Guzzle",
+        "weight": 10
+    },
+    "/hackney/": {
+        "browser_name": "hackney",
+        "weight": 10
+    },
+    "/htmlayout/": {
+        "browser_name": "HTMLayout",
+        "weight": 10
+    },
+    "/http-kit/": {
+        "browser_name": "http-kit",
+        "weight": 10
+    },
+    "/http_request2/": {
+        "browser_name": "HTTP_Request2",
+        "weight": 10
+    },
+    "/indy library/": {
+        "browser_name": "Indy Library",
+        "weight": 10
+    },
+    "/incutio xml-rpc/": {
+        "browser_name": "Incutio XML-RPC Library",
+        "weight": 10
+    },
+    "/jakarta/": {
+        "browser_name": "Jakarta Commons-HttpClient",
+        "weight": 10
+    },
+    "/^java/": {
+        "browser_name": "Java",
+        "weight": 10
+    },
+    "/^libsoup/": {
+        "browser_name": "LibSoup",
+        "weight": 10
+    },
+    "/^libwww-perl/": {
+        "browser_name": "libwww-perl",
+        "weight": 10
+    },
+    "/lua-resty-http/": {
+        "browser_name": "lua-resty-http",
+        "weight": 10
+    },
+    "/^lwp/": {
+        "browser_name": "LWP::Simple",
+        "weight": 10
+    },
+    "/manticore/": {
+        "browser_name": "Manticore",
+        "weight": 10
+    },
+    "/^mechanize/": {
+        "browser_name": "Mechanize",
+        "weight": 10
+    },
+    "/okhttp/": {
+        "browser_name": "OkHttp",
+        "weight": 10
+    },
+    "/pear http_request/": {
+        "browser_name": "PEAR HTTP_Request",
+        "weight": 10
+    },
+    "/pecl::http/": {
+        "browser_name": "PECL::HTTP",
+        "weight": 10
+    },
+    "/php-openid/": {
+        "browser_name": "PHP OpenID Library",
+        "weight": 10
+    },
+    "/phpcrawl/": {
+        "browser_name": "PHPcrawl",
+        "weight": 10
+    },
+    "/poe-component-client-http/": {
+        "browser_name": "POE-Component-Client-HTTP",
+        "weight": 10
+    },
+    "/pycurl/": {
+        "browser_name": "PycURL",
+        "weight": 10
+    },
+    "/python-requests/": {
+        "browser_name": "Python-requests",
+        "weight": 10
+    },
+    "/python-urllib/": {
+        "browser_name": "Python-urllib",
+        "weight": 10
+    },
+    "/python-webchecker/": {
+        "browser_name": "Python-webchecker",
+        "weight": 10
+    },
+    "/longurl-r-package/": {
+        "browser_name": "R longurl",
+        "weight": 10
+    },
+    "/restsharp/": {
+        "browser_name": "RestSharp",
+        "weight": 10
+    },
+    "/rome client/": {
+        "browser_name": "ROME library",
+        "weight": 10
+    },
+    "/rpt-httpclient/": {
+        "browser_name": "RPT-HTTPClient",
+        "weight": 10
+    },
+    "/^eat/": {
+        "browser_name": "Ruby eat",
+        "weight": 10
+    },
+    "/simplepie/": {
+        "browser_name": "SimplePie",
+        "weight": 10
+    },
+    "/snoopy/": {
+        "browser_name": "Snoopy",
+        "weight": 10
+    },
+    "/libsummer/": {
+        "browser_name": "Summer",
+        "weight": 10
+    },
+    "/typhoeus/": {
+        "browser_name": "Typhoeus",
+        "weight": 10
+    },
+    "/urlgrabber/": {
+        "browser_name": "urlgrabber",
+        "weight": 10
+    },
+    "/wlmhttptransport/": {
+        "browser_name": "WebLogic HTTP client",
+        "weight": 10
+    },
+    "/winhttp/": {
+        "browser_name": "WinHTTP",
+        "weight": 10
+    },
+    "/wininet/": {
+        "browser_name": "WinInet Component Suite",
+        "weight": 10
+    },
+    "/www-mechanize/": {
+        "browser_name": "WWW::Mechanize",
+        "weight": 10
+    },
+    "/xine/": {
+        "browser_name": "xine",
+        "weight": 10
+    },
+    "/xml-?rpc/": {
+        "browser_name": "XML-RPC",
+        "weight": 10
+    },
+    "/zend_http_client/": {
+        "browser_name": "Zend_Http_Client",
+        "weight": 10
+    },
+    "/klondike/": {
+        "browser_name": "Klondike",
+        "weight": 10
+    },
+    "/waptiger/": {
+        "browser_name": "WapTiger",
+        "weight": 10
+    },
+    "/winwap/": {
+        "browser_name": "WinWap",
+        "weight": 10
+    },
+    "/2bone_linkchecker/": {
+        "browser_name": "2Bone LinkChecker",
+        "weight": 10
+    },
+    "/htmlchecker/": {
+        "browser_name": "anw HTMLChecker",
+        "weight": 10
+    },
+    "/anw webtool loadcontrol/": {
+        "browser_name": "anw LoadControl",
+        "weight": 10
+    },
+    "/checkbot/": {
+        "browser_name": "Checkbot",
+        "weight": 10
+    },
+    "/cse html validator/": {
+        "browser_name": "CSE HTML Validator",
+        "weight": 10
+    },
+    "/cynthia/": {
+        "browser_name": "Cynthia",
+        "weight": 10
+    },
+    "/feedvalidator/": {
+        "browser_name": "FeedValidator",
+        "weight": 10
+    },
+    "/htmlparser/": {
+        "browser_name": "HTMLParser",
+        "weight": 10
+    },
+    "/linkchecker/": {
+        "browser_name": "LinkChecker",
+        "weight": 10
+    },
+    "/linkexaminer/": {
+        "browser_name": "LinkExaminer",
+        "weight": 10
+    },
+    "/linkwalker/": {
+        "browser_name": "LinkWalker",
+        "weight": 10
+    },
+    "/p3p validator/": {
+        "browser_name": "P3P Validator",
+        "weight": 10
+    },
+    "/rel link checker lite/": {
+        "browser_name": "REL Link Checker Lite",
+        "weight": 10
+    },
+    "/screaming frog seo spider/": {
+        "browser_name": "Screaming Frog SEO Spider",
+        "weight": 10
+    },
+    "/validator.nu/": {
+        "browser_name": "Validator.nu",
+        "weight": 10
+    },
+    "/w3c-checklink/": {
+        "browser_name": "W3C Checklink",
+        "weight": 10
+    },
+    "/w3c_css_validator/": {
+        "browser_name": "W3C CSS Validator",
+        "weight": 10
+    },
+    "/w3c_i18n-checker/": {
+        "browser_name": "W3C Internationalization Checker",
+        "weight": 10
+    },
+    "/w3c-mobileok/": {
+        "browser_name": "W3C mobileOK Checker",
+        "weight": 10
+    },
+    "/w3c_unicorn/": {
+        "browser_name": "W3C Unicorn Validator",
+        "weight": 10
+    },
+    "/w3c_validator\\//": {
+        "browser_name": "W3C Validator",
+        "weight": 10
+    },
+    "/w3c_validator_suite/": {
+        "browser_name": "W3C Validator Suite",
+        "weight": 10
+    },
+    "/csscheck/": {
+        "browser_name": "WDG CSSCheck",
+        "weight": 10
+    },
+    "/wdg_validator/": {
+        "browser_name": "WDG Validator",
+        "weight": 10
+    },
+    "/xenu/": {
+        "browser_name": "Xenu Link Sleuth",
+        "weight": 10
+    },
+    "/abilon/": {
+        "browser_name": "Abilon",
+        "weight": 10
+    },
+    "/akregator/": {
+        "browser_name": "Akregator",
+        "weight": 10
+    },
+    "/apple-pubsub/": {
+        "browser_name": "Apple-PubSub",
+        "weight": 10
+    },
+    "/awasu/": {
+        "browser_name": "Awasu",
+        "weight": 10
+    },
+    "/blogbridge/": {
+        "browser_name": "BlogBridge",
+        "weight": 10
+    },
+    "/bloglines/": {
+        "browser_name": "Bloglines",
+        "weight": 10
+    },
+    "/^cpg|dragonfly/": {
+        "browser_name": "CPG Dragonfly RSS Module",
+        "weight": 10
+    },
+    "/digg/": {
+        "browser_name": "Digg Reader",
+        "weight": 10
+    },
+    "/^endo\\//": {
+        "browser_name": "Endo",
+        "weight": 10
+    },
+    "/fastladder feedfetcher/": {
+        "browser_name": "Fastladder FeedFetcher",
+        "weight": 10
+    },
+    "/feed viewer/": {
+        "browser_name": "Feed Viewer",
+        "weight": 10
+    },
+    "/^feedbin /": {
+        "browser_name": "Feedbin",
+        "weight": 10
+    },
+    "/feeddemon/": {
+        "browser_name": "FeedDemon",
+        "weight": 10
+    },
+    "/greatnews/": {
+        "browser_name": "GreatNews",
+        "weight": 10
+    },
+    "/icatcher!/": {
+        "browser_name": "iCatcher!",
+        "weight": 10
+    },
+    "/windows-rss-platform/": {
+        "browser_name": "Internet Explorer RSS Reader",
+        "weight": 10
+    },
+    "/inoreader/": {
+        "browser_name": "InoReader",
+        "weight": 10
+    },
+    "/liferea/": {
+        "browser_name": "Liferea",
+        "weight": 10
+    },
+    "/lucknews/": {
+        "browser_name": "LuckNews",
+        "weight": 10
+    },
+    "/netnewswire/": {
+        "browser_name": "NetNewsWire",
+        "weight": 10
+    },
+    "/newsbeuter/": {
+        "browser_name": "Newsbeuter",
+        "weight": 10
+    },
+    "/newsbreak/": {
+        "browser_name": "NewsBreak",
+        "weight": 10
+    },
+    "/newsfox/": {
+        "browser_name": "NewsFox",
+        "weight": 10
+    },
+    "/newsgatoronline/": {
+        "browser_name": "NewsGatorOnline",
+        "weight": 10
+    },
+    "/nfreader/": {
+        "browser_name": "NFReader",
+        "weight": 10
+    },
+    "/omea reader/": {
+        "browser_name": "Omea Reader",
+        "weight": 10
+    },
+    "/quiterss/": {
+        "browser_name": "QuiteRSS",
+        "weight": 10
+    },
+    "/rssbandit/": {
+        "browser_name": "RSS Bandit",
+        "weight": 10
+    },
+    "/rss menu/": {
+        "browser_name": "RSS Menu",
+        "weight": 10
+    },
+    "/rss popper/": {
+        "browser_name": "RSS Popper",
+        "weight": 10
+    },
+    "/rssowl/": {
+        "browser_name": "RSSOwl",
+        "weight": 10
+    },
+    "/applesyndication/": {
+        "browser_name": "Safari RSS Reader",
+        "weight": 10
+    },
+    "/sage/": {
+        "browser_name": "Sage",
+        "weight": 10
+    },
+    "/sharpreader/": {
+        "browser_name": "SharpReader",
+        "weight": 10
+    },
+    "/shrook/": {
+        "browser_name": "Shrook",
+        "weight": 10
+    },
+    "/yahoofeedseeker/": {
+        "browser_name": "YahooFeedSeeker",
+        "weight": 10
+    },
+    "/^banshee/": {
+        "browser_name": "Banshee",
+        "weight": 10
+    },
+    "/^boxee/": {
+        "browser_name": "Boxee",
+        "weight": 10
+    },
+    "/coreplayer/": {
+        "browser_name": "CorePlayer",
+        "weight": 10
+    },
+    "/dailymotion/": {
+        "browser_name": "Dailymotion App",
+        "weight": 10
+    },
+    "/^flycast/": {
+        "browser_name": "FlyCast",
+        "weight": 10
+    },
+    "/^foobar2000/": {
+        "browser_name": "foobar2000",
+        "weight": 10
+    },
+    "/gomplayer/": {
+        "browser_name": "GOM Player",
+        "weight": 10
+    },
+    "/itunes/": {
+        "browser_name": "iTunes",
+        "weight": 10
+    },
+    "/xbmc|kodi/": {
+        "browser_name": "KODI",
+        "weight": 10
+    },
+    "/miro|^democracy/": {
+        "browser_name": "Miro",
+        "weight": 10
+    },
+    "/mplayer/": {
+        "browser_name": "MPlayer",
+        "weight": 10
+    },
+    "/plex/": {
+        "browser_name": "Plex",
+        "weight": 10
+    },
+    "/pockettunes/": {
+        "browser_name": "Pocket Tunes",
+        "weight": 10
+    },
+    "/rss_radio/": {
+        "browser_name": "RSS Radio",
+        "weight": 10
+    },
+    "/songbird/": {
+        "browser_name": "Songbird",
+        "weight": 10
+    },
+    "/^vlc/": {
+        "browser_name": "VLC Media Player",
+        "weight": 10
+    },
+    "/wafa/": {
+        "browser_name": "Winamp for Android",
+        "weight": 10
+    },
+    "/windows-media-player|nsplayer/": {
+        "browser_name": "Windows Media Player",
+        "weight": 10
+    },
+    "/xmplay/": {
+        "browser_name": "XMPlay",
+        "weight": 10
+    },
+    "/apachebench/": {
+        "browser_name": "Apache Bench",
+        "weight": 10
+    },
+    "/activexperts/": {
+        "browser_name": "ActiveXperts Network Monitor",
+        "weight": 10
+    },
+    "/androiddownloadmanager/": {
+        "browser_name": "Android Download Manager",
+        "weight": 10
+    },
+    "/internal dummy connection/": {
+        "browser_name": "Apache Internal Dummy Connection",
+        "weight": 10
+    },
+    "/synapse/": {
+        "browser_name": "Apache Synapse",
+        "weight": 10
+    },
+    "/aria2/": {
+        "browser_name": "aria2",
+        "weight": 10
+    },
+    "/atomic_email_hunter/": {
+        "browser_name": "Atomic Email Hunter",
+        "weight": 10
+    },
+    "/bandwidth-hero compressor/": {
+        "browser_name": "Bandwidth-Hero Compressor",
+        "weight": 10
+    },
+    "/^bdnc/": {
+        "browser_name": "Bitdefender Antivirus",
+        "weight": 10
+    },
+    "/bookdog/": {
+        "browser_name": "Bookdog",
+        "weight": 10
+    },
+    "/bookmarktracker/": {
+        "browser_name": "BookmarkTracker",
+        "weight": 10
+    },
+    "/boxnotes/": {
+        "browser_name": "Box Notes",
+        "weight": 10
+    },
+    "/brownrecluse/": {
+        "browser_name": "BrownRecluse",
+        "weight": 10
+    },
+    "/browseremulator/": {
+        "browser_name": "BrowserEmulator",
+        "weight": 10
+    },
+    "/catchpoint/": {
+        "browser_name": "Catchpoint",
+        "weight": 10
+    },
+    "/claws mail gtkhtml2 plugin/": {
+        "browser_name": "Claws Mail GtkHtml2 Plugin",
+        "weight": 10
+    },
+    "/cyberduck/": {
+        "browser_name": "Cyberduck",
+        "weight": 10
+    },
+    "/datadog agent/": {
+        "browser_name": "Datadog Agent",
+        "weight": 10
+    },
+    "/dellwebmonitor/": {
+        "browser_name": "Dell Web Monitor",
+        "weight": 10
+    },
+    "/domaincrawler/": {
+        "browser_name": "DomainCrawler",
+        "weight": 10
+    },
+    "/downloadstudio/": {
+        "browser_name": "DownloadStudio",
+        "weight": 10
+    },
+    "/funambol mozilla sync client/": {
+        "browser_name": "Funambol Mozilla Sync Client",
+        "weight": 10
+    },
+    "/funambol outlook plug-in/": {
+        "browser_name": "Funambol Outlook Sync Client",
+        "weight": 10
+    },
+    "/gvfs/": {
+        "browser_name": "GnomeVFS",
+        "weight": 10
+    },
+    "/goldenpod/": {
+        "browser_name": "GoldenPod",
+        "weight": 10
+    },
+    "/appengine-google/": {
+        "browser_name": "Google App Engine",
+        "weight": 10
+    },
+    "/docs.google.com\\/viewer/": {
+        "browser_name": "Google Docs Viewer",
+        "weight": 10
+    },
+    "/google earth/": {
+        "browser_name": "Google Earth",
+        "weight": 10
+    },
+    "/googlefriendconnect/": {
+        "browser_name": "Google Friend Connect",
+        "weight": 10
+    },
+    "/google-listen/": {
+        "browser_name": "Google Listen",
+        "weight": 10
+    },
+    "/googlebot-richsnippets/": {
+        "browser_name": "Google Rich Snippets Testing Tool",
+        "weight": 10
+    },
+    "/google wireless transcoder/": {
+        "browser_name": "Google Wireless Transcoder",
+        "weight": 10
+    },
+    "/gsitecrawler/": {
+        "browser_name": "GSiteCrawler",
+        "weight": 10
+    },
+    "/havij/": {
+        "browser_name": "Havij",
+        "weight": 10
+    },
+    "/holmes/": {
+        "browser_name": "Holmes",
+        "weight": 10
+    },
+    "/html2jpg/": {
+        "browser_name": "HTML2JPG",
+        "weight": 10
+    },
+    "/nagios-plugins/": {
+        "browser_name": "HTTP nagios plugin",
+        "weight": 10
+    },
+    "/igetter/": {
+        "browser_name": "iGetter",
+        "weight": 10
+    },
+    "/ivideo/": {
+        "browser_name": "iVideo",
+        "weight": 10
+    },
+    "/jamcast/": {
+        "browser_name": "Jamcast",
+        "weight": 10
+    },
+    "/js-kit/": {
+        "browser_name": "JS-Kit/Echo",
+        "weight": 10
+    },
+    "/leechcraft/": {
+        "browser_name": "LeechCraft",
+        "weight": 10
+    },
+    "/lftp/": {
+        "browser_name": "LFTP",
+        "weight": 10
+    },
+    "/smarttv/": {
+        "browser_name": "LG Web Browser Engine",
+        "weight": 10
+    },
+    "/linkbackplugin/": {
+        "browser_name": "LinkbackPlugin for Laconica",
+        "weight": 10
+    },
+    "/linkstash/": {
+        "browser_name": "LinkStash",
+        "weight": 10
+    },
+    "/masscan/": {
+        "browser_name": "MASSCAN",
+        "weight": 10
+    },
+    "/microsoft office existence discovery/": {
+        "browser_name": "Microsoft Office Existence Discovery",
+        "weight": 10
+    },
+    "/microsoft data access internet publishing provider dav/": {
+        "browser_name": "Microsoft WebDAV Client",
+        "weight": 10
+    },
+    "/mucommander/": {
+        "browser_name": "muCommander",
+        "weight": 10
+    },
+    "/nagstamon/": {
+        "browser_name": "Nagstamon",
+        "weight": 10
+    },
+    "/nikto/": {
+        "browser_name": "Nikto",
+        "weight": 10
+    },
+    "/nokia syncml http client/": {
+        "browser_name": "Nokia SyncML Client",
+        "weight": 10
+    },
+    "/bordermanager/": {
+        "browser_name": "Novell BorderManager",
+        "weight": 10
+    },
+    "/overwolf(store|client)/": {
+        "browser_name": "Overwolf Client",
+        "weight": 10
+    },
+    "/owncloud|mirall/": {
+        "browser_name": "ownCloud Sync Client",
+        "weight": 10
+    },
+    "/paparazzi!/": {
+        "browser_name": "Paparazzi!",
+        "weight": 10
+    },
+    "/perfectmail/": {
+        "browser_name": "PerfectMail web probe",
+        "weight": 10
+    },
+    "/phantomjs/": {
+        "browser_name": "PhantomJS",
+        "weight": 10
+    },
+    "/^php/": {
+        "browser_name": "PHP",
+        "weight": 10
+    },
+    "/podkicker/": {
+        "browser_name": "Podkicker",
+        "weight": 10
+    },
+    "/powermarks/": {
+        "browser_name": "Powermarks",
+        "weight": 10
+    },
+    "/windowspowershell/": {
+        "browser_name": "PowerShell",
+        "weight": 10
+    },
+    "/prism/": {
+        "browser_name": "Prism",
+        "weight": 10
+    },
+    "/prtg network monitor/": {
+        "browser_name": "PRTG Network Monitor",
+        "weight": 10
+    },
+    "/radio downloader/": {
+        "browser_name": "Radio Downloader",
+        "weight": 10
+    },
+    "/rcm carddav plugin/": {
+        "browser_name": "Roundcube CardDav Plugin",
+        "weight": 10
+    },
+    "/szn-(mobile|image)-(transcoder|resizer)/": {
+        "browser_name": "Seznam WAP Proxy",
+        "weight": 10
+    },
+    "/smartbrowserplugin/": {
+        "browser_name": "SmartBrowserPlugin for TC",
+        "weight": 10
+    },
+    "/spotify/": {
+        "browser_name": "Spotify App",
+        "weight": 10
+    },
+    "/sqlmap/": {
+        "browser_name": "sqlmap",
+        "weight": 10
+    },
+    "/steam( http)? client/": {
+        "browser_name": "Steam Client",
+        "weight": 10
+    },
+    "/com.alexvas.dvr.pro/": {
+        "browser_name": "tinyCam Monitor",
+        "weight": 10
+    },
+    "/azureus/": {
+        "browser_name": "Vuze",
+        "weight": 10
+    },
+    "/webcollage/": {
+        "browser_name": "WebCollage",
+        "weight": 10
+    },
+    "/webfs/": {
+        "browser_name": "webfs",
+        "weight": 10
+    },
+    "/wfuzz/": {
+        "browser_name": "Wfuzz",
+        "weight": 10
+    },
+    "/whatweb/": {
+        "browser_name": "WhatWeb",
+        "weight": 10
+    },
+    "/winpodder/": {
+        "browser_name": "WinPodder",
+        "weight": 10
+    },
+    "/wkhtmlto(pdf|image)/": {
+        "browser_name": "WkHTMLtoPDF",
+        "weight": 10
+    },
+    "/wordpress/": {
+        "browser_name": "WordPress Pingback",
+        "weight": 10
+    },
+    "/anonymouse.org/": {
+        "browser_name": "Anonymouse.org",
+        "weight": 10
+    },
+    "/mr.4x3 powered/": {
+        "browser_name": "Mr.4x3 Powered",
+        "weight": 10
+    },
+    "/applewebkit/": {
+        "browser_name": "Apple Mail",
+        "weight": 6
+    },
+    "/mozilla/": {
+        "browser_name": "Mozilla",
+        "weight": 1
+    },
+    "/android/": {
+        "browser_name": "Android Browser",
+        "weight": 7
+    }
+}
