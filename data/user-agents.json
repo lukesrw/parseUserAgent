@@ -15,8 +15,8 @@
             "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; 360SE)"
         ]
     },
-    "3DS Browser": {
-        "name": "3DS Browser",
+    "Nintendo 3DS Browser": {
+        "name": "Nintendo 3DS Browser",
         "list": ["Mozilla/5.0 (Nintendo 3DS; U; ; en) Version/1.7552.EU"]
     },
     "7 Star Browser": {
@@ -513,8 +513,8 @@
             "Mozilla/4.0 (compatible; MSIE 5.23; Macintosh; PPC) Escape 5.1.8"
         ]
     },
-    "Firebird (old name for Firefox)": {
-        "name": "Firebird (old name for Firefox)",
+    "Firebird": {
+        "name": "Firebird",
         "list": [
             "Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.5) Gecko/20031007 Firebird/0.7",
             "Mozilla/5.0 (Windows; U; Win95; en-US; rv:1.5) Gecko/20031007 Firebird/0.7"
@@ -1189,13 +1189,13 @@
             "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/538.1 (KHTML, like Gecko) Otter/0.9.05"
         ]
     },
-    "OWB (Odyssey Web Browser)": {
+    "Odyssey Web Browser": {
         "name": "OWB (Odyssey Web Browser)",
         "list": [
             "Mozilla/5.0 (Macintosh; PowerPC MorphOS 3.7; Odyssey Web Browser; rv:1.24) AppleWebKit/538.10 (KHTML, like Gecko) OWB/1.24 Safari/538.10"
         ]
     },
-    "OWB (Origyn Web Browser)": {
+    "Origyn Web Browser": {
         "name": "OWB (Origyn Web Browser)",
         "list": []
     },
@@ -1685,12 +1685,6 @@
             "Uzbl (X11; U; Linux x86_64; en-GB) AppleWebkit/1.1.10"
         ]
     },
-    "ViaSat Sparrow": {
-        "name": "ViaSat Sparrow",
-        "list": [
-            "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.12554 Safari/537.36 Sparrow/0.1"
-        ]
-    },
     "Vimb": {
         "name": "Vimb",
         "list": []
@@ -2012,12 +2006,6 @@
             "Mozilla/5.0 (Linux; U; Android 4.2; en-us; Nexus 10 Build/JVP15I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
         ]
     },
-    "Android webview": {
-        "name": "Android webview",
-        "list": [
-            "Mozilla/5.0 (Linux; Android 7.1.1; Pixel XL Build/NOF26V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 GSA/6.13.22.21.arm64"
-        ]
-    },
     "Atomic Web Browser": {
         "name": "Atomic Web Browser",
         "list": [
@@ -2221,8 +2209,8 @@
             "Mozilla/5.0 (Android 7.1.1; Mobile; rv:52.3.0) Gecko/52.3.0 IceCat/52.3.0"
         ]
     },
-    "IE Mobile": {
-        "name": "IE Mobile",
+    "Internet Explorer Mobile": {
+        "name": "Internet Explorer Mobile",
         "list": [
             "8900a/1.2 Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.6)",
             "HTC_P4550/TYTN_II Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)",
@@ -2955,7 +2943,8 @@
         "list": [
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.56.5 (KHTML, like Gecko) Sparrow/1172",
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.53.11 (KHTML, like Gecko) Sparrow/1043.1",
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.55.3 (KHTML, like Gecko) Sparrow/1043.1"
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.55.3 (KHTML, like Gecko) Sparrow/1043.1",
+            "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.12554 Safari/537.36 Sparrow/0.1"
         ]
     },
     "Spicebird": {
