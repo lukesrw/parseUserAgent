@@ -1,73 +1,77 @@
 {
-    "/2345(explorer|browser)/": {
+    "/2345(explorer|browser)(\\s|\\/)(?<browser_version>[\\d.]+)/": {
         "browser_name": "2345 Explorer",
         "weight": 10
     },
-    "/360[s|e]e/": {
+    "/360(?<browser_version>[s|e]e)/": {
         "browser_name": "360 Browser",
         "weight": 10
     },
     "/nintendo 3ds/": {
         "browser_name": "Nintendo 3DS Browser",
+        "browser_version": "",
         "weight": 10
     },
-    "/kuaiso/": {
+    "/kuaiso(\\s|\\/)(?<browser_version>[\\d.]+)/": {
         "browser_name": "7 Star Browser",
         "weight": 10
     },
     "/abolimba/": {
         "browser_name": "Abolimba",
+        "browser_version": "",
         "weight": 10
     },
-    "/abrowse\\b/": {
+    "/abrowse\\s(?<browser_version>[\\d.]+)/": {
         "browser_name": "ABrowse",
         "weight": 10
     },
     "/acoo browser/": {
         "browser_name": "Acoo Browser",
+        "browser_version": "",
         "weight": 10
     },
-    "/alienforce/": {
+    "/alienforce(3.0)?\\/(?<browser_version>[\\d.]+)/": {
         "browser_name": "Alienforce",
         "weight": 10
     },
-    "/amaya/": {
+    "/amaya\\/(?<browser_version>[\\d.]+)/": {
         "browser_name": "Amaya",
         "weight": 10
     },
-    "/amiga-aweb/": {
+    "/amiga-aweb\\/(?<browser_version>[\\d.]+)/": {
         "browser_name": "Amiga Aweb",
         "weight": 10
     },
-    "/amigavoyager/": {
+    "/amigavoyager\\/(?<browser_version>[\\d.]+)/": {
         "browser_name": "Amiga Voyager",
         "weight": 10
     },
-    "/amigo|mrchrome/": {
+    "/amigo\\/(?<browser_version>[\\d.]+)|mrchrome/": {
         "browser_name": "Amigo",
+        "browser_version": "",
         "weight": 9
     },
-    "/antfresco/": {
+    "/antfresco\\/(?<browser_version>[\\d.]+)/": {
         "browser_name": "ANT Fresco",
         "weight": 10
     },
-    "/antgalio/": {
+    "/antgalio\\/(?<browser_version>[\\d.]+)/": {
         "browser_name": "ANT Galio",
         "weight": 10
     },
-    "/aol\\b/": {
+    "/aol\\s(?<browser_version>[\\d.]+)/": {
         "browser_name": "AOL Explorer",
         "weight": 10
     },
-    "/aolshield/": {
+    "/aolshield\\/(?<browser_version>[\\d.]+)/": {
         "browser_name": "AOL Shield",
         "weight": 10
     },
-    "/arora/": {
+    "/arora\\/(?<browser_version>[\\d.]+)/": {
         "browser_name": "Arora",
         "weight": 10
     },
-    "/avant(\\s|b)/": {
+    "/avant./": {
         "browser_name": "Avant Browser",
         "weight": 10
     },
@@ -991,7 +995,7 @@
         "browser_name": "Bowser",
         "weight": 10
     },
-    "/crmo|crios|\\/jrn|chrome/": {
+    "/crmo|crios|\\/jrn|chrome\\/(?<browser_version>[\\d.]+)/": {
         "browser_name": "Chrome",
         "weight": 9
     },
@@ -1295,7 +1299,7 @@
         "browser_name": "Outlook",
         "weight": 10
     },
-    "/pocomail/": {
+    "/pocomail(\\s|\\/)(?<browser_version>[\\d.]+)/": {
         "browser_name": "PocoMail",
         "weight": 10
     },
