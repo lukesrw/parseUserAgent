@@ -513,7 +513,7 @@
     },
     "/opera|opr|oupeng|\\smms\\/\\d|opios|opt\\//": {
         "browser_name": "Opera",
-        "weight": 8
+        "weight": 9
     },
     "/juzibrowser/": {
         "browser_name": "Orange Browser",
@@ -559,8 +559,16 @@
         "browser_name": "Polarity",
         "weight": 10
     },
-    "/playstation/": {
-        "browser_name": "PS4 Web Browser",
+    "/playstation \\d/": {
+        "browser_name": "PlayStation Web Browser",
+        "weight": 10
+    },
+    "/playstation portable/": {
+        "browser_name": "PlayStation Portable Web Browser",
+        "weight": 10
+    },
+    "/playstation vita/": {
+        "browser_name": "PlayStation Vita Web Browser",
         "weight": 10
     },
     "/puffin/": {
@@ -1129,7 +1137,7 @@
     },
     "/pre\\//": {
         "browser_name": "Palm Pre Web Browser",
-        "weight": 10
+        "weight": 9
     },
     "/pinterest/": {
         "browser_name": "Pinterest App",
@@ -1157,7 +1165,7 @@
     },
     "/mobilesafari|mobile\\/\\w+$|safari/": {
         "browser_name": "Safari",
-        "weight": 6
+        "weight": 8
     },
     "/sailfish browser/": {
         "browser_name": "Sailfish Browser",
@@ -1213,7 +1221,7 @@
     },
     "/ubuntu;/": {
         "browser_name": "Ubuntu Web Browser",
-        "weight": 7
+        "weight": 8
     },
     "/uzardweb/": {
         "browser_name": "uZard Web",
@@ -1319,12 +1327,12 @@
         "browser_name": "Unibox",
         "weight": 10
     },
-    "/trident|officelive/": {
+    "/tmstmpext|^Outlook/": {
         "browser_name": "Windows Live Mail",
-        "weight": 8
+        "weight": 9
     },
     "/yahoomobile/": {
-        "browser_name": "Yahoo Mobile Mail",
+        "browser_name": "Yahoo Mail",
         "weight": 10
     },
     "/zdesktop/": {
@@ -1363,9 +1371,13 @@
         "browser_name": "BinGet",
         "weight": 10
     },
+    "/reeder/": {
+        "browser_name": "Reeder",
+        "weight": 10
+    },
     "/cfnetwork/": {
         "browser_name": "CFNetwork",
-        "weight": 10
+        "weight": 8
     },
     "/csquery/": {
         "browser_name": "CsQuery",
@@ -1499,6 +1511,14 @@
         "browser_name": "Python-urllib",
         "weight": 10
     },
+    "/webosbrowser/": {
+        "browser_name": "wOSBrowser",
+        "weight": 10
+    },
+    "/ruxitsynthetic/": {
+        "browser_name": "RuxitSynthetic",
+        "weight": 10
+    },
     "/python-webchecker/": {
         "browser_name": "Python-webchecker",
         "weight": 10
@@ -1617,6 +1637,10 @@
     },
     "/linkchecker/": {
         "browser_name": "LinkChecker",
+        "weight": 9
+    },
+    "/fplinkchecker/": {
+        "browser_name": "PHP Link Checker",
         "weight": 10
     },
     "/linkexaminer/": {
@@ -1679,8 +1703,12 @@
         "browser_name": "WDG Validator",
         "weight": 10
     },
+    "/publicradio(player|app)/": {
+        "browser_name": "Public Radio Player",
+        "weight": 10
+    },
     "/xenu/": {
-        "browser_name": "Xenu Link Sleuth",
+        "browser_name": "Xenu's Link Sleuth",
         "weight": 10
     },
     "/abilon/": {
@@ -1689,6 +1717,10 @@
     },
     "/akregator/": {
         "browser_name": "Akregator",
+        "weight": 10
+    },
+    "/substream/": {
+        "browser_name": "SubStream",
         "weight": 10
     },
     "/apple-pubsub/": {
@@ -2075,6 +2107,10 @@
         "browser_name": "LFTP",
         "weight": 10
     },
+    "/tv store/": {
+        "browser_name": "Vewd Store",
+        "weight": 10
+    },
     "/smarttv/": {
         "browser_name": "LG Web Browser Engine",
         "weight": 10
@@ -2237,14 +2273,14 @@
     },
     "/applewebkit/": {
         "browser_name": "Apple Mail",
-        "weight": 6
+        "weight": 8
     },
-    "/mozilla/": {
+    "/gecko\\/\\d+$/": {
         "browser_name": "Mozilla",
-        "weight": 1
+        "weight": 8
     },
-    "/android/": {
+    "/htc_desire|nexus/": {
         "browser_name": "Android Browser",
-        "weight": 7
+        "weight": 9
     }
 }
