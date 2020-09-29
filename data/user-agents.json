@@ -1251,11 +1251,12 @@
             "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.12) Gecko/20101026 Villanova/1.9.2.12 Polarity/3.0.0 Firefox/4.0"
         ]
     },
-    "PS4 Web browser": {
+    "PlayStation Web browser": {
         "name": "PS4 Web browser",
         "list": [
             "Mozilla/5.0 (PlayStation 4 1.000) AppleWebKit/536.26 (KHTML, like Gecko)",
-            "Mozilla/5.0 (PlayStation 4 1.52) AppleWebKit/536.26 (KHTML, like Gecko)"
+            "Mozilla/5.0 (PlayStation 4 1.52) AppleWebKit/536.26 (KHTML, like Gecko)",
+            "Mozilla/5.0 (PLAYSTATION 3; 1.90)"
         ]
     },
     "Puffin": {
@@ -2371,16 +2372,18 @@
             "MOT-V3i/08.B4.34R MIB/2.2.1 Profile/MIDP-2.0"
         ]
     },
+    "PlayStation Portable Web Browser": {
+        "name": "PSP Web Browser",
+        "list": ["Mozilla/4.0 (PSP (PlayStation Portable); 2.00)"]
+    },
     "NetFront": {
         "name": "NetFront",
         "list": [
             "Mozilla/4.0 (PDA; PalmOS/sony/model prmr/Revision:1.1.54 (en)) NetFront/3.0",
             "Mozilla/4.0 (PDA; Windows CE/1.0.1) NetFront/3.0",
-            "Mozilla/4.0 (PSP (PlayStation Portable); 2.00)",
             "Amoi 8709/R14.4 NF-Browser/3.4",
             "Mozilla/5.0 (Danger hiptop 4.7; U; rv:1.7.12) Gecko/20050920",
-            "Mozilla/5.0 (Danger hiptop 4.0; U; rv:1.7.12) Gecko/20050920",
-            "Mozilla/5.0 (PLAYSTATION 3; 1.90)"
+            "Mozilla/5.0 (Danger hiptop 4.0; U; rv:1.7.12) Gecko/20050920"
         ]
     },
     "NetFront Life": {
@@ -2522,7 +2525,7 @@
             "Mozilla/5.0 (Linux; Android 6.0.1; SM-G920F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.54 Mobile Safari/537.36 Polarity/5.0.1"
         ]
     },
-    "PS Vita browser": {
+    "PlayStation Vita Web browser": {
         "name": "PS Vita browser",
         "list": [
             "Mozilla/5.0 (Playstation Vita 1.61) AppleWebKit/531.22.8 (KHTML, like Gecko) Silk/3.2",
@@ -3047,26 +3050,17 @@
         "name": "AngleSharp",
         "list": ["AngleSharp/0.9.9"]
     },
-    "Apache HttpComponents": {
+    "Apache Http Client": {
         "name": "Apache HttpComponents",
-        "list": ["Apache-HttpClient 4.5.3 Java 1.8.0_121"]
-    },
-    "Apache-HttpAsyncClient": {
-        "name": "Apache-HttpAsyncClient",
-        "list": ["Apache-HttpAsyncClient/4.0-beta4 (java 1.5)"]
-    },
-    "Apache-HttpClient": {
-        "name": "Apache-HttpClient",
         "list": [
+            "Apache-HttpClient 4.5.3 Java 1.8.0_121",
+            "Apache-HttpAsyncClient/4.0-beta4 (java 1.5)",
             "Apache-HttpClient/4.0.3 (java 1.5)",
             "Apache-HttpClient/4.1 (java 1.5)",
             "Apache-HttpClient/4.1.3 (java 1.5)",
-            "Apache-HttpClient/4.2.1 (java 1.5)"
+            "Apache-HttpClient/4.2.1 (java 1.5)",
+            "AHC/1.0"
         ]
-    },
-    "AsyncHttpClient": {
-        "name": "AsyncHttpClient",
-        "list": ["AHC/1.0"]
     },
     "axios": {
         "name": "axios",
@@ -3170,7 +3164,7 @@
         "name": "Indy Library",
         "list": ["Mozilla/3.0 (compatible; Indy Library)"]
     },
-    "IXR lib": {
+    "Incutio XML-RPC Library": {
         "name": "IXR lib",
         "list": [
             "The Incutio XML-RPC PHP Library",
@@ -3511,7 +3505,7 @@
             "WDG_Validator/1.6.5"
         ]
     },
-    "Xenu": {
+    "Xenu's Link Sleuth": {
         "name": "Xenu",
         "list": ["Xenu Link Sleuth 1.2d", "Xenu Link Sleuth/1.3.8"]
     },
@@ -3611,7 +3605,7 @@
             "iCatcher! 1.7.1 (iPhone; iPhone OS 4.3.5; en_US)"
         ]
     },
-    "IE RSS reader": {
+    "Internet Explorer RSS Reader": {
         "name": "IE RSS reader",
         "list": [
             "Windows-RSS-Platform/1.0 (MSIE 7.0; Windows NT 5.1)",
@@ -3756,8 +3750,8 @@
         "name": "Banshee",
         "list": ["Banshee 1.5.1 (http://banshee-project.org/)"]
     },
-    "Boxxe": {
-        "name": "Boxxe",
+    "Boxee": {
+        "name": "Boxee",
         "list": [
             "boxee (alpha/Darwin 8.7.1 i386 - 0.9.11.5591)",
             "boxee (alpha/Darwin 9.5.2 i386 - 0.9.11.5591)",
@@ -3917,7 +3911,7 @@
         "name": "A1 Sitemap Generator",
         "list": []
     },
-    "AB (Apache Bench)": {
+    "Apache Bench": {
         "name": "AB (Apache Bench)",
         "list": ["ApacheBench/2.3", "ApacheBench/2.0.40-dev"]
     },
