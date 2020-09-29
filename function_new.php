@@ -14,25 +14,52 @@ function parseUserAgent($user_agent = null)
 
     $user_agent = strtolower($user_agent);
     $result = array(
-        'info' => array(
-            'weight' => 0
-        )
+        'weight' => 0,
+        'browser_name' => 'Unknown Browser',
+        'browser_version' => 'Unknown Browser Version'
     );
 
     foreach ($regexes as $regex => $info) {
         if (
             preg_match($regex, $user_agent, $matches) &&
-            $info['weight'] > $result['info']['weight']
+            $info['weight'] > $result['weight']
         ) {
-
-            $result['info'] = $info;
-            $result['matches'] = $matches;
+            $result = $info;
+            if (array_key_exists('browser_version', $matches) && $matches['browser_version']) {
+                $result['browser_version'] = $matches['browser_version'];
+            } elseif (! array_key_exists('browser_version', $result)) {
+                $result['browser_version'] = 'Unknown Browser Version';
+            }
         }
     }
 
-    if ($result['info']['weight'] == 0) {
-        $result['info']['browser_name'] = 'Unknown Browser';
-    }
+    unset($result['weight']);
 
     return $result;
+}
+
+foreach ($sample_data as $examples) {
+    foreach ($examples['list'] as $example) {
+        $result = parseUserAgent($example);
+
+        if (
+            $result['browser_name'] == 'Unknown Browser' ||
+            $result['browser_version'] == 'Unknown Browser Version'
+        ) {
+            if ($result['browser_name'] == 'Unknown Browser') {
+                ob_end_clean();
+            }
+
+            echo '<pre>' . print_r(array_merge(
+                $result,
+                array(
+                    'ua' => $example
+                )
+            ), true) . '</pre>';
+
+            if ($result['browser_name'] == 'Unknown Browser') {
+                die();
+            }
+        }
+    }
 }
