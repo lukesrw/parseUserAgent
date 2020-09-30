@@ -1,7 +1,9 @@
 <?php
-$sample_data = file_get_contents('./data/user-agents.json');
-$sample_data = json_decode($sample_data, true);
-
+/**
+ * @param string $user_agent to parse
+ *
+ * @return array Match data
+ */
 function parseUserAgent($user_agent = null)
 {
     static $regexes = false;
@@ -13,7 +15,7 @@ function parseUserAgent($user_agent = null)
     }
 
     $result = array(
-        'weight' => 0,
+        'w' => 0,
         'browser_name' => 'Unknown Browser',
         'browser_version' => 'Unknown Browser Version'
     );
@@ -21,14 +23,15 @@ function parseUserAgent($user_agent = null)
     foreach ($regexes as $regex => $info) {
         if (
             preg_match($regex, $user_agent, $matches) &&
-            $info['weight'] > $result['weight']
+            $info['w'] > $result['w']
         ) {
             $result = $info;
-            if (
-                array_key_exists('browser_version', $matches) &&
-                $matches['browser_version']
-            ) {
-                $result['browser_version'] = $matches['browser_version'];
+
+            $result['browser_name'] = $result['bn'];
+            unset($result['bn']);
+
+            if (array_key_exists('bv', $matches) && $matches['bv']) {
+                $result['browser_version'] = $matches['bv'];
             } elseif (! array_key_exists('browser_version', $result)) {
                 $result['browser_version'] = 'Unknown Browser Version';
             }
@@ -38,7 +41,7 @@ function parseUserAgent($user_agent = null)
     $result['browser_name'] = trim($result['browser_name']);
     $result['browser_version'] = trim($result['browser_version']);
 
-    unset($result['weight']);
+    unset($result['w']);
 
     return $result;
 }
