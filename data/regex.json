@@ -1106,7 +1106,7 @@
         "browser_name": "Google App",
         "weight": 10
     },
-    "/(ie\\b|msie|iemobile|zune|windows phone)\\s(?<browser_version>[\\d\\w.-]+)/i": {
+    "/(trident|ie\\b|msie|iemobile|zune|windows phone)(\\s|\\/)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Internet Explorer",
         "weight": 8
     },
@@ -2415,5 +2415,17 @@
     "/(?<browser_version>[\\s\\d\\w.-]+); [\\w-]+; (htc_desire|nexus)/i": {
         "browser_name": "Android Browser",
         "weight": 9
+    },
+    "/alamofire\\/(?<browser_version>[\\d\\w.-]+)/i": {
+        "browser_name": "Alamofire",
+        "weight": 10
+    },
+    "/postmanruntime\\/(?<browser_version>[\\d\\w.-]+)/i": {
+        "browser_name": "Postman",
+        "weight": 10
+    },
+    "/^\\[fban\\//i": {
+        "browser_name": "Facebook App",
+        "weight": 10
     }
 }
