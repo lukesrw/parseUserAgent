@@ -12,7 +12,6 @@ function parseUserAgent($user_agent = null)
         );
     }
 
-    $user_agent = strtolower($user_agent);
     $result = array(
         'weight' => 0,
         'browser_name' => 'Unknown Browser',
@@ -25,7 +24,10 @@ function parseUserAgent($user_agent = null)
             $info['weight'] > $result['weight']
         ) {
             $result = $info;
-            if (array_key_exists('browser_version', $matches) && $matches['browser_version']) {
+            if (
+                array_key_exists('browser_version', $matches) &&
+                $matches['browser_version']
+            ) {
                 $result['browser_version'] = $matches['browser_version'];
             } elseif (! array_key_exists('browser_version', $result)) {
                 $result['browser_version'] = 'Unknown Browser Version';
@@ -37,6 +39,8 @@ function parseUserAgent($user_agent = null)
 
     return $result;
 }
+
+ob_start();
 
 foreach ($sample_data as $examples) {
     foreach ($examples['list'] as $example) {
