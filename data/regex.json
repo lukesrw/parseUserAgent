@@ -16,7 +16,7 @@
         "browser_name": "7 Star Browser",
         "weight": 10
     },
-    "/abolimba\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/abolimba(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Abolimba",
         "browser_version": "",
         "weight": 10
@@ -25,7 +25,7 @@
         "browser_name": "ABrowse",
         "weight": 10
     },
-    "/acoo browser/i": {
+    "/acoo browser(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Acoo Browser",
         "browser_version": "",
         "weight": 10
@@ -59,7 +59,7 @@
         "browser_name": "ANT Galio",
         "weight": 10
     },
-    "/aol\\s(?<browser_version>[\\d\\w.-]+)/i": {
+    "/aol(\\s|build\\/)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "AOL Explorer",
         "weight": 10
     },
@@ -128,20 +128,22 @@
         "browser_name": "BriskBard",
         "weight": 10
     },
-    "/browzar\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/browzar(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Browzar",
+        "browser_version": "",
         "weight": 10
     },
     "/bunjalloo\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Bunjalloo",
         "weight": 10
     },
-    "/camino|chimera/i": {
+    "/(camino|chimera)\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Camino",
         "weight": 10
     },
     "/charon/i": {
         "browser_name": "Charon",
+        "browser_version": "",
         "weight": 10
     },
     "/chedot\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -152,15 +154,16 @@
         "browser_name": "Cheshire",
         "weight": 10
     },
-    "/headlesschrome\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/headlesschrome(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Chrome Headless",
+        "browser_version": "",
         "weight": 10
     },
     "/chromium\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Chromium",
         "weight": 10
     },
-    "/\\sdragon\\b/i": {
+    "/\\sdragon\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Chromodo",
         "weight": 10
     },
@@ -170,9 +173,10 @@
     },
     "/lbbrowser|acheetahi|liebaofast/i": {
         "browser_name": "CM Browser",
+        "browser_version": "",
         "weight": 10
     },
-    "/corom|coc_coc_browser/i": {
+    "/(corom|coc_coc_browser)\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Coc Coc",
         "weight": 10
     },
@@ -196,7 +200,7 @@
         "browser_name": "CoolNovo",
         "weight": 10
     },
-    "/crazy browser/i": {
+    "/crazy browser(\\/|\\s)(?<browser_version>[\\s\\d\\w.-]+)/i": {
         "browser_name": "Crazy Browser",
         "weight": 10
     },
@@ -216,7 +220,7 @@
         "browser_name": "Cyberfox",
         "weight": 10
     },
-    "/deepnet explorer/i": {
+    "/deepnet explorer(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Deepnet Explorer",
         "weight": 10
     },
@@ -254,13 +258,14 @@
     },
     "/enigma browser/i": {
         "browser_name": "Enigma Browser",
+        "browser_version": "",
         "weight": 10
     },
     "/epic\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Epic",
         "weight": 10
     },
-    "/escape\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/escape(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Espial TV Browser",
         "weight": 10
     },
@@ -268,11 +273,35 @@
         "browser_name": "Firebird",
         "weight": 10
     },
-    "/bonecho|granparadiso|lorentz|minefield|namoroka|shiretoko|fennec|fxios|firefox/i": {
+    "/(fennec|fxios|firefox)\\/(?<browser_version>[\\s\\d\\w.-]+)/i": {
         "browser_name": "Firefox",
         "weight": 8
     },
-    "/fireweb navigator/i": {
+    "/bonecho\\/(?<browser_version>[\\s\\d\\w.-]+)/i": {
+        "browser_name": "Bonecho",
+        "weight": 10
+    },
+    "/granparadiso\\/(?<browser_version>[\\s\\d\\w.-]+)/i": {
+        "browser_name": "GranParadiso",
+        "weight": 10
+    },
+    "/lorentz\\/(?<browser_version>[\\s\\d\\w.-]+)/i": {
+        "browser_name": "Lorentz",
+        "weight": 10
+    },
+    "/minefield\\/(?<browser_version>[\\s\\d\\w.-]+)/i": {
+        "browser_name": "Minefield",
+        "weight": 10
+    },
+    "/namoroka\\/(?<browser_version>[\\s\\d\\w.-]+)/i": {
+        "browser_name": "Namoroka",
+        "weight": 10
+    },
+    "/shiretoko\\/(?<browser_version>[\\s\\d\\w.-]+)/i": {
+        "browser_name": "Shiretoko",
+        "weight": 10
+    },
+    "/fireweb navigator\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Fireweb Navigator",
         "weight": 10
     },
@@ -288,7 +317,7 @@
         "browser_name": "Framafox",
         "weight": 10
     },
-    "/navigateur web/i": {
+    "/navigateur web\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Freebox Browser",
         "weight": 10
     },
@@ -308,8 +337,9 @@
         "browser_name": "GNOME Web",
         "weight": 10
     },
-    "/greenbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/greenbrowser(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "GreenBrowser",
+        "browser_version": "",
         "weight": 10
     },
     "/hotjava\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -320,15 +350,16 @@
         "browser_name": "Hv3",
         "weight": 10
     },
-    "/hydra browser/i": {
+    "/hydra browser(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Hydra Browser",
+        "browser_version": "",
         "weight": 10
     },
-    "/ibm webexplorer/i": {
+    "/ibm webexplorer\\s\\/v(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "IBM WebExplorer",
         "weight": 10
     },
-    "/ibrowse\\b/i": {
+    "/ibrowse(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "IBrowse",
         "weight": 10
     },
@@ -336,7 +367,7 @@
         "browser_name": "iCab",
         "weight": 10
     },
-    "/ice\\s?browser/i": {
+    "/ice\\s?browser\\/v?(?<browser_version>[\\d._]+)/i": {
         "browser_name": "ICE Browser",
         "weight": 10
     },
@@ -360,7 +391,7 @@
         "browser_name": "InternetSurfboard",
         "weight": 10
     },
-    "/irider\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/irider(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "iRider",
         "weight": 10
     },
@@ -368,15 +399,16 @@
         "browser_name": "Iridium",
         "weight": 10
     },
-    "/iron\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/iron(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Iron",
+        "browser_version": "",
         "weight": 10
     },
-    "/k-meleon/i": {
+    "/k-meleon\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "K-Meleon",
         "weight": 10
     },
-    "/k-ninja/i": {
+    "/k-ninja\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "K-Ninja",
         "weight": 10
     },
@@ -396,7 +428,7 @@
         "browser_name": "Kirix Strata",
         "weight": 10
     },
-    "/kkman\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/kkman\\/?(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "KKman",
         "weight": 10
     },
@@ -412,11 +444,11 @@
         "browser_name": "LBrowser",
         "weight": 10
     },
-    "/cern-linemode/i": {
+    "/cern-linemode\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Line Mode Browser",
         "weight": 10
     },
-    "/links\\s/i": {
+    "/links\\s\\((?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Links",
         "weight": 10
     },
@@ -432,7 +464,7 @@
         "browser_name": "Lovense Browser",
         "weight": 10
     },
-    "/lunascape\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/lunascape(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Lunascape",
         "weight": 10
     },
@@ -448,11 +480,12 @@
         "browser_name": "Maple Browser",
         "weight": 10
     },
-    "/maxthon|mxbrowser|myie2/i": {
+    "/(maxthon|mxbrowser|myie2)( (?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Maxthon",
+        "browser_version": "",
         "weight": 10
     },
-    "/edg(ios|a)|edge/i": {
+    "/(edg(ios|a)|edge)\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Microsoft Edge",
         "weight": 10
     },
@@ -460,7 +493,7 @@
         "browser_name": "Midori",
         "weight": 10
     },
-    "/min\\//i": {
+    "/min\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Min",
         "weight": 10
     },
@@ -468,11 +501,11 @@
         "browser_name": "Mini Browser",
         "weight": 10
     },
-    "/multi-browser/i": {
+    "/multi-browser (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Multi-Browser XP",
         "weight": 10
     },
-    "/multizilla\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/multizilla(\\/| v)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "MultiZilla",
         "weight": 10
     },
@@ -484,15 +517,15 @@
         "browser_name": "My Internet Browser",
         "weight": 10
     },
-    "/ncsa(_|\\s)mosaic/i": {
+    "/ncsa(_|\\s)mosaic\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "NCSA Mosaic",
         "weight": 10
     },
-    "/netbox|netgem/i": {
+    "/(netbox|netgem)\\/(?<browser_version>[\\s\\d\\w.-]+)/i": {
         "browser_name": "NetBox",
         "weight": 10
     },
-    "/netcaptor\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/netcaptor(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "NetCaptor",
         "weight": 10
     },
@@ -500,7 +533,7 @@
         "browser_name": "NetPositive",
         "weight": 10
     },
-    "/netscape|navigator/i": {
+    "/(netscape|navigator)\\d?\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Netscape Navigator",
         "weight": 10
     },
@@ -510,18 +543,20 @@
     },
     "/offbyone/i": {
         "browser_name": "Off By One",
+        "browser_version": "",
         "weight": 10
     },
     "/omniweb\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "OmniWeb",
         "weight": 10
     },
-    "/opera|opr|oupeng|\\smms\\/\\d|opios|opt\\//i": {
+    "/(opera|opr|oupeng|\\smms\\/\\d|opios|opt\\/)(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Opera",
         "weight": 9
     },
     "/juzibrowser/i": {
         "browser_name": "Orange Browser",
+        "browser_version": "",
         "weight": 10
     },
     "/orca\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -540,7 +575,7 @@
         "browser_name": "Pale Moon",
         "weight": 10
     },
-    "/patriott\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/patriott::browser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Patriott",
         "weight": 10
     },
@@ -548,15 +583,16 @@
         "browser_name": "Perk",
         "weight": 10
     },
-    "/phaseout\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/phaseout(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Phaseout",
+        "browser_version": "",
         "weight": 10
     },
     "/phoenix\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Phoenix",
         "weight": 10
     },
-    "/^pb/i": {
+    "/^pb(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "PirateBrowser",
         "weight": 10
     },
@@ -564,15 +600,15 @@
         "browser_name": "Polarity",
         "weight": 10
     },
-    "/playstation \\d/i": {
+    "/playstation \\d;? (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "PlayStation Web Browser",
         "weight": 10
     },
-    "/playstation portable/i": {
+    "/playstation portable\\); (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "PlayStation Portable Web Browser",
         "weight": 10
     },
-    "/playstation vita/i": {
+    "/playstation vita\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "PlayStation Vita Web Browser",
         "weight": 10
     },
@@ -581,7 +617,7 @@
         "weight": 10
     },
     "/qiyu\\/(?<browser_version>[\\d\\w.-]+)/i": {
-        "browser_name": "Qiyu",
+        "browser_name": "Qiyu Swordfish Browser",
         "weight": 10
     },
     "/qqbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -624,12 +660,8 @@
         "browser_name": "SaaYaa Explorer",
         "weight": 10
     },
-    "/salam browser/i": {
+    "/salam browser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Salam Browser",
-        "weight": 10
-    },
-    "/smart-tv/i": {
-        "browser_name": "Samsung TV Browser",
         "weight": 10
     },
     "/seamonkey\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -644,7 +676,7 @@
         "browser_name": "Seraphic Sraf",
         "weight": 10
     },
-    "/seznam.cz|sznprohlizec/i": {
+    "/(seznam.cz|sznprohlizec)\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Seznam.cz Browser",
         "weight": 10
     },
@@ -696,7 +728,7 @@
         "browser_name": "Stainless",
         "weight": 10
     },
-    "/valve steam gameoverlay/i": {
+    "/valve steam gameoverlay\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Steam Game Overlay",
         "weight": 10
     },
@@ -724,7 +756,7 @@
         "browser_name": "Swiftweasel",
         "weight": 10
     },
-    "/to-browser/i": {
+    "/to-browser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "t-online.de Browser",
         "weight": 10
     },
@@ -764,15 +796,16 @@
         "browser_name": "Twitter App",
         "weight": 10
     },
-    "/ubrowser|ucweb|ucbrowser/i": {
+    "/(ubrowser|ucweb|ucbrowser)(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "UC Browser",
+        "browser_version": "",
         "weight": 10
     },
     "/ultrabrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "UltraBrowser",
         "weight": 10
     },
-    "/ur\\//i": {
+    "/ur\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "UR Browser",
         "weight": 10
     },
@@ -782,6 +815,7 @@
     },
     "/uzbl/i": {
         "browser_name": "Uzbl",
+        "browser_version": "",
         "weight": 10
     },
     "/sparrow\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -796,7 +830,7 @@
         "browser_name": "Vivaldi",
         "weight": 10
     },
-    "/airwatch browser/i": {
+    "/airwatch browser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "VMWare Browser",
         "weight": 10
     },
@@ -840,11 +874,11 @@
         "browser_name": "Whale",
         "weight": 10
     },
-    "/wib\\//i": {
+    "/wib\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "WIB",
         "weight": 10
     },
-    "/nintendo wiiu/i": {
+    "/nintendo wiiu\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Wii U Internet Browser",
         "weight": 10
     },
@@ -854,13 +888,14 @@
     },
     "/worldwideweb/i": {
         "browser_name": "WorldWideWeb",
+        "browser_version": "",
         "weight": 10
     },
     "/wyzo\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Wyzo",
         "weight": 10
     },
-    "/x-smiles/i": {
+    "/x-smiles\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "X-Smiles",
         "weight": 10
     },
@@ -876,7 +911,7 @@
         "browser_name": "YRC Weblink",
         "weight": 10
     },
-    "/\\bzbrowser\\//i": {
+    "/\\bzbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "zBrowser",
         "weight": 10
     },
@@ -894,6 +929,7 @@
     },
     "/sbl-bot/i": {
         "browser_name": "BlackWidow",
+        "browser_version": "",
         "weight": 10
     },
     "/bluecrab\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -912,7 +948,7 @@
         "browser_name": "HTTrack",
         "weight": 10
     },
-    "/isilox\\//i": {
+    "/isilox\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "iSiloX",
         "weight": 10
     },
@@ -926,9 +962,10 @@
     },
     "/joc web spider/i": {
         "browser_name": "JOC Web Spider",
+        "browser_version": "",
         "weight": 10
     },
-    "/offline explorer|web downloader/i": {
+    "/(offline explorer|web downloader)\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Offline Explorer",
         "weight": 10
     },
@@ -940,7 +977,7 @@
         "browser_name": "SuperBot",
         "weight": 10
     },
-    "/teleport pro/i": {
+    "/teleport pro\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Teleport Pro",
         "weight": 10
     },
@@ -964,7 +1001,7 @@
         "browser_name": "Wget",
         "weight": 10
     },
-    "/xaldon(_|\\s)webspider/i": {
+    "/(xaldon(_|\\s)webspider)(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Xaldon WebSpider",
         "weight": 10
     },
@@ -984,7 +1021,7 @@
         "browser_name": "Bing Search App",
         "weight": 10
     },
-    "/blackberry\\d|playbook/i": {
+    "/(blackberry[\\d\\w]+|playbook)\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "BlackBerry Browser",
         "weight": 10
     },
@@ -996,7 +1033,7 @@
         "browser_name": "Bowser",
         "weight": 10
     },
-    "/crmo|crios|\\/jrn|chrome\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/(crmo|crios|\\/jrn|chrome)\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Chrome",
         "weight": 9
     },
@@ -1036,15 +1073,16 @@
         "browser_name": "Firefox Klar",
         "weight": 10
     },
-    "/gobrowser(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
+    "/\\/gobrowser(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "GO Browser",
+        "browser_version": "",
         "weight": 10
     },
-    "/gsa\\//i": {
+    "/gsa\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Google App",
         "weight": 10
     },
-    "/ie\\b|msie|iemobile|zune|windows phone/i": {
+    "/(ie\\b|msie|iemobile|zune|windows phone)\\s(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Internet Explorer",
         "weight": 8
     },
@@ -1064,11 +1102,11 @@
         "browser_name": "Kindle Browser",
         "weight": 10
     },
-    "/browser\\/phantom/i": {
+    "/browser\\/phantom\\/v(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "LG Phantom Browser",
         "weight": 10
     },
-    "/\\bline\\//i": {
+    "/\\bline\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "LINE App",
         "weight": 10
     },
@@ -1084,7 +1122,7 @@
         "browser_name": "Meizu Browser",
         "weight": 10
     },
-    "/tablet browser|maemo/i": {
+    "/(tablet browser|maemo) (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "MicroB",
         "weight": 10
     },
@@ -1100,11 +1138,11 @@
         "browser_name": "Samsung Browser",
         "weight": 10
     },
-    "/mot-/i": {
+    "/mot-\\w+\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Motorola Internet Browser",
         "weight": 10
     },
-    "/netfront\\/|nf-browser|danger hiptop/i": {
+    "/(netfront|nf-browser|danger hiptop)\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "NetFront",
         "weight": 10
     },
@@ -1120,7 +1158,7 @@
         "browser_name": "Sylera",
         "weight": 10
     },
-    "/symbian(o|\\/)|nokian9/i": {
+    "/nokia[\\w\\d-]+\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Nokia Web Browser",
         "weight": 10
     },
@@ -1128,19 +1166,20 @@
         "browser_name": "NTENT Browser",
         "weight": 10
     },
-    "/obigo|wap2|v10c browser|au-mic|vx9600/i": {
+    "/(obigo|wap2|v10c browser|au-mic-[\\w\\d]+|vx9600)(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Obigo",
+        "browser_version": "",
         "weight": 10
     },
     "/onebrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "ONE Browser",
         "weight": 10
     },
-    "/up.browser/i": {
+    "/up.browser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Openwave Browser",
         "weight": 10
     },
-    "/pre\\//i": {
+    "/pre\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Palm Pre Web Browser",
         "weight": 9
     },
@@ -1168,19 +1207,19 @@
         "browser_name": "Relax Melodies App",
         "weight": 10
     },
-    "/mobilesafari|mobile\\/\\w+$|safari/i": {
+    "/(mobilesafari|mobile\\/\\w+$|safari)\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Safari",
         "weight": 8
     },
-    "/sailfish browser/i": {
+    "/sailfish browser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Sailfish Browser",
         "weight": 10
     },
-    "/web by citrix/i": {
+    "/web by citrix\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Secure Web",
         "weight": 10
     },
-    "/semc-browser/i": {
+    "/semc-browser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "SEMC Browser",
         "weight": 10
     },
@@ -1226,6 +1265,7 @@
     },
     "/ubuntu;/i": {
         "browser_name": "Ubuntu Web Browser",
+        "browser_version": "",
         "weight": 8
     },
     "/uzardweb\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -1286,9 +1326,10 @@
     },
     "/ggpht.com/i": {
         "browser_name": "Gmail",
+        "browser_version": "",
         "weight": 10
     },
-    "/lotus-notes/i": {
+    "/lotus-notes\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Lotus Notes",
         "weight": 10
     },
@@ -1296,7 +1337,7 @@
         "browser_name": "MailBar",
         "weight": 10
     },
-    "/msoffice|microsoft( office)? outlook/i": {
+    "/(msoffice|microsoft( office)? outlook) (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Outlook",
         "weight": 10
     },
@@ -1320,7 +1361,7 @@
         "browser_name": "Spicebird",
         "weight": 10
     },
-    "/the bat!/i": {
+    "/the bat! (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "The Bat!",
         "weight": 10
     },
@@ -1332,7 +1373,7 @@
         "browser_name": "Unibox",
         "weight": 10
     },
-    "/tmstmpext|^Outlook/i": {
+    "/(tmstmpext|^Outlook(-Express)?)\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Windows Live Mail",
         "weight": 9
     },
@@ -1348,7 +1389,7 @@
         "browser_name": "Adobe AIR Runtime",
         "weight": 10
     },
-    "/android-async-http/i": {
+    "/android-async-http\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Android Asynchronous Http Client",
         "weight": 10
     },
@@ -1364,7 +1405,7 @@
         "browser_name": "AngleSharp",
         "weight": 10
     },
-    "/ahc\\/|apache-http(async)?client/i": {
+    "/(ahc|apache-http(async)?client)(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Apache Http Client",
         "weight": 10
     },
@@ -1392,24 +1433,26 @@
         "browser_name": "cssutils",
         "weight": 10
     },
-    "/^curl/i": {
+    "/^curl(\\s|\\/)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "cURL",
         "weight": 10
     },
     "/eventmachine/i": {
         "browser_name": "EventMachine",
+        "browser_version": "",
         "weight": 10
     },
     "/faraday v(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Faraday",
         "weight": 10
     },
-    "/feed::find/i": {
+    "/feed::find\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Feed::Find",
         "weight": 10
     },
-    "/go(\\s|-)(http|[\\d.]+)(\\s|-)(client|package)/i": {
+    "/Go(\\s|-)(http( package|-client))?\\/?(?<browser_version>\\d[\\d\\w.-]+)?( package http)?/i": {
         "browser_name": "Go HTTP Package",
+        "browser_version": "",
         "weight": 10
     },
     "/goose\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -1432,7 +1475,7 @@
         "browser_name": "HTMLayout",
         "weight": 10
     },
-    "/http-kit/i": {
+    "/http-kit\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "http-kit",
         "weight": 10
     },
@@ -1442,33 +1485,35 @@
     },
     "/indy library/i": {
         "browser_name": "Indy Library",
+        "browser_version": "",
         "weight": 10
     },
     "/incutio xml-rpc/i": {
         "browser_name": "Incutio XML-RPC Library",
+        "browser_version": "",
         "weight": 10
     },
     "/jakarta commons-httpclient\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Jakarta Commons-HttpClient",
         "weight": 10
     },
-    "/^java/i": {
+    "/^java\\/?(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Java",
         "weight": 10
     },
-    "/^libsoup/i": {
+    "/^libsoup\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "LibSoup",
         "weight": 10
     },
-    "/^libwww-perl/i": {
+    "/^libwww-perl\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "libwww-perl",
         "weight": 10
     },
-    "/lua-resty-http/i": {
+    "/lua-resty-http\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "lua-resty-http",
         "weight": 10
     },
-    "/^lwp/i": {
+    "/^lwp(-|::)\\w+(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "LWP::Simple",
         "weight": 10
     },
@@ -1476,7 +1521,7 @@
         "browser_name": "Manticore",
         "weight": 10
     },
-    "/^mechanize/i": {
+    "/^mechanize\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Mechanize",
         "weight": 10
     },
@@ -1486,21 +1531,23 @@
     },
     "/pear http_request/i": {
         "browser_name": "PEAR HTTP_Request",
+        "browser_version": "",
         "weight": 10
     },
-    "/pecl::http/i": {
+    "/pecl::http\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "PECL::HTTP",
         "weight": 10
     },
-    "/php-openid/i": {
+    "/php-openid\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "PHP OpenID Library",
         "weight": 10
     },
-    "/phpcrawl\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/phpcrawl/i": {
         "browser_name": "PHPcrawl",
+        "browser_version": "",
         "weight": 10
     },
-    "/poe-component-client-http/i": {
+    "/poe-component-client-http\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "POE-Component-Client-HTTP",
         "weight": 10
     },
@@ -1508,12 +1555,13 @@
         "browser_name": "PycURL",
         "weight": 10
     },
-    "/python-requests/i": {
+    "/python-requests\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Python-requests",
         "weight": 10
     },
-    "/python-urllib/i": {
+    "/python-urllib(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Python-urllib",
+        "browser_version": "",
         "weight": 10
     },
     "/webosbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -1524,27 +1572,28 @@
         "browser_name": "RuxitSynthetic",
         "weight": 10
     },
-    "/python-webchecker/i": {
+    "/python-webchecker\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Python-webchecker",
         "weight": 10
     },
     "/longurl-r-package/i": {
         "browser_name": "R longurl",
+        "browser_version": "",
         "weight": 10
     },
     "/restsharp (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "RestSharp",
         "weight": 10
     },
-    "/rome client/i": {
+    "/rome client.*ver: (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "ROME library",
         "weight": 10
     },
-    "/rpt-httpclient/i": {
+    "/rpt-httpclient\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "RPT-HTTPClient",
         "weight": 10
     },
-    "/^eat/i": {
+    "/^eat\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Ruby eat",
         "weight": 10
     },
@@ -1570,17 +1619,20 @@
     },
     "/wlmhttptransport/i": {
         "browser_name": "WebLogic HTTP client",
+        "browser_version": "",
         "weight": 10
     },
     "/winhttp/i": {
         "browser_name": "WinHTTP",
+        "browser_version": "",
         "weight": 10
     },
     "/wininet/i": {
         "browser_name": "WinInet Component Suite",
+        "browser_version": "",
         "weight": 10
     },
-    "/www-mechanize/i": {
+    "/www-mechanize\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "WWW::Mechanize",
         "weight": 10
     },
@@ -1588,12 +1640,17 @@
         "browser_name": "xine",
         "weight": 10
     },
-    "/xml-?rpc/i": {
-        "browser_name": "XML-RPC",
+    "/xmlrpc::client \\(Ruby (?<browser_version>[\\d\\w.-]+)/i": {
+        "browser_name": "XML-RPC for Ruby",
+        "weight": 10
+    },
+    "/xml-rpc for php (?<browser_version>[\\d\\w.-]+)/i": {
+        "browser_name": "XML-RPC for PHP",
         "weight": 10
     },
     "/zend_http_client/i": {
         "browser_name": "Zend_Http_Client",
+        "browser_version": "",
         "weight": 10
     },
     "/klondike\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -1616,7 +1673,7 @@
         "browser_name": "anw HTMLChecker",
         "weight": 10
     },
-    "/anw webtool loadcontrol/i": {
+    "/anw webtool loadcontrol\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "anw LoadControl",
         "weight": 10
     },
@@ -1624,8 +1681,9 @@
         "browser_name": "Checkbot",
         "weight": 10
     },
-    "/cse html validator/i": {
+    "/cse html validator (?<browser_version>lite)?/i": {
         "browser_name": "CSE HTML Validator",
+        "browser_version": "",
         "weight": 10
     },
     "/cynthia (?<browser_version>[\\d\\w.-]+)/i": {
@@ -1658,21 +1716,23 @@
     },
     "/p3p validator/i": {
         "browser_name": "P3P Validator",
+        "browser_version": "",
         "weight": 10
     },
-    "/rel link checker lite/i": {
+    "/rel link checker lite( (?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "REL Link Checker Lite",
         "weight": 10
     },
-    "/screaming frog seo spider/i": {
+    "/screaming frog seo spider\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Screaming Frog SEO Spider",
         "weight": 10
     },
     "/validator.nu/i": {
         "browser_name": "Validator.nu",
+        "browser_version": "",
         "weight": 10
     },
-    "/w3c-checklink/i": {
+    "/w3c-checklink\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "W3C Checklink",
         "weight": 10
     },
@@ -1680,11 +1740,11 @@
         "browser_name": "W3C CSS Validator",
         "weight": 10
     },
-    "/w3c_i18n-checker/i": {
+    "/w3c_i18n-checker\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "W3C Internationalization Checker",
         "weight": 10
     },
-    "/w3c-mobileok/i": {
+    "/w3c-mobileok\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "W3C mobileOK Checker",
         "weight": 10
     },
@@ -1692,12 +1752,13 @@
         "browser_name": "W3C Unicorn Validator",
         "weight": 10
     },
-    "/w3c_validator\\//i": {
+    "/w3c_validator\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "W3C Validator",
         "weight": 9
     },
     "/w3c_validator_suite/i": {
         "browser_name": "W3C Validator Suite",
+        "browser_version": "",
         "weight": 10
     },
     "/csscheck\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -1708,7 +1769,7 @@
         "browser_name": "WDG Validator",
         "weight": 10
     },
-    "/publicradio(player|app)/i": {
+    "/(publicradio(player|app))\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Public Radio Player",
         "weight": 10
     },
@@ -1718,6 +1779,7 @@
     },
     "/abilon/i": {
         "browser_name": "Abilon",
+        "browser_version": "",
         "weight": 10
     },
     "/akregator\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -1728,7 +1790,7 @@
         "browser_name": "SubStream",
         "weight": 10
     },
-    "/apple-pubsub/i": {
+    "/apple-pubsub\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Apple-PubSub",
         "weight": 10
     },
@@ -1746,26 +1808,28 @@
     },
     "/^cpg|dragonfly/i": {
         "browser_name": "CPG Dragonfly RSS Module",
+        "browser_version": "",
         "weight": 10
     },
     "/digg\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Digg Reader",
         "weight": 10
     },
-    "/^endo\\//i": {
+    "/^endo\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Endo",
         "weight": 10
     },
-    "/fastladder feedfetcher/i": {
+    "/fastladder feedfetcher\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Fastladder FeedFetcher",
         "weight": 10
     },
-    "/feed viewer/i": {
+    "/feed viewer (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Feed Viewer",
         "weight": 10
     },
     "/^feedbin /i": {
         "browser_name": "Feedbin",
+        "browser_version": "",
         "weight": 10
     },
     "/feeddemon\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -1776,11 +1840,11 @@
         "browser_name": "GreatNews",
         "weight": 10
     },
-    "/icatcher!/i": {
+    "/icatcher! (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "iCatcher!",
         "weight": 10
     },
-    "/windows-rss-platform/i": {
+    "/windows-rss-platform\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Internet Explorer RSS Reader",
         "weight": 10
     },
@@ -1806,6 +1870,7 @@
     },
     "/newsbreak/i": {
         "browser_name": "NewsBreak",
+        "browser_version": "",
         "weight": 10
     },
     "/newsfox\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -1820,7 +1885,7 @@
         "browser_name": "NFReader",
         "weight": 10
     },
-    "/omea reader/i": {
+    "/omea reader (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Omea Reader",
         "weight": 10
     },
@@ -1832,12 +1897,13 @@
         "browser_name": "RSS Bandit",
         "weight": 10
     },
-    "/rss menu/i": {
+    "/rss menu\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "RSS Menu",
         "weight": 10
     },
     "/rss popper/i": {
         "browser_name": "RSS Popper",
+        "browser_version": "",
         "weight": 10
     },
     "/rssowl\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -1850,6 +1916,7 @@
     },
     "/sage/i": {
         "browser_name": "Sage",
+        "browser_version": "",
         "weight": 10
     },
     "/sharpreader\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -1864,11 +1931,11 @@
         "browser_name": "YahooFeedSeeker",
         "weight": 10
     },
-    "/^banshee/i": {
+    "/^banshee (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Banshee",
         "weight": 10
     },
-    "/^boxee/i": {
+    "/^boxee \\((?<browser_version>\\w+)/i": {
         "browser_name": "Boxee",
         "weight": 10
     },
@@ -1880,11 +1947,11 @@
         "browser_name": "Dailymotion App",
         "weight": 10
     },
-    "/^flycast/i": {
+    "/^flycast\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "FlyCast",
         "weight": 10
     },
-    "/^foobar2000/i": {
+    "/^foobar2000\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "foobar2000",
         "weight": 10
     },
@@ -1896,11 +1963,11 @@
         "browser_name": "iTunes",
         "weight": 10
     },
-    "/xbmc|kodi/i": {
+    "/(xbmc|kodi)\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "KODI",
         "weight": 10
     },
-    "/miro|^democracy/i": {
+    "/(miro|^democracy)\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Miro",
         "weight": 10
     },
@@ -1924,7 +1991,7 @@
         "browser_name": "Songbird",
         "weight": 10
     },
-    "/^vlc/i": {
+    "/^vlc( media player - version )?\\/?(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "VLC Media Player",
         "weight": 10
     },
@@ -1932,7 +1999,7 @@
         "browser_name": "Winamp for Android",
         "weight": 10
     },
-    "/windows-media-player|nsplayer/i": {
+    "/(windows-media-player|nsplayer)\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Windows Media Player",
         "weight": 10
     },
@@ -1952,12 +2019,13 @@
         "browser_name": "Android Download Manager",
         "weight": 10
     },
-    "/internal dummy connection/i": {
+    "/(?<browser_version>[\\d\\w.-]+) \\((\\w+)\\) \\(internal dummy connection/i": {
         "browser_name": "Apache Internal Dummy Connection",
         "weight": 10
     },
     "/synapse/i": {
         "browser_name": "Apache Synapse",
+        "browser_version": "",
         "weight": 10
     },
     "/aria2\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -1970,9 +2038,10 @@
     },
     "/bandwidth-hero compressor/i": {
         "browser_name": "Bandwidth-Hero Compressor",
+        "browser_version": "",
         "weight": 10
     },
-    "/^bdnc/i": {
+    "/^bdnc v(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Bitdefender Antivirus",
         "weight": 10
     },
@@ -1982,6 +2051,7 @@
     },
     "/bookmarktracker/i": {
         "browser_name": "BookmarkTracker",
+        "browser_version": "",
         "weight": 10
     },
     "/boxnotes\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -1998,9 +2068,10 @@
     },
     "/catchpoint/i": {
         "browser_name": "Catchpoint",
+        "browser_version": "",
         "weight": 10
     },
-    "/claws mail gtkhtml2 plugin/i": {
+    "/claws mail gtkhtml2 plugin (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Claws Mail GtkHtml2 Plugin",
         "weight": 10
     },
@@ -2008,7 +2079,7 @@
         "browser_name": "Cyberduck",
         "weight": 10
     },
-    "/datadog agent/i": {
+    "/datadog agent\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Datadog Agent",
         "weight": 10
     },
@@ -2024,11 +2095,11 @@
         "browser_name": "DownloadStudio",
         "weight": 10
     },
-    "/funambol mozilla sync client/i": {
+    "/funambol mozilla sync client v(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Funambol Mozilla Sync Client",
         "weight": 10
     },
-    "/funambol outlook plug-in/i": {
+    "/funambol outlook plug-in v. (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Funambol Outlook Sync Client",
         "weight": 10
     },
@@ -2042,13 +2113,15 @@
     },
     "/appengine-google/i": {
         "browser_name": "Google App Engine",
+        "browser_version": "",
         "weight": 10
     },
     "/docs.google.com\\/viewer/i": {
         "browser_name": "Google Docs Viewer",
+        "browser_version": "",
         "weight": 10
     },
-    "/google earth/i": {
+    "/google earth\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Google Earth",
         "weight": 10
     },
@@ -2056,15 +2129,16 @@
         "browser_name": "Google Friend Connect",
         "weight": 10
     },
-    "/google-listen/i": {
+    "/google-listen\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Google Listen",
         "weight": 10
     },
     "/googlebot-richsnippets/i": {
         "browser_name": "Google Rich Snippets Testing Tool",
+        "browser_version": "",
         "weight": 10
     },
-    "/google wireless transcoder/i": {
+    "/google wireless transcoder\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Google Wireless Transcoder",
         "weight": 10
     },
@@ -2084,7 +2158,7 @@
         "browser_name": "HTML2JPG",
         "weight": 10
     },
-    "/nagios-plugins/i": {
+    "/nagios-plugins (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "HTTP nagios plugin",
         "weight": 10
     },
@@ -2092,16 +2166,17 @@
         "browser_name": "iGetter",
         "weight": 10
     },
-    "/ivideo\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/ivideo (?<browser_version>(lite )?[\\d\\w.-]+)/i": {
         "browser_name": "iVideo",
         "weight": 10
     },
-    "/jamcast\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/jamcast(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Jamcast",
         "weight": 10
     },
     "/js-kit/i": {
         "browser_name": "JS-Kit/Echo",
+        "browser_version": "",
         "weight": 10
     },
     "/leechcraft\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -2112,7 +2187,7 @@
         "browser_name": "LFTP",
         "weight": 10
     },
-    "/tv store/i": {
+    "/tv store\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Vewd Store",
         "weight": 10
     },
@@ -2124,8 +2199,9 @@
         "browser_name": "LinkbackPlugin for Laconica",
         "weight": 10
     },
-    "/linkstash\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/linkstash/i": {
         "browser_name": "LinkStash",
+        "browser_version": "",
         "weight": 10
     },
     "/masscan\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -2134,14 +2210,17 @@
     },
     "/microsoft office existence discovery/i": {
         "browser_name": "Microsoft Office Existence Discovery",
+        "browser_version": "",
         "weight": 10
     },
     "/microsoft data access internet publishing provider dav/i": {
         "browser_name": "Microsoft WebDAV Client",
+        "browser_version": "",
         "weight": 10
     },
-    "/mucommander\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/mucommander(\\sv(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "muCommander",
+        "browser_version": "",
         "weight": 10
     },
     "/nagstamon\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -2154,21 +2233,22 @@
     },
     "/nokia syncml http client/i": {
         "browser_name": "Nokia SyncML Client",
+        "browser_version": "",
         "weight": 10
     },
-    "/bordermanager\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/bordermanager (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Novell BorderManager",
         "weight": 10
     },
-    "/overwolf(store|client)/i": {
+    "/overwolf(store|client)\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Overwolf Client",
         "weight": 10
     },
-    "/owncloud|mirall/i": {
+    "/(owncloud-\\w+|mirall)\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "ownCloud Sync Client",
         "weight": 10
     },
-    "/paparazzi!/i": {
+    "/paparazzi!\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Paparazzi!",
         "weight": 10
     },
@@ -2180,11 +2260,11 @@
         "browser_name": "PhantomJS",
         "weight": 10
     },
-    "/^php/i": {
+    "/^php\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "PHP",
         "weight": 10
     },
-    "/podkicker\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/podkicker( pro)?\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Podkicker",
         "weight": 10
     },
@@ -2202,21 +2282,23 @@
     },
     "/prtg network monitor/i": {
         "browser_name": "PRTG Network Monitor",
+        "browser_version": "",
         "weight": 10
     },
-    "/radio downloader/i": {
+    "/radio downloader (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Radio Downloader",
         "weight": 10
     },
-    "/rcm carddav plugin/i": {
+    "/rcm carddav plugin\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Roundcube CardDav Plugin",
         "weight": 10
     },
     "/szn-(mobile|image)-(transcoder|resizer)/i": {
         "browser_name": "Seznam WAP Proxy",
+        "browser_version": "",
         "weight": 10
     },
-    "/smartbrowserplugin\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/smartbrowserplugin (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "SmartBrowserPlugin for TC",
         "weight": 10
     },
@@ -2228,19 +2310,21 @@
         "browser_name": "sqlmap",
         "weight": 10
     },
-    "/steam( http)? client/i": {
+    "/steam( http)? client( (?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Steam Client",
+        "browser_version": "",
         "weight": 10
     },
     "/com.alexvas.dvr.pro/i": {
         "browser_name": "tinyCam Monitor",
+        "browser_version": "",
         "weight": 10
     },
-    "/azureus\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/azureus (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Vuze",
         "weight": 10
     },
-    "/webcollage\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/webcollage.*\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "WebCollage",
         "weight": 10
     },
@@ -2256,12 +2340,14 @@
         "browser_name": "WhatWeb",
         "weight": 10
     },
-    "/winpodder\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/winpodder/i": {
         "browser_name": "WinPodder",
+        "browser_version": "",
         "weight": 10
     },
     "/wkhtmlto(pdf|image)/i": {
         "browser_name": "WkHTMLtoPDF",
+        "browser_version": "",
         "weight": 10
     },
     "/wordpress\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -2270,21 +2356,23 @@
     },
     "/anonymouse.org/i": {
         "browser_name": "Anonymouse.org",
+        "browser_version": "",
         "weight": 10
     },
     "/mr.4x3 powered/i": {
         "browser_name": "Mr.4x3 Powered",
+        "browser_version": "",
         "weight": 10
     },
     "/applewebkit\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Apple Mail",
         "weight": 8
     },
-    "/gecko\\/\\d+$/i": {
+    "/mozilla\\/(?<browser_version>[\\d.]+).*gecko\\/\\d+$/i": {
         "browser_name": "Mozilla",
         "weight": 8
     },
-    "/htc_desire|nexus/i": {
+    "/(?<browser_version>[\\s\\d\\w.-]+); [\\w-]+; (htc_desire|nexus)/i": {
         "browser_name": "Android Browser",
         "weight": 9
     }
