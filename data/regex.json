@@ -46,7 +46,7 @@
         "browser_name": "Amiga Voyager",
         "weight": 10
     },
-    "/amigo\\/(?<browser_version>[\\d\\w.-]+)|mrchrome/i": {
+    "/amigo(\\/(?<browser_version>[\\d\\w.-]+))?|mrchrome/i": {
         "browser_name": "Amigo",
         "browser_version": "",
         "weight": 9
@@ -278,7 +278,7 @@
         "weight": 8
     },
     "/bonecho\\/(?<browser_version>[\\s\\d\\w.-]+)/i": {
-        "browser_name": "Bonecho",
+        "browser_name": "BonEcho",
         "weight": 10
     },
     "/granparadiso\\/(?<browser_version>[\\s\\d\\w.-]+)/i": {
@@ -550,6 +550,14 @@
         "browser_name": "OmniWeb",
         "weight": 10
     },
+    "/(opera mini|opios)\\/(?<browser_version>[\\d\\w.-]+)/i": {
+        "browser_name": "Opera Mini",
+        "weight": 10
+    },
+    "/opt\\/(?<browser_version>[\\d\\w.-]+)/i": {
+        "browser_name": "Opera Touch",
+        "weight": 10
+    },
     "/(opera|opr|oupeng|\\smms\\/\\d|opios|opt\\/)(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Opera",
         "weight": 9
@@ -608,7 +616,7 @@
         "browser_name": "PlayStation Portable Web Browser",
         "weight": 10
     },
-    "/playstation vita\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/playstation vita(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "PlayStation Vita Web Browser",
         "weight": 10
     },
@@ -624,8 +632,9 @@
         "browser_name": "QQbrowser",
         "weight": 10
     },
-    "/qtweb\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/qtweb(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "QtWeb",
+        "browser_version": "",
         "weight": 10
     },
     "/qupzilla\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -640,8 +649,9 @@
         "browser_name": "Rambler Browser",
         "weight": 10
     },
-    "/rekonq\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/rekonq(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Rekonq",
+        "browser_version": "",
         "weight": 10
     },
     "/roccat\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -656,12 +666,14 @@
         "browser_name": "Ryouko",
         "weight": 10
     },
-    "/saayaa\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/saayaa(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "SaaYaa Explorer",
+        "browser_version": "",
         "weight": 10
     },
-    "/salam browser\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/salam browser(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Salam Browser",
+        "browser_version": "",
         "weight": 10
     },
     "/seamonkey\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -680,11 +692,12 @@
         "browser_name": "Seznam.cz Browser",
         "weight": 10
     },
-    "/shiira\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/shiira(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Shiira",
+        "browser_version": "",
         "weight": 10
     },
-    "/sitekiosk\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/sitekiosk(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "SiteKiosk",
         "weight": 10
     },
@@ -692,7 +705,7 @@
         "browser_name": "SkipStone",
         "weight": 10
     },
-    "/slack\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/slack(_ssb)?\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Slack App",
         "weight": 10
     },
@@ -704,15 +717,16 @@
         "browser_name": "SlimBoat",
         "weight": 10
     },
-    "/slimbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/slimbrowser(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "SlimBrowser",
+        "browser_version": "",
         "weight": 10
     },
     "/slimerjs\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "SlimerJS",
         "weight": 10
     },
-    "/metasr\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/metasr(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Sogou Explorer",
         "weight": 10
     },
@@ -740,7 +754,7 @@
         "browser_name": "Sundial",
         "weight": 10
     },
-    "/sunrise\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/sunrise(browser)?\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Sunrise",
         "weight": 10
     },
@@ -748,8 +762,9 @@
         "browser_name": "Superbird",
         "weight": 10
     },
-    "/swiftfox\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/swiftfox(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Swiftfox",
+        "browser_version": "",
         "weight": 10
     },
     "/swiftweasel\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -768,20 +783,23 @@
         "browser_name": "TenFourFox",
         "weight": 10
     },
-    "/qtcarbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/qtcarbrowser(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Tesla Car Browser",
+        "browser_version": "",
         "weight": 10
     },
-    "/theworld\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/theworld(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "TheWorld Browser",
+        "browser_version": "",
         "weight": 10
     },
-    "/tjusig\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/tjusig(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Tjusig",
         "weight": 10
     },
-    "/tencenttraveler\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/tencenttraveler(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "TT Explorer",
+        "browser_version": "",
         "weight": 10
     },
     "/tulipchain\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -792,8 +810,9 @@
         "browser_name": "Tungsten",
         "weight": 10
     },
-    "/twitter\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/twitter(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Twitter App",
+        "browser_version": "",
         "weight": 10
     },
     "/(ubrowser|ucweb|ucbrowser)(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
@@ -801,7 +820,7 @@
         "browser_version": "",
         "weight": 10
     },
-    "/ultrabrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/ultrabrowser(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "UltraBrowser",
         "weight": 10
     },
@@ -830,7 +849,7 @@
         "browser_name": "Vivaldi",
         "weight": 10
     },
-    "/airwatch browser\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/airwatch browser(\\/| v)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "VMWare Browser",
         "weight": 10
     },
@@ -862,8 +881,9 @@
         "browser_name": "WebPositive",
         "weight": 10
     },
-    "/webrender\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/webrender(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "WebRender",
+        "browser_version": "",
         "weight": 10
     },
     "/weltweitimnetzbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -878,8 +898,9 @@
         "browser_name": "WIB",
         "weight": 10
     },
-    "/nintendo wiiu\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/nintendo wiiu(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Wii U Internet Browser",
+        "browser_version": "",
         "weight": 10
     },
     "/wkiosk\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -915,7 +936,7 @@
         "browser_name": "zBrowser",
         "weight": 10
     },
-    "/zipzap\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/zipzap (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "ZipZap",
         "weight": 10
     },
@@ -1021,8 +1042,9 @@
         "browser_name": "Bing Search App",
         "weight": 10
     },
-    "/(blackberry[\\d\\w]+|playbook)\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/(blackberry[\\d\\w]+|playbook)(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "BlackBerry Browser",
+        "browser_version": "",
         "weight": 10
     },
     "/blazer(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
@@ -1035,7 +1057,7 @@
     },
     "/(crmo|crios|\\/jrn|chrome)\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Chrome",
-        "weight": 9
+        "weight": 8
     },
     "/coast\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Coast",
@@ -1045,8 +1067,9 @@
         "browser_name": "Cornowser",
         "weight": 10
     },
-    "/diigobrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/diigobrowser(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Diigo",
+        "browser_version": "",
         "weight": 10
     },
     "/dolfin\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -1057,11 +1080,12 @@
         "browser_name": "DuckDuckGo",
         "weight": 10
     },
-    "/ecosia\\/(?<browser_version>[\\d\\w.-]+)/i": {
-        "browser_name": "Ecosia",
+    "/ecosia(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
+        "browser_name": "Ecosia Browser",
+        "browser_version": "",
         "weight": 10
     },
-    "/egenciam\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/egenciam3iphoneapp\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Egencia App",
         "weight": 10
     },
@@ -1086,12 +1110,13 @@
         "browser_name": "Internet Explorer",
         "weight": 8
     },
-    "/instagram\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/instagram(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Instagram App",
         "weight": 10
     },
-    "/isivioo\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/isivioo(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "isivioo",
+        "browser_version": "",
         "weight": 10
     },
     "/jasmine\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -1136,21 +1161,25 @@
     },
     "/samsungbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Samsung Browser",
-        "weight": 10
+        "weight": 9
     },
     "/mot-\\w+\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Motorola Internet Browser",
         "weight": 10
     },
-    "/(netfront|nf-browser|danger hiptop)\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/(netfront|nf-browser|danger hiptop)(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "NetFront",
+        "weight": 9
+    },
+    "/mobile content viewer\\/(?<browser_version>[\\d\\w.-]+)/i": {
+        "browser_name": "NetFront Content Viewer",
         "weight": 10
     },
     "/netfrontlifebrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "NetFront Life",
         "weight": 10
     },
-    "/ninesky\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/ninesky-\\w+-mobile\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "NineSky",
         "weight": 10
     },
@@ -1160,7 +1189,7 @@
     },
     "/nokia[\\w\\d-]+\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Nokia Web Browser",
-        "weight": 10
+        "weight": 9
     },
     "/ntentbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "NTENT Browser",
@@ -1192,7 +1221,7 @@
         "weight": 10
     },
     "/quark\\/(?<browser_version>[\\d\\w.-]+)/i": {
-        "browser_name": "Quark",
+        "browser_name": "Quark Browser",
         "weight": 10
     },
     "/quickbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -1203,11 +1232,12 @@
         "browser_name": "Qwant",
         "weight": 10
     },
-    "/relaxmelodies\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/relaxmelodies(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Relax Melodies App",
+        "browser_version": "",
         "weight": 10
     },
-    "/(mobilesafari|mobile\\/\\w+$|safari)\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/(mobilesafari|mobile|safari)\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Safari",
         "weight": 8
     },
@@ -1232,23 +1262,24 @@
         "weight": 10
     },
     "/snapchat\\/(?<browser_version>[\\d\\w.-]+)/i": {
-        "browser_name": "Snapchat",
+        "browser_name": "Snapchat App",
         "weight": 10
     },
     "/surfbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Surf Browser",
         "weight": 10
     },
-    "/swing\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/swing(\\(and\\))?\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Swing",
         "weight": 10
     },
-    "/swoodoo\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/swoodoophone\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Swoodoo App",
         "weight": 10
     },
-    "/tear\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/tear(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Tear",
+        "browser_version": "",
         "weight": 10
     },
     "/teashark\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -1259,9 +1290,9 @@
         "browser_name": "Tenta Browser",
         "weight": 10
     },
-    "/tizen\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/tizen(browser)?(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Tizen Browser",
-        "weight": 10
+        "weight": 9
     },
     "/ubuntu;/i": {
         "browser_name": "Ubuntu Web Browser",
@@ -1316,11 +1347,12 @@
         "browser_name": "Framabird",
         "weight": 10
     },
-    "/freebox\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/freebox(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Freebox Mail",
+        "browser_version": "",
         "weight": 10
     },
-    "/gcmail\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/gcmail browser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "GcMail",
         "weight": 10
     },
@@ -1811,7 +1843,7 @@
         "browser_version": "",
         "weight": 10
     },
-    "/digg\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/digg feed fetcher (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Digg Reader",
         "weight": 10
     },
@@ -1927,7 +1959,7 @@
         "browser_name": "Shrook",
         "weight": 10
     },
-    "/yahoofeedseeker\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/yahoofeedseeker(\\w+)?\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "YahooFeedSeeker",
         "weight": 10
     },
@@ -1976,7 +2008,7 @@
         "weight": 10
     },
     "/plex\\/(?<browser_version>[\\d\\w.-]+)/i": {
-        "browser_name": "Plex",
+        "browser_name": "Plex Media Center",
         "weight": 10
     },
     "/pockettunes\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -2067,7 +2099,7 @@
         "weight": 10
     },
     "/catchpoint/i": {
-        "browser_name": "Catchpoint",
+        "browser_name": "Catchpoint Analyser",
         "browser_version": "",
         "weight": 10
     },
@@ -2138,16 +2170,18 @@
         "browser_version": "",
         "weight": 10
     },
-    "/google wireless transcoder\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/google wireless transcoder(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Google Wireless Transcoder",
+        "browser_version": "",
         "weight": 10
     },
     "/gsitecrawler\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "GSiteCrawler",
         "weight": 10
     },
-    "/havij\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/havij(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "Havij",
+        "browser_version": "",
         "weight": 10
     },
     "/holmes\\/(?<browser_version>[\\d\\w.-]+)/i": {
@@ -2191,8 +2225,14 @@
         "browser_name": "Vewd Store",
         "weight": 10
     },
-    "/smarttv\\/(?<browser_version>[\\d\\w.-]+)/i": {
+    "/smart-tv/i": {
+        "browser_name": "Samsung TV Browser",
+        "browser_version": "",
+        "weight": 10
+    },
+    "/smarttv/i": {
         "browser_name": "LG Web Browser Engine",
+        "browser_version": "",
         "weight": 10
     },
     "/linkbackplugin\\/(?<browser_version>[\\d\\w.-]+)/i": {
