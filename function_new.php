@@ -42,12 +42,15 @@ function parseUserAgent($user_agent = null)
 
 ob_start();
 
-foreach ($sample_data as $examples) {
+foreach ($sample_data as $browser => $examples) {
+    $browser = strtolower($browser);
+
     foreach ($examples['list'] as $example) {
         $result = parseUserAgent($example);
 
         if (
             $result['browser_name'] == 'Unknown Browser' ||
+            strtolower($result['browser_name']) != $browser ||
             $result['browser_version'] == 'Unknown Browser Version'
         ) {
             if ($result['browser_name'] == 'Unknown Browser') {
@@ -57,7 +60,8 @@ foreach ($sample_data as $examples) {
             echo '<pre>' . print_r(array_merge(
                 $result,
                 array(
-                    'ua' => $example
+                    'ua' => $example,
+                    'browser' => $browser
                 )
             ), true) . '</pre>';
 
