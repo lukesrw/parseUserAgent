@@ -35,39 +35,10 @@ function parseUserAgent($user_agent = null)
         }
     }
 
+    $result['browser_name'] = trim($result['browser_name']);
+    $result['browser_version'] = trim($result['browser_version']);
+
     unset($result['weight']);
 
     return $result;
-}
-
-ob_start();
-
-foreach ($sample_data as $browser => $examples) {
-    $browser = strtolower($browser);
-
-    foreach ($examples['list'] as $example) {
-        $result = parseUserAgent($example);
-
-        if (
-            $result['browser_name'] == 'Unknown Browser' ||
-            strtolower($result['browser_name']) != $browser ||
-            $result['browser_version'] == 'Unknown Browser Version'
-        ) {
-            if ($result['browser_name'] == 'Unknown Browser') {
-                ob_end_clean();
-            }
-
-            echo '<pre>' . print_r(array_merge(
-                $result,
-                array(
-                    'ua' => $example,
-                    'browser' => $browser
-                )
-            ), true) . '</pre>';
-
-            if ($result['browser_name'] == 'Unknown Browser') {
-                die();
-            }
-        }
-    }
 }
