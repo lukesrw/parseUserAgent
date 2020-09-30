@@ -1,2289 +1,2290 @@
 {
-    "/2345(explorer|browser)(\\s|\\/)(?<browser_version>[\\d.]+)/": {
+    "/2345(explorer|browser)(\\s|\\/)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "2345 Explorer",
         "weight": 10
     },
-    "/360(?<browser_version>[s|e]e)/": {
+    "/360(?<browser_version>[s|e]e)/i": {
         "browser_name": "360 Browser",
         "weight": 10
     },
-    "/nintendo 3ds/": {
+    "/nintendo 3ds/i": {
         "browser_name": "Nintendo 3DS Browser",
         "browser_version": "",
         "weight": 10
     },
-    "/kuaiso(\\s|\\/)(?<browser_version>[\\d.]+)/": {
+    "/kuaiso(\\s|\\/)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "7 Star Browser",
         "weight": 10
     },
-    "/abolimba/": {
+    "/abolimba\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Abolimba",
         "browser_version": "",
         "weight": 10
     },
-    "/abrowse\\s(?<browser_version>[\\d.]+)/": {
+    "/abrowse\\s(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "ABrowse",
         "weight": 10
     },
-    "/acoo browser/": {
+    "/acoo browser/i": {
         "browser_name": "Acoo Browser",
         "browser_version": "",
         "weight": 10
     },
-    "/alienforce(3.0)?\\/(?<browser_version>[\\d.]+)/": {
+    "/alienforce(3.0)?\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Alienforce",
         "weight": 10
     },
-    "/amaya\\/(?<browser_version>[\\d.]+)/": {
+    "/amaya\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Amaya",
         "weight": 10
     },
-    "/amiga-aweb\\/(?<browser_version>[\\d.]+)/": {
+    "/amiga-aweb\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Amiga Aweb",
         "weight": 10
     },
-    "/amigavoyager\\/(?<browser_version>[\\d.]+)/": {
+    "/amigavoyager\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Amiga Voyager",
         "weight": 10
     },
-    "/amigo\\/(?<browser_version>[\\d.]+)|mrchrome/": {
+    "/amigo\\/(?<browser_version>[\\d\\w.-]+)|mrchrome/i": {
         "browser_name": "Amigo",
         "browser_version": "",
         "weight": 9
     },
-    "/antfresco\\/(?<browser_version>[\\d.]+)/": {
+    "/antfresco\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "ANT Fresco",
         "weight": 10
     },
-    "/antgalio\\/(?<browser_version>[\\d.]+)/": {
+    "/antgalio\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "ANT Galio",
         "weight": 10
     },
-    "/aol\\s(?<browser_version>[\\d.]+)/": {
+    "/aol\\s(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "AOL Explorer",
         "weight": 10
     },
-    "/aolshield\\/(?<browser_version>[\\d.]+)/": {
+    "/aolshield\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "AOL Shield",
         "weight": 10
     },
-    "/arora\\/(?<browser_version>[\\d.]+)/": {
+    "/arora\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Arora",
         "weight": 10
     },
-    "/avant./": {
+    "/avant\\s?(browser)?(.com)?(\\/)?(?<browser_version>[\\d\\w.-]+)?/i": {
         "browser_name": "Avant Browser",
-        "weight": 10
+        "browser_version": "",
+        "weight": 9
     },
-    "/avast|asw/": {
+    "/(avast|asw)\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Avast Secure Browser",
         "weight": 10
     },
-    "/aviator/": {
+    "/aviator\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Aviator",
         "weight": 10
     },
-    "/avirascout/": {
+    "/avirascout\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Avira Scout",
         "weight": 10
     },
-    "/baidubrowser|bdbrowser|flyflow/": {
+    "/(baidubrowser|bdbrowser(_i18n)?|flyflow)(\\s|\\/)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Baidu Browser",
         "weight": 10
     },
-    "/spark\\//": {
+    "/spark\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Baidu Spark",
         "weight": 10
     },
-    "/basilisk/": {
+    "/basilisk\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Basilisk",
         "weight": 10
     },
-    "/beamrise/": {
+    "/beamrise\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Beamrise",
         "weight": 10
     },
-    "/beonex/": {
+    "/beonex\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Beonex",
         "weight": 10
     },
-    "/blackbird/": {
+    "/blackbird\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Blackbird",
         "weight": 10
     },
-    "/blackhawk/": {
+    "/blackhawk\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "BlackHawk",
         "weight": 10
     },
-    "/bolt/": {
+    "/bolt\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Bolt",
         "weight": 10
     },
-    "/brave/": {
+    "/brave\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Brave",
         "weight": 10
     },
-    "/briskbard/": {
+    "/briskbard\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "BriskBard",
         "weight": 10
     },
-    "/browzar/": {
+    "/browzar\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Browzar",
         "weight": 10
     },
-    "/bunjalloo/": {
+    "/bunjalloo\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Bunjalloo",
         "weight": 10
     },
-    "/camino|chimera/": {
+    "/camino|chimera/i": {
         "browser_name": "Camino",
         "weight": 10
     },
-    "/charon/": {
+    "/charon/i": {
         "browser_name": "Charon",
         "weight": 10
     },
-    "/chedot/": {
+    "/chedot\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Chedot",
         "weight": 10
     },
-    "/cheshire/": {
+    "/cheshire\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Cheshire",
         "weight": 10
     },
-    "/headlesschrome/": {
+    "/headlesschrome\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Chrome Headless",
         "weight": 10
     },
-    "/chromium/": {
+    "/chromium\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Chromium",
         "weight": 10
     },
-    "/\\sdragon\\b/": {
+    "/\\sdragon\\b/i": {
         "browser_name": "Chromodo",
         "weight": 10
     },
-    "/classilla/": {
+    "/classilla\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Classilla",
         "weight": 10
     },
-    "/lbbrowser|acheetahi|liebaofast/": {
+    "/lbbrowser|acheetahi|liebaofast/i": {
         "browser_name": "CM Browser",
         "weight": 10
     },
-    "/corom|coc_coc_browser/": {
+    "/corom|coc_coc_browser/i": {
         "browser_name": "Coc Coc",
         "weight": 10
     },
-    "/columbus/": {
+    "/columbus\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Columbus",
         "weight": 10
     },
-    "/cometbird/": {
+    "/cometbird\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "CometBird",
         "weight": 10
     },
-    "/comodo_dragon/": {
+    "/comodo_dragon\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Comodo Dragon",
         "weight": 10
     },
-    "/conkeror/": {
+    "/conkeror\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Conkeror",
         "weight": 10
     },
-    "/coolnovo/": {
+    "/coolnovo\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "CoolNovo",
         "weight": 10
     },
-    "/crazy browser/": {
+    "/crazy browser/i": {
         "browser_name": "Crazy Browser",
         "weight": 10
     },
-    "/cuam/": {
+    "/cuam ver(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Cuam",
         "weight": 10
     },
-    "/cunaguaro/": {
+    "/cunaguaro\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Cunaguaro",
         "weight": 10
     },
-    "/cyberdog/": {
+    "/cyberdog\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Cyberdog",
         "weight": 10
     },
-    "/cyberfox/": {
+    "/cyberfox\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Cyberfox",
         "weight": 10
     },
-    "/deepnet explorer/": {
+    "/deepnet explorer/i": {
         "browser_name": "Deepnet Explorer",
         "weight": 10
     },
-    "/demeter/": {
+    "/demeter\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Demeter",
         "weight": 10
     },
-    "/deskbrowse/": {
+    "/deskbrowse\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "DeskBrowse",
         "weight": 10
     },
-    "/dillo/": {
+    "/dillo\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Dillo",
         "weight": 10
     },
-    "/doczilla/": {
+    "/doczilla\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "DocZilla",
         "weight": 10
     },
-    "/dooble/": {
+    "/dooble\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Dooble",
         "weight": 10
     },
-    "/dplus/": {
+    "/dplus (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "DPlus",
         "weight": 10
     },
-    "/edbrowse/": {
+    "/edbrowse\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Edbrowse",
         "weight": 10
     },
-    "/elinks/": {
+    "/elinks\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Elinks",
         "weight": 10
     },
-    "/enigma browser/": {
+    "/enigma browser/i": {
         "browser_name": "Enigma Browser",
         "weight": 10
     },
-    "/epic/": {
+    "/epic\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Epic",
         "weight": 10
     },
-    "/escape/": {
+    "/escape\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Espial TV Browser",
         "weight": 10
     },
-    "/firebird/": {
+    "/firebird\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Firebird",
         "weight": 10
     },
-    "/bonecho|granparadiso|lorentz|minefield|namoroka|shiretoko|fennec|fxios|firefox/": {
+    "/bonecho|granparadiso|lorentz|minefield|namoroka|shiretoko|fennec|fxios|firefox/i": {
         "browser_name": "Firefox",
         "weight": 8
     },
-    "/fireweb navigator/": {
+    "/fireweb navigator/i": {
         "browser_name": "Fireweb Navigator",
         "weight": 10
     },
-    "/flock/": {
+    "/flock\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Flock",
         "weight": 10
     },
-    "/fluid/": {
+    "/fluid\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Fluid",
         "weight": 10
     },
-    "/framafox/": {
+    "/framafox\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Framafox",
         "weight": 10
     },
-    "/navigateur web/": {
+    "/navigateur web/i": {
         "browser_name": "Freebox Browser",
         "weight": 10
     },
-    "/freeu/": {
+    "/freeu\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "FreeU",
         "weight": 10
     },
-    "/galeon/": {
+    "/galeon\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Galeon",
         "weight": 10
     },
-    "/globalmojo/": {
+    "/globalmojo\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "GlobalMojo",
         "weight": 10
     },
-    "/epiphany/": {
+    "/epiphany\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "GNOME Web",
         "weight": 10
     },
-    "/greenbrowser/": {
+    "/greenbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "GreenBrowser",
         "weight": 10
     },
-    "/hotjava/": {
+    "/hotjava\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "HotJava",
         "weight": 10
     },
-    "/hv3/": {
+    "/hv3\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Hv3",
         "weight": 10
     },
-    "/hydra browser/": {
+    "/hydra browser/i": {
         "browser_name": "Hydra Browser",
         "weight": 10
     },
-    "/ibm webexplorer/": {
+    "/ibm webexplorer/i": {
         "browser_name": "IBM WebExplorer",
         "weight": 10
     },
-    "/ibrowse\\b/": {
+    "/ibrowse\\b/i": {
         "browser_name": "IBrowse",
         "weight": 10
     },
-    "/icab/": {
+    "/icab(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "iCab",
         "weight": 10
     },
-    "/ice\\s?browser/": {
+    "/ice\\s?browser/i": {
         "browser_name": "ICE Browser",
         "weight": 10
     },
-    "/iceape/": {
+    "/iceape\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "IceApe",
         "weight": 10
     },
-    "/icecat/": {
+    "/icecat\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "IceCat",
         "weight": 10
     },
-    "/icedragon/": {
+    "/icedragon\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "IceDragon",
         "weight": 10
     },
-    "/iceweasel/": {
+    "/iceweasel\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "IceWeasel",
         "weight": 10
     },
-    "/internetsurfboard/": {
+    "/internetsurfboard\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "InternetSurfboard",
         "weight": 10
     },
-    "/irider/": {
+    "/irider\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "iRider",
         "weight": 10
     },
-    "/iridium/": {
+    "/iridium\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Iridium",
         "weight": 10
     },
-    "/iron/": {
+    "/iron\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Iron",
         "weight": 10
     },
-    "/k-meleon/": {
+    "/k-meleon/i": {
         "browser_name": "K-Meleon",
         "weight": 10
     },
-    "/k-ninja/": {
+    "/k-ninja/i": {
         "browser_name": "K-Ninja",
         "weight": 10
     },
-    "/kapiko/": {
+    "/kapiko\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Kapiko",
         "weight": 10
     },
-    "/kazehakase/": {
+    "/kazehakase\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Kazehakase",
         "weight": 10
     },
-    "/kinza/": {
+    "/kinza\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Kinza",
         "weight": 10
     },
-    "/strata/": {
+    "/strata\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Kirix Strata",
         "weight": 10
     },
-    "/kkman/": {
+    "/kkman\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "KKman",
         "weight": 10
     },
-    "/konqueror/": {
+    "/konqueror\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Konqueror",
         "weight": 10
     },
-    "/kylo/": {
+    "/kylo\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Kylo",
         "weight": 10
     },
-    "/lbrowser/": {
+    "/lbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "LBrowser",
         "weight": 10
     },
-    "/cern-linemode/": {
+    "/cern-linemode/i": {
         "browser_name": "Line Mode Browser",
         "weight": 10
     },
-    "/links\\s/": {
+    "/links\\s/i": {
         "browser_name": "Links",
         "weight": 10
     },
-    "/lobo/": {
+    "/lobo\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Lobo",
         "weight": 10
     },
-    "/lolifox/": {
+    "/lolifox\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "lolifox",
         "weight": 10
     },
-    "/lovense/": {
+    "/lovense\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Lovense Browser",
         "weight": 10
     },
-    "/lunascape/": {
+    "/lunascape\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Lunascape",
         "weight": 10
     },
-    "/lynx/": {
+    "/lynx\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Lynx",
         "weight": 10
     },
-    "/madfox/": {
+    "/madfox\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Madfox",
         "weight": 10
     },
-    "/maple/": {
+    "/maple\\s?(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Maple Browser",
         "weight": 10
     },
-    "/maxthon|mxbrowser|myie2/": {
+    "/maxthon|mxbrowser|myie2/i": {
         "browser_name": "Maxthon",
         "weight": 10
     },
-    "/edg(ios|a)|edge/": {
+    "/edg(ios|a)|edge/i": {
         "browser_name": "Microsoft Edge",
         "weight": 10
     },
-    "/midori/": {
+    "/midori\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Midori",
         "weight": 10
     },
-    "/min\\//": {
+    "/min\\//i": {
         "browser_name": "Min",
         "weight": 10
     },
-    "/minibrowser/": {
+    "/minibrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Mini Browser",
         "weight": 10
     },
-    "/multi-browser/": {
+    "/multi-browser/i": {
         "browser_name": "Multi-Browser XP",
         "weight": 10
     },
-    "/multizilla/": {
+    "/multizilla\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "MultiZilla",
         "weight": 10
     },
-    "/mxnitro/": {
+    "/mxnitro\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "MxNitro",
         "weight": 10
     },
-    "/myibrow/": {
+    "/myibrow\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "My Internet Browser",
         "weight": 10
     },
-    "/ncsa(_|\\s)mosaic/": {
+    "/ncsa(_|\\s)mosaic/i": {
         "browser_name": "NCSA Mosaic",
         "weight": 10
     },
-    "/netbox|netgem/": {
+    "/netbox|netgem/i": {
         "browser_name": "NetBox",
         "weight": 10
     },
-    "/netcaptor/": {
+    "/netcaptor\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "NetCaptor",
         "weight": 10
     },
-    "/netpositive/": {
+    "/netpositive\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "NetPositive",
         "weight": 10
     },
-    "/netscape|navigator/": {
+    "/netscape|navigator/i": {
         "browser_name": "Netscape Navigator",
         "weight": 10
     },
-    "/netsurf/": {
+    "/netsurf\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "NetSurf",
         "weight": 10
     },
-    "/offbyone/": {
+    "/offbyone/i": {
         "browser_name": "Off By One",
         "weight": 10
     },
-    "/omniweb/": {
+    "/omniweb\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "OmniWeb",
         "weight": 10
     },
-    "/opera|opr|oupeng|\\smms\\/\\d|opios|opt\\//": {
+    "/opera|opr|oupeng|\\smms\\/\\d|opios|opt\\//i": {
         "browser_name": "Opera",
         "weight": 9
     },
-    "/juzibrowser/": {
+    "/juzibrowser/i": {
         "browser_name": "Orange Browser",
         "weight": 10
     },
-    "/orca/": {
+    "/orca\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Orca",
         "weight": 10
     },
-    "/otter/": {
+    "/otter\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Otter",
         "weight": 10
     },
-    "/owb/": {
+    "/owb\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Odyssey Web Browser",
         "weight": 10
     },
-    "/palemoon/": {
+    "/palemoon\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Pale Moon",
         "weight": 10
     },
-    "/patriott/": {
+    "/patriott\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Patriott",
         "weight": 10
     },
-    "/perk/": {
+    "/perk\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Perk",
         "weight": 10
     },
-    "/phaseout/": {
+    "/phaseout\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Phaseout",
         "weight": 10
     },
-    "/phoenix/": {
+    "/phoenix\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Phoenix",
         "weight": 10
     },
-    "/^pb/": {
+    "/^pb/i": {
         "browser_name": "PirateBrowser",
         "weight": 10
     },
-    "/polarity/": {
+    "/polarity\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Polarity",
         "weight": 10
     },
-    "/playstation \\d/": {
+    "/playstation \\d/i": {
         "browser_name": "PlayStation Web Browser",
         "weight": 10
     },
-    "/playstation portable/": {
+    "/playstation portable/i": {
         "browser_name": "PlayStation Portable Web Browser",
         "weight": 10
     },
-    "/playstation vita/": {
+    "/playstation vita/i": {
         "browser_name": "PlayStation Vita Web Browser",
         "weight": 10
     },
-    "/puffin/": {
+    "/puffin\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Puffin",
         "weight": 10
     },
-    "/qiyu/": {
+    "/qiyu\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Qiyu",
         "weight": 10
     },
-    "/qqbrowser/": {
+    "/qqbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "QQbrowser",
         "weight": 10
     },
-    "/qtweb/": {
+    "/qtweb\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "QtWeb",
         "weight": 10
     },
-    "/qupzilla/": {
+    "/qupzilla\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "QupZilla",
         "weight": 10
     },
-    "/qutebrowser/": {
+    "/qutebrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "qutebrowser",
         "weight": 10
     },
-    "/nichrome/": {
+    "/nichrome\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Rambler Browser",
         "weight": 10
     },
-    "/rekonq/": {
+    "/rekonq\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Rekonq",
         "weight": 10
     },
-    "/roccat/": {
+    "/roccat\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Roccat Browser",
         "weight": 10
     },
-    "/rockmelt/": {
+    "/rockmelt\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "RockMelt",
         "weight": 10
     },
-    "/ryouko/": {
+    "/ryouko\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Ryouko",
         "weight": 10
     },
-    "/saayaa/": {
+    "/saayaa\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "SaaYaa Explorer",
         "weight": 10
     },
-    "/salam browser/": {
+    "/salam browser/i": {
         "browser_name": "Salam Browser",
         "weight": 10
     },
-    "/smart-tv/": {
+    "/smart-tv/i": {
         "browser_name": "Samsung TV Browser",
         "weight": 10
     },
-    "/seamonkey/": {
+    "/seamonkey\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "SeaMonkey",
         "weight": 9
     },
-    "/secure/": {
+    "/secure\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Secure Browser",
         "weight": 10
     },
-    "/sraf/": {
+    "/sraf\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Seraphic Sraf",
         "weight": 10
     },
-    "/seznam.cz|sznprohlizec/": {
+    "/seznam.cz|sznprohlizec/i": {
         "browser_name": "Seznam.cz Browser",
         "weight": 10
     },
-    "/shiira/": {
+    "/shiira\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Shiira",
         "weight": 10
     },
-    "/sitekiosk/": {
+    "/sitekiosk\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "SiteKiosk",
         "weight": 10
     },
-    "/skipstone/": {
+    "/skipstone (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "SkipStone",
         "weight": 10
     },
-    "/slack/": {
+    "/slack\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Slack App",
         "weight": 10
     },
-    "/sleipnir/": {
+    "/sleipnir\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Sleipnir",
         "weight": 10
     },
-    "/slimboat/": {
+    "/slimboat\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "SlimBoat",
         "weight": 10
     },
-    "/slimbrowser/": {
+    "/slimbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "SlimBrowser",
         "weight": 10
     },
-    "/slimerjs/": {
+    "/slimerjs\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "SlimerJS",
         "weight": 10
     },
-    "/metasr/": {
+    "/metasr\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Sogou Explorer",
         "weight": 10
     },
-    "/sparksafe/": {
+    "/sparksafe\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Spark Security Browser",
         "weight": 10
     },
-    "/sputnikbrowser/": {
+    "/sputnikbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Sputnik Browser",
         "weight": 10
     },
-    "/stainless/": {
+    "/stainless\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Stainless",
         "weight": 10
     },
-    "/valve steam gameoverlay/": {
+    "/valve steam gameoverlay/i": {
         "browser_name": "Steam Game Overlay",
         "weight": 10
     },
-    "/sundance/": {
+    "/sundance(.*version)?\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Sundance",
         "weight": 10
     },
-    "/sundial/": {
+    "/sundial\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Sundial",
         "weight": 10
     },
-    "/sunrise/": {
+    "/sunrise\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Sunrise",
         "weight": 10
     },
-    "/superbird/": {
+    "/superbird\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Superbird",
         "weight": 10
     },
-    "/swiftfox/": {
+    "/swiftfox\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Swiftfox",
         "weight": 10
     },
-    "/swiftweasel/": {
+    "/swiftweasel\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Swiftweasel",
         "weight": 10
     },
-    "/to-browser/": {
+    "/to-browser/i": {
         "browser_name": "t-online.de Browser",
         "weight": 10
     },
-    "/taobrowser/": {
+    "/taobrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Taobao Browser",
         "weight": 10
     },
-    "/tenfourfox/": {
+    "/tenfourfox\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "TenFourFox",
         "weight": 10
     },
-    "/qtcarbrowser/": {
+    "/qtcarbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Tesla Car Browser",
         "weight": 10
     },
-    "/theworld/": {
+    "/theworld\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "TheWorld Browser",
         "weight": 10
     },
-    "/tjusig/": {
+    "/tjusig\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Tjusig",
         "weight": 10
     },
-    "/tencenttraveler/": {
+    "/tencenttraveler\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "TT Explorer",
         "weight": 10
     },
-    "/tulipchain/": {
+    "/tulipchain\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Tulip Chain",
         "weight": 10
     },
-    "/tungstenbrowser/": {
+    "/tungstenbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Tungsten",
         "weight": 10
     },
-    "/twitter/": {
+    "/twitter\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Twitter App",
         "weight": 10
     },
-    "/ubrowser|ucweb|ucbrowser/": {
+    "/ubrowser|ucweb|ucbrowser/i": {
         "browser_name": "UC Browser",
         "weight": 10
     },
-    "/ultrabrowser/": {
+    "/ultrabrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "UltraBrowser",
         "weight": 10
     },
-    "/ur\\//": {
+    "/ur\\//i": {
         "browser_name": "UR Browser",
         "weight": 10
     },
-    "/usejump/": {
+    "/usejump\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "UseJump",
         "weight": 10
     },
-    "/uzbl/": {
+    "/uzbl/i": {
         "browser_name": "Uzbl",
         "weight": 10
     },
-    "/sparrow/": {
+    "/sparrow\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Sparrow",
         "weight": 10
     },
-    "/vimprobable/": {
+    "/vimprobable2?\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Vimprobable",
         "weight": 10
     },
-    "/vivaldi/": {
+    "/vivaldi\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Vivaldi",
         "weight": 10
     },
-    "/airwatch browser/": {
+    "/airwatch browser/i": {
         "browser_name": "VMWare Browser",
         "weight": 10
     },
-    "/vonkeror/": {
+    "/vonkeror\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Vonkeror",
         "weight": 10
     },
-    "/w3m/": {
+    "/w3m\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "w3m",
         "weight": 10
     },
-    "/waterfox/": {
+    "/waterfox\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Waterfox",
         "weight": 10
     },
-    "/wbbrowse/": {
+    "/wbbrowse\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "WbBrowse",
         "weight": 10
     },
-    "/webexplorer/": {
+    "/webexplorer\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Web Explorer",
         "weight": 10
     },
-    "/webianshell/": {
+    "/webianshell\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Webian Shell",
         "weight": 10
     },
-    "/webpositive/": {
+    "/webpositive\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "WebPositive",
         "weight": 10
     },
-    "/webrender/": {
+    "/webrender\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "WebRender",
         "weight": 10
     },
-    "/weltweitimnetzbrowser/": {
+    "/weltweitimnetzbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Weltweitimnetz Browser",
         "weight": 10
     },
-    "/whale/": {
+    "/whale\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Whale",
         "weight": 10
     },
-    "/wib\\//": {
+    "/wib\\//i": {
         "browser_name": "WIB",
         "weight": 10
     },
-    "/nintendo wiiu/": {
+    "/nintendo wiiu/i": {
         "browser_name": "Wii U Internet Browser",
         "weight": 10
     },
-    "/wkiosk/": {
+    "/wkiosk\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "wKiosk",
         "weight": 10
     },
-    "/worldwideweb/": {
+    "/worldwideweb/i": {
         "browser_name": "WorldWideWeb",
         "weight": 10
     },
-    "/wyzo/": {
+    "/wyzo\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Wyzo",
         "weight": 10
     },
-    "/x-smiles/": {
+    "/x-smiles/i": {
         "browser_name": "X-Smiles",
         "weight": 10
     },
-    "/xvast/": {
+    "/xvast\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Xvast",
         "weight": 10
     },
-    "/yabrowser/": {
+    "/yabrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Yandex.Browser",
         "weight": 10
     },
-    "/yrcweblink/": {
+    "/yrcweblink\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "YRC Weblink",
         "weight": 10
     },
-    "/\\bzbrowser\\//": {
+    "/\\bzbrowser\\//i": {
         "browser_name": "zBrowser",
         "weight": 10
     },
-    "/zipzap/": {
+    "/zipzap\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "ZipZap",
         "weight": 10
     },
-    "/avantgo/": {
+    "/avantgo (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "AvantGo",
         "weight": 10
     },
-    "/axel/": {
+    "/axel (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Axel",
         "weight": 10
     },
-    "/sbl-bot/": {
+    "/sbl-bot/i": {
         "browser_name": "BlackWidow",
         "weight": 10
     },
-    "/bluecrab/": {
+    "/bluecrab\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "BlueCrab",
         "weight": 10
     },
-    "/cyotek/": {
+    "/cyotekwebcopy\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Cyotek WebCopy",
         "weight": 10
     },
-    "/getright/": {
+    "/getright\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "GetRight",
         "weight": 10
     },
-    "/httrack/": {
+    "/httrack (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "HTTrack",
         "weight": 10
     },
-    "/isilox\\//": {
+    "/isilox\\//i": {
         "browser_name": "iSiloX",
         "weight": 10
     },
-    "/isiloxc/": {
+    "/isiloxc\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "iSiloXC",
         "weight": 10
     },
-    "/jobo/": {
+    "/jobo\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "JoBo",
         "weight": 10
     },
-    "/joc web spider/": {
+    "/joc web spider/i": {
         "browser_name": "JOC Web Spider",
         "weight": 10
     },
-    "/offline explorer|web downloader/": {
+    "/offline explorer|web downloader/i": {
         "browser_name": "Offline Explorer",
         "weight": 10
     },
-    "/sitesucker/": {
+    "/sitesucker\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "SiteSucker",
         "weight": 10
     },
-    "/superbot/": {
+    "/superbot\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "SuperBot",
         "weight": 10
     },
-    "/teleport pro/": {
+    "/teleport pro/i": {
         "browser_name": "Teleport Pro",
         "weight": 10
     },
-    "/webcopier/": {
+    "/webcopier (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "WebCopier",
         "weight": 10
     },
-    "/webfetch/": {
+    "/webfetch\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "webfetch",
         "weight": 10
     },
-    "/webstripper/": {
+    "/webstripper\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "WebStripper",
         "weight": 10
     },
-    "/webzip/": {
+    "/webzip\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "WebZIP",
         "weight": 10
     },
-    "/wget/": {
+    "/wget\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Wget",
         "weight": 10
     },
-    "/xaldon(_|\\s)webspider/": {
+    "/xaldon(_|\\s)webspider/i": {
         "browser_name": "Xaldon WebSpider",
         "weight": 10
     },
-    "/alohabrowser/": {
+    "/alohabrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Aloha Browser",
         "weight": 10
     },
-    "/atomicbrowser/": {
+    "/atomicbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Atomic Web Browser",
         "weight": 10
     },
-    "/bline/": {
+    "/bline\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "B-Line",
         "weight": 10
     },
-    "/bingweb/": {
+    "/bingweb\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Bing Search App",
         "weight": 10
     },
-    "/blackberry\\d|playbook/": {
+    "/blackberry\\d|playbook/i": {
         "browser_name": "BlackBerry Browser",
         "weight": 10
     },
-    "/blazer/": {
+    "/blazer(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Blazer",
         "weight": 10
     },
-    "/bowser/": {
+    "/bowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Bowser",
         "weight": 10
     },
-    "/crmo|crios|\\/jrn|chrome\\/(?<browser_version>[\\d.]+)/": {
+    "/crmo|crios|\\/jrn|chrome\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Chrome",
         "weight": 9
     },
-    "/coast/": {
+    "/coast\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Coast",
         "weight": 10
     },
-    "/cornowser/": {
+    "/cornowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Cornowser",
         "weight": 10
     },
-    "/diigobrowser/": {
+    "/diigobrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Diigo",
         "weight": 10
     },
-    "/dolfin/": {
+    "/dolfin\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Dolphin",
         "weight": 10
     },
-    "/ddg/": {
+    "/ddg-\\w+-(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "DuckDuckGo",
         "weight": 10
     },
-    "/ecosia/": {
+    "/ecosia\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Ecosia",
         "weight": 10
     },
-    "/egenciam/": {
+    "/egenciam\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Egencia App",
         "weight": 10
     },
-    "/focus/": {
+    "/focus\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Firefox Focus",
         "weight": 10
     },
-    "/klar/": {
+    "/klar\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Firefox Klar",
         "weight": 10
     },
-    "/gobrowser/": {
+    "/gobrowser(\\/(?<browser_version>[\\d\\w.-]+))?/i": {
         "browser_name": "GO Browser",
         "weight": 10
     },
-    "/gsa\\//": {
+    "/gsa\\//i": {
         "browser_name": "Google App",
         "weight": 10
     },
-    "/ie\\b|msie|iemobile|zune|windows phone/": {
+    "/ie\\b|msie|iemobile|zune|windows phone/i": {
         "browser_name": "Internet Explorer",
         "weight": 8
     },
-    "/instagram/": {
+    "/instagram\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Instagram App",
         "weight": 10
     },
-    "/isivioo/": {
+    "/isivioo\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "isivioo",
         "weight": 10
     },
-    "/jasmine/": {
+    "/jasmine\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Jasmine",
         "weight": 10
     },
-    "/kindle/": {
+    "/kindle\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Kindle Browser",
         "weight": 10
     },
-    "/browser\\/phantom/": {
+    "/browser\\/phantom/i": {
         "browser_name": "LG Phantom Browser",
         "weight": 10
     },
-    "/\\bline\\//": {
+    "/\\bline\\//i": {
         "browser_name": "LINE App",
         "weight": 10
     },
-    "/linkedin/": {
+    "/linkedin\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "LinkedIn App",
         "weight": 10
     },
-    "/mcent/": {
+    "/mcent\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "mCent",
         "weight": 10
     },
-    "/mzbrowser/": {
+    "/mzbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Meizu Browser",
         "weight": 10
     },
-    "/tablet browser|maemo/": {
+    "/tablet browser|maemo/i": {
         "browser_name": "MicroB",
         "weight": 10
     },
-    "/minimo/": {
+    "/minimo\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Minimo",
         "weight": 10
     },
-    "/miuibrowser/": {
+    "/miuibrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "MIUI Browser",
         "weight": 10
     },
-    "/samsungbrowser/": {
+    "/samsungbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Samsung Browser",
         "weight": 10
     },
-    "/mot-/": {
+    "/mot-/i": {
         "browser_name": "Motorola Internet Browser",
         "weight": 10
     },
-    "/netfront\\/|nf-browser|danger hiptop/": {
+    "/netfront\\/|nf-browser|danger hiptop/i": {
         "browser_name": "NetFront",
         "weight": 10
     },
-    "/netfrontlifebrowser/": {
+    "/netfrontlifebrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "NetFront Life",
         "weight": 10
     },
-    "/ninesky/": {
+    "/ninesky\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "NineSky",
         "weight": 10
     },
-    "/sylera/": {
+    "/sylera\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Sylera",
         "weight": 10
     },
-    "/symbian(o|\\/)|nokian9/": {
+    "/symbian(o|\\/)|nokian9/i": {
         "browser_name": "Nokia Web Browser",
         "weight": 10
     },
-    "/ntentbrowser/": {
+    "/ntentbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "NTENT Browser",
         "weight": 10
     },
-    "/obigo|wap2|v10c browser|au-mic|vx9600/": {
+    "/obigo|wap2|v10c browser|au-mic|vx9600/i": {
         "browser_name": "Obigo",
         "weight": 10
     },
-    "/onebrowser/": {
+    "/onebrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "ONE Browser",
         "weight": 10
     },
-    "/up.browser/": {
+    "/up.browser/i": {
         "browser_name": "Openwave Browser",
         "weight": 10
     },
-    "/pre\\//": {
+    "/pre\\//i": {
         "browser_name": "Palm Pre Web Browser",
         "weight": 9
     },
-    "/pinterest/": {
+    "/pinterest for \\w+\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Pinterest App",
         "weight": 10
     },
-    "/polaris/": {
+    "/polaris(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Polaris",
         "weight": 10
     },
-    "/quark/": {
+    "/quark\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Quark",
         "weight": 10
     },
-    "/quickbrowser/": {
+    "/quickbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Quick Browser",
         "weight": 10
     },
-    "/qwantbrowser/": {
+    "/qwantbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Qwant",
         "weight": 10
     },
-    "/relaxmelodies/": {
+    "/relaxmelodies\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Relax Melodies App",
         "weight": 10
     },
-    "/mobilesafari|mobile\\/\\w+$|safari/": {
+    "/mobilesafari|mobile\\/\\w+$|safari/i": {
         "browser_name": "Safari",
         "weight": 8
     },
-    "/sailfish browser/": {
+    "/sailfish browser/i": {
         "browser_name": "Sailfish Browser",
         "weight": 10
     },
-    "/web by citrix/": {
+    "/web by citrix/i": {
         "browser_name": "Secure Web",
         "weight": 10
     },
-    "/semc-browser/": {
+    "/semc-browser/i": {
         "browser_name": "SEMC Browser",
         "weight": 10
     },
-    "/silk/": {
+    "/silk\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Silk",
         "weight": 10
     },
-    "/skyfire/": {
+    "/skyfire\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Skyfire",
         "weight": 10
     },
-    "/snapchat/": {
+    "/snapchat\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Snapchat",
         "weight": 10
     },
-    "/surfbrowser/": {
+    "/surfbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Surf Browser",
         "weight": 10
     },
-    "/swing/": {
+    "/swing\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Swing",
         "weight": 10
     },
-    "/swoodoo/": {
+    "/swoodoo\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Swoodoo App",
         "weight": 10
     },
-    "/tear/": {
+    "/tear\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Tear",
         "weight": 10
     },
-    "/teashark/": {
+    "/teashark\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "TeaShark",
         "weight": 10
     },
-    "/tenta/": {
+    "/tenta\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Tenta Browser",
         "weight": 10
     },
-    "/tizen/": {
+    "/tizen\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Tizen Browser",
         "weight": 10
     },
-    "/ubuntu;/": {
+    "/ubuntu;/i": {
         "browser_name": "Ubuntu Web Browser",
         "weight": 8
     },
-    "/uzardweb/": {
+    "/uzardweb\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "uZard Web",
         "weight": 10
     },
-    "/vivobrowser/": {
+    "/vivobrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Vivo Browser",
         "weight": 10
     },
-    "/wosbrowser/": {
+    "/wosbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "wOSBrowser",
         "weight": 10
     },
-    "/yelpapp/": {
+    "/yelpapp\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Yelp App",
         "weight": 10
     },
-    "/yolobrowser/": {
+    "/yolobrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Yolo Browser",
         "weight": 10
     },
-    "/airmail/": {
+    "/airmail(\\/|\\s)(?<browser_version>[\\w\\d.-]+( rv:\\d+)?)/i": {
         "browser_name": "AirMail",
         "weight": 10
     },
-    "/barca/": {
+    "/barca(pro)?\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Barca",
         "weight": 10
     },
-    "/seznamemail/": {
+    "/seznamemailproxy\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Email.cz",
         "weight": 10
     },
-    "/eudora/": {
+    "/eudora\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Eudora",
         "weight": 10
     },
-    "/evolution/": {
+    "/evolution\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Evolution",
         "weight": 10
     },
-    "/fossamail/": {
+    "/fossamail\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "FossaMail",
         "weight": 10
     },
-    "/framabird/": {
+    "/framabird\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Framabird",
         "weight": 10
     },
-    "/freebox/": {
+    "/freebox\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Freebox Mail",
         "weight": 10
     },
-    "/gcmail/": {
+    "/gcmail\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "GcMail",
         "weight": 10
     },
-    "/ggpht.com/": {
+    "/ggpht.com/i": {
         "browser_name": "Gmail",
         "weight": 10
     },
-    "/lotus-notes/": {
+    "/lotus-notes/i": {
         "browser_name": "Lotus Notes",
         "weight": 10
     },
-    "/mailbar/": {
+    "/mailbar\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "MailBar",
         "weight": 10
     },
-    "/msoffice|microsoft( office)? outlook/": {
+    "/msoffice|microsoft( office)? outlook/i": {
         "browser_name": "Outlook",
         "weight": 10
     },
-    "/pocomail(\\s|\\/)(?<browser_version>[\\d.]+)/": {
+    "/pocomail(\\s|\\/)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "PocoMail",
         "weight": 10
     },
-    "/postbox/": {
+    "/postbox(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Postbox",
         "weight": 10
     },
-    "/ramblermail/": {
+    "/ramblermail\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "RamblerMail",
         "weight": 10
     },
-    "/shredder/": {
+    "/shredder\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Shredder",
         "weight": 10
     },
-    "/spicebird/": {
+    "/spicebird\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Spicebird",
         "weight": 10
     },
-    "/the bat!/": {
+    "/the bat!/i": {
         "browser_name": "The Bat!",
         "weight": 10
     },
-    "/thunderbird/": {
+    "/thunderbird\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Thunderbird",
         "weight": 10
     },
-    "/unibox/": {
+    "/unibox\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Unibox",
         "weight": 10
     },
-    "/tmstmpext|^Outlook/": {
+    "/tmstmpext|^Outlook/i": {
         "browser_name": "Windows Live Mail",
         "weight": 9
     },
-    "/yahoomobile/": {
+    "/yahoomobile(mail)?\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Yahoo Mail",
         "weight": 10
     },
-    "/zdesktop/": {
+    "/zdesktop\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Zimbra Desktop",
         "weight": 10
     },
-    "/adobeair/": {
+    "/adobeair\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Adobe AIR Runtime",
         "weight": 10
     },
-    "/android-async-http/": {
+    "/android-async-http/i": {
         "browser_name": "Android Asynchronous Http Client",
         "weight": 10
     },
-    "/dalvik/": {
+    "/dalvik\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Android HttpURLConnection",
         "weight": 10
     },
-    "/anemone/": {
+    "/anemone\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Anemone",
         "weight": 10
     },
-    "/anglesharp/": {
+    "/anglesharp\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "AngleSharp",
         "weight": 10
     },
-    "/ahc\\/|apache-http(async)?client/": {
+    "/ahc\\/|apache-http(async)?client/i": {
         "browser_name": "Apache Http Client",
         "weight": 10
     },
-    "/axios/": {
+    "/axios\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "axios",
         "weight": 10
     },
-    "/binget/": {
+    "/binget\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "BinGet",
         "weight": 10
     },
-    "/reeder/": {
+    "/reeder\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Reeder",
         "weight": 10
     },
-    "/cfnetwork/": {
+    "/cfnetwork\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "CFNetwork",
         "weight": 8
     },
-    "/csquery/": {
+    "/csquery\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "CsQuery",
         "weight": 10
     },
-    "/cssutils/": {
+    "/cssutils (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "cssutils",
         "weight": 10
     },
-    "/^curl/": {
+    "/^curl/i": {
         "browser_name": "cURL",
         "weight": 10
     },
-    "/eventmachine/": {
+    "/eventmachine/i": {
         "browser_name": "EventMachine",
         "weight": 10
     },
-    "/faraday/": {
+    "/faraday v(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Faraday",
         "weight": 10
     },
-    "/feed::find/": {
+    "/feed::find/i": {
         "browser_name": "Feed::Find",
         "weight": 10
     },
-    "/go(\\s|-)(http|[\\d.]+)(\\s|-)(client|package)/": {
+    "/go(\\s|-)(http|[\\d.]+)(\\s|-)(client|package)/i": {
         "browser_name": "Go HTTP Package",
         "weight": 10
     },
-    "/goose/": {
+    "/goose\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "goose-extractor",
         "weight": 10
     },
-    "/gstreamer/": {
+    "/gstreamer souphttpsrc libsoup\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "GStreamer",
         "weight": 10
     },
-    "/guzzle/": {
+    "/guzzle\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Guzzle",
         "weight": 10
     },
-    "/hackney/": {
+    "/hackney\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "hackney",
         "weight": 10
     },
-    "/htmlayout/": {
+    "/htmlayout (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "HTMLayout",
         "weight": 10
     },
-    "/http-kit/": {
+    "/http-kit/i": {
         "browser_name": "http-kit",
         "weight": 10
     },
-    "/http_request2/": {
+    "/http_request2\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "HTTP_Request2",
         "weight": 10
     },
-    "/indy library/": {
+    "/indy library/i": {
         "browser_name": "Indy Library",
         "weight": 10
     },
-    "/incutio xml-rpc/": {
+    "/incutio xml-rpc/i": {
         "browser_name": "Incutio XML-RPC Library",
         "weight": 10
     },
-    "/jakarta/": {
+    "/jakarta commons-httpclient\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Jakarta Commons-HttpClient",
         "weight": 10
     },
-    "/^java/": {
+    "/^java/i": {
         "browser_name": "Java",
         "weight": 10
     },
-    "/^libsoup/": {
+    "/^libsoup/i": {
         "browser_name": "LibSoup",
         "weight": 10
     },
-    "/^libwww-perl/": {
+    "/^libwww-perl/i": {
         "browser_name": "libwww-perl",
         "weight": 10
     },
-    "/lua-resty-http/": {
+    "/lua-resty-http/i": {
         "browser_name": "lua-resty-http",
         "weight": 10
     },
-    "/^lwp/": {
+    "/^lwp/i": {
         "browser_name": "LWP::Simple",
         "weight": 10
     },
-    "/manticore/": {
+    "/manticore (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Manticore",
         "weight": 10
     },
-    "/^mechanize/": {
+    "/^mechanize/i": {
         "browser_name": "Mechanize",
         "weight": 10
     },
-    "/okhttp/": {
+    "/okhttp\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "OkHttp",
         "weight": 10
     },
-    "/pear http_request/": {
+    "/pear http_request/i": {
         "browser_name": "PEAR HTTP_Request",
         "weight": 10
     },
-    "/pecl::http/": {
+    "/pecl::http/i": {
         "browser_name": "PECL::HTTP",
         "weight": 10
     },
-    "/php-openid/": {
+    "/php-openid/i": {
         "browser_name": "PHP OpenID Library",
         "weight": 10
     },
-    "/phpcrawl/": {
+    "/phpcrawl\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "PHPcrawl",
         "weight": 10
     },
-    "/poe-component-client-http/": {
+    "/poe-component-client-http/i": {
         "browser_name": "POE-Component-Client-HTTP",
         "weight": 10
     },
-    "/pycurl/": {
+    "/pycurl\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "PycURL",
         "weight": 10
     },
-    "/python-requests/": {
+    "/python-requests/i": {
         "browser_name": "Python-requests",
         "weight": 10
     },
-    "/python-urllib/": {
+    "/python-urllib/i": {
         "browser_name": "Python-urllib",
         "weight": 10
     },
-    "/webosbrowser/": {
+    "/webosbrowser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "wOSBrowser",
         "weight": 10
     },
-    "/ruxitsynthetic/": {
+    "/ruxitsynthetic\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "RuxitSynthetic",
         "weight": 10
     },
-    "/python-webchecker/": {
+    "/python-webchecker/i": {
         "browser_name": "Python-webchecker",
         "weight": 10
     },
-    "/longurl-r-package/": {
+    "/longurl-r-package/i": {
         "browser_name": "R longurl",
         "weight": 10
     },
-    "/restsharp/": {
+    "/restsharp (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "RestSharp",
         "weight": 10
     },
-    "/rome client/": {
+    "/rome client/i": {
         "browser_name": "ROME library",
         "weight": 10
     },
-    "/rpt-httpclient/": {
+    "/rpt-httpclient/i": {
         "browser_name": "RPT-HTTPClient",
         "weight": 10
     },
-    "/^eat/": {
+    "/^eat/i": {
         "browser_name": "Ruby eat",
         "weight": 10
     },
-    "/simplepie/": {
+    "/simplepie\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "SimplePie",
         "weight": 10
     },
-    "/snoopy/": {
+    "/snoopy v(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Snoopy",
         "weight": 10
     },
-    "/libsummer/": {
+    "/libsummer\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Summer",
         "weight": 10
     },
-    "/typhoeus/": {
+    "/typhoeus\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Typhoeus",
         "weight": 10
     },
-    "/urlgrabber/": {
+    "/urlgrabber\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "urlgrabber",
         "weight": 10
     },
-    "/wlmhttptransport/": {
+    "/wlmhttptransport/i": {
         "browser_name": "WebLogic HTTP client",
         "weight": 10
     },
-    "/winhttp/": {
+    "/winhttp/i": {
         "browser_name": "WinHTTP",
         "weight": 10
     },
-    "/wininet/": {
+    "/wininet/i": {
         "browser_name": "WinInet Component Suite",
         "weight": 10
     },
-    "/www-mechanize/": {
+    "/www-mechanize/i": {
         "browser_name": "WWW::Mechanize",
         "weight": 10
     },
-    "/xine/": {
+    "/xine\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "xine",
         "weight": 10
     },
-    "/xml-?rpc/": {
+    "/xml-?rpc/i": {
         "browser_name": "XML-RPC",
         "weight": 10
     },
-    "/zend_http_client/": {
+    "/zend_http_client/i": {
         "browser_name": "Zend_Http_Client",
         "weight": 10
     },
-    "/klondike/": {
+    "/klondike\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Klondike",
         "weight": 10
     },
-    "/waptiger/": {
+    "/waptiger\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "WapTiger",
         "weight": 10
     },
-    "/winwap/": {
+    "/winwap(-spbe)?\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "WinWap",
         "weight": 10
     },
-    "/2bone_linkchecker/": {
+    "/2bone_linkchecker\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "2Bone LinkChecker",
         "weight": 10
     },
-    "/htmlchecker/": {
+    "/htmlchecker\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "anw HTMLChecker",
         "weight": 10
     },
-    "/anw webtool loadcontrol/": {
+    "/anw webtool loadcontrol/i": {
         "browser_name": "anw LoadControl",
         "weight": 10
     },
-    "/checkbot/": {
+    "/checkbot\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Checkbot",
         "weight": 10
     },
-    "/cse html validator/": {
+    "/cse html validator/i": {
         "browser_name": "CSE HTML Validator",
         "weight": 10
     },
-    "/cynthia/": {
+    "/cynthia (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Cynthia",
         "weight": 10
     },
-    "/feedvalidator/": {
+    "/feedvalidator\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "FeedValidator",
         "weight": 10
     },
-    "/htmlparser/": {
+    "/htmlparser\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "HTMLParser",
         "weight": 10
     },
-    "/linkchecker/": {
+    "/linkchecker\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "LinkChecker",
         "weight": 9
     },
-    "/fplinkchecker/": {
+    "/fplinkchecker\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "PHP Link Checker",
         "weight": 10
     },
-    "/linkexaminer/": {
+    "/linkexaminer\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "LinkExaminer",
         "weight": 10
     },
-    "/linkwalker/": {
+    "/linkwalker\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "LinkWalker",
         "weight": 10
     },
-    "/p3p validator/": {
+    "/p3p validator/i": {
         "browser_name": "P3P Validator",
         "weight": 10
     },
-    "/rel link checker lite/": {
+    "/rel link checker lite/i": {
         "browser_name": "REL Link Checker Lite",
         "weight": 10
     },
-    "/screaming frog seo spider/": {
+    "/screaming frog seo spider/i": {
         "browser_name": "Screaming Frog SEO Spider",
         "weight": 10
     },
-    "/validator.nu/": {
+    "/validator.nu/i": {
         "browser_name": "Validator.nu",
         "weight": 10
     },
-    "/w3c-checklink/": {
+    "/w3c-checklink/i": {
         "browser_name": "W3C Checklink",
         "weight": 10
     },
-    "/w3c_css_validator/": {
+    "/w3c_css_validator_jfouffa\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "W3C CSS Validator",
         "weight": 10
     },
-    "/w3c_i18n-checker/": {
+    "/w3c_i18n-checker/i": {
         "browser_name": "W3C Internationalization Checker",
         "weight": 10
     },
-    "/w3c-mobileok/": {
+    "/w3c-mobileok/i": {
         "browser_name": "W3C mobileOK Checker",
         "weight": 10
     },
-    "/w3c_unicorn/": {
+    "/w3c_unicorn\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "W3C Unicorn Validator",
         "weight": 10
     },
-    "/w3c_validator\\//": {
+    "/w3c_validator\\//i": {
         "browser_name": "W3C Validator",
-        "weight": 10
+        "weight": 9
     },
-    "/w3c_validator_suite/": {
+    "/w3c_validator_suite/i": {
         "browser_name": "W3C Validator Suite",
         "weight": 10
     },
-    "/csscheck/": {
+    "/csscheck\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "WDG CSSCheck",
         "weight": 10
     },
-    "/wdg_validator/": {
+    "/wdg_validator\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "WDG Validator",
         "weight": 10
     },
-    "/publicradio(player|app)/": {
+    "/publicradio(player|app)/i": {
         "browser_name": "Public Radio Player",
         "weight": 10
     },
-    "/xenu/": {
+    "/xenu link sleuth(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Xenu's Link Sleuth",
         "weight": 10
     },
-    "/abilon/": {
+    "/abilon/i": {
         "browser_name": "Abilon",
         "weight": 10
     },
-    "/akregator/": {
+    "/akregator\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Akregator",
         "weight": 10
     },
-    "/substream/": {
+    "/substream\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "SubStream",
         "weight": 10
     },
-    "/apple-pubsub/": {
+    "/apple-pubsub/i": {
         "browser_name": "Apple-PubSub",
         "weight": 10
     },
-    "/awasu/": {
+    "/awasu\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Awasu",
         "weight": 10
     },
-    "/blogbridge/": {
+    "/blogbridge (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "BlogBridge",
         "weight": 10
     },
-    "/bloglines/": {
+    "/bloglines\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Bloglines",
         "weight": 10
     },
-    "/^cpg|dragonfly/": {
+    "/^cpg|dragonfly/i": {
         "browser_name": "CPG Dragonfly RSS Module",
         "weight": 10
     },
-    "/digg/": {
+    "/digg\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Digg Reader",
         "weight": 10
     },
-    "/^endo\\//": {
+    "/^endo\\//i": {
         "browser_name": "Endo",
         "weight": 10
     },
-    "/fastladder feedfetcher/": {
+    "/fastladder feedfetcher/i": {
         "browser_name": "Fastladder FeedFetcher",
         "weight": 10
     },
-    "/feed viewer/": {
+    "/feed viewer/i": {
         "browser_name": "Feed Viewer",
         "weight": 10
     },
-    "/^feedbin /": {
+    "/^feedbin /i": {
         "browser_name": "Feedbin",
         "weight": 10
     },
-    "/feeddemon/": {
+    "/feeddemon\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "FeedDemon",
         "weight": 10
     },
-    "/greatnews/": {
+    "/greatnews\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "GreatNews",
         "weight": 10
     },
-    "/icatcher!/": {
+    "/icatcher!/i": {
         "browser_name": "iCatcher!",
         "weight": 10
     },
-    "/windows-rss-platform/": {
+    "/windows-rss-platform/i": {
         "browser_name": "Internet Explorer RSS Reader",
         "weight": 10
     },
-    "/inoreader/": {
+    "/inoreader\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "InoReader",
         "weight": 10
     },
-    "/liferea/": {
+    "/liferea\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Liferea",
         "weight": 10
     },
-    "/lucknews/": {
+    "/lucknews\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "LuckNews",
         "weight": 10
     },
-    "/netnewswire/": {
+    "/netnewswire\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "NetNewsWire",
         "weight": 10
     },
-    "/newsbeuter/": {
+    "/newsbeuter\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Newsbeuter",
         "weight": 10
     },
-    "/newsbreak/": {
+    "/newsbreak/i": {
         "browser_name": "NewsBreak",
         "weight": 10
     },
-    "/newsfox/": {
+    "/newsfox\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "NewsFox",
         "weight": 10
     },
-    "/newsgatoronline/": {
+    "/newsgatoronline\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "NewsGatorOnline",
         "weight": 10
     },
-    "/nfreader/": {
+    "/nfreader\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "NFReader",
         "weight": 10
     },
-    "/omea reader/": {
+    "/omea reader/i": {
         "browser_name": "Omea Reader",
         "weight": 10
     },
-    "/quiterss/": {
+    "/quiterss\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "QuiteRSS",
         "weight": 10
     },
-    "/rssbandit/": {
+    "/rssbandit\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "RSS Bandit",
         "weight": 10
     },
-    "/rss menu/": {
+    "/rss menu/i": {
         "browser_name": "RSS Menu",
         "weight": 10
     },
-    "/rss popper/": {
+    "/rss popper/i": {
         "browser_name": "RSS Popper",
         "weight": 10
     },
-    "/rssowl/": {
+    "/rssowl\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "RSSOwl",
         "weight": 10
     },
-    "/applesyndication/": {
+    "/applesyndication\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Safari RSS Reader",
         "weight": 10
     },
-    "/sage/": {
+    "/sage/i": {
         "browser_name": "Sage",
         "weight": 10
     },
-    "/sharpreader/": {
+    "/sharpreader\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "SharpReader",
         "weight": 10
     },
-    "/shrook/": {
+    "/shrook\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Shrook",
         "weight": 10
     },
-    "/yahoofeedseeker/": {
+    "/yahoofeedseeker\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "YahooFeedSeeker",
         "weight": 10
     },
-    "/^banshee/": {
+    "/^banshee/i": {
         "browser_name": "Banshee",
         "weight": 10
     },
-    "/^boxee/": {
+    "/^boxee/i": {
         "browser_name": "Boxee",
         "weight": 10
     },
-    "/coreplayer/": {
+    "/coreplayer\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "CorePlayer",
         "weight": 10
     },
-    "/dailymotion/": {
+    "/dailymotion\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Dailymotion App",
         "weight": 10
     },
-    "/^flycast/": {
+    "/^flycast/i": {
         "browser_name": "FlyCast",
         "weight": 10
     },
-    "/^foobar2000/": {
+    "/^foobar2000/i": {
         "browser_name": "foobar2000",
         "weight": 10
     },
-    "/gomplayer/": {
+    "/gomplayer (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "GOM Player",
         "weight": 10
     },
-    "/itunes/": {
+    "/itunes\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "iTunes",
         "weight": 10
     },
-    "/xbmc|kodi/": {
+    "/xbmc|kodi/i": {
         "browser_name": "KODI",
         "weight": 10
     },
-    "/miro|^democracy/": {
+    "/miro|^democracy/i": {
         "browser_name": "Miro",
         "weight": 10
     },
-    "/mplayer/": {
+    "/mplayer(\\/|\\s)(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "MPlayer",
         "weight": 10
     },
-    "/plex/": {
+    "/plex\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Plex",
         "weight": 10
     },
-    "/pockettunes/": {
+    "/pockettunes\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Pocket Tunes",
         "weight": 10
     },
-    "/rss_radio/": {
+    "/rss_radio (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "RSS Radio",
         "weight": 10
     },
-    "/songbird/": {
+    "/songbird\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Songbird",
         "weight": 10
     },
-    "/^vlc/": {
+    "/^vlc/i": {
         "browser_name": "VLC Media Player",
         "weight": 10
     },
-    "/wafa/": {
+    "/wafa\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Winamp for Android",
         "weight": 10
     },
-    "/windows-media-player|nsplayer/": {
+    "/windows-media-player|nsplayer/i": {
         "browser_name": "Windows Media Player",
         "weight": 10
     },
-    "/xmplay/": {
+    "/xmplay\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "XMPlay",
         "weight": 10
     },
-    "/apachebench/": {
+    "/apachebench\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Apache Bench",
         "weight": 10
     },
-    "/activexperts/": {
+    "/activexperts.http.(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "ActiveXperts Network Monitor",
         "weight": 10
     },
-    "/androiddownloadmanager/": {
+    "/androiddownloadmanager\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Android Download Manager",
         "weight": 10
     },
-    "/internal dummy connection/": {
+    "/internal dummy connection/i": {
         "browser_name": "Apache Internal Dummy Connection",
         "weight": 10
     },
-    "/synapse/": {
+    "/synapse/i": {
         "browser_name": "Apache Synapse",
         "weight": 10
     },
-    "/aria2/": {
+    "/aria2\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "aria2",
         "weight": 10
     },
-    "/atomic_email_hunter/": {
+    "/atomic_email_hunter\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Atomic Email Hunter",
         "weight": 10
     },
-    "/bandwidth-hero compressor/": {
+    "/bandwidth-hero compressor/i": {
         "browser_name": "Bandwidth-Hero Compressor",
         "weight": 10
     },
-    "/^bdnc/": {
+    "/^bdnc/i": {
         "browser_name": "Bitdefender Antivirus",
         "weight": 10
     },
-    "/bookdog/": {
+    "/bookdog\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Bookdog",
         "weight": 10
     },
-    "/bookmarktracker/": {
+    "/bookmarktracker/i": {
         "browser_name": "BookmarkTracker",
         "weight": 10
     },
-    "/boxnotes/": {
+    "/boxnotes\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Box Notes",
         "weight": 10
     },
-    "/brownrecluse/": {
+    "/brownrecluse(?<browser_version>(pro )?v[\\d\\w.-]+)/i": {
         "browser_name": "BrownRecluse",
         "weight": 10
     },
-    "/browseremulator/": {
+    "/browseremulator\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "BrowserEmulator",
         "weight": 10
     },
-    "/catchpoint/": {
+    "/catchpoint/i": {
         "browser_name": "Catchpoint",
         "weight": 10
     },
-    "/claws mail gtkhtml2 plugin/": {
+    "/claws mail gtkhtml2 plugin/i": {
         "browser_name": "Claws Mail GtkHtml2 Plugin",
         "weight": 10
     },
-    "/cyberduck/": {
+    "/cyberduck\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Cyberduck",
         "weight": 10
     },
-    "/datadog agent/": {
+    "/datadog agent/i": {
         "browser_name": "Datadog Agent",
         "weight": 10
     },
-    "/dellwebmonitor/": {
+    "/dellwebmonitor\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Dell Web Monitor",
         "weight": 10
     },
-    "/domaincrawler/": {
+    "/(domain|url|cipa)crawler\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "DomainCrawler",
         "weight": 10
     },
-    "/downloadstudio/": {
+    "/downloadstudio\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "DownloadStudio",
         "weight": 10
     },
-    "/funambol mozilla sync client/": {
+    "/funambol mozilla sync client/i": {
         "browser_name": "Funambol Mozilla Sync Client",
         "weight": 10
     },
-    "/funambol outlook plug-in/": {
+    "/funambol outlook plug-in/i": {
         "browser_name": "Funambol Outlook Sync Client",
         "weight": 10
     },
-    "/gvfs/": {
+    "/gvfs\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "GnomeVFS",
         "weight": 10
     },
-    "/goldenpod/": {
+    "/goldenpod (?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "GoldenPod",
         "weight": 10
     },
-    "/appengine-google/": {
+    "/appengine-google/i": {
         "browser_name": "Google App Engine",
         "weight": 10
     },
-    "/docs.google.com\\/viewer/": {
+    "/docs.google.com\\/viewer/i": {
         "browser_name": "Google Docs Viewer",
         "weight": 10
     },
-    "/google earth/": {
+    "/google earth/i": {
         "browser_name": "Google Earth",
         "weight": 10
     },
-    "/googlefriendconnect/": {
+    "/googlefriendconnect\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Google Friend Connect",
         "weight": 10
     },
-    "/google-listen/": {
+    "/google-listen/i": {
         "browser_name": "Google Listen",
         "weight": 10
     },
-    "/googlebot-richsnippets/": {
+    "/googlebot-richsnippets/i": {
         "browser_name": "Google Rich Snippets Testing Tool",
         "weight": 10
     },
-    "/google wireless transcoder/": {
+    "/google wireless transcoder/i": {
         "browser_name": "Google Wireless Transcoder",
         "weight": 10
     },
-    "/gsitecrawler/": {
+    "/gsitecrawler\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "GSiteCrawler",
         "weight": 10
     },
-    "/havij/": {
+    "/havij\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Havij",
         "weight": 10
     },
-    "/holmes/": {
+    "/holmes\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Holmes",
         "weight": 10
     },
-    "/html2jpg/": {
+    "/html2jpg (?<browser_version>[\\w\\s]+)/i": {
         "browser_name": "HTML2JPG",
         "weight": 10
     },
-    "/nagios-plugins/": {
+    "/nagios-plugins/i": {
         "browser_name": "HTTP nagios plugin",
         "weight": 10
     },
-    "/igetter/": {
+    "/igetter\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "iGetter",
         "weight": 10
     },
-    "/ivideo/": {
+    "/ivideo\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "iVideo",
         "weight": 10
     },
-    "/jamcast/": {
+    "/jamcast\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Jamcast",
         "weight": 10
     },
-    "/js-kit/": {
+    "/js-kit/i": {
         "browser_name": "JS-Kit/Echo",
         "weight": 10
     },
-    "/leechcraft/": {
+    "/leechcraft\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "LeechCraft",
         "weight": 10
     },
-    "/lftp/": {
+    "/lftp\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "LFTP",
         "weight": 10
     },
-    "/tv store/": {
+    "/tv store/i": {
         "browser_name": "Vewd Store",
         "weight": 10
     },
-    "/smarttv/": {
+    "/smarttv\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "LG Web Browser Engine",
         "weight": 10
     },
-    "/linkbackplugin/": {
+    "/linkbackplugin\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "LinkbackPlugin for Laconica",
         "weight": 10
     },
-    "/linkstash/": {
+    "/linkstash\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "LinkStash",
         "weight": 10
     },
-    "/masscan/": {
+    "/masscan\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "MASSCAN",
         "weight": 10
     },
-    "/microsoft office existence discovery/": {
+    "/microsoft office existence discovery/i": {
         "browser_name": "Microsoft Office Existence Discovery",
         "weight": 10
     },
-    "/microsoft data access internet publishing provider dav/": {
+    "/microsoft data access internet publishing provider dav/i": {
         "browser_name": "Microsoft WebDAV Client",
         "weight": 10
     },
-    "/mucommander/": {
+    "/mucommander\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "muCommander",
         "weight": 10
     },
-    "/nagstamon/": {
+    "/nagstamon\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Nagstamon",
         "weight": 10
     },
-    "/nikto/": {
+    "/nikto\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Nikto",
         "weight": 10
     },
-    "/nokia syncml http client/": {
+    "/nokia syncml http client/i": {
         "browser_name": "Nokia SyncML Client",
         "weight": 10
     },
-    "/bordermanager/": {
+    "/bordermanager\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Novell BorderManager",
         "weight": 10
     },
-    "/overwolf(store|client)/": {
+    "/overwolf(store|client)/i": {
         "browser_name": "Overwolf Client",
         "weight": 10
     },
-    "/owncloud|mirall/": {
+    "/owncloud|mirall/i": {
         "browser_name": "ownCloud Sync Client",
         "weight": 10
     },
-    "/paparazzi!/": {
+    "/paparazzi!/i": {
         "browser_name": "Paparazzi!",
         "weight": 10
     },
-    "/perfectmail/": {
+    "/perfectmail\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "PerfectMail web probe",
         "weight": 10
     },
-    "/phantomjs/": {
+    "/phantomjs\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "PhantomJS",
         "weight": 10
     },
-    "/^php/": {
+    "/^php/i": {
         "browser_name": "PHP",
         "weight": 10
     },
-    "/podkicker/": {
+    "/podkicker\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Podkicker",
         "weight": 10
     },
-    "/powermarks/": {
+    "/powermarks\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Powermarks",
         "weight": 10
     },
-    "/windowspowershell/": {
+    "/windowspowershell\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "PowerShell",
         "weight": 10
     },
-    "/prism/": {
+    "/prism\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Prism",
         "weight": 10
     },
-    "/prtg network monitor/": {
+    "/prtg network monitor/i": {
         "browser_name": "PRTG Network Monitor",
         "weight": 10
     },
-    "/radio downloader/": {
+    "/radio downloader/i": {
         "browser_name": "Radio Downloader",
         "weight": 10
     },
-    "/rcm carddav plugin/": {
+    "/rcm carddav plugin/i": {
         "browser_name": "Roundcube CardDav Plugin",
         "weight": 10
     },
-    "/szn-(mobile|image)-(transcoder|resizer)/": {
+    "/szn-(mobile|image)-(transcoder|resizer)/i": {
         "browser_name": "Seznam WAP Proxy",
         "weight": 10
     },
-    "/smartbrowserplugin/": {
+    "/smartbrowserplugin\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "SmartBrowserPlugin for TC",
         "weight": 10
     },
-    "/spotify/": {
+    "/spotify\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Spotify App",
         "weight": 10
     },
-    "/sqlmap/": {
+    "/sqlmap\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "sqlmap",
         "weight": 10
     },
-    "/steam( http)? client/": {
+    "/steam( http)? client/i": {
         "browser_name": "Steam Client",
         "weight": 10
     },
-    "/com.alexvas.dvr.pro/": {
+    "/com.alexvas.dvr.pro/i": {
         "browser_name": "tinyCam Monitor",
         "weight": 10
     },
-    "/azureus/": {
+    "/azureus\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Vuze",
         "weight": 10
     },
-    "/webcollage/": {
+    "/webcollage\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "WebCollage",
         "weight": 10
     },
-    "/webfs/": {
+    "/webfs\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "webfs",
         "weight": 10
     },
-    "/wfuzz/": {
+    "/wfuzz\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Wfuzz",
         "weight": 10
     },
-    "/whatweb/": {
+    "/whatweb\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "WhatWeb",
         "weight": 10
     },
-    "/winpodder/": {
+    "/winpodder\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "WinPodder",
         "weight": 10
     },
-    "/wkhtmlto(pdf|image)/": {
+    "/wkhtmlto(pdf|image)/i": {
         "browser_name": "WkHTMLtoPDF",
         "weight": 10
     },
-    "/wordpress/": {
+    "/wordpress\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "WordPress Pingback",
         "weight": 10
     },
-    "/anonymouse.org/": {
+    "/anonymouse.org/i": {
         "browser_name": "Anonymouse.org",
         "weight": 10
     },
-    "/mr.4x3 powered/": {
+    "/mr.4x3 powered/i": {
         "browser_name": "Mr.4x3 Powered",
         "weight": 10
     },
-    "/applewebkit/": {
+    "/applewebkit\\/(?<browser_version>[\\d\\w.-]+)/i": {
         "browser_name": "Apple Mail",
         "weight": 8
     },
-    "/gecko\\/\\d+$/": {
+    "/gecko\\/\\d+$/i": {
         "browser_name": "Mozilla",
         "weight": 8
     },
-    "/htc_desire|nexus/": {
+    "/htc_desire|nexus/i": {
         "browser_name": "Android Browser",
         "weight": 9
     }
