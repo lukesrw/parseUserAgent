@@ -15,6 +15,7 @@ There are _many_ libraries and solutions for this problem, but I decided to re-i
 
 1. Operating System & Version parsing
 2. TypeScript and/or JavaScript implementation
+3. Explore cache (normal, session, or temp-file) solutions
 
 # PHP
 
