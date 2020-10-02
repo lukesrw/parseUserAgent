@@ -14,8 +14,7 @@ There are _many_ libraries and solutions for this problem, but I decided to re-i
 # Todo
 
 1. Operating System & Version parsing
-2. TypeScript and/or JavaScript implementation
-3. Explore cache (normal, session, or temp-file) solutions
+2. Explore cache (normal, session, or temp-file) solutions
 
 # PHP
 
@@ -44,4 +43,22 @@ Array
 
 # JavaScript
 
-_Coming Soon_
+```js
+let user_agent = request.headers["user-agent"];
+// Mozilla/5.0 (X11; Linux x86_64; rv:2.0b9pre) Gecko/20110111 Firefox/4.0b9pre
+
+console.table(
+    parseUserAgent(user_agent)
+);
+```
+
+The above code will output:
+
+```
+┌─────────────────┬────────────┐
+│     (index)     │   Values   │
+├─────────────────┼────────────┤
+│  browser_name   │ 'Firefox'  │
+│ browser_version │ '4.0b9pre' │
+└─────────────────┴────────────┘
+```
