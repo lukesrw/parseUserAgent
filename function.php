@@ -14,21 +14,17 @@ function parseUserAgent($user_agent = null)
         );
     }
 
+    $weight = 0;
     $result = array(
-        'w' => 0,
         'browser_name' => 'Unknown Browser',
         'browser_version' => 'Unknown Browser Version'
     );
 
     foreach ($regexes as $regex => $info) {
-        if (
-            preg_match($regex, $user_agent, $matches) &&
-            $info['w'] > $result['w']
-        ) {
-            $result = $info;
+        if (preg_match($regex, $user_agent, $matches) && $info['w'] > $weight) {
+            $weight = $info['w'];
 
-            $result['browser_name'] = $result['bn'];
-            unset($result['bn']);
+            $result['browser_name'] = $info['bn'];
 
             if (array_key_exists('bv', $matches) && $matches['bv']) {
                 $result['browser_version'] = $matches['bv'];
@@ -40,8 +36,6 @@ function parseUserAgent($user_agent = null)
 
     $result['browser_name'] = trim($result['browser_name']);
     $result['browser_version'] = trim($result['browser_version']);
-
-    unset($result['w']);
 
     return $result;
 }
