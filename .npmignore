@@ -7,3 +7,9 @@ tsconfig.*
 *.tgz
 .eslintrc.json
 *.php
+.eslintignore
+.prettierrc
+clean.js
+watch.js
+data/regex_raw.json
+data/user-agents.json

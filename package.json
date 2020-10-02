@@ -1,17 +1,39 @@
 {
-    "main": "./dist/src/index",
-    "scripts": {
-        "watch-end": "node clean",
-        "build": "npm run watch-end && tsc",
-        "watch-start": "npm run build",
-        "watch-after-start": "node dist/src/index",
-        "test": "npm run build && mocha dist/src/test --reporter min"
+    "author": "Luke Wilson <lukesrw@gmail.com>",
+    "bugs": {
+        "url": "https://github.com/lukesrw/parseUserAgent/issues"
     },
+    "dependencies": {},
+    "description": "parseUserAgent is a function that takes a user agent and returns the browser name and version (and soon the operating system and version).",
     "devDependencies": {
         "@types/chai": "^4.2.12",
         "@types/mocha": "^8.0.1",
         "@types/node": "^14.11.2",
         "chai": "^4.2.0",
         "mocha": "^8.1.3"
-    }
+    },
+    "homepage": "https://github.com/lukesrw/parseUserAgent#readme",
+    "keywords": [
+        "useragent",
+        "useragentparser",
+        "useragent-parser",
+        "user-agent",
+        "user-agent-parser",
+        "parseuseragent"
+    ],
+    "license": "GPL-3.0",
+    "main": "./dist/src/index",
+    "name": "parse-user-agent",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/lukesrw/parseUserAgent.git"
+    },
+    "scripts": {
+        "build": "npm run watch-end && tsc",
+        "test": "npm run build && mocha dist/src/test --reporter min",
+        "watch-after-start": "node dist/src/index",
+        "watch-end": "node clean",
+        "watch-start": "npm run build"
+    },
+    "version": "1.0.0"
 }
