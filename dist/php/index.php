@@ -9,7 +9,9 @@ function parseUserAgent($user_agent = null)
     static $regexes = false;
     if (! $regexes) {
         $regexes = json_decode(
-            file_get_contents('./data/regex.json'),
+            file_get_contents(
+                dirname(__DIR__, 2) . '/data/regex.json'
+            ),
             true
         );
     }
