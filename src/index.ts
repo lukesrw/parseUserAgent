@@ -23,12 +23,13 @@ export function parseUserAgent(user_agent: string): ParsedUAInterface {
 
             let matches = regex.exec(user_agent);
 
-            if (matches && matches.groups && regexes[pattern].w > weight) {
+            if (matches && regexes[pattern].w > weight) {
                 weight = regexes[pattern].w;
 
                 result.browser_name = regexes[pattern].bn;
 
                 if (
+                    matches.groups &&
                     Object.prototype.hasOwnProperty.call(
                         matches.groups,
                         "bv"
