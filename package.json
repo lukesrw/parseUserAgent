@@ -32,7 +32,7 @@
         "build": "npm run watch-end && tsc",
         "test": "npm run build && mocha dist/src/test --reporter min",
         "watch-after-start": "node dist/src/index",
-        "watch-end": "node clean",
+        "watch-end": "node clean && node data/compress",
         "watch-start": "npm run build"
     },
     "version": "1.0.0"
