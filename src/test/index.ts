@@ -18,7 +18,7 @@ import * as chai from "chai";
 /**
  * Self
  */
-import { parseUserAgent } from "..";
+import { parseUserAgent, UNKNOWN_OSN } from "..";
 
 for (let browser_name in user_agents) {
     if (Object.prototype.hasOwnProperty.call(user_agents, browser_name)) {
@@ -36,6 +36,12 @@ for (let browser_name in user_agents) {
                     it("Parsing Successful", () => {
                         chai.expect(result.browser_name.toLowerCase()).to.equal(
                             browser_name
+                        );
+                    });
+
+                    it("Parsing Known Operating System", () => {
+                        chai.expect(result.operating_system_name).to.not.equal(
+                            UNKNOWN_OSN
                         );
                     });
                 });
