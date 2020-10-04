@@ -18,7 +18,7 @@ import * as chai from "chai";
 /**
  * Self
  */
-import { parseUserAgent, UNKNOWN } from "..";
+import { parseUserAgent } from "..";
 
 for (let browser_name in user_agents) {
     if (Object.prototype.hasOwnProperty.call(user_agents, browser_name)) {
