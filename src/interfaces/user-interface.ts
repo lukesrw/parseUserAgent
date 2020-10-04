@@ -1,21 +1,15 @@
-export interface BrowserInterface {
-    bn: string;
-    bv?: string;
+export interface ResultInterface {
+    n: string;
+    v?: string;
     w: number;
 }
 
-export interface OperatingSystemInterface {
-    osn: string;
-    osv?: string;
-    w: number;
-}
-
-export interface BrowserParserInterface {
-    bn: {
-        [regex: string]: BrowserInterface;
+export interface UserAgentParserInterface {
+    browser: {
+        [regex: string]: ResultInterface;
     };
-    osn: {
-        [regex: string]: OperatingSystemInterface;
+    operating_system: {
+        [regex: string]: ResultInterface;
     };
 }
 
