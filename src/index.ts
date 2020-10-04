@@ -50,21 +50,10 @@ export function parse(
             if (matches && regexes[category][pattern].w > weight) {
                 weight = regexes[category][pattern].w;
 
-                result.name = regexes[category][pattern].n;
+                result.name = regexes[category][pattern].n.trim();
 
-                if (
-                    matches.groups &&
-                    Object.prototype.hasOwnProperty.call(matches.groups, "v") &&
-                    matches.groups.v
-                ) {
-                    result.version = matches.groups.v;
-                } else if (
-                    !Object.prototype.hasOwnProperty.call(
-                        result,
-                        `${category}_version`
-                    )
-                ) {
-                    result.version = UNKNOWN[category].version;
+                if (matches.groups && matches.groups.v) {
+                    result.version = matches.groups.v.trim();
                 }
             }
         }
