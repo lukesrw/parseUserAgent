@@ -1,55 +1,70 @@
 import {
-    BrowserParserInterface,
+    UserAgentParserInterface,
     ParsedBrowserInterface,
     ParsedOperatingSystemInterface,
     ParsedUAInterface
 } from "./interfaces/user-interface";
 
-const regexes: BrowserParserInterface = require("../../data/regex.json");
+const regexes: UserAgentParserInterface = require("../../data/regex.json");
 
-export const UNKNOWN_BN = "Unknown Browser";
-export const UNKNOWN_BV = "Unknown Browser Version";
+export const UNKNOWN: {
+    browser: {
+        name: string;
+        version: string;
+    };
+    operating_system: {
+        name: string;
+        version: string;
+    };
+} = {
+    browser: {
+        name: "Unknown Browser",
+        version: ""
+    },
+    operating_system: {
+        name: "Unknown Operating System",
+        version: ""
+    }
+};
+UNKNOWN.browser.version = `${UNKNOWN.browser.name} Version`;
+UNKNOWN.operating_system.version = `${UNKNOWN.operating_system.name} Version`;
 
-export const UNKNOWN_OSN = "Unknown Operating System";
-export const UNKNOWN_OSV = "Unknown Operating System Version";
-
-export function parseBrowser(user_agent: string): ParsedBrowserInterface {
+export function parse(
+    category: keyof UserAgentParserInterface,
+    user_agent: string
+) {
     let weight: number = 0;
-    let result: ParsedBrowserInterface = {
-        browser_name: UNKNOWN_BN,
-        browser_version: UNKNOWN_BV
+    let result = {
+        name: UNKNOWN[category].name,
+        version: UNKNOWN[category].version
     };
 
-    for (let pattern in regexes.bn) {
-        if (Object.prototype.hasOwnProperty.call(regexes, pattern)) {
+    for (let pattern in regexes[category]) {
+        if (Object.prototype.hasOwnProperty.call(regexes[category], pattern)) {
             let regex: RegExp = new RegExp(
                 pattern.substr(1, pattern.lastIndexOf("/") - 1),
                 `${pattern.substr(pattern.lastIndexOf("/") + 1)}u`
             );
 
             let matches = regex.exec(user_agent);
+            if (matches && regexes[category][pattern].w > weight) {
+                weight = regexes[category][pattern].w;
 
-            if (matches && regexes.bn[pattern].w > weight) {
-                weight = regexes.bn[pattern].w;
-
-                result.browser_name = regexes.bn[pattern].bn;
+                result.name = regexes[category][pattern].n;
 
                 if (
                     matches.groups &&
-                    Object.prototype.hasOwnProperty.call(
-                        matches.groups,
-                        "bv"
-                    ) &&
-                    matches.groups.bv
+                    Object.prototype.hasOwnProperty.call(matches.groups, "v") &&
+                    matches.groups.v
                 ) {
-                    result.browser_version = matches.groups.bv;
+                    result.version = matches.groups.v;
                 } else if (
                     !Object.prototype.hasOwnProperty.call(
                         result,
-                        "browser_version"
+                        `${category}_version`
                     )
                 ) {
-                    result.browser_version = UNKNOWN_BV;
+                    result.version = UNKNOWN[category].version;
                 }
             }
         }
@@ -58,51 +73,24 @@ export function parseBrowser(user_agent: string): ParsedBrowserInterface {
     return result;
 }
 
+export function parseBrowser(user_agent: string): ParsedBrowserInterface {
+    let result = parse("browser", user_agent);
+
+    return {
+        browser_name: result.name,
+        browser_version: result.version
+    };
+}
+
 export function parseOperatingSystem(
     user_agent: string
 ): ParsedOperatingSystemInterface {
-    let weight = 0;
-    let result: ParsedOperatingSystemInterface = {
-        operating_system_name: UNKNOWN_OSN,
-        operating_system_version: UNKNOWN_OSV
+    let result = parse("operating_system", user_agent);
+
+    return {
+        operating_system_name: result.name,
+        operating_system_version: result.version
     };
-
-    for (let pattern in regexes.osn) {
-        if (Object.prototype.hasOwnProperty.call(regexes, pattern)) {
-            let regex: RegExp = new RegExp(
-                pattern.substr(1, pattern.lastIndexOf("/") - 1),
-                `${pattern.substr(pattern.lastIndexOf("/") + 1)}u`
-            );
-
-            let matches = regex.exec(user_agent);
-
-            if (matches && regexes.osn[pattern].w > weight) {
-                weight = regexes.osn[pattern].w;
-
-                result.operating_system_name = regexes.osn[pattern].osn;
-
-                if (
-                    matches.groups &&
-                    Object.prototype.hasOwnProperty.call(
-                        matches.groups,
-                        "osv"
-                    ) &&
-                    matches.groups.osv
-                ) {
-                    result.operating_system_version = matches.groups.osv;
-                } else if (
-                    !Object.prototype.hasOwnProperty.call(
-                        result,
-                        "browser_version"
-                    )
-                ) {
-                    result.operating_system_version = UNKNOWN_OSV;
-                }
-            }
-        }
-    }
-
-    return result;
 }
 
 export function parseUserAgent(user_agent: string): ParsedUAInterface {
