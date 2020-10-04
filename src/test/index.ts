@@ -38,12 +38,6 @@ for (let browser_name in user_agents) {
                             browser_name
                         );
                     });
-
-                    it("Parsing Known Operating System", () => {
-                        chai.expect(result.operating_system_name).to.not.equal(
-                            UNKNOWN.operating_system.name
-                        );
-                    });
                 });
             });
         });
