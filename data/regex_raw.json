@@ -2431,21 +2431,65 @@
         }
     },
     "operating_system": {
-        "/ios/i": {
+        "/iphone|ios|ip(a|o)d/i": {
             "n": "iOS",
             "w": 10
         },
-        "/os\\sx/i": {
-            "n": "OS X",
+        "/mac(intosh)?/i": {
+            "n": "Mac OS",
             "w": 10
         },
-        "/android/i": {
+        "/darwin/i": {
+            "n": "Darwin",
+            "w": 9
+        },
+        "/andr(o|0)id/i": {
             "n": "Android",
             "w": 10
         },
-        "/windows/i": {
+        "/windows|winnt/i": {
             "n": "Windows",
             "w": 10
+        },
+        "/linux/i": {
+            "n": "Android",
+            "w": 9
+        },
+        "/freebsd/i": {
+            "n": "FreeBSD",
+            "w": 10
+        },
+        "/cros/i": {
+            "n": "Chrome OS",
+            "w": 10
+        },
+        "/openbsd/i": {
+            "n": "OpenBSD",
+            "w": 10
+        },
+        "/sunos/i": {
+            "n": "Solaris",
+            "w": 10
+        },
+        "/b(lack)b(erry)/i": {
+            "n": "BlackBerry OS",
+            "w": 9
+        },
+        "/ubuntu/i": {
+            "n": "Ubuntu",
+            "w": 10
+        },
+        "/amigaos/i": {
+            "n": "AmigaOS",
+            "w": 10
+        },
+        "/centos/i": {
+            "n": "CentOS",
+            "w": 10
+        },
+        "/playstation portable\\);/i": {
+            "n": "PlayStation Portable System Software",
+            "w": 9
         }
     }
 }
