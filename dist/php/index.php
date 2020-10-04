@@ -18,6 +18,8 @@ $UNKNOWN['operating_system']['version'] = $UNKNOWN['operating_system']['name'] .
  */
 function parse($category = null, $user_agent = null)
 {
+    global $UNKNOWN;
+
     static $regexes = false;
     if (! $regexes) {
         $regexes = json_decode(
@@ -34,7 +36,7 @@ function parse($category = null, $user_agent = null)
         'version' => $UNKNOWN[$category]['version']
     );
 
-    foreach ($regexes as $regex => $info) {
+    foreach ($regexes[$category] as $regex => $info) {
         if (preg_match($regex, $user_agent, $matches) && $info['w'] > $weight) {
             $weight = $info['w'];
 
