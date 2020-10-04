@@ -2452,7 +2452,7 @@
             "w": 10
         },
         "/linux/i": {
-            "n": "Android",
+            "n": "Linux",
             "w": 9
         },
         "/freebsd/i": {
