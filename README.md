@@ -1,6 +1,6 @@
 # Description
 
-parseUserAgent is a function that takes a user agent and returns the browser name and version (and soon the operating system and version).
+parseUserAgent is a function that takes a user agent and returns the name and version of the corresponding browser & operating system.
 
 ## The Wheel
 
