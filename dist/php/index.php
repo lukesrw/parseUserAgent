@@ -83,6 +83,25 @@ function parseOperatingSystem($user_agent = null)
     );
 }
 
+function parseIsMobile($user_agent = null)
+{
+    $browser = parseBrowser($user_agent);
+    $os = parseOperatingSystem($user_agent);
+
+    return (
+        in_array($os['operating_system_name'], array(
+            'Android',
+            'iOS',
+            'BlackBerry OS',
+            'PlayStation Portable System Software'
+        )) ||
+        in_array($browser['browser_name'], array(
+            'Nokia Web Browser'
+        )) ||
+        preg_match('/(^|\s|\(|ie)mobile(safari)?/iu', $user_agent)
+    );
+}
+
 /**
  * @param string $user_agent to parse
  *
@@ -92,6 +111,9 @@ function parseUserAgent($user_agent = null)
 {
     return array_merge(
         parseBrowser($user_agent),
-        parseOperatingSystem($user_agent)
+        parseOperatingSystem($user_agent),
+        array(
+            'is_mobile' => parseIsMobile($user_agent)
+        )
     );
 }

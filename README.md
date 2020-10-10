@@ -40,6 +40,7 @@ Array
     [browser_version] => 5.3.1
     [operating_system_name] => iOS
     [operating_system_version] => 11_0_3
+    [is_mobile] => 1
 )
 ```
 
@@ -62,5 +63,6 @@ The above code will output:
 │     browser_version      │    '5.3.1'    │
 │  operating_system_name   │     'iOS'     │
 │ operating_system_version │   '11_0_3'    │
+│        is_mobile         │     true      │
 └──────────────────────────┴───────────────┘
 ```
