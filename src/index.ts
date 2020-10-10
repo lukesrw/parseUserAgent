@@ -7,6 +7,14 @@ import {
 
 const regexes: UserAgentParserInterface = require("../../data/regex.json");
 
+export const MOBILE_BROWSER = ["Nokia Web Browser"];
+export const MOBILE_OPERATING_SYSTEMS = [
+    "Android",
+    "iOS",
+    "BlackBerry OS",
+    "PlayStation Portable System Software"
+];
+
 export const UNKNOWN: {
     browser: {
         name: string;
@@ -89,9 +97,23 @@ export function parseOperatingSystem(
     };
 }
 
+export function parseIsMobile(user_agent: string): boolean {
+    let browser = parseBrowser(user_agent);
+    let os = parseOperatingSystem(user_agent);
+
+    return (
+        MOBILE_OPERATING_SYSTEMS.includes(os.operating_system_name) ||
+        MOBILE_BROWSER.includes(browser.browser_name) ||
+        /(^|\s|\(|ie)mobile(safari)?/iu.test(user_agent)
+    );
+}
+
 export function parseUserAgent(user_agent: string): ParsedUAInterface {
     return Object.assign(
         parseBrowser(user_agent),
-        parseOperatingSystem(user_agent)
+        parseOperatingSystem(user_agent),
+        {
+            is_mobile: parseIsMobile(user_agent)
+        }
     );
 }
