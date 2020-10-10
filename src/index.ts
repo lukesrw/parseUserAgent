@@ -54,6 +54,13 @@ export function parse(
 
                 if (matches.groups && matches.groups.v) {
                     result.version = matches.groups.v.trim();
+                } else if (
+                    Object.prototype.hasOwnProperty.call(
+                        regexes[category][pattern],
+                        "v"
+                    )
+                ) {
+                    result.version = regexes[category][pattern].v || "";
                 }
             }
         }

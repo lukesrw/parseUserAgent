@@ -44,6 +44,8 @@ function parse($category = null, $user_agent = null)
 
             if (array_key_exists('v', $matches) && $matches['v']) {
                 $result['version'] = trim($matches['v']);
+            } elseif (array_key_exists('v', $info)) {
+                $result['version'] = $info['v'];
             }
         }
     }
