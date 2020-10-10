@@ -5,7 +5,10 @@ import {
     ParsedUAInterface
 } from "./interfaces/user-interface";
 
+import * as Generic from "./interfaces/generic";
+
 const regexes: UserAgentParserInterface = require("../../data/regex.json");
+const cache: Generic.Object = {};
 
 export const MOBILE_BROWSER = ["Nokia Web Browser"];
 export const MOBILE_OPERATING_SYSTEMS = [
@@ -37,10 +40,26 @@ export const UNKNOWN: {
 UNKNOWN.browser.version = `${UNKNOWN.browser.name} Version`;
 UNKNOWN.operating_system.version = `${UNKNOWN.operating_system.name} Version`;
 
+function getCache(name: string, user_agent: string, result?: any) {
+    if (!Object.prototype.hasOwnProperty.call(cache, name)) {
+        cache[name] = {};
+    }
+    if (result) {
+        cache[name][user_agent] = result;
+
+        return cache[name][user_agent];
+    }
+
+    return cache[name][user_agent] || false;
+}
+
 export function parse(
     category: keyof UserAgentParserInterface,
     user_agent: string
 ) {
+    let cache = getCache(`parse__${category}`, user_agent);
+    if (cache) return cache;
+
     let weight: number = 0;
     let result = {
         name: UNKNOWN[category].name,
@@ -74,7 +93,7 @@ export function parse(
         }
     }
 
-    return result;
+    return getCache(`parse__${category}`, user_agent, result);
 }
 
 export function parseBrowser(user_agent: string): ParsedBrowserInterface {
@@ -98,13 +117,18 @@ export function parseOperatingSystem(
 }
 
 export function parseIsMobile(user_agent: string): boolean {
+    let cache = getCache("parseIsMobile", user_agent);
+    if (cache) return cache;
+
     let browser = parseBrowser(user_agent);
     let os = parseOperatingSystem(user_agent);
 
-    return (
+    return getCache(
+        "parseIsMobile",
+        user_agent,
         MOBILE_OPERATING_SYSTEMS.includes(os.operating_system_name) ||
-        MOBILE_BROWSER.includes(browser.browser_name) ||
-        /(^|\s|\(|ie)mobile(safari)?/iu.test(user_agent)
+            MOBILE_BROWSER.includes(browser.browser_name) ||
+            /(^|\s|\(|ie)mobile(safari)?/iu.test(user_agent)
     );
 }
 
