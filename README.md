@@ -24,7 +24,7 @@ There are _many_ libraries and solutions for this problem, but I decided to re-i
 <?php
 
 $user_agent = $_SERVER['HTTP_USER_AGENT'];
-// Mozilla/5.0 (X11; Linux x86_64; rv:2.0b9pre) Gecko/20110111 Firefox/4.0b9pre
+// Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A432 EgenciaM3iPhoneApp/5.3.1
 
 print_r(
     parseUserAgent($user_agent)
@@ -36,8 +36,10 @@ The above code will output:
 ```
 Array
 (
-    [browser_name] => Firefox
-    [browser_version] => 4.0b9pre
+    [browser_name] => Egencia App
+    [browser_version] => 5.3.1
+    [operating_system_name] => iOS
+    [operating_system_version] => 11_0_3
 )
 ```
 
@@ -45,7 +47,7 @@ Array
 
 ```js
 let user_agent = request.headers["user-agent"];
-// Mozilla/5.0 (X11; Linux x86_64; rv:2.0b9pre) Gecko/20110111 Firefox/4.0b9pre
+// Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A432 EgenciaM3iPhoneApp/5.3.1
 
 console.table(parseUserAgent(user_agent));
 ```
@@ -53,10 +55,12 @@ console.table(parseUserAgent(user_agent));
 The above code will output:
 
 ```
-┌─────────────────┬────────────┐
-│     (index)     │   Values   │
-├─────────────────┼────────────┤
-│  browser_name   │ 'Firefox'  │
-│ browser_version │ '4.0b9pre' │
-└─────────────────┴────────────┘
+┌──────────────────────────┬───────────────┐
+│         (index)          │    Values     │
+├──────────────────────────┼───────────────┤
+│       browser_name       │ 'Egencia App' │
+│     browser_version      │    '5.3.1'    │
+│  operating_system_name   │     'iOS'     │
+│ operating_system_version │   '11_0_3'    │
+└──────────────────────────┴───────────────┘
 ```
