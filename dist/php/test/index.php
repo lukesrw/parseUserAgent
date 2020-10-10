@@ -1,8 +1,8 @@
 <?php
-require_once '../index.php';
+require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'index.php';
 
 $user_agents = json_decode(
-    file_get_contents('../../../data/user-agents.json'),
+    file_get_contents(dirname(__DIR__, 3) . DIRECTORY_SEPARATOR . 'data' . DIRECTORY_SEPARATOR . 'user-agents.json'),
     true
 );
 

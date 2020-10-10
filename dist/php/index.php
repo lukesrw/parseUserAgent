@@ -1,11 +1,25 @@
 <?php
+$UNKNOWN = array(
+    'browser' => array(
+        'name' => 'Unknown Browser'
+    ),
+    'operating_system' => array(
+        'name' => 'Unknown Operating System'
+    )
+);
+$UNKNOWN['browser']['version'] = $UNKNOWN['browser']['name'] . ' Version';
+$UNKNOWN['operating_system']['version'] = $UNKNOWN['operating_system']['name'] . ' Version';
+
 /**
+ * @param string $category 'browser' or 'operating_system'
  * @param string $user_agent to parse
  *
  * @return array Match data
  */
-function parseUserAgent($user_agent = null)
+function parse($category = null, $user_agent = null)
 {
+    global $UNKNOWN;
+
     static $regexes = false;
     if (! $regexes) {
         $regexes = json_decode(
@@ -18,26 +32,66 @@ function parseUserAgent($user_agent = null)
 
     $weight = 0;
     $result = array(
-        'browser_name' => 'Unknown Browser',
-        'browser_version' => 'Unknown Browser Version'
+        'name' => $UNKNOWN[$category]['name'],
+        'version' => $UNKNOWN[$category]['version']
     );
 
-    foreach ($regexes as $regex => $info) {
+    foreach ($regexes[$category] as $regex => $info) {
         if (preg_match($regex, $user_agent, $matches) && $info['w'] > $weight) {
             $weight = $info['w'];
 
-            $result['browser_name'] = $info['bn'];
+            $result['name'] = trim($info['n']);
 
-            if (array_key_exists('bv', $matches) && $matches['bv']) {
-                $result['browser_version'] = $matches['bv'];
-            } elseif (! array_key_exists('browser_version', $result)) {
-                $result['browser_version'] = 'Unknown Browser Version';
+            if (array_key_exists('v', $matches) && $matches['v']) {
+                $result['version'] = trim($matches['v']);
+            } elseif (array_key_exists('v', $info)) {
+                $result['version'] = $info['v'];
             }
         }
     }
 
-    $result['browser_name'] = trim($result['browser_name']);
-    $result['browser_version'] = trim($result['browser_version']);
-
     return $result;
+}
+
+/**
+ * @param string $user_agent to parse
+ *
+ * @return array Match data
+ */
+function parseBrowser($user_agent = null)
+{
+    $result = parse('browser', $user_agent);
+
+    return array(
+        'browser_name' => $result['name'],
+        'browser_version' => $result['version']
+    );
+}
+
+/**
+ * @param string $user_agent to parse
+ *
+ * @return array Match data
+ */
+function parseOperatingSystem($user_agent = null)
+{
+    $result = parse('operating_system', $user_agent);
+
+    return array(
+        'operating_system_name' => $result['name'],
+        'operating_system_version' => $result['version']
+    );
+}
+
+/**
+ * @param string $user_agent to parse
+ *
+ * @return array Match data
+ */
+function parseUserAgent($user_agent = null)
+{
+    return array_merge(
+        parseBrowser($user_agent),
+        parseOperatingSystem($user_agent)
+    );
 }
