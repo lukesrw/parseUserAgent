@@ -2486,7 +2486,11 @@
         },
         "/playstation portable\\); (?<v>[\\w\\d.-]+)/i": {
             "n": "PlayStation Portable System Software",
-            "w": 9
+            "w": 10
+        },
+        "/palm\\s?os( (?<v>[\\w\\d.-]+))?/i": {
+            "n": "Palm OS",
+            "w": 10
         }
     }
 }
