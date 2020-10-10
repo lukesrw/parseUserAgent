@@ -25,4 +25,6 @@ export interface ParsedOperatingSystemInterface {
 
 export interface ParsedUAInterface
     extends ParsedBrowserInterface,
-        ParsedOperatingSystemInterface {}
+        ParsedOperatingSystemInterface {
+    is_mobile: boolean;
+}
