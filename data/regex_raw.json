@@ -2431,55 +2431,52 @@
         }
     },
     "operating_system": {
-        "/iphone|ios|ip(a|o)d/i": {
+        "/(\\bi|iphone |cpu )os((\\s|_|\\/)(?<v>[\\d\\w.-]+))?/i": {
             "n": "iOS",
             "w": 10
         },
-        "/mac(intosh)?/i": {
+        "/mac(\\s|_)?os(\\s|_)(?<v>[\\s\\w\\d.-]+)/i": {
             "n": "Mac OS",
             "w": 10
         },
-        "/darwin/i": {
+        "/darwin(\\s|\\/)(?<v>[\\w\\d.-]+)/i": {
             "n": "Darwin",
             "w": 9
         },
-        "/andr(o|0)id/i": {
+        "/andr(o|0)id\\W((-|\\/)?(?<v>\\d[\\w\\\\d.-]+))?/i": {
             "n": "Android",
             "w": 10
         },
-        "/windows|winnt/i": {
+        "/(; |\\()(windows |winnt)(nt)?\\s?(?<v>[\\s\\d\\w.-]+)(;|\\))/i": {
             "n": "Windows",
             "w": 10
         },
         "/linux/i": {
             "n": "Linux",
+            "v": "",
             "w": 9
         },
-        "/freebsd/i": {
+        "/freebsd\\s?(?<v>[\\w\\d.-]+)/i": {
             "n": "FreeBSD",
             "w": 10
         },
-        "/cros/i": {
-            "n": "Chrome OS",
-            "w": 10
-        },
-        "/openbsd/i": {
+        "/openbsd( (?<v>[\\d\\w.-]+))?/i": {
             "n": "OpenBSD",
             "w": 10
         },
-        "/sunos/i": {
+        "/sunos(\\s(?<v>[\\d\\w.-]+))?/i": {
             "n": "Solaris",
             "w": 10
         },
-        "/b(lack)b(erry)/i": {
+        "/blackberry(; \\d+\\/)?(?<v>[\\d\\w.-]+)?/i": {
             "n": "BlackBerry OS",
             "w": 9
         },
-        "/ubuntu/i": {
+        "/ubuntu(?<v>[\\w\\d.-]+)?/i": {
             "n": "Ubuntu",
             "w": 10
         },
-        "/amigaos/i": {
+        "/amigaos(\\/|\\s)?(?<v>[\\w\\d.-]+)/i": {
             "n": "AmigaOS",
             "w": 10
         },
@@ -2487,7 +2484,7 @@
             "n": "CentOS",
             "w": 10
         },
-        "/playstation portable\\);/i": {
+        "/playstation portable\\); (?<v>[\\w\\d.-]+)/i": {
             "n": "PlayStation Portable System Software",
             "w": 9
         }
