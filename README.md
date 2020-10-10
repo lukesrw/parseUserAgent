@@ -11,11 +11,6 @@ There are _many_ libraries and solutions for this problem, but I decided to re-i
 3. Reliable, I've tested lots of libraries, many have incorrect results
 4. Specific, I don't just want the main 6~ and then "Other"
 
-# Todo
-
-1. Operating System & Version parsing
-2. Explore cache (normal, session, or temp-file) solutions
-
 # Usage
 
 ## PHP
