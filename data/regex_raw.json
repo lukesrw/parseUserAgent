@@ -486,7 +486,7 @@
             "v": "",
             "w": 10
         },
-        "/(edg(ios|a)|edge)\\/(?<v>[\\d\\w.-]+)/i": {
+        "/(edg(ios|a)?|edge)\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "Microsoft Edge",
             "w": 10
         },
