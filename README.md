@@ -19,7 +19,7 @@ There are _many_ libraries and solutions for this problem, but I decided to re-i
 <?php
 
 $user_agent = $_SERVER['HTTP_USER_AGENT'];
-// Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A432 EgenciaM3iPhoneApp/5.3.1
+// Mozilla/5.0 (Linux; Android 10; BLA-L09) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Mobile Safari/537.36 (Ecosia android@78.0.3904.96)
 
 print_r(
     parseUserAgent($user_agent)
@@ -31,10 +31,10 @@ The above code will output:
 ```
 Array
 (
-    [browser_name] => Egencia App
-    [browser_version] => 5.3.1
-    [operating_system_name] => iOS
-    [operating_system_version] => 11_0_3
+    [browser_name] => Ecosia Browser
+    [browser_version] => android@78.0.3904.96
+    [operating_system_name] => Android
+    [operating_system_version] => 10
     [is_mobile] => 1
 )
 ```
@@ -43,7 +43,7 @@ Array
 
 ```js
 let user_agent = request.headers["user-agent"];
-// Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A432 EgenciaM3iPhoneApp/5.3.1
+// Mozilla/5.0 (Linux; Android 10; BLA-L09) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Mobile Safari/537.36 (Ecosia android@78.0.3904.96)
 
 console.table(parseUserAgent(user_agent));
 ```
@@ -51,13 +51,13 @@ console.table(parseUserAgent(user_agent));
 The above code will output:
 
 ```
-┌──────────────────────────┬───────────────┐
-│         (index)          │    Values     │
-├──────────────────────────┼───────────────┤
-│       browser_name       │ 'Egencia App' │
-│     browser_version      │    '5.3.1'    │
-│  operating_system_name   │     'iOS'     │
-│ operating_system_version │   '11_0_3'    │
-│        is_mobile         │     true      │
-└──────────────────────────┴───────────────┘
+┌──────────────────────────┬────────────────────────┐
+│         (index)          │         Values         │
+├──────────────────────────┼────────────────────────┤
+│       browser_name       │    'Ecosia Browser'    │
+│     browser_version      │ 'android@78.0.3904.96' │
+│  operating_system_name   │       'Android'        │
+│ operating_system_version │          '10'          │
+│        is_mobile         │          true          │
+└──────────────────────────┴────────────────────────┘
 ```
