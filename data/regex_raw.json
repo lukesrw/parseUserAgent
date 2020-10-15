@@ -1077,7 +1077,7 @@
             "n": "Dolphin",
             "w": 10
         },
-        "/ddg-\\w+-(?<v>[\\d\\w.-]+)/i": {
+        "/(ddg-\\w+-|duckduckgo\\/)(?<v>[\\d\\w.-]+)/i": {
             "n": "DuckDuckGo",
             "w": 10
         },
