@@ -2428,6 +2428,10 @@
         "/^\\[fban\\//i": {
             "n": "Facebook App",
             "w": 10
+        },
+        "/huaweibrowser\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Huawei Browser",
+            "w": 10
         }
     },
     "operating_system": {
