@@ -1081,7 +1081,7 @@
             "n": "DuckDuckGo",
             "w": 10
         },
-        "/ecosia(\\/(?<v>[\\d\\w.-]+))?/i": {
+        "/ecosia( (?<v>\\w+@[\\d\\w.-]+))?/i": {
             "n": "Ecosia Browser",
             "v": "",
             "w": 10
