@@ -2432,6 +2432,10 @@
         "/huaweibrowser\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "Huawei Browser",
             "w": 10
+        },
+        "/mint browser\\/(?<v>[\\w\\d.-]+)/i": {
+            "n": "Mint Browser",
+            "w": 10
         }
     },
     "operating_system": {
