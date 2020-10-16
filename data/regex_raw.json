@@ -2436,6 +2436,11 @@
         "/mint browser\\/(?<v>[\\w\\d.-]+)/i": {
             "n": "Mint Browser",
             "w": 10
+        },
+        "/cake\\)/i": {
+            "n": "Cake Browser",
+            "v": "",
+            "w": 9
         }
     },
     "operating_system": {
