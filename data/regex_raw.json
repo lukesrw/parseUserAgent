@@ -2441,6 +2441,10 @@
             "n": "Cake Browser",
             "v": "",
             "w": 9
+        },
+        "/smooz\\/(?<v>[\\d\\w.-\\/]+)/i": {
+            "n": "Smooz Browser",
+            "w": "10"
         }
     },
     "operating_system": {
