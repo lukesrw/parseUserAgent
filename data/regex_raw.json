@@ -2444,7 +2444,11 @@
         },
         "/smooz\\/(?<v>[\\d\\w.-\\/]+)/i": {
             "n": "Smooz Browser",
-            "w": "10"
+            "w": 10
+        },
+        "/ghostery:(?<v>[\\d\\w.-]+)/i": {
+            "n": "Ghostery",
+            "w": 10
         }
     },
     "operating_system": {
