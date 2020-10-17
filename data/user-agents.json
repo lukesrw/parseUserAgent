@@ -2183,7 +2183,9 @@
     },
     "Ghostery": {
         "name": "Ghostery",
-        "list": []
+        "list": [
+            "Mozilla/5.0 (Android 10; Mobile; rv:78.0; Ghostery:3.0) Gecko/78.0 Firefox/78.0"
+        ]
     },
     "GO Browser": {
         "name": "GO Browser",
@@ -4464,6 +4466,18 @@
         "name": "Cake Browser",
         "list": [
             "Mozilla/5.0 (Linux; Android 10; BLA-L09 Build/HUAWEIBLA-L09S; Cake) AppleWebKit/537.36 (KHTML, like Gecko) Version/6.0.24 Chrome/86.0.4240.99 Mobile Safari/537.36"
+        ]
+    },
+    "Stargone": {
+        "name": "Stargone",
+        "list": [
+            "Mozilla/5.0 (Linux; Android 10; BLA-L09 Build/HUAWEIBLA-L09S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Stargon/3.0.3 Chrome/86.0.4240.99 Mobile Safari/537.36"
+        ]
+    },
+    "Soul": {
+        "name": "Soul",
+        "list": [
+            "Mozilla/5.0 (Linux; Android 10; BLA-L09 Build/HUAWEIBLA-L09S) AppleWebKit/537.36 (KHTML, like Gecko) Soul/4.0 Chrome/86.0.4240.99 Mobile Safari/537.36"
         ]
     }
 }
