@@ -2449,6 +2449,10 @@
         "/ghostery:(?<v>[\\d\\w.-]+)/i": {
             "n": "Ghostery",
             "w": 10
+        },
+        "/soul\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Soul",
+            "w": 10
         }
     },
     "operating_system": {
