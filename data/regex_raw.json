@@ -2453,6 +2453,10 @@
         "/soul\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "Soul",
             "w": 10
+        },
+        "/stargon\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Stargon",
+            "w": 10
         }
     },
     "operating_system": {
