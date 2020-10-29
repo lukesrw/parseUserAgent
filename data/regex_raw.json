@@ -2457,6 +2457,15 @@
         "/stargon\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "Stargon",
             "w": 10
+        },
+        "/zapier/i": {
+            "n": "Zapier",
+            "v": "",
+            "w": 8
+        },
+        "/node-fetch\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "node-fetch",
+            "w": 10
         }
     },
     "operating_system": {
@@ -2468,17 +2477,17 @@
             "n": "Mac OS",
             "w": 10
         },
-        "/macintosh/i": {
+        "/macintosh|mac_powerpc/i": {
             "n": "Mac OS",
             "v": "",
             "w": 8
         },
-        "/win98/i": {
+        "/win(dows )?98/i": {
             "n": "Windows",
             "v": 4.1,
             "w": 9
         },
-        "/win95/i": {
+        "/win(dows )?95/i": {
             "n": "Windows",
             "v": 4,
             "w": 9
@@ -2494,6 +2503,15 @@
         "/(; |\\()(windows |winnt)(nt)?\\s?(?<v>[\\s\\d\\w.-]+)(;|\\))/i": {
             "n": "Windows",
             "w": 10
+        },
+        "/^windows nt\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Windows",
+            "w": 8
+        },
+        "/windows xp/i": {
+            "n": "Windows",
+            "v": 5.1,
+            "w": 8
         },
         "/linux/i": {
             "n": "Linux",
