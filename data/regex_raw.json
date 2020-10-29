@@ -706,7 +706,7 @@
             "n": "SkipStone",
             "w": 10
         },
-        "/slack|com.tinyspeck.chatlyio(_ssb|.share)?\\/(?<v>[\\d\\w.-]+)/i": {
+        "/(slack|com.tinyspeck.chatlyio)(_ssb|.share)?\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "Slack App",
             "w": 10
         },
