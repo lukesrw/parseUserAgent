@@ -706,7 +706,7 @@
             "n": "SkipStone",
             "w": 10
         },
-        "/slack(_ssb)?\\/(?<v>[\\d\\w.-]+)/i": {
+        "/slack|com.tinyspeck.chatlyio(_ssb|.share)?\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "Slack App",
             "w": 10
         },
@@ -2468,6 +2468,21 @@
             "n": "Mac OS",
             "w": 10
         },
+        "/macintosh/i": {
+            "n": "Mac OS",
+            "v": "",
+            "w": 8
+        },
+        "/win98/i": {
+            "n": "Windows",
+            "v": 4.1,
+            "w": 9
+        },
+        "/win95/i": {
+            "n": "Windows",
+            "v": 4,
+            "w": 9
+        },
         "/darwin(\\s|\\/)(?<v>[\\w\\d.-]+)/i": {
             "n": "Darwin",
             "w": 9
@@ -2520,6 +2535,31 @@
         "/palm\\s?os( (?<v>[\\w\\d.-]+))?/i": {
             "n": "Palm OS",
             "w": 10
+        },
+        "/nintendo wiiu(\\/(?<v>[\\d\\w.-]+))?/i": {
+            "n": "Wii U",
+            "v": "",
+            "w": 10
+        },
+        "/nintendo 3ds/i": {
+            "n": "Nintendo 3DS",
+            "v": "",
+            "w": 10
+        },
+        "/morphos\\s?(?<v>[\\d\\w.-]+)/i": {
+            "n": "MorphOS",
+            "v": "",
+            "w": 10
+        },
+        "/risc os(-nc)? (?<v>[\\d\\w.-]+)/i": {
+            "n": "RISC OS",
+            "v": "",
+            "w": 10
+        },
+        "/nintendo ds/": {
+            "n": "Nintendo DS",
+            "v": "",
+            "w": 9
         }
     }
 }
