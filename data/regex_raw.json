@@ -2556,10 +2556,14 @@
             "v": "",
             "w": 10
         },
-        "/nintendo ds/": {
+        "/nintendo ds/i": {
             "n": "Nintendo DS",
             "v": "",
             "w": 9
+        },
+        "/CrOS( x86_64 )?(?<v>[\\d\\w.-]+)/": {
+            "n": "Chrome OS",
+            "w": 7
         }
     }
 }
