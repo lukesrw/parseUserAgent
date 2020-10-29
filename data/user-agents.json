@@ -312,7 +312,8 @@
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.38 Safari/537.36",
             "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36",
             "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36",
-            "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36"
+            "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36",
+            "Mozilla/5.0 (X11; CrOS x86_64 13421.73.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.112 Safari/537.36"
         ]
     },
     "Chrome Headless": {
@@ -1455,7 +1456,9 @@
     "Slack App": {
         "name": "Slack App",
         "list": [
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) AtomShell/2.3.1 Chrome/52.0.2743.82 Electron/1.3.8 Safari/537.36 Slack_SSB/2.3.1"
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) AtomShell/2.3.1 Chrome/52.0.2743.82 Electron/1.3.8 Safari/537.36 Slack_SSB/2.3.1",
+            "com.tinyspeck.chatlyio/20.10.20 (iPhone; iOS 13.6; Scale/2.00)",
+            "com.tinyspeck.chatlyio.share/20.10.20 (iPhone; iOS 13.6.1; Scale/2.00)"
         ]
     },
     "Sleipnir": {
