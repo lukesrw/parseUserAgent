@@ -1,8 +1,3 @@
-export interface TestUAInterface {
-    browser_name: string;
-    list: string[];
-}
-
 export interface TestUAListInterface {
     browser: {
         [browser_name: string]: {
