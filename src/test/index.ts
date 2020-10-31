@@ -3,11 +3,12 @@
 /**
  * Test data
  */
-const user_agents: TestUAListInterface = require("../../../data/user-agents.json");
+const user_agents: TestUAListInterface = require("../../../data/user-agents-new.json");
 
 /**
  * Interfaces (for testing)
  */
+import { ParsedUAInterface } from "../interfaces/user-interface";
 import { TestUAListInterface } from "../interfaces/user-interface-test";
 
 /**
@@ -20,26 +21,70 @@ import * as chai from "chai";
  */
 import { parseUserAgent } from "..";
 
-for (let browser_name in user_agents) {
-    if (Object.prototype.hasOwnProperty.call(user_agents, browser_name)) {
-        context(`Parsing "${browser_name}" User Agents`, () => {
-            user_agents[browser_name].list.forEach(user_agent => {
-                let result = parseUserAgent(user_agent);
+let result: {
+    [user_agent: string]: ParsedUAInterface;
+} = {};
 
-                browser_name = browser_name
-                    .replace(/\bmobile\b/giu, "")
-                    .replace(/\s{2}/gu, " ")
-                    .trim()
-                    .toLowerCase();
-
-                describe(`Parsing "${user_agent}"`, () => {
-                    it("Parsing Successful", () => {
-                        chai.expect(result.browser_name.toLowerCase()).to.equal(
-                            browser_name
-                        );
-                    });
-                });
-            });
-        });
+["Browser", "Operating System"].forEach(category => {
+    let key: keyof TestUAListInterface;
+    if (category === "Browser") {
+        key = "browser";
+    } else {
+        key = "operating_system";
     }
-}
+
+    describe(`Parsing ${category}s`, () => {
+        for (let name in user_agents[key]) {
+            if (Object.prototype.hasOwnProperty.call(user_agents[key], name)) {
+                for (let version in user_agents[key][name]) {
+                    if (
+                        Object.prototype.hasOwnProperty.call(
+                            user_agents[key][name],
+                            version
+                        )
+                    ) {
+                        context(
+                            `Parsing "${name}" (v${version}) User Agents`,
+                            () => {
+                                user_agents[key][name][version].forEach(
+                                    user_agent => {
+                                        if (
+                                            !Object.prototype.hasOwnProperty.call(
+                                                result,
+                                                user_agent
+                                            )
+                                        ) {
+                                            result[user_agent] = parseUserAgent(
+                                                user_agent
+                                            );
+                                        }
+
+                                        it(`Parses "${user_agent}" ${category} Name`, () => {
+                                            chai.expect(
+                                                String(
+                                                    result[user_agent][
+                                                        `${key}_name` as keyof ParsedUAInterface
+                                                    ]
+                                                )
+                                            ).to.equal(String(name));
+                                        });
+
+                                        it(`Parses "${user_agent}" ${category} Version`, () => {
+                                            chai.expect(
+                                                String(
+                                                    result[user_agent][
+                                                        `${key}_version` as keyof ParsedUAInterface
+                                                    ]
+                                                )
+                                            ).is.equal(String(version));
+                                        });
+                                    }
+                                );
+                            }
+                        );
+                    }
+                }
+            }
+        }
+    });
+});
