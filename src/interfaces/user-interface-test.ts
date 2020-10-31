@@ -4,5 +4,14 @@ export interface TestUAInterface {
 }
 
 export interface TestUAListInterface {
-    [browser_name: string]: TestUAInterface;
+    browser: {
+        [browser_name: string]: {
+            [browser_version: string]: string[];
+        };
+    };
+    operating_system: {
+        [operating_system_name: string]: {
+            [operating_system_version: string]: string[];
+        };
+    };
 }
