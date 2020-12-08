@@ -1,19 +1,21 @@
-# Description
+# parseUserAgent
+
+## Description
 
 parseUserAgent is a function that takes a user agent and returns the name and version of the corresponding browser & operating system.
 
-## The Wheel
+### The Wheel
 
 There are _many_ libraries and solutions for this problem, but I decided to re-invent the wheel and write my own as I've not found one that did all of the following:
 
-1. Pattern-based, I don't want to store huge lists of known-good agents
-2. Local, I don't want to send requests to (or pay for) an external API
-3. Reliable, I've tested lots of libraries, many have incorrect results
-4. Specific, I don't just want the main 6~ and then "Other"
+1.  Pattern-based, I don't want to store huge lists of known-good agents
+2.  Local, I don't want to send requests to (or pay for) an external API
+3.  Reliable, I've tested lots of libraries, many have incorrect results
+4.  Specific, I don't just want the main 6~ and then "Other"
 
-# Usage
+## Usage
 
-## PHP
+### PHP
 
 ```php
 <?php
@@ -28,7 +30,7 @@ print_r(
 
 The above code will output:
 
-```
+```txt
 Array
 (
     [browser_name] => Ecosia Browser
@@ -39,7 +41,7 @@ Array
 )
 ```
 
-## JavaScript
+### JavaScript
 
 ```js
 let user_agent = request.headers["user-agent"];
@@ -50,7 +52,7 @@ console.table(parseUserAgent(user_agent));
 
 The above code will output:
 
-```
+```txt
 ┌──────────────────────────┬────────────────────────┐
 │         (index)          │         Values         │
 ├──────────────────────────┼────────────────────────┤
