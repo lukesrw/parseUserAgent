@@ -3,7 +3,7 @@
 /**
  * Test data
  */
-const user_agents: TestUAListInterface = require("../../../data/user-agents-new.json");
+const user_agents: TestUAListInterface = require("../../../data/user-agents.json");
 
 /**
  * Interfaces (for testing)
