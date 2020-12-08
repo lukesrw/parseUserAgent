@@ -8,36 +8,29 @@ const path = require("path");
  */
 function isCompiledFile(file, files) {
     let file_no_suffix = file.substring(0, file.lastIndexOf("."));
-    let file_no_suffix_again = file_no_suffix.substring(0, file_no_suffix.lastIndexOf("."));
+    let file_no_suffix_again = file_no_suffix.substring(
+        0,
+        file_no_suffix.lastIndexOf(".")
+    );
 
-    /**
-     * TypeScript filter
-     */
-    if (
+    let is_compiled_js =
         file.endsWith(".d.ts") ||
         file.endsWith(".d.ts.map") ||
         file.endsWith(".js.map") ||
         (file.endsWith(".js") &&
             files.includes(`${file}.map`) &&
             files.includes(`${file_no_suffix}.d.ts`) &&
-            files.includes(`${file_no_suffix}.d.ts.map`))
-    ) {
-        return true;
-    }
+            files.includes(`${file_no_suffix}.d.ts.map`));
 
-    /**
-     * SCSS filter
-     */
-    if (
+    let is_compiled_css =
         (file.endsWith(".css") &&
-            (files.includes(`${file_no_suffix}.scss`) || files.includes(`_${file_no_suffix}.scss`))) ||
+            (files.includes(`${file_no_suffix}.scss`) ||
+                files.includes(`_${file_no_suffix}.scss`))) ||
         (file.endsWith(".css.map") &&
-            (files.includes(`${file_no_suffix_again}.scss`) || files.includes(`_${file_no_suffix_again}.scss`)))
-    ) {
-        return true;
-    }
+            (files.includes(`${file_no_suffix_again}.scss`) ||
+                files.includes(`_${file_no_suffix_again}.scss`)));
 
-    return false;
+    return is_compiled_js || is_compiled_css;
 }
 
 /**
@@ -53,7 +46,10 @@ async function clean(source = []) {
         if (clean_item_stats.isDirectory()) {
             await clean(source.concat(clean_items[index]));
         }
-        if (clean_item_stats.isFile() && isCompiledFile(clean_items[index], clean_items)) {
+        if (
+            clean_item_stats.isFile() &&
+            isCompiledFile(clean_items[index], clean_items)
+        ) {
             await fs.promises.unlink(clean_item_path);
         }
     }
