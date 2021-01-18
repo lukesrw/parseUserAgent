@@ -88,6 +88,8 @@ export function parse(
                     )
                 ) {
                     result.version = regexes[category][pattern].v || "";
+                } else {
+                    result.version = UNKNOWN[category].version;
                 }
             }
         }
