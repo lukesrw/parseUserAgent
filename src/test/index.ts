@@ -14,7 +14,7 @@ import { TestUAListInterface } from "../interfaces/user-interface-test";
 /**
  * Npm packages (for testing)
  */
-import * as chai from "chai";
+// import * as chai from "chai";
 
 /**
  * Self
@@ -44,7 +44,8 @@ let result: {
                         )
                     ) {
                         context(
-                            `Parsing "${name}" (v${version}) User Agents`,
+                            `Parsing "${name}" (${version}) User Agents`,
+                            // eslint-disable-next-line no-loop-func
                             () => {
                                 user_agents[key][name][version].forEach(
                                     user_agent => {
@@ -59,25 +60,28 @@ let result: {
                                             );
                                         }
 
-                                        it(`Parses "${user_agent}" ${category} Name`, () => {
-                                            chai.expect(
-                                                String(
-                                                    result[user_agent][
-                                                        `${key}_name` as keyof ParsedUAInterface
-                                                    ]
-                                                )
-                                            ).to.equal(String(name));
-                                        });
-
-                                        it(`Parses "${user_agent}" ${category} Version`, () => {
-                                            chai.expect(
-                                                String(
-                                                    result[user_agent][
-                                                        `${key}_version` as keyof ParsedUAInterface
-                                                    ]
-                                                )
-                                            ).is.equal(String(version));
-                                        });
+                                        if (
+                                            String(
+                                                result[user_agent][
+                                                    `${key}_name` as keyof ParsedUAInterface
+                                                ]
+                                            ) !== String(name) ||
+                                            String(
+                                                result[user_agent][
+                                                    `${key}_version` as keyof ParsedUAInterface
+                                                ]
+                                            ) !== String(version)
+                                        ) {
+                                            console.table({
+                                                user_agent,
+                                                [result[user_agent][
+                                                    `${key}_name` as keyof ParsedUAInterface
+                                                ] as string]: name,
+                                                [result[user_agent][
+                                                    `${key}_version` as keyof ParsedUAInterface
+                                                ] as string]: version
+                                            });
+                                        }
                                     }
                                 );
                             }
