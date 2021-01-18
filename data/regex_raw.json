@@ -884,7 +884,7 @@
             "n": "Google Earth",
             "w": 10
         },
-        "/google wireless transcoder(\\/(?<v>[\\d\\w.-]+))?/i": {
+        "/google wireless transcoder(\\) Version\\/(?<v>[\\d.]+))?/i": {
             "n": "Google Wireless Transcoder",
             "w": 10
         },
@@ -1928,7 +1928,11 @@
             "n": "Stargon",
             "w": 10
         },
-        "/steam( http)? client( (?<v>[\\d\\w.-]+))?/i": {
+        "/steam http client (?<v>[\\d.]+)/i": {
+            "n": "Steam HTTP Client",
+            "w": 10
+        },
+        "/steam client\\/default\\/(?<v>\\d+)/i": {
             "n": "Steam Client",
             "w": 10
         },
