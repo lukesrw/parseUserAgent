@@ -60,9 +60,9 @@
             "n": "Miro",
             "w": 10
         },
-        "/(mobilesafari|mobile|safari)\\/(?<v>[\\d\\w.-]+)/i": {
+        "/(mobilesafari|mobile safari|safari)\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "Safari",
-            "w": 8
+            "w": 7
         },
         "/(msoffice|microsoft( office)? outlook) (?<v>[\\d\\w.-]+)/i": {
             "n": "Outlook",
@@ -546,7 +546,7 @@
         },
         "/cfnetwork\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "CFNetwork",
-            "w": 8
+            "w": 7
         },
         "/charon/i": {
             "n": "Charon",
@@ -1722,7 +1722,7 @@
         },
         "/rpt-httpclient\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "RPT-HTTPClient",
-            "w": 10
+            "w": 9
         },
         "/rss menu\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "RSS Menu",
@@ -1856,7 +1856,7 @@
             "n": "SlimerJS",
             "w": 10
         },
-        "/smart-tv/i": {
+        "/samsungbrowser\\/(?<v>[\\d.]+) TV/i": {
             "n": "Samsung TV Browser",
             "w": 10
         },
@@ -2378,6 +2378,10 @@
         }
     },
     "operating_system": {
+        "/win_nt-(?<v>[\\d.]+)/i": {
+            "n": "Windows",
+            "w": 10
+        },
         "/(; |\\()(windows |winnt)(nt)?\\s?(?<v>[\\s\\d\\w.-]+)(;|\\))/i": {
             "n": "Windows",
             "w": 10
