@@ -46,7 +46,7 @@
         },
         "/(edg(ios|a)?|edge)\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "Microsoft Edge",
-            "w": 10
+            "w": 9
         },
         "/(fennec|fxios|firefox)\\/(?<v>[\\s\\d\\w.-]+)/i": {
             "n": "Firefox",
@@ -78,7 +78,7 @@
         },
         "/(netscape|navigator)\\d?\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "Netscape Navigator",
-            "w": 10
+            "w": 9
         },
         "/(obigo|wap2|v10c browser|au-mic-[\\w\\d]+|vx9600)(\\/(?<v>[\\d\\w.-]+))?/i": {
             "n": "Obigo",
@@ -124,7 +124,7 @@
             "n": "Windows Live Mail",
             "w": 9
         },
-        "/(trident|ie\\b|msie|iemobile|zune|windows phone)(\\s|\\/)(?<v>[\\d\\w.-]+)/i": {
+        "/(ie\\b|msie|iemobile|zune)(\\s|\\/)(?<v>[\\d\\w.-]+)/i": {
             "n": "Internet Explorer",
             "w": 8
         },
@@ -369,8 +369,8 @@
             "w": 10
         },
         "/applewebkit\\/(?<v>[\\d\\w.-]+)/i": {
-            "n": "Apple Mail",
-            "w": 8
+            "n": "Safari",
+            "w": 1
         },
         "/aria2\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "aria2",
@@ -700,10 +700,6 @@
             "n": "Dillo",
             "w": 10
         },
-        "/docs.google.com\\/viewer/i": {
-            "n": "Google Docs Viewer",
-            "w": 10
-        },
         "/doczilla\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "DocZilla",
             "w": 10
@@ -830,7 +826,7 @@
         },
         "/freebox(\\/(?<v>[\\d\\w.-]+))?/i": {
             "n": "Freebox Mail",
-            "w": 10
+            "w": 9
         },
         "/freeu\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "FreeU",
@@ -2381,6 +2377,10 @@
         "/win_nt-(?<v>[\\d.]+)/i": {
             "n": "Windows",
             "w": 10
+        },
+        "/windows phone (os )?(?<v>[\\d.]+)/i": {
+            "n": "Windows Phone",
+            "w": 11
         },
         "/(; |\\()(windows |winnt)(nt)?\\s?(?<v>[\\s\\d\\w.-]+)(;|\\))/i": {
             "n": "Windows",
