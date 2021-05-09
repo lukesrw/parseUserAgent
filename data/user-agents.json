@@ -38,9 +38,7 @@
             ]
         },
         "ABrowse": {
-            "0.4": [
-                "Mozilla/5.0 (compatible; ABrowse 0.4; Syllable)"
-            ]
+            "0.4": ["Mozilla/5.0 (compatible; ABrowse 0.4; Syllable)"]
         },
         "Acoo Browser": {
             "Unknown Browser Version": [
@@ -58,28 +56,16 @@
             ]
         },
         "Amaya": {
-            "9.52": [
-                "amaya/9.52 libwww/5.4.0"
-            ],
-            "11.1": [
-                "amaya/11.1 libwww/5.4.0"
-            ]
+            "9.52": ["amaya/9.52 libwww/5.4.0"],
+            "11.1": ["amaya/11.1 libwww/5.4.0"]
         },
         "Amiga Aweb": {
-            "3.5.07": [
-                "Amiga-AWeb/3.5.07 beta"
-            ]
+            "3.5.07": ["Amiga-AWeb/3.5.07 beta"]
         },
         "Amiga Voyager": {
-            "3.4.4": [
-                "AmigaVoyager/3.4.4 (MorphOS/PPC native)"
-            ],
-            "2.95": [
-                "AmigaVoyager/2.95 (compatible; MC680x0; AmigaOS)"
-            ],
-            "3.2": [
-                "AmigaVoyager/3.2 (AmigaOS/MC680x0)"
-            ]
+            "3.4.4": ["AmigaVoyager/3.4.4 (MorphOS/PPC native)"],
+            "2.95": ["AmigaVoyager/2.95 (compatible; MC680x0; AmigaOS)"],
+            "3.2": ["AmigaVoyager/3.2 (AmigaOS/MC680x0)"]
         },
         "Amigo": {
             "Unknown Browser Version": [
@@ -94,9 +80,7 @@
             ]
         },
         "ANT Fresco": {
-            "2.13": [
-                "Mozilla/3.04 (compatible; ANTFresco/2.13; RISC OS 4.02)"
-            ],
+            "2.13": ["Mozilla/3.04 (compatible; ANTFresco/2.13; RISC OS 4.02)"],
             "2.17": [
                 "Mozilla/3.04 (compatible; NCBrowser/2.35; ANTFresco/2.17; RISC OS-NC 5.13 Laz1UK1309)"
             ]
@@ -290,12 +274,8 @@
             ]
         },
         "Bunjalloo": {
-            "0.7.6": [
-                "Bunjalloo/0.7.6(Nintendo DS;U;en)"
-            ],
-            "0.7.4": [
-                "Bunjalloo/0.7.4(Nintendo DS;U;en)"
-            ]
+            "0.7.6": ["Bunjalloo/0.7.6(Nintendo DS;U;en)"],
+            "0.7.4": ["Bunjalloo/0.7.4(Nintendo DS;U;en)"]
         },
         "Camino": {
             "1.6pre": [
@@ -321,9 +301,7 @@
             ]
         },
         "Charon": {
-            "Unknown Browser Version": [
-                "Mozilla/4.08 (Charon; Inferno)"
-            ]
+            "Unknown Browser Version": ["Mozilla/4.08 (Charon; Inferno)"]
         },
         "Chedot": {
             "43.0.2357.402": [
@@ -340,6 +318,9 @@
             ]
         },
         "Chrome": {
+            "35.0.1916.114": [
+                "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36,gzip(gfe) (via docs.google.com/viewer)"
+            ],
             "1.0.154.53": [
                 "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.53 Safari/525.19"
             ],
@@ -592,9 +573,7 @@
             ]
         },
         "Cuam": {
-            "0.050bx": [
-                "Cuam Ver0.050bx  "
-            ]
+            "0.050bx": ["Cuam Ver0.050bx  "]
         },
         "Cunaguaro": {
             "8.0": [
@@ -605,9 +584,7 @@
             ]
         },
         "Cyberdog": {
-            "2.0": [
-                "Cyberdog/2.0 (Macintosh; PPC)"
-            ]
+            "2.0": ["Cyberdog/2.0 (Macintosh; PPC)"]
         },
         "Cyberfox": {
             "28.0.1": [
@@ -636,21 +613,11 @@
             ]
         },
         "Dillo": {
-            "0.8.5": [
-                "Dillo/0.8.5"
-            ],
-            "2.0": [
-                "Dillo/2.0"
-            ],
-            "0.7.3": [
-                "Dillo/0.7.3"
-            ],
-            "2.2": [
-                "Dillo/2.2"
-            ],
-            "3.0.2": [
-                "Dillo/3.0.2"
-            ]
+            "0.8.5": ["Dillo/0.8.5"],
+            "2.0": ["Dillo/2.0"],
+            "0.7.3": ["Dillo/0.7.3"],
+            "2.2": ["Dillo/2.2"],
+            "3.0.2": ["Dillo/3.0.2"]
         },
         "DocZilla": {
             "2.7": [
@@ -666,33 +633,21 @@
             ]
         },
         "DPlus": {
-            "0.5": [
-                "Mozilla/4.0 (compatible; DPlus 0.5)"
-            ]
+            "0.5": ["Mozilla/4.0 (compatible; DPlus 0.5)"]
         },
         "Edbrowse": {
-            "2.2.10": [
-                "edbrowse/2.2.10"
-            ],
-            "3.1.2-1": [
-                "edbrowse/3.1.2-1"
-            ],
-            "1.5.17-2": [
-                "edbrowse/1.5.17-2"
-            ]
+            "2.2.10": ["edbrowse/2.2.10"],
+            "3.1.2-1": ["edbrowse/3.1.2-1"],
+            "1.5.17-2": ["edbrowse/1.5.17-2"]
         },
         "Elinks": {
             "0.13.GIT": [
                 "ELinks/0.13.GIT (textmode; Linux 2.6.22-2-686 i686; 148x68-3)"
             ],
-            "0.9.3": [
-                "ELinks/0.9.3 (textmode; Linux 2.6.11 i686; 79x24)"
-            ]
+            "0.9.3": ["ELinks/0.9.3 (textmode; Linux 2.6.11 i686; 79x24)"]
         },
         "Enigma Browser": {
-            "Unknown Browser Version": [
-                "Enigma Browser"
-            ]
+            "Unknown Browser Version": ["Enigma Browser"]
         },
         "Epic": {
             "1.2": [
@@ -826,9 +781,7 @@
                 "Mozilla/5.0 (Android; Mobile; rv:14.0) Gecko/14.0 Firefox/14.0",
                 "Mozilla/5.0 (Mobile; rv:14.0) Gecko/14.0 Firefox/14.0"
             ],
-            "18.1": [
-                "Mozilla/5.0 (Tablet; rv:18.1) Gecko/18.1 Firefox/18.1"
-            ],
+            "18.1": ["Mozilla/5.0 (Tablet; rv:18.1) Gecko/18.1 Firefox/18.1"],
             "29.0": [
                 "Mozilla/5.0 (Android; Tablet; rv:29.0) Gecko/29.0 Firefox/29.0"
             ],
@@ -837,6 +790,9 @@
             ],
             "47.0": [
                 "Mozilla/5.0 (Android 4.2.2; Tablet; rv:47.0) Gecko/47.0 Firefox/47.0"
+            ],
+            "8.0": [
+                "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:8.0) Gecko/20100101 Firefox/8.0,gzip(gfe) (via docs.google.com/viewer)"
             ]
         },
         "BonEcho": {
@@ -968,9 +924,7 @@
             ]
         },
         "HotJava": {
-            "1.1.2": [
-                "HotJava/1.1.2 FCS"
-            ]
+            "1.1.2": ["HotJava/1.1.2 FCS"]
         },
         "Hv3": {
             "alpha": [
@@ -983,34 +937,20 @@
             ]
         },
         "IBM WebExplorer": {
-            "0.94": [
-                "IBM WebExplorer /v0.94"
-            ],
-            "1.02c": [
-                "IBM WebExplorer /v1.02c"
-            ]
+            "0.94": ["IBM WebExplorer /v0.94"],
+            "1.02c": ["IBM WebExplorer /v1.02c"]
         },
         "IBrowse": {
-            "2.3": [
-                "IBrowse/2.3 (AmigaOS 3.9)"
-            ],
-            "3.0": [
-                "Mozilla/5.0 (compatible; IBrowse 3.0; AmigaOS4.0)"
-            ]
+            "2.3": ["IBrowse/2.3 (AmigaOS 3.9)"],
+            "3.0": ["Mozilla/5.0 (compatible; IBrowse 3.0; AmigaOS4.0)"]
         },
         "iCab": {
             "2.9.1": [
                 "Mozilla/4.5 (compatible; iCab 2.9.1; Macintosh; U; PPC)"
             ],
-            "3.0.2": [
-                "iCab/3.0.2 (Macintosh; U; PPC Mac OS X)"
-            ],
-            "4.0": [
-                "iCab/4.0 (Macintosh; U; Intel Mac OS X)"
-            ],
-            "4.7": [
-                "iCab/4.7 (Macintosh; U; PPC Mac OS X)"
-            ],
+            "3.0.2": ["iCab/3.0.2 (Macintosh; U; PPC Mac OS X)"],
+            "4.0": ["iCab/4.0 (Macintosh; U; Intel Mac OS X)"],
+            "4.7": ["iCab/4.7 (Macintosh; U; PPC Mac OS X)"],
             "5.0": [
                 "Mozilla/5.0 (Macintosh; PPC Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) iCab/5.0 Safari/533.16"
             ]
@@ -1019,12 +959,8 @@
             "6_1_2": [
                 "Mozilla/5.0 (Java 1.6.0_01; Windows XP 5.1 x86; en) ICEbrowser/v6_1_2"
             ],
-            "5.05": [
-                "ICE Browser/5.05 (Java 1.4.0; Windows 2000 5.0 x86)"
-            ],
-            "5_4_3": [
-                "ICE Browser/v5_4_3 (Java 1.4.2; Windows XP 5.1 x86)"
-            ]
+            "5.05": ["ICE Browser/5.05 (Java 1.4.0; Windows 2000 5.0 x86)"],
+            "5_4_3": ["ICE Browser/v5_4_3 (Java 1.4.2; Windows XP 5.1 x86)"]
         },
         "IceApe": {
             "1.1.6": [
@@ -1090,9 +1026,7 @@
             ]
         },
         "Internet Explorer": {
-            "5.0": [
-                "Mozilla/4.0 (compatible; MSIE 5.0; Windows NT;)"
-            ],
+            "5.0": ["Mozilla/4.0 (compatible; MSIE 5.0; Windows NT;)"],
             "6.0": [
                 "Mozilla/4.0 (Windows; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)",
                 "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; Media Center PC 4.0; .NET CLR 2.0.50727)",
@@ -1110,18 +1044,10 @@
                 "Mozilla/4.0 (Mozilla/4.0; MSIE 7.0; Windows NT 5.1; FDM; SV1; .NET CLR 3.0.04506.30)",
                 "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; XBLWP7; ZuneWP7)"
             ],
-            "5.0b1": [
-                "Mozilla/4.0 (compatible; MSIE 5.0b1; Mac_PowerPC)"
-            ],
-            "4.0": [
-                "Mozilla/2.0 (compatible; MSIE 4.0; Windows 98)"
-            ],
-            "5.01": [
-                "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT)"
-            ],
-            "5.23": [
-                "Mozilla/4.0 (compatible; MSIE 5.23; Mac_PowerPC)"
-            ],
+            "5.0b1": ["Mozilla/4.0 (compatible; MSIE 5.0b1; Mac_PowerPC)"],
+            "4.0": ["Mozilla/2.0 (compatible; MSIE 4.0; Windows 98)"],
+            "5.01": ["Mozilla/4.0 (compatible; MSIE 5.01; Windows NT)"],
+            "5.23": ["Mozilla/4.0 (compatible; MSIE 5.23; Mac_PowerPC)"],
             "9.0": [
                 "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
                 "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; Media Center PC 6.0; InfoPath.3; MS-RTC LM 8; Zune 4.7)",
@@ -1137,11 +1063,9 @@
             ],
             "11.0": [
                 "Mozilla/5.0 (IE 11.0; Windows NT 6.3; Trident/7.0; .NET4.0E; .NET4.0C; rv:11.0) like Gecko",
-                "Mozilla/5.0 (IE 11.0; Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"
-            ],
-            "8.1": [
-                "Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch IEMobile/11.0; HTC; Windows Phone 8S by HTC) like Gecko",
-                "Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; Microsoft; RM-1074) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537"
+                "Mozilla/5.0 (IE 11.0; Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko",
+                "Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; Microsoft; RM-1074) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537",
+                "Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch IEMobile/11.0; HTC; Windows Phone 8S by HTC) like Gecko"
             ]
         },
         "InternetSurfboard": {
@@ -1276,18 +1200,14 @@
             ]
         },
         "Konqueror": {
-            "3.5": [
-                "Mozilla/5.0 (compatible; Konqueror/3.5; SunOS)"
-            ],
+            "3.5": ["Mozilla/5.0 (compatible; Konqueror/3.5; SunOS)"],
             "4.1": [
                 "Mozilla/5.0 (compatible; Konqueror/4.1; OpenBSD) KHTML/4.1.4 (like Gecko)"
             ],
             "3.1-rc5": [
                 "Mozilla/5.0 (compatible; Konqueror/3.1-rc5; i686 Linux; 20020712)"
             ],
-            "2.2.1": [
-                "Mozilla/5.0 (compatible; Konqueror/2.2.1; Linux)"
-            ],
+            "2.2.1": ["Mozilla/5.0 (compatible; Konqueror/2.2.1; Linux)"],
             "4.3": [
                 "Mozilla/5.0 (compatible; Konqueror/4.3; Windows) KHTML/4.3.0 (like Gecko)"
             ],
@@ -1312,26 +1232,14 @@
             ]
         },
         "Line Mode Browser": {
-            "3.0": [
-                "CERN-LineMode/3.0"
-            ]
+            "3.0": ["CERN-LineMode/3.0"]
         },
         "Links": {
-            "0.98": [
-                "Links (0.98; Win32; 80x25)"
-            ],
-            "2.1": [
-                "Links (2.1; Linux 2.6.18-gentoo-r6 x86_64; 80x24)"
-            ],
-            "0.96": [
-                "Links (0.96; Linux 2.4.20-18.7 i586)"
-            ],
-            "2.1pre18": [
-                "Links (2.1pre18; Linux 2.4.31 i686; 100x37)"
-            ],
-            "2.2": [
-                "Links (2.2; Linux 2.6.25-gentoo-r9 sparc64; 166x52)"
-            ],
+            "0.98": ["Links (0.98; Win32; 80x25)"],
+            "2.1": ["Links (2.1; Linux 2.6.18-gentoo-r6 x86_64; 80x24)"],
+            "0.96": ["Links (0.96; Linux 2.4.20-18.7 i586)"],
+            "2.1pre18": ["Links (2.1pre18; Linux 2.4.31 i686; 100x37)"],
+            "2.2": ["Links (2.2; Linux 2.6.25-gentoo-r9 sparc64; 166x52)"],
             "2.3pre1": [
                 "Links (2.3pre1; Linux 2.6.35-22-generic i686; 177x51)"
             ],
@@ -1346,9 +1254,7 @@
             "0.98.3": [
                 "Mozilla/4.0 (compatible; MSIE 6.0; Linux 2.6.26-1-amd64) Lobo/0.98.3"
             ],
-            "0.97": [
-                "Mozilla/4.0 (compatible; U; Windows;) Lobo/0.97"
-            ]
+            "0.97": ["Mozilla/4.0 (compatible; U; Windows;) Lobo/0.97"]
         },
         "lolifox": {
             "0.3.6": [
@@ -1391,18 +1297,14 @@
             ]
         },
         "Lynx": {
-            "2.8.3dev.6": [
-                "Lynx/2.8.3dev.6 libwww-FM/2.14"
-            ],
+            "2.8.3dev.6": ["Lynx/2.8.3dev.6 libwww-FM/2.14"],
             "2.8.5dev.16": [
                 "Lynx/2.8.5dev.16 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/0.9.7a"
             ],
             "2.8.6rel.4": [
                 "Lynx/2.8.6rel.4 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/1.6.3"
             ],
-            "2.8.8dev.3": [
-                "Lynx/2.8.8dev.3 libwww-FM/2.14 SSL-MM/1.4.1"
-            ]
+            "2.8.8dev.3": ["Lynx/2.8.8dev.3 libwww-FM/2.14 SSL-MM/1.4.1"]
         },
         "Madfox": {
             "0.3.2u3": [
@@ -1468,9 +1370,7 @@
             ]
         },
         "Midori": {
-            "0.1.7": [
-                "Midori/0.1.7"
-            ],
+            "0.1.7": ["Midori/0.1.7"],
             "0.5": [
                 "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.6 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/537.6 Midori/0.5"
             ]
@@ -1530,26 +1430,16 @@
             ]
         },
         "NCSA Mosaic": {
-            "2.0": [
-                "NCSA_Mosaic/2.0 (Windows 3.1)"
-            ],
-            "3.0": [
-                "NCSA_Mosaic/3.0 (Windows 95)"
-            ],
-            "2.6": [
-                "NCSA_Mosaic/2.6 (X11; SunOS 4.1.3 sun4m)"
-            ],
-            "1.0": [
-                "NCSA Mosaic/1.0 (X11;SunOS 4.1.4 sun4m)"
-            ],
+            "2.0": ["NCSA_Mosaic/2.0 (Windows 3.1)"],
+            "3.0": ["NCSA_Mosaic/3.0 (Windows 95)"],
+            "2.6": ["NCSA_Mosaic/2.6 (X11; SunOS 4.1.3 sun4m)"],
+            "1.0": ["NCSA Mosaic/1.0 (X11;SunOS 4.1.4 sun4m)"],
             "2.7ck9": [
                 " NCSA_Mosaic/2.7ck9 (X11;Darwin 8.11.0 Power Macintosh) libwww/2.12 modified"
             ]
         },
         "NetBox": {
-            "3.5 R92": [
-                "Mozilla/3.01 (compatible; Netbox/3.5 R92; Linux 2.2)"
-            ],
+            "3.5 R92": ["Mozilla/3.01 (compatible; Netbox/3.5 R92; Linux 2.2)"],
             "3.6.6": [
                 "Mozilla/3.01 (compatible; Netgem/3.6.6; TVMate; Linux 2.2)"
             ],
@@ -1566,15 +1456,9 @@
             ]
         },
         "NetPositive": {
-            "2.2.2": [
-                "Mozilla/3.0 (compatible; NetPositive/2.2.2; BeOS)"
-            ],
-            "2.1.1": [
-                "Mozilla/3.0 (compatible; NetPositive/2.1.1; BeOS)"
-            ],
-            "2.2": [
-                "Mozilla/3.0 (compatible; NetPositive/2.2)"
-            ]
+            "2.2.2": ["Mozilla/3.0 (compatible; NetPositive/2.2.2; BeOS)"],
+            "2.1.1": ["Mozilla/3.0 (compatible; NetPositive/2.1.1; BeOS)"],
+            "2.2": ["Mozilla/3.0 (compatible; NetPositive/2.2)"]
         },
         "Netscape Navigator": {
             "6.1": [
@@ -1595,12 +1479,8 @@
             ]
         },
         "NetSurf": {
-            "1.2": [
-                "NetSurf/1.2 (Linux; i686)"
-            ],
-            "2.0": [
-                "NetSurf/2.0 (RISC OS; armv3l)"
-            ]
+            "1.2": ["NetSurf/1.2 (Linux; i686)"],
+            "2.0": ["NetSurf/2.0 (RISC OS; armv3l)"]
         },
         "Off By One": {
             "Unknown Browser Version": [
@@ -1612,26 +1492,18 @@
             "4.1.1-v424.6": [
                 "Mozilla/4.5 (compatible; OmniWeb/4.1.1-v424.6; Mac_PowerPC)"
             ],
-            "2.7-beta-3": [
-                "OmniWeb/2.7-beta-3 OWF/1.0"
-            ],
+            "2.7-beta-3": ["OmniWeb/2.7-beta-3 OWF/1.0"],
             "v622.8.0.112941": [
                 "Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US) AppleWebKit/528.16 (KHTML, like Gecko, Safari/528.16) OmniWeb/v622.8.0.112941"
             ]
         },
         "Opera": {
-            "9.02": [
-                "Opera/9.02 (Windows XP; U; ru)"
-            ],
+            "9.02": ["Opera/9.02 (Windows XP; U; ru)"],
             "9.24": [
                 "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 9.24"
             ],
-            "9.51": [
-                "Opera/9.51 (Macintosh; Intel Mac OS X; U; en)"
-            ],
-            "9.70": [
-                "Opera/9.70 (Linux i686 ; U; en) Presto/2.2.1"
-            ],
+            "9.51": ["Opera/9.51 (Macintosh; Intel Mac OS X; U; en)"],
+            "9.70": ["Opera/9.70 (Linux i686 ; U; en) Presto/2.2.1"],
             "9.80": [
                 "Opera/9.80 (Windows NT 5.1; U; cs) Presto/2.2.15 Version/10.00",
                 "Opera/9.80 (Windows NT 6.1; U; sv) Presto/2.7.62 Version/11.01",
@@ -1805,9 +1677,7 @@
             "1.52": [
                 "Mozilla/5.0 (PlayStation 4 1.52) AppleWebKit/536.26 (KHTML, like Gecko)"
             ],
-            "1.90": [
-                "Mozilla/5.0 (PLAYSTATION 3; 1.90)"
-            ]
+            "1.90": ["Mozilla/5.0 (PLAYSTATION 3; 1.90)"]
         },
         "Puffin": {
             "7.2.2.927WD": [
@@ -1841,9 +1711,7 @@
             "3.8.3858.400": [
                 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36 QQBrowser/3.8.3858.400"
             ],
-            "Mini2.2": [
-                "MQQBrowser/Mini2.2 (Nokia6303iclassic/10.80)"
-            ],
+            "Mini2.2": ["MQQBrowser/Mini2.2 (Nokia6303iclassic/10.80)"],
             "5.0": [
                 "Mozilla/5.0 (Linux; U; Android 4.1.1; zh-cn; MI 2S Build/JRO03L) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.0 Mobile Safari/537.36"
             ],
@@ -1995,26 +1863,22 @@
             "605.1.15": [
                 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15"
             ],
-            "8C148": [
-                "Mozilla/5.0 (iPad; U; CPU OS 4_2_1 like Mac OS X; ja-jp) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5"
-            ],
-            "7B360": [
+            "531.21.10": [
                 "Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; es-es) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B360 Safari/531.21.10"
             ],
-            "8A293": [
+            "6531.22.7": [
                 "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A293 Safari/6531.22.7"
             ],
-            "8J2": [
+            "6533.18.5": [
+                "Mozilla/5.0 (iPad; U; CPU OS 4_2_1 like Mac OS X; ja-jp) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5",
                 "Mozilla/5.0 (iPad; U; CPU OS 4_3_3 like Mac OS X; de-de) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5"
             ],
-            "10A5376e": [
+            "536.26": [
                 "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A5376e"
             ],
-            "11A465": [
-                "Mozilla/5.0 (iPad; CPU OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53"
-            ],
             "9537.53": [
-                "MobileSafari/9537.53 CFNetwork/672.0.8 Darwin/14.0.0"
+                "MobileSafari/9537.53 CFNetwork/672.0.8 Darwin/14.0.0",
+                "Mozilla/5.0 (iPad; CPU OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53"
             ]
         },
         "Salam Browser": {
@@ -2133,9 +1997,7 @@
             ]
         },
         "Slack App": {
-            "341631": [
-                "Slack/341631 CFNetwork/758.2.8 Darwin/15.0.0"
-            ],
+            "341631": ["Slack/341631 CFNetwork/758.2.8 Darwin/15.0.0"],
             "2.3.1": [
                 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) AtomShell/2.3.1 Chrome/52.0.2743.82 Electron/1.3.8 Safari/537.36 Slack_SSB/2.3.1"
             ],
@@ -2217,9 +2079,7 @@
                 "com.tinyspeck.chatlyio/20.09.20 (iPad; iOS 14.0; Scale/2.00)",
                 "com.tinyspeck.chatlyio/20.09.20 (iPhone; iOS 13.7; Scale/2.00)"
             ],
-            "2.35.0.5027": [
-                "slack/2.35.0.5027 (samsung SM-G930F; Android 7.0)"
-            ]
+            "2.35.0.5027": ["slack/2.35.0.5027 (samsung SM-G930F; Android 7.0)"]
         },
         "Sleipnir": {
             "2.8.1": [
@@ -2298,15 +2158,11 @@
             ]
         },
         "Sundance": {
-            "0.9": [
-                "Mozilla/5.0(Compatible; Windows; U; en-US;) Sundance/0.9"
-            ],
+            "0.9": ["Mozilla/5.0(Compatible; Windows; U; en-US;) Sundance/0.9"],
             "0.9.0.38": [
                 "Sundance(Compatible; Windows; U; en-US;) Version/0.9.0.38"
             ],
-            "0.9x": [
-                "Sundance/0.9x(Compatible; Windows; U; en-US)Version/0.9x"
-            ]
+            "0.9x": ["Sundance/0.9x(Compatible; Windows; U; en-US)Version/0.9x"]
         },
         "Sundial": {
             "4.0.1_1.0": [
@@ -2334,7 +2190,7 @@
             ]
         },
         "Swiftfox": {
-            "3.0.10pre": [
+            "Unknown Browser Version": [
                 "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.10pre) Gecko/2009041814 Firefox/3.0.10pre (Swiftfox)"
             ]
         },
@@ -2472,12 +2328,8 @@
             ]
         },
         "Vimprobable": {
-            "0.9.20.5": [
-                "Vimprobable/0.9.20.5"
-            ],
-            "1.4.2": [
-                "Vimprobable2/1.4.2"
-            ]
+            "0.9.20.5": ["Vimprobable/0.9.20.5"],
+            "1.4.2": ["Vimprobable2/1.4.2"]
         },
         "Vivaldi": {
             "1.0.83.38": [
@@ -2505,12 +2357,8 @@
             ]
         },
         "w3m": {
-            "0.5.1": [
-                "w3m/0.5.1"
-            ],
-            "0.5.2": [
-                "w3m/0.5.2"
-            ]
+            "0.5.1": ["w3m/0.5.1"],
+            "0.5.2": ["w3m/0.5.2"]
         },
         "Waterfox": {
             "24.0": [
@@ -2588,9 +2436,7 @@
             ]
         },
         "WorldWideWeb": {
-            "Unknown Browser Version": [
-                "WorldWideweb (NEXT)"
-            ]
+            "Unknown Browser Version": ["WorldWideweb (NEXT)"]
         },
         "Wyzo": {
             "3.0.3": [
@@ -2605,9 +2451,7 @@
             ]
         },
         "X-Smiles": {
-            "1.2-20081113": [
-                "X-Smiles/1.2-20081113"
-            ]
+            "1.2-20081113": ["X-Smiles/1.2-20081113"]
         },
         "Xvast": {
             "1.0.0.6": [
@@ -2663,31 +2507,20 @@
             ]
         },
         "AvantGo": {
-            "3.2": [
-                "Mozilla/3.0 (compatible; AvantGo 3.2)"
-            ],
+            "3.2": ["Mozilla/3.0 (compatible; AvantGo 3.2)"],
             "5.2": [
                 "User-Agent: Mozilla/3.0 (compatible; AvantGo 5.2; FreeBSD)"
             ]
         },
         "Axel": {
-            "2.4": [
-                "Axel 2.4 (Linux)",
-                "Axel 2.4 (CYGWIN_NT-6.1-WOW64)"
-            ]
+            "2.4": ["Axel 2.4 (Linux)", "Axel 2.4 (CYGWIN_NT-6.1-WOW64)"]
         },
         "BlackWidow": {
-            "Unknown Browser Version": [
-                "sbl-bot (http://sbl.net)"
-            ]
+            "Unknown Browser Version": ["sbl-bot (http://sbl.net)"]
         },
         "BlueCrab": {
-            "4.9.5": [
-                "BlueCrab/4.9.5 (Macintosh; U; PPC Mac OS X; en)"
-            ],
-            "5.0.06": [
-                "BlueCrab/5.0.06 (Macintosh; U; PPC Mac OS X; en)"
-            ]
+            "4.9.5": ["BlueCrab/4.9.5 (Macintosh; U; PPC Mac OS X; en)"],
+            "5.0.06": ["BlueCrab/5.0.06 (Macintosh; U; PPC Mac OS X; en)"]
         },
         "Cyotek WebCopy": {
             "1.0": [
@@ -2696,127 +2529,68 @@
             ]
         },
         "GetRight": {
-            "3.2": [
-                "GetRight/3.2"
-            ]
+            "3.2": ["GetRight/3.2"]
         },
         "HTTrack": {
-            "3.0x": [
-                "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)"
-            ],
+            "3.0x": ["Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)"],
             "Website": [
                 "HTTrack Website Copier/3.0x (offline browser; web mirror utility)"
             ]
         },
         "iSiloX": {
-            "4.37": [
-                "iSiloX/4.37 Windows/32"
-            ]
+            "4.37": ["iSiloX/4.37 Windows/32"]
         },
         "iSiloXC": {
-            "4.37": [
-                "iSiloXC/4.37 Windows/32",
-                "iSiloXC/4.37 Linux/i386"
-            ]
+            "4.37": ["iSiloXC/4.37 Windows/32", "iSiloXC/4.37 Linux/i386"]
         },
         "JoBo": {
-            "1.4": [
-                "JoBo/1.4"
-            ],
-            "1.3": [
-                "JoBo/1.3 (http://www.matuschek.net/jobo.html)"
-            ]
+            "1.4": ["JoBo/1.4"],
+            "1.3": ["JoBo/1.3 (http://www.matuschek.net/jobo.html)"]
         },
         "JOC Web Spider": {
-            "Unknown Browser Version": [
-                "JOC Web Spider"
-            ]
+            "Unknown Browser Version": ["JOC Web Spider"]
         },
         "Offline Explorer": {
-            "2.5": [
-                "Offline Explorer/2.5"
-            ],
-            "1.4": [
-                "Offline Explorer/1.4"
-            ],
-            "5.7": [
-                "Web Downloader/5.7"
-            ],
-            "7.9": [
-                "Web Downloader/7.9"
-            ]
+            "2.5": ["Offline Explorer/2.5"],
+            "1.4": ["Offline Explorer/1.4"],
+            "5.7": ["Web Downloader/5.7"],
+            "7.9": ["Web Downloader/7.9"]
         },
         "SiteSucker": {
-            "1.6.9": [
-                "SiteSucker/1.6.9"
-            ],
-            "2.4.1": [
-                "SiteSucker/2.4.1"
-            ]
+            "1.6.9": ["SiteSucker/1.6.9"],
+            "2.4.1": ["SiteSucker/2.4.1"]
         },
         "SuperBot": {
-            "4.4.0.60": [
-                "SuperBot/4.4.0.60 (Windows XP)"
-            ],
-            "4.7.0.74": [
-                "SuperBot/4.7.0.74 (Windows XP)"
-            ]
+            "4.4.0.60": ["SuperBot/4.4.0.60 (Windows XP)"],
+            "4.7.0.74": ["SuperBot/4.7.0.74 (Windows XP)"]
         },
         "Teleport Pro": {
-            "1.2x": [
-                "Teleport Pro/1.2x"
-            ]
+            "1.2x": ["Teleport Pro/1.2x"]
         },
         "WebCopier": {
-            "v4.2": [
-                "WebCopier v4.2"
-            ],
-            "v3.0": [
-                "WebCopier v3.0"
-            ]
+            "v4.2": ["WebCopier v4.2"],
+            "v3.0": ["WebCopier v3.0"]
         },
         "webfetch": {
-            "5.4.2": [
-                "webfetch/5.4.2"
-            ],
-            "5.4.3": [
-                "webfetch/5.4.3"
-            ]
+            "5.4.2": ["webfetch/5.4.2"],
+            "5.4.3": ["webfetch/5.4.3"]
         },
         "WebStripper": {
-            "2.69": [
-                "WebStripper/2.69"
-            ]
+            "2.69": ["WebStripper/2.69"]
         },
         "WebZIP": {
-            "7.0": [
-                "WebZIP/7.0 (http://www.spidersoft.com)"
-            ],
-            "3.5": [
-                "WebZIP/3.5 (http://www.spidersoft.com)"
-            ]
+            "7.0": ["WebZIP/7.0 (http://www.spidersoft.com)"],
+            "3.5": ["WebZIP/3.5 (http://www.spidersoft.com)"]
         },
         "Wget": {
-            "1.5.3": [
-                "Wget/1.5.3"
-            ],
-            "1.10.1": [
-                "Wget/1.10.1 (Red Hat modified)"
-            ],
-            "1.16": [
-                "Wget/1.16 (linux-gnu)"
-            ]
+            "1.5.3": ["Wget/1.5.3"],
+            "1.10.1": ["Wget/1.10.1 (Red Hat modified)"],
+            "1.16": ["Wget/1.16 (linux-gnu)"]
         },
         "Xaldon WebSpider": {
-            "2.0.b1": [
-                "Xaldon_WebSpider/2.0.b1"
-            ],
-            "2.7.b6": [
-                "Xaldon WebSpider 2.7.b6 "
-            ],
-            "2.7.b8": [
-                "Xaldon WebSpider 2.7.b8"
-            ]
+            "2.0.b1": ["Xaldon_WebSpider/2.0.b1"],
+            "2.7.b6": ["Xaldon WebSpider 2.7.b6 "],
+            "2.7.b8": ["Xaldon WebSpider 2.7.b8"]
         },
         "Aloha Browser": {
             "1.4": [
@@ -2832,18 +2606,10 @@
             ]
         },
         "Atomic Web Browser": {
-            "3.7.1": [
-                "AtomicBrowser/3.7.1 CFNetwork/467.12 Darwin/10.3.1"
-            ],
-            "5.1.0": [
-                "AtomicBrowser/5.1.0 CFNetwork/485.12.7 Darwin/10.4.0"
-            ],
-            "5.8.0": [
-                "AtomicBrowser/5.8.0 CFNetwork/485.13.9 Darwin/11.0.0"
-            ],
-            "6.0.1": [
-                "AtomicBrowser/6.0.1 CFNetwork/548.0.4 Darwin/11.0.0"
-            ]
+            "3.7.1": ["AtomicBrowser/3.7.1 CFNetwork/467.12 Darwin/10.3.1"],
+            "5.1.0": ["AtomicBrowser/5.1.0 CFNetwork/485.12.7 Darwin/10.4.0"],
+            "5.8.0": ["AtomicBrowser/5.8.0 CFNetwork/485.13.9 Darwin/11.0.0"],
+            "6.0.1": ["AtomicBrowser/6.0.1 CFNetwork/548.0.4 Darwin/11.0.0"]
         },
         "B-Line": {
             "1.04": [
@@ -2889,9 +2655,7 @@
                 "Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-TunX; Blazer/4.3) 16;320x448",
                 "Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D050; Blazer/4.3) 16;320x448"
             ],
-            "1.0": [
-                "UPG1 UP/4.0 (compatible; Blazer 1.0)"
-            ],
+            "1.0": ["UPG1 UP/4.0 (compatible; Blazer 1.0)"],
             "4.0": [
                 "Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/hspr-H102; Blazer/4.0) 16;320x320"
             ]
@@ -2947,9 +2711,7 @@
             "5": [
                 "Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.75 Mobile DuckDuckGo/5 Safari/537.36"
             ],
-            "3.0.12": [
-                "DDG-Android-3.0.12"
-            ]
+            "3.0.12": ["DDG-Android-3.0.12"]
         },
         "Ecosia Browser": {
             "android@62.0.3202.101": [
@@ -2983,18 +2745,10 @@
             "Unknown Browser Version": [
                 "Mozilla/5.0 (Android 2.2; zh-cn; HTC Desire)/GoBrowser"
             ],
-            "1.6.0.75": [
-                "NokiaN97_mini/GoBrowser/1.6.0.75"
-            ],
-            "2.0.290": [
-                "Nokia5320XpressMusic/GoBrowser/2.0.290"
-            ],
-            "2.0.297": [
-                "NokiaE66/GoBrowser/2.0.297"
-            ],
-            "1.6.91": [
-                "Nokia6700s/GoBrowser/1.6.91"
-            ]
+            "1.6.0.75": ["NokiaN97_mini/GoBrowser/1.6.0.75"],
+            "2.0.290": ["Nokia5320XpressMusic/GoBrowser/2.0.290"],
+            "2.0.297": ["NokiaE66/GoBrowser/2.0.297"],
+            "1.6.91": ["Nokia6700s/GoBrowser/1.6.91"]
         },
         "Google App": {
             "4.2.1.37597": [
@@ -3111,23 +2865,17 @@
             "0A.52.45R": [
                 "MOT-L6/0A.52.45R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1"
             ],
-            "08.B4.34R": [
-                "MOT-V3i/08.B4.34R MIB/2.2.1 Profile/MIDP-2.0"
-            ]
+            "08.B4.34R": ["MOT-V3i/08.B4.34R MIB/2.2.1 Profile/MIDP-2.0"]
         },
         "PlayStation Portable Web Browser": {
-            "2.00": [
-                "Mozilla/4.0 (PSP (PlayStation Portable); 2.00)"
-            ]
+            "2.00": ["Mozilla/4.0 (PSP (PlayStation Portable); 2.00)"]
         },
         "NetFront": {
             "3.0": [
                 "Mozilla/4.0 (PDA; PalmOS/sony/model prmr/Revision:1.1.54 (en)) NetFront/3.0",
                 "Mozilla/4.0 (PDA; Windows CE/1.0.1) NetFront/3.0"
             ],
-            "3.4": [
-                "Amoi 8709/R14.4 NF-Browser/3.4"
-            ],
+            "3.4": ["Amoi 8709/R14.4 NF-Browser/3.4"],
             "4.7": [
                 "Mozilla/5.0 (Danger hiptop 4.7; U; rv:1.7.12) Gecko/20050920"
             ],
@@ -3173,9 +2921,7 @@
             "11.0.026": [
                 "Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/11.0.026; Profile MIDP-2.0 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, like Gecko) Safari/413"
             ],
-            "20.0.04": [
-                "NokiaN93-1/20.0.04"
-            ],
+            "20.0.04": ["NokiaN93-1/20.0.04"],
             "2.0": [
                 "Nokia3250/2.0 (04.21) SymbianOS/9.1 Series60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.5.1.3.0 Novarra-Vision/7.3"
             ],
@@ -3212,20 +2958,12 @@
             "4.2.0": [
                 "OneBrowser/4.2.0/Adr(Linux; U; Android 4.1.2; cs-cz; C2105 Build/15.0.A.1.31) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1"
             ],
-            "3.1": [
-                "OneBrowser/3.1 (NokiaN70-1/5.0638.3.0.1)"
-            ]
+            "3.1": ["OneBrowser/3.1 (NokiaN70-1/5.0638.3.0.1)"]
         },
         "Openwave Browser": {
-            "7.0.2.3.119": [
-                "UP.Browser/7.0.2.3.119 (GUI) MMP/2.0 Push/PO"
-            ],
-            "3.04-TS14": [
-                "UP.Browser/3.04-TS14 UP.Link/3.4.4"
-            ],
-            "7.2.6.1.839": [
-                "KWC-S1300/ UP.Browser/7.2.6.1.839 (GUI) MMP/2.0"
-            ]
+            "7.0.2.3.119": ["UP.Browser/7.0.2.3.119 (GUI) MMP/2.0 Push/PO"],
+            "3.04-TS14": ["UP.Browser/3.04-TS14 UP.Link/3.4.4"],
+            "7.2.6.1.839": ["KWC-S1300/ UP.Browser/7.2.6.1.839 (GUI) MMP/2.0"]
         },
         "Opera Mini": {
             "4.2.14320": [
@@ -3261,23 +2999,17 @@
             ]
         },
         "Pinterest App": {
-            "6.12.0": [
-                "Pinterest for Android/6.12.0 (F3113; 6.0)"
-            ]
+            "6.12.0": ["Pinterest for Android/6.12.0 (F3113; 6.0)"]
         },
         "Polaris": {
             "6.0": [
                 "LG-LX600 Polaris/6.0 MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1"
             ],
-            "5.0": [
-                "Samsung-SPHM320 Polaris/5.0 MMP/2.0"
-            ],
+            "5.0": ["Samsung-SPHM320 Polaris/5.0 MMP/2.0"],
             "6.00": [
                 "UTSTARCOM-GTX75/UC1.25 POLARIS/6.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.0.0.0"
             ],
-            "5.01": [
-                "Samsung-SPHM320 Infraware-Polaris/5.01 MMP/2.0"
-            ],
+            "5.01": ["Samsung-SPHM320 Infraware-Polaris/5.01 MMP/2.0"],
             "6.2": [
                 "Mozilla/4.0 (compatible; Polaris 6.2; Brew 3.1.5; en)/240X320 Samsung sam-r631",
                 "Mozilla/4.0 (compatible; Polaris 6.2; BREW 3.1.5; U; en)/240X400 LGE VX8575"
@@ -3346,9 +3078,7 @@
             ]
         },
         "Snapchat App": {
-            "10.11.1.0": [
-                "Snapchat/10.11.1.0 (iPhone6,1; iOS 10.2.1; gzip)"
-            ]
+            "10.11.1.0": ["Snapchat/10.11.1.0 (iPhone6,1; iOS 10.2.1; gzip)"]
         },
         "Surf Browser": {
             "3.0": [
@@ -3369,7 +3099,7 @@
             ]
         },
         "Tear": {
-            "528.5": [
+            "Unknown Browser Version": [
                 "Mozilla/5.0 (X11; U; Linux armv6l; fi-fi) AppleWebKit/528.5  (KHTML, like Gecko, Safari/528.5 ) tear"
             ]
         },
@@ -3435,9 +3165,7 @@
             ]
         },
         "AirMail": {
-            "249": [
-                "Airmail/249 CFNetwork/720.1.1 Darwin/14.0.0 (x86_64)"
-            ],
+            "249": ["Airmail/249 CFNetwork/720.1.1 Darwin/14.0.0 (x86_64)"],
             "1.0 rv:148": [
                 "Airmail 1.0 rv:148 (Macintosh; Mac OS X 10.8.3; en_BE)"
             ],
@@ -3448,55 +3176,25 @@
                 "Airmail 1.0.6 rv:196 (Macintosh; Mac OS X 10.8.4; en_GB)"
             ]
         },
-        "Apple Mail": {
-            "536.26.14": [
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/536.26.14 (KHTML, like Gecko)"
-            ]
-        },
         "Barca": {
-            "2.0.3350": [
-                "Barca/2.0.3350"
-            ],
-            "2.1.3650": [
-                "Barca/2.1.3650"
-            ],
-            "2.5.3910": [
-                "Barca/2.5.3910"
-            ],
-            "2.8.4400": [
-                "Barca/2.8.4400",
-                "BarcaPro/2.8.4400"
-            ],
-            "1.4": [
-                "BarcaPro/1.4 L.1001"
-            ]
+            "2.0.3350": ["Barca/2.0.3350"],
+            "2.1.3650": ["Barca/2.1.3650"],
+            "2.5.3910": ["Barca/2.5.3910"],
+            "2.8.4400": ["Barca/2.8.4400", "BarcaPro/2.8.4400"],
+            "1.4": ["BarcaPro/1.4 L.1001"]
         },
         "Email.cz": {
-            "2.0.13": [
-                "Mozilla/5.0 SeznamEmailProxy/2.0.13"
-            ]
+            "2.0.13": ["Mozilla/5.0 SeznamEmailProxy/2.0.13"]
         },
         "Eudora": {
-            "5.0.0b25": [
-                "Eudora/5.0.0b25 (MacOS)"
-            ],
-            "5.2.1b6": [
-                "Eudora/5.2.1b6 (MacOS) "
-            ],
-            "6.2.4b8": [
-                "Eudora/6.2.4b8 (MacOS)"
-            ]
+            "5.0.0b25": ["Eudora/5.0.0b25 (MacOS)"],
+            "5.2.1b6": ["Eudora/5.2.1b6 (MacOS) "],
+            "6.2.4b8": ["Eudora/6.2.4b8 (MacOS)"]
         },
         "Evolution": {
-            "2.28.1": [
-                "CamelHttpStream/1.0 Evolution/2.28.1"
-            ],
-            "3.0.2": [
-                "CamelHttpStream/1.0 Evolution/3.0.2"
-            ],
-            "3.18.5.2": [
-                "Evolution/3.18.5.2"
-            ]
+            "2.28.1": ["CamelHttpStream/1.0 Evolution/2.28.1"],
+            "3.0.2": ["CamelHttpStream/1.0 Evolution/3.0.2"],
+            "3.18.5.2": ["Evolution/3.18.5.2"]
         },
         "FossaMail": {
             "27.0.0": [
@@ -3509,34 +3207,28 @@
             ]
         },
         "Freebox Mail": {
-            "538.1": [
+            "Unknown Browser Version": [
                 "Mozilla/5.0 (Freebox; Linux i686) AppleWebKit/538.1 (KHTML, like Gecko) Mail Free/1.0 Safari/538.1"
             ]
         },
         "GcMail": {
-            "1.0": [
-                "GcMail Browser/1.0 (compatible; MSIE 5.0; Windows 98) "
-            ]
+            "1.0": ["GcMail Browser/1.0 (compatible; MSIE 5.0; Windows 98)"]
         },
         "Gmail": {
-            "3.0.7": [
+            "Unknown Browser Version": [
                 "Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7 (via ggpht.com)",
                 "Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7 (via ggpht.com GoogleImageProxy)"
             ]
         },
         "Lotus Notes": {
-            "6.0": [
-                "Mozilla/4.0 (compatible; Lotus-Notes/6.0; Windows-NT)"
-            ],
+            "6.0": ["Mozilla/4.0 (compatible; Lotus-Notes/6.0; Windows-NT)"],
             "5.0": [
                 "Mozilla/4.0 (compatible; Lotus-Notes/5.0; Windows-NT)",
                 "Mozilla/4.0 (compatible; Lotus-Notes/5.0; Macintosh PPC)"
             ]
         },
         "MailBar": {
-            "1.3.2": [
-                "MailBar/1.3.2 (Mac OS X Version 10.11.1 (Build 15B42))"
-            ]
+            "1.3.2": ["MailBar/1.3.2 (Mac OS X Version 10.11.1 (Build 15B42))"]
         },
         "Outlook": {
             "12": [
@@ -3572,40 +3264,24 @@
             ]
         },
         "PocoMail": {
-            "3.2.2004": [
-                "PocoMail/3.2.2004"
-            ],
-            "4.1.3650": [
-                "PocoMail/4.1.3650"
-            ],
-            "4.8.4400": [
-                "Pocomail/4.8.4400"
-            ],
-            "2.6": [
-                "PocoMail 2.6 (1006) - Licensed Version"
-            ],
-            "2.64": [
-                "PocoMail 2.64 (1133) - Licensed Version"
-            ],
-            "3.1": [
-                "PocoMail 3.1 (1880) - Licensed Version"
-            ]
+            "3.2.2004": ["PocoMail/3.2.2004"],
+            "4.1.3650": ["PocoMail/4.1.3650"],
+            "4.8.4400": ["Pocomail/4.8.4400"],
+            "2.6": ["PocoMail 2.6 (1006) - Licensed Version"],
+            "2.64": ["PocoMail 2.64 (1133) - Licensed Version"],
+            "3.1": ["PocoMail 3.1 (1880) - Licensed Version"]
         },
         "Postbox": {
             "1.1.3": [
                 "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.1.8) Gecko/20100317 Postbox/1.1.3"
             ],
-            "1.0b14": [
-                "Postbox 1.0b14 (Windows/2009072715)"
-            ],
+            "1.0b14": ["Postbox 1.0b14 (Windows/2009072715)"],
             "4.0.8": [
                 "Mozilla/5.0 (Windows NT 6.2; WOW64; rv:7.0.1) Gecko/20151105 Postbox/4.0.8"
             ]
         },
         "RamblerMail": {
-            "6.0": [
-                "RamblerMail/6.0 (incompatible; ImageProxy/6.0)"
-            ]
+            "6.0": ["RamblerMail/6.0 (incompatible; ImageProxy/6.0)"]
         },
         "Shredder": {
             "3.0.2pre": [
@@ -3635,15 +3311,9 @@
             ]
         },
         "The Bat!": {
-            "4.0.14": [
-                "The Bat! 4.0.14"
-            ],
-            "4.0.0.22": [
-                "The Bat! 4.0.0.22"
-            ],
-            "Voyager": [
-                "The Bat! Voyager 4.0.18.4"
-            ]
+            "4.0.14": ["The Bat! 4.0.14"],
+            "4.0.0.22": ["The Bat! 4.0.0.22"],
+            "Voyager": ["The Bat! Voyager 4.0.18.4"]
         },
         "Thunderbird": {
             "2.0.0.14": [
@@ -3684,9 +3354,7 @@
             ]
         },
         "Unibox": {
-            "408": [
-                "Unibox/408 CFNetwork/811.5.4 Darwin/16.7.0 (x86_64)"
-            ]
+            "408": ["Unibox/408 CFNetwork/811.5.4 Darwin/16.7.0 (x86_64)"]
         },
         "Windows Live Mail": {
             "7.0": [
@@ -3739,48 +3407,24 @@
             ]
         },
         "Anemone": {
-            "0.2.0": [
-                "Anemone/0.2.0"
-            ],
-            "0.7.1": [
-                "Anemone/0.7.1"
-            ],
-            "0.7.2": [
-                "Anemone/0.7.2"
-            ]
+            "0.2.0": ["Anemone/0.2.0"],
+            "0.7.1": ["Anemone/0.7.1"],
+            "0.7.2": ["Anemone/0.7.2"]
         },
         "AngleSharp": {
-            "0.9.9": [
-                "AngleSharp/0.9.9"
-            ]
+            "0.9.9": ["AngleSharp/0.9.9"]
         },
         "Apache Http Client": {
-            "4.5.3": [
-                "Apache-HttpClient 4.5.3 Java 1.8.0_121"
-            ],
-            "4.0-beta4": [
-                "Apache-HttpAsyncClient/4.0-beta4 (java 1.5)"
-            ],
-            "4.0.3": [
-                "Apache-HttpClient/4.0.3 (java 1.5)"
-            ],
-            "4.1": [
-                "Apache-HttpClient/4.1 (java 1.5)"
-            ],
-            "4.1.3": [
-                "Apache-HttpClient/4.1.3 (java 1.5)"
-            ],
-            "4.2.1": [
-                "Apache-HttpClient/4.2.1 (java 1.5)"
-            ],
-            "1.0": [
-                "AHC/1.0"
-            ]
+            "4.5.3": ["Apache-HttpClient 4.5.3 Java 1.8.0_121"],
+            "4.0-beta4": ["Apache-HttpAsyncClient/4.0-beta4 (java 1.5)"],
+            "4.0.3": ["Apache-HttpClient/4.0.3 (java 1.5)"],
+            "4.1": ["Apache-HttpClient/4.1 (java 1.5)"],
+            "4.1.3": ["Apache-HttpClient/4.1.3 (java 1.5)"],
+            "4.2.1": ["Apache-HttpClient/4.2.1 (java 1.5)"],
+            "1.0": ["AHC/1.0"]
         },
         "axios": {
-            "0.16.2": [
-                "axios/0.16.2"
-            ]
+            "0.16.2": ["axios/0.16.2"]
         },
         "BinGet": {
             "1.00.A": [
@@ -3788,22 +3432,14 @@
             ]
         },
         "CFNetwork": {
-            "485.2": [
-                "CFNetwork/485.2 Darwin/10.3.1"
-            ],
-            "548.1.4": [
-                "CFNetwork/548.1.4 Darwin/11.0.0"
-            ]
+            "485.2": ["CFNetwork/485.2 Darwin/10.3.1"],
+            "548.1.4": ["CFNetwork/548.1.4 Darwin/11.0.0"]
         },
         "CsQuery": {
-            "1.3": [
-                "Mozilla/5.0 (compatible; CsQuery/1.3)"
-            ]
+            "1.3": ["Mozilla/5.0 (compatible; CsQuery/1.3)"]
         },
         "cssutils": {
-            "0.9.8a3": [
-                "cssutils 0.9.8a3 (http://www.cthedot.de/cssutils/)"
-            ]
+            "0.9.8a3": ["cssutils 0.9.8a3 (http://www.cthedot.de/cssutils/)"]
         },
         "cURL": {
             "7.16.1": [
@@ -3814,41 +3450,24 @@
             ]
         },
         "EventMachine": {
-            "Unknown Browser Version": [
-                "EventMachine HttpClient"
-            ]
+            "Unknown Browser Version": ["EventMachine HttpClient"]
         },
         "Faraday": {
-            "0.9.2": [
-                "Faraday v0.9.2"
-            ]
+            "0.9.2": ["Faraday v0.9.2"]
         },
         "Feed::Find": {
-            "0.06": [
-                "Feed::Find/0.06"
-            ]
+            "0.06": ["Feed::Find/0.06"]
         },
         "Go HTTP Package": {
-            "1.1": [
-                "Go 1.1 package http",
-                "Go-http-client/1.1"
-            ],
-            "Unknown Browser Version": [
-                "Go http package"
-            ]
+            "1.1": ["Go 1.1 package http", "Go-http-client/1.1"],
+            "Unknown Browser Version": ["Go http package"]
         },
         "goose-extractor": {
-            "1.0.20": [
-                "Goose/1.0.20"
-            ]
+            "1.0.20": ["Goose/1.0.20"]
         },
         "GStreamer": {
-            "2.27.4": [
-                "GStreamer souphttpsrc libsoup/2.27.4"
-            ],
-            "2.26.2": [
-                "GStreamer souphttpsrc libsoup/2.26.2"
-            ]
+            "2.27.4": ["GStreamer souphttpsrc libsoup/2.27.4"],
+            "2.26.2": ["GStreamer souphttpsrc libsoup/2.26.2"]
         },
         "Guzzle": {
             "3.0.7": [
@@ -3857,14 +3476,10 @@
             ]
         },
         "hackney": {
-            "1.3.2": [
-                "hackney/1.3.2"
-            ]
+            "1.3.2": ["hackney/1.3.2"]
         },
         "HTMLayout": {
-            "3.1": [
-                "htmlayout 3.1; Windows XP; www.terrainformatica.com )"
-            ],
+            "3.1": ["htmlayout 3.1; Windows XP; www.terrainformatica.com )"],
             "3.2": [
                 "htmlayout 3.2; Windows 2003; www.terrainformatica.com )",
                 "htmlayout 3.2; Windows XP; www.terrainformatica.com )"
@@ -3875,9 +3490,7 @@
             ]
         },
         "http-kit": {
-            "2.0": [
-                "http-kit/2.0"
-            ]
+            "2.0": ["http-kit/2.0"]
         },
         "HTTP_Request2": {
             "0.5.2": [
@@ -3903,70 +3516,35 @@
             ]
         },
         "Jakarta Commons-HttpClient": {
-            "2.0": [
-                "Jakarta Commons-HttpClient/2.0"
-            ],
-            "3.0-rc3": [
-                "Jakarta Commons-HttpClient/3.0-rc3"
-            ]
+            "2.0": ["Jakarta Commons-HttpClient/2.0"],
+            "3.0-rc3": ["Jakarta Commons-HttpClient/3.0-rc3"]
         },
         "Java": {
-            "1.6.0_03": [
-                "Java/1.6.0_03"
-            ],
-            "1.4.2_08": [
-                "Java/1.4.2_08"
-            ],
-            "1.3.1_06": [
-                "Java1.3.1_06"
-            ],
-            "1.7.0_72": [
-                "Java/1.7.0_72"
-            ],
-            "1.7.0_60-ea": [
-                "Java/1.7.0_60-ea"
-            ]
+            "1.6.0_03": ["Java/1.6.0_03"],
+            "1.4.2_08": ["Java/1.4.2_08"],
+            "1.3.1_06": ["Java1.3.1_06"],
+            "1.7.0_72": ["Java/1.7.0_72"],
+            "1.7.0_60-ea": ["Java/1.7.0_60-ea"]
         },
         "LibSoup": {
-            "2.26.1": [
-                "libsoup/2.26.1"
-            ],
-            "2.26.2": [
-                "libsoup/2.26.2"
-            ]
+            "2.26.1": ["libsoup/2.26.1"],
+            "2.26.2": ["libsoup/2.26.2"]
         },
         "libwww-perl": {
-            "5.53": [
-                "libwww-perl/5.53"
-            ],
-            "5.812": [
-                "libwww-perl/5.812"
-            ]
+            "5.53": ["libwww-perl/5.53"],
+            "5.812": ["libwww-perl/5.812"]
         },
         "lua-resty-http": {
-            "0.10": [
-                "lua-resty-http/0.10 (Lua) ngx_lua/10000"
-            ]
+            "0.10": ["lua-resty-http/0.10 (Lua) ngx_lua/10000"]
         },
         "LWP::Simple": {
-            "l": [
-                "lwp-trivial/1.35",
-                "lwp-trivial/1.41"
-            ],
-            "e": [
-                "LWP::Simple/5.812"
-            ]
+            "l": ["lwp-trivial/1.35", "lwp-trivial/1.41"],
+            "e": ["LWP::Simple/5.812"]
         },
         "Manticore": {
-            "0.2.1": [
-                "Manticore 0.2.1"
-            ],
-            "0.3.0": [
-                "Manticore 0.3.0"
-            ],
-            "0.3.1": [
-                "Manticore 0.3.1"
-            ]
+            "0.2.1": ["Manticore 0.2.1"],
+            "0.3.0": ["Manticore 0.3.0"],
+            "0.3.1": ["Manticore 0.3.1"]
         },
         "Mechanize": {
             "2.3": [
@@ -3981,12 +3559,8 @@
             ]
         },
         "OkHttp": {
-            "2.3.0": [
-                "okhttp/2.3.0"
-            ],
-            "2.5.0": [
-                "okhttp/2.5.0"
-            ]
+            "2.3.0": ["okhttp/2.3.0"],
+            "2.5.0": ["okhttp/2.5.0"]
         },
         "PEAR HTTP_Request": {
             "Unknown Browser Version": [
@@ -3994,88 +3568,48 @@
             ]
         },
         "PECL::HTTP": {
-            "1.6.0": [
-                "PECL::HTTP/1.6.0"
-            ]
+            "1.6.0": ["PECL::HTTP/1.6.0"]
         },
         "PHP OpenID Library": {
-            "2.1.1": [
-                "php-openid/2.1.1 (php/5.2.5.fb4) curl/7.15.5"
-            ]
+            "2.1.1": ["php-openid/2.1.1 (php/5.2.5.fb4) curl/7.15.5"]
         },
         "PHPcrawl": {
-            "Unknown Browser Version": [
-                "PHPCrawl"
-            ]
+            "Unknown Browser Version": ["PHPCrawl"]
         },
         "POE-Component-Client-HTTP": {
-            "0.88": [
-                "Poe-Component-Client-HTTP/0.88"
-            ]
+            "0.88": ["Poe-Component-Client-HTTP/0.88"]
         },
         "PycURL": {
-            "7.19.0": [
-                "PycURL/7.19.0"
-            ],
-            "7.13.2": [
-                "PycURL/7.13.2"
-            ]
+            "7.19.0": ["PycURL/7.19.0"],
+            "7.13.2": ["PycURL/7.13.2"]
         },
         "Python-requests": {
-            "0.9.1": [
-                "python-requests/0.9.1"
-            ],
-            "0.8.1": [
-                "python-requests/0.8.1"
-            ],
-            "0.11.0": [
-                "python-requests/0.11.0"
-            ]
+            "0.9.1": ["python-requests/0.9.1"],
+            "0.8.1": ["python-requests/0.8.1"],
+            "0.11.0": ["python-requests/0.11.0"]
         },
         "Python-urllib": {
-            "2.1": [
-                "Python-urllib/2.1"
-            ],
-            "2.4": [
-                "Python-urllib/2.4"
-            ],
-            "Unknown Browser Version": [
-                "Python-urllib"
-            ],
-            "2.7": [
-                "Python-urllib/2.7"
-            ]
+            "2.1": ["Python-urllib/2.1"],
+            "2.4": ["Python-urllib/2.4"],
+            "Unknown Browser Version": ["Python-urllib"],
+            "2.7": ["Python-urllib/2.7"]
         },
         "Python-webchecker": {
-            "50851": [
-                "Python-webchecker/50851"
-            ]
+            "50851": ["Python-webchecker/50851"]
         },
         "R longurl": {
-            "Unknown Browser Version": [
-                "longurl-r-package"
-            ]
+            "Unknown Browser Version": ["longurl-r-package"]
         },
         "RestSharp": {
-            "101.0.0.0": [
-                "RestSharp 101.0.0.0"
-            ],
-            "102.0.0.0": [
-                "RestSharp 102.0.0.0"
-            ]
+            "101.0.0.0": ["RestSharp 101.0.0.0"],
+            "102.0.0.0": ["RestSharp 102.0.0.0"]
         },
         "ROME library": {
-            "0.9": [
-                "Rome Client (http://tinyurl.com/64t5n) Ver: 0.9"
-            ],
-            "0.7": [
-                "Rome Client (http://tinyurl.com/64t5n) Ver: 0.7"
-            ]
+            "0.9": ["Rome Client (http://tinyurl.com/64t5n) Ver: 0.9"],
+            "0.7": ["Rome Client (http://tinyurl.com/64t5n) Ver: 0.7"]
         },
         "RPT-HTTPClient": {
-            "0.3-2": [
-                "Mozilla/4.5 RPT-HTTPClient/0.3-2"
-            ]
+            "0.3-2": ["Mozilla/4.5 RPT-HTTPClient/0.3-2"]
         },
         "Ruby eat": {
             "0.1.8": [
@@ -4101,33 +3635,23 @@
             ]
         },
         "Snoopy": {
-            "1.2.1": [
-                "Snoopy v1.2.1"
-            ]
+            "1.2.1": ["Snoopy v1.2.1"]
         },
         "Summer": {
-            "0.2.0": [
-                "libsummer/0.2.0 libsoup/2.24.3"
-            ]
+            "0.2.0": ["libsummer/0.2.0 libsoup/2.24.3"]
         },
         "Typhoeus": {
             "tree": [
                 "Typhoeus - http://github.com/pauldix/typhoeus/tree/master",
                 "Typhoeus - http://github.com/dbalatero/typhoeus/tree/master"
             ],
-            "typhoeus": [
-                "Typhoeus - https://github.com/typhoeus/typhoeus"
-            ]
+            "typhoeus": ["Typhoeus - https://github.com/typhoeus/typhoeus"]
         },
         "urlgrabber": {
-            "3.1.0": [
-                "urlgrabber/3.1.0"
-            ]
+            "3.1.0": ["urlgrabber/3.1.0"]
         },
         "WebLogic HTTP client": {
-            "Unknown Browser Version": [
-                "WLMHttpTransport"
-            ]
+            "Unknown Browser Version": ["WLMHttpTransport"]
         },
         "WinHTTP": {
             "Unknown Browser Version": [
@@ -4136,90 +3660,52 @@
             ]
         },
         "WinInet Component Suite": {
-            "Unknown Browser Version": [
-                "TeamSoft WinInet Component"
-            ]
+            "Unknown Browser Version": ["TeamSoft WinInet Component"]
         },
         "WWW::Mechanize": {
-            "1.54": [
-                "WWW-Mechanize/1.54"
-            ],
+            "1.54": ["WWW-Mechanize/1.54"],
             "0.7.6": [
                 "WWW-Mechanize/0.7.6 (http://rubyforge.org/projects/mechanize/)"
             ],
-            "1.72": [
-                "WWW-Mechanize/1.72"
-            ]
+            "1.72": ["WWW-Mechanize/1.72"]
         },
         "xine": {
-            "1.1.16.3": [
-                "xine/1.1.16.3"
-            ],
-            "1.1.14.1": [
-                "xine/1.1.14.1"
-            ]
+            "1.1.16.3": ["xine/1.1.16.3"],
+            "1.1.14.1": ["xine/1.1.14.1"]
         },
         "XML-RPC for PHP": {
-            "2.2.1": [
-                "XML-RPC for PHP 2.2.1"
-            ],
-            "3.0.0.beta": [
-                "XML-RPC for PHP 3.0.0.beta"
-            ]
+            "2.2.1": ["XML-RPC for PHP 2.2.1"],
+            "3.0.0.beta": ["XML-RPC for PHP 3.0.0.beta"]
         },
         "XML-RPC for Ruby": {
-            "1.9.2": [
-                "XMLRPC::Client (Ruby 1.9.2)"
-            ],
-            "1.9.3": [
-                "XMLRPC::Client (Ruby 1.9.3)"
-            ]
+            "1.9.2": ["XMLRPC::Client (Ruby 1.9.2)"],
+            "1.9.3": ["XMLRPC::Client (Ruby 1.9.3)"]
         },
         "Zend_Http_Client": {
-            "Unknown Browser Version": [
-                "Zend_Http_Client"
-            ]
+            "Unknown Browser Version": ["Zend_Http_Client"]
         },
         "Klondike": {
-            "1.50": [
-                "Klondike/1.50 (HTTP Win32)"
-            ]
+            "1.50": ["Klondike/1.50 (HTTP Win32)"]
         },
         "WapTiger": {
-            "5.0": [
-                "WapTiger/5.0 (http://www.waptiger.com/ ()"
-            ]
+            "5.0": ["WapTiger/5.0 (http://www.waptiger.com/ ()"]
         },
         "WinWap": {
-            "4.1": [
-                "WinWAP/4.1 (Win32) WinWAP-X/4.1.0.192"
-            ],
-            "1.3": [
-                "WinWAP-SPBE/1.3 (1.3.0.2;Win32)"
-            ]
+            "4.1": ["WinWAP/4.1 (Win32) WinWAP-X/4.1.0.192"],
+            "1.3": ["WinWAP-SPBE/1.3 (1.3.0.2;Win32)"]
         },
         "2Bone LinkChecker": {
-            "1.0": [
-                "2Bone_LinkChecker/1.0 libwww-perl/5.803"
-            ]
+            "1.0": ["2Bone_LinkChecker/1.0 libwww-perl/5.803"]
         },
         "anw HTMLChecker": {
-            "1.1": [
-                "topSUBMIT.de HTMLChecker/1.1"
-            ]
+            "1.1": ["topSUBMIT.de HTMLChecker/1.1"]
         },
         "anw LoadControl": {
-            "1.3": [
-                "anw webtool LoadControl/1.3"
-            ]
+            "1.3": ["anw webtool LoadControl/1.3"]
         },
         "Checkbot": {
-            "1.76": [
-                "Checkbot/1.76"
-            ],
-            "1.80": [
-                "Checkbot/1.80 LWP/5.80"
-            ]
+            "1.76": ["Checkbot/1.76"],
+            "1.80": ["Checkbot/1.80 LWP/5.80"]
         },
         "CSE HTML Validator": {
             "Lite": [
@@ -4230,87 +3716,50 @@
             ]
         },
         "Cynthia": {
-            "1.0": [
-                "Cynthia 1.0"
-            ]
+            "1.0": ["Cynthia 1.0"]
         },
         "FeedValidator": {
-            "1.3": [
-                "FeedValidator/1.3"
-            ]
+            "1.3": ["FeedValidator/1.3"]
         },
         "HTMLParser": {
-            "1.6": [
-                "HTMLParser/1.6"
-            ]
+            "1.6": ["HTMLParser/1.6"]
         },
         "LinkChecker": {
-            "4.9": [
-                "LinkChecker/4.9 ( http://linkchecker.sourceforge.net/)"
-            ],
-            "5.1": [
-                "LinkChecker/5.1 ( http://linkchecker.sourceforge.net/)"
-            ]
+            "4.9": ["LinkChecker/4.9 ( http://linkchecker.sourceforge.net/)"],
+            "5.1": ["LinkChecker/5.1 ( http://linkchecker.sourceforge.net/)"]
         },
         "LinkExaminer": {
-            "1.00": [
-                "LinkExaminer/1.00 (Windows)"
-            ],
-            "1.01": [
-                "LinkExaminer/1.01 (Windows)"
-            ]
+            "1.00": ["LinkExaminer/1.00 (Windows)"],
+            "1.01": ["LinkExaminer/1.01 (Windows)"]
         },
         "LinkWalker": {
-            "2.0": [
-                "LinkWalker/2.0 - www.seventwentyfour.com/"
-            ]
+            "2.0": ["LinkWalker/2.0 - www.seventwentyfour.com/"]
         },
         "P3P Validator": {
-            "Unknown Browser Version": [
-                "P3P Validator"
-            ]
+            "Unknown Browser Version": ["P3P Validator"]
         },
         "PHP Link Checker": {
-            "1.2": [
-                "FPLinkChecker/1.2"
-            ]
+            "1.2": ["FPLinkChecker/1.2"]
         },
         "REL Link Checker Lite": {
-            "1.0": [
-                "REL Link Checker Lite 1.0"
-            ]
+            "1.0": ["REL Link Checker Lite 1.0"]
         },
         "Screaming Frog SEO Spider": {
-            "2.21": [
-                "Screaming Frog SEO Spider/2.21"
-            ],
-            "2.22": [
-                "Screaming Frog SEO Spider/2.22"
-            ],
-            "2.55": [
-                "Screaming Frog SEO Spider/2.55"
-            ]
+            "2.21": ["Screaming Frog SEO Spider/2.21"],
+            "2.22": ["Screaming Frog SEO Spider/2.22"],
+            "2.55": ["Screaming Frog SEO Spider/2.55"]
         },
         "Validator.nu": {
-            "Unknown Browser Version": [
-                "Validator.nu/3",
-                "Validator.nu/LV"
-            ]
+            "Unknown Browser Version": ["Validator.nu/3", "Validator.nu/LV"]
         },
         "W3C Checklink": {
-            "3.6.2.3": [
-                "W3C-checklink/3.6.2.3 libwww-perl/5.64"
-            ]
+            "3.6.2.3": ["W3C-checklink/3.6.2.3 libwww-perl/5.64"]
         },
         "W3C CSS Validator": {
-            "2.0": [
-                "Jigsaw/2.2.5 W3C_CSS_Validator_JFouffa/2.0"
-            ]
+            "2.0": ["Jigsaw/2.2.5 W3C_CSS_Validator_JFouffa/2.0"]
         },
         "W3C Internationalization Checker": {
-            "1.0": [
-                "W3C_I18n-Checker/1.0"
-            ]
+            "1.0": ["W3C_I18n-Checker/1.0"]
         },
         "W3C mobileOK Checker": {
             "DDC-1.0": [
@@ -4318,17 +3767,11 @@
             ]
         },
         "W3C Unicorn Validator": {
-            "1.0": [
-                "W3C_Unicorn/1.0 (http://validator.w3.org/services)"
-            ]
+            "1.0": ["W3C_Unicorn/1.0 (http://validator.w3.org/services)"]
         },
         "W3C Validator": {
-            "1.654": [
-                "W3C_Validator/1.654"
-            ],
-            "1.432.2.22": [
-                "W3C_Validator/1.432.2.22"
-            ]
+            "1.654": ["W3C_Validator/1.654"],
+            "1.432.2.22": ["W3C_Validator/1.432.2.22"]
         },
         "W3C Validator Suite": {
             "Unknown Browser Version": [
@@ -4336,60 +3779,32 @@
             ]
         },
         "WDG CSSCheck": {
-            "1.2.2": [
-                "CSSCheck/1.2.2"
-            ]
+            "1.2.2": ["CSSCheck/1.2.2"]
         },
         "WDG Validator": {
-            "1.6.4": [
-                "WDG_Validator/1.6.4"
-            ],
-            "1.1": [
-                "WDG_Validator/1.1"
-            ],
-            "1.6.5": [
-                "WDG_Validator/1.6.5"
-            ]
+            "1.6.4": ["WDG_Validator/1.6.4"],
+            "1.1": ["WDG_Validator/1.1"],
+            "1.6.5": ["WDG_Validator/1.6.5"]
         },
         "Xenu's Link Sleuth": {
-            "1.2d": [
-                "Xenu Link Sleuth 1.2d"
-            ],
-            "1.3.8": [
-                "Xenu Link Sleuth/1.3.8"
-            ]
+            "1.2d": ["Xenu Link Sleuth 1.2d"],
+            "1.3.8": ["Xenu Link Sleuth/1.3.8"]
         },
         "Abilon": {
-            "Unknown Browser Version": [
-                "Abilon"
-            ]
+            "Unknown Browser Version": ["Abilon"]
         },
         "Akregator": {
-            "1.2.2": [
-                "Akregator/1.2.2; librss/remnants"
-            ],
-            "1.2.5": [
-                "Akregator/1.2.5; librss/remnants"
-            ],
-            "1.2.9": [
-                "Akregator/1.2.9; librss/remnants"
-            ]
+            "1.2.2": ["Akregator/1.2.2; librss/remnants"],
+            "1.2.5": ["Akregator/1.2.5; librss/remnants"],
+            "1.2.9": ["Akregator/1.2.9; librss/remnants"]
         },
         "Apple-PubSub": {
-            "65.6": [
-                "Apple-PubSub/65.6"
-            ],
-            "65.1.1": [
-                "Apple-PubSub/65.1.1"
-            ],
-            "65.12.1": [
-                "Apple-PubSub/65.12.1"
-            ]
+            "65.6": ["Apple-PubSub/65.6"],
+            "65.1.1": ["Apple-PubSub/65.1.1"],
+            "65.12.1": ["Apple-PubSub/65.12.1"]
         },
         "Awasu": {
-            "2.4PE": [
-                "Awasu/2.4PE"
-            ]
+            "2.4PE": ["Awasu/2.4PE"]
         },
         "BlogBridge": {
             "6.6.2": [
@@ -4398,9 +3813,7 @@
             ]
         },
         "Bloglines": {
-            "3.1": [
-                "Bloglines/3.1 (http://www.bloglines.com)"
-            ]
+            "3.1": ["Bloglines/3.1 (http://www.bloglines.com)"]
         },
         "CPG Dragonfly RSS Module": {
             "Unknown Browser Version": [
@@ -4415,9 +3828,7 @@
             ]
         },
         "Endo": {
-            "1.0": [
-                "endo/1.0 (Mac OS X; ppc i386; http://kula.jp/endo)"
-            ]
+            "1.0": ["endo/1.0 (Mac OS X; ppc i386; http://kula.jp/endo)"]
         },
         "Fastladder FeedFetcher": {
             "0.01": [
@@ -4425,9 +3836,7 @@
             ]
         },
         "Feed Viewer": {
-            "3.9.3843.18128": [
-                "Feed Viewer 3.9.3843.18128"
-            ]
+            "3.9.3843.18128": ["Feed Viewer 3.9.3843.18128"]
         },
         "Feedbin": {
             "Unknown Browser Version": [
@@ -4444,37 +3853,23 @@
             ]
         },
         "GreatNews": {
-            "1.0": [
-                "GreatNews/1.0"
-            ]
+            "1.0": ["GreatNews/1.0"]
         },
         "iCatcher!": {
-            "1.4": [
-                "iCatcher! 1.4 (iPod touch; iPhone OS 5.0; en_GB)"
-            ],
-            "1.6": [
-                "iCatcher! 1.6 (iPhone; iPhone OS 5.1; en_US)"
-            ],
-            "1.7": [
-                "iCatcher! 1.7 (iPad; iPhone OS 5.0.1; zh_CN)"
-            ],
-            "1.7.1": [
-                "iCatcher! 1.7.1 (iPhone; iPhone OS 4.3.5; en_US)"
-            ]
+            "1.4": ["iCatcher! 1.4 (iPod touch; iPhone OS 5.0; en_GB)"],
+            "1.6": ["iCatcher! 1.6 (iPhone; iPhone OS 5.1; en_US)"],
+            "1.7": ["iCatcher! 1.7 (iPad; iPhone OS 5.0.1; zh_CN)"],
+            "1.7.1": ["iCatcher! 1.7.1 (iPhone; iPhone OS 4.3.5; en_US)"]
         },
         "Internet Explorer RSS Reader": {
-            "1.0": [
-                "Windows-RSS-Platform/1.0 (MSIE 7.0; Windows NT 5.1)"
-            ],
+            "1.0": ["Windows-RSS-Platform/1.0 (MSIE 7.0; Windows NT 5.1)"],
             "2.0": [
                 "Windows-RSS-Platform/2.0 (MSIE 8.0; Windows NT 5.1)",
                 "Windows-RSS-Platform/2.0 (MSIE 8.0; Windows NT 6.1)"
             ]
         },
         "InoReader": {
-            "1.0": [
-                "InoReader/1.0; http://inoreader.com support@inoreader.com"
-            ]
+            "1.0": ["InoReader/1.0; http://inoreader.com support@inoreader.com"]
         },
         "Liferea": {
             "1.4.14": [
@@ -4509,12 +3904,8 @@
             ]
         },
         "NewsFox": {
-            "1.0.4.1": [
-                "Mozilla/5.0 NewsFox/1.0.4.1"
-            ],
-            "1.0.5": [
-                "Mozilla/5.0 NewsFox/1.0.5"
-            ]
+            "1.0.4.1": ["Mozilla/5.0 NewsFox/1.0.4.1"],
+            "1.0.5": ["Mozilla/5.0 NewsFox/1.0.5"]
         },
         "NewsGatorOnline": {
             "2.0": [
@@ -4522,12 +3913,8 @@
             ]
         },
         "NFReader": {
-            "1.4.1.0": [
-                "NFReader/1.4.1.0 (http://www.gaijin.at/)"
-            ],
-            "1.3.9.0": [
-                "NFReader/1.3.9.0 (http://www.gaijin.at/)"
-            ]
+            "1.4.1.0": ["NFReader/1.4.1.0 (http://www.gaijin.at/)"],
+            "1.3.9.0": ["NFReader/1.3.9.0 (http://www.gaijin.at/)"]
         },
         "Omea Reader": {
             "2.2": [
@@ -4540,20 +3927,12 @@
             ]
         },
         "Reeder": {
-            "1.0.1": [
-                "Reeder/1.0.1 CFNetwork/467.12 Darwin/10.3.1"
-            ],
-            "1.5.1": [
-                "Reeder/1.5.1 CFNetwork/544 Darwin/11.0.0 "
-            ],
-            "1.5.5": [
-                "Reeder/1.5.5 CFNetwork/548.1.4 Darwin/11.0.0"
-            ]
+            "1.0.1": ["Reeder/1.0.1 CFNetwork/467.12 Darwin/10.3.1"],
+            "1.5.1": ["Reeder/1.5.1 CFNetwork/544 Darwin/11.0.0 "],
+            "1.5.5": ["Reeder/1.5.5 CFNetwork/548.1.4 Darwin/11.0.0"]
         },
         "RSS Bandit": {
-            "1.9.0.972": [
-                "RssBandit/1.9.0.972"
-            ],
+            "1.9.0.972": ["RssBandit/1.9.0.972"],
             "1.2.0.114": [
                 "RssBandit/1.2.0.114 (.NET CLR 1.1.4322.573; WinNT 5.1.2600.0; http://www.rssbandit.org)"
             ]
@@ -4564,30 +3943,20 @@
             ]
         },
         "RSS Popper": {
-            "Unknown Browser Version": [
-                "Mozilla/4.0 (compatible; RSS Popper)"
-            ]
+            "Unknown Browser Version": ["Mozilla/4.0 (compatible; RSS Popper)"]
         },
         "RSSOwl": {
             "2.0.0.200903042053": [
                 "RSSOwl/2.0.0.200903042053 (Windows; U; en)"
             ],
-            "2.0.0.200804242342": [
-                "RSSOwl/2.0.0.200804242342"
-            ],
-            "2.2.0.201305030754": [
-                "RSSOwl/2.2.0.201305030754 (Windows; U; en)"
-            ]
+            "2.0.0.200804242342": ["RSSOwl/2.0.0.200804242342"],
+            "2.2.0.201305030754": ["RSSOwl/2.2.0.201305030754 (Windows; U; en)"]
         },
         "Safari RSS Reader": {
-            "56.1": [
-                "AppleSyndication/56.1"
-            ]
+            "56.1": ["AppleSyndication/56.1"]
         },
         "Sage": {
-            "Unknown Browser Version": [
-                "Mozilla/5.0 (Sage)"
-            ]
+            "Unknown Browser Version": ["Mozilla/5.0 (Sage)"]
         },
         "SharpReader": {
             "0.9.4.1": [
@@ -4609,9 +3978,7 @@
             ]
         },
         "Banshee": {
-            "1.5.1": [
-                "Banshee 1.5.1 (http://banshee-project.org/)"
-            ]
+            "1.5.1": ["Banshee 1.5.1 (http://banshee-project.org/)"]
         },
         "Boxee": {
             "alpha": [
@@ -4630,12 +3997,8 @@
             ]
         },
         "Dailymotion App": {
-            "4.0.6": [
-                "dailymotion/4.0.6 (iPod touch; iOS 7.1.2; Scale/2.00)"
-            ],
-            "4.1": [
-                "dailymotion/4.1 (iPod touch; iOS 8.3; Scale/2.00)"
-            ]
+            "4.0.6": ["dailymotion/4.0.6 (iPod touch; iOS 7.1.2; Scale/2.00)"],
+            "4.1": ["dailymotion/4.1 (iPod touch; iOS 8.3; Scale/2.00)"]
         },
         "FlyCast": {
             "1.32": [
@@ -4649,15 +4012,9 @@
             ]
         },
         "foobar2000": {
-            "0.9.5.2": [
-                "foobar2000/0.9.5.2"
-            ],
-            "0.9.6.5_beta_2": [
-                "foobar2000/0.9.6.5_beta_2"
-            ],
-            "0.9.6.8": [
-                "foobar2000/0.9.6.8"
-            ]
+            "0.9.5.2": ["foobar2000/0.9.5.2"],
+            "0.9.6.5_beta_2": ["foobar2000/0.9.6.5_beta_2"],
+            "0.9.6.8": ["foobar2000/0.9.6.8"]
         },
         "GOM Player": {
             "2": [
@@ -4666,12 +4023,8 @@
             ]
         },
         "iTunes": {
-            "4.2": [
-                "iTunes/4.2 (Macintosh; U; PPC Mac OS X 10.2)"
-            ],
-            "8.1.1": [
-                "iTunes/8.1.1 (Windows; N)"
-            ],
+            "4.2": ["iTunes/4.2 (Macintosh; U; PPC Mac OS X 10.2)"],
+            "8.1.1": ["iTunes/8.1.1 (Windows; N)"],
             "9.0.2": [
                 "itunes/9.0.2 (Macintosh; Intel Mac OS X 10.4.11) AppleWebKit/531.21.8"
             ],
@@ -4709,23 +4062,15 @@
             "2.1-svn": [
                 "Miro/2.1-svn (http://www.getmiro.com/; Windows 2000 )"
             ],
-            "0.8.1": [
-                "Democracy/0.8.1 (http://www.participatoryculture.org)"
-            ],
+            "0.8.1": ["Democracy/0.8.1 (http://www.participatoryculture.org)"],
             "3.0.1": [
                 "Miro/3.0.1 (http://www.getmiro.com/; Darwin 8.11.1 i386)"
             ]
         },
         "MPlayer": {
-            "SVN-r29189-snapshot-4.3.2": [
-                "MPlayer/SVN-r29189-snapshot-4.3.2"
-            ],
-            "29040-4.3.3": [
-                "MPlayer/29040-4.3.3"
-            ],
-            "2.0": [
-                "MPlayer 2.0"
-            ]
+            "SVN-r29189-snapshot-4.3.2": ["MPlayer/SVN-r29189-snapshot-4.3.2"],
+            "29040-4.3.3": ["MPlayer/29040-4.3.3"],
+            "2.0": ["MPlayer 2.0"]
         },
         "Plex Media Center": {
             "10.1": [
@@ -4736,22 +4081,14 @@
             ]
         },
         "Pocket Tunes": {
-            "5.5.2": [
-                "PocketTunes/5.5.2"
-            ]
+            "5.5.2": ["PocketTunes/5.5.2"]
         },
         "Public Radio Player": {
-            "2.1": [
-                "PublicRadioPlayer/2.1 CFNetwork/459 Darwin/9.8.0"
-            ],
-            "1.3": [
-                "PublicRadioApp/1.3 CFNetwork/459 Darwin/10.0.0d3"
-            ]
+            "2.1": ["PublicRadioPlayer/2.1 CFNetwork/459 Darwin/9.8.0"],
+            "1.3": ["PublicRadioApp/1.3 CFNetwork/459 Darwin/10.0.0d3"]
         },
         "RSS Radio": {
-            "1.493": [
-                "RSS_Radio 1.493"
-            ]
+            "1.493": ["RSS_Radio 1.493"]
         },
         "Songbird": {
             "1.1.2": [
@@ -4763,9 +4100,7 @@
             ]
         },
         "SubStream": {
-            "0.7": [
-                "SubStream/0.7 CFNetwork/485.12.30 Darwin/10.4.0"
-            ]
+            "0.7": ["SubStream/0.7 CFNetwork/485.12.30 Darwin/10.4.0"]
         },
         "VLC Media Player": {
             "0.9.9": [
@@ -4783,47 +4118,29 @@
             "0.9.8": [
                 "VLC media player - version 0.9.8 Grishenko - (c) 1996-2009 the VideoLAN team"
             ],
-            "2.2.6": [
-                "VLC/2.2.6 LibVLC/2.2.6"
-            ]
+            "2.2.6": ["VLC/2.2.6 LibVLC/2.2.6"]
         },
         "Winamp for Android": {
             "1.2.10": [
                 "WAFA/1.2.10 (Linux; Android 2.2-update1; Winamp) Replicant/1.0",
                 "WAFA/1.2.10 (Linux; Android 4.1; Winamp) Replicant/1.0"
             ],
-            "1.2.1": [
-                "WAFA/1.2.1 (Linux; Android 2.1; Winamp) Replicant/1.0"
-            ]
+            "1.2.1": ["WAFA/1.2.1 (Linux; Android 2.1; Winamp) Replicant/1.0"]
         },
         "Windows Media Player": {
-            "11.0.6001.7000": [
-                "Windows-Media-Player/11.0.6001.7000"
-            ],
-            "9.00.00.3086": [
-                "Windows-Media-Player/9.00.00.3086"
-            ],
-            "11.0.5721.5275": [
-                "NSPlayer/11.0.5721.5275 WMFSDK/11.0"
-            ]
+            "11.0.6001.7000": ["Windows-Media-Player/11.0.6001.7000"],
+            "9.00.00.3086": ["Windows-Media-Player/9.00.00.3086"],
+            "11.0.5721.5275": ["NSPlayer/11.0.5721.5275 WMFSDK/11.0"]
         },
         "XMPlay": {
-            "3.5": [
-                "XMPlay/3.5"
-            ]
+            "3.5": ["XMPlay/3.5"]
         },
         "Apache Bench": {
-            "2.3": [
-                "ApacheBench/2.3"
-            ],
-            "2.0.40-dev": [
-                "ApacheBench/2.0.40-dev"
-            ]
+            "2.3": ["ApacheBench/2.3"],
+            "2.0.40-dev": ["ApacheBench/2.0.40-dev"]
         },
         "ActiveXperts Network Monitor": {
-            "3.1": [
-                "Mozilla/4.0 (compatible; Win32; ActiveXperts.Http.3.1)"
-            ]
+            "3.1": ["Mozilla/4.0 (compatible; Win32; ActiveXperts.Http.3.1)"]
         },
         "Android Download Manager": {
             "4.4.2": [
@@ -4831,35 +4148,21 @@
             ]
         },
         "Apache Internal Dummy Connection": {
-            "2.2.21": [
-                "Apache/2.2.21 (Fedora) (internal dummy connection)"
-            ],
-            "2.2.15": [
-                "Apache/2.2.15 (CentOS) (internal dummy connection)"
-            ]
+            "2.2.21": ["Apache/2.2.21 (Fedora) (internal dummy connection)"],
+            "2.2.15": ["Apache/2.2.15 (CentOS) (internal dummy connection)"]
         },
         "Apache Synapse": {
-            "Unknown Browser Version": [
-                "Mozilla/4.0 (compatible; Synapse)"
-            ]
+            "Unknown Browser Version": ["Mozilla/4.0 (compatible; Synapse)"]
         },
         "aria2": {
-            "1.19.2": [
-                "aria2/1.19.2"
-            ],
-            "1.23.0": [
-                "aria2/1.23.0"
-            ]
+            "1.19.2": ["aria2/1.19.2"],
+            "1.23.0": ["aria2/1.23.0"]
         },
         "Atomic Email Hunter": {
-            "4.0": [
-                "Atomic_Email_Hunter/4.0"
-            ]
+            "4.0": ["Atomic_Email_Hunter/4.0"]
         },
         "Bandwidth-Hero Compressor": {
-            "Unknown Browser Version": [
-                "Bandwidth-Hero Compressor"
-            ]
+            "Unknown Browser Version": ["Bandwidth-Hero Compressor"]
         },
         "Bitdefender Antivirus": {
             "2.2.2.23654": [
@@ -4867,17 +4170,11 @@
             ]
         },
         "Bookdog": {
-            "5.1.44": [
-                "Bookdog/5.1.44"
-            ],
-            "5.2": [
-                "Bookdog/5.2"
-            ]
+            "5.1.44": ["Bookdog/5.1.44"],
+            "5.2": ["Bookdog/5.2"]
         },
         "BookmarkTracker": {
-            "Unknown Browser Version": [
-                "ColdFusion (BookmarkTracker.com)"
-            ]
+            "Unknown Browser Version": ["ColdFusion (BookmarkTracker.com)"]
         },
         "Box Notes": {
             "1.3.0": [
@@ -4893,15 +4190,11 @@
             ]
         },
         "BrowserEmulator": {
-            "0.9": [
-                "BrowserEmulator/0.9 see http://dejavu.org"
-            ]
+            "0.9": ["BrowserEmulator/0.9 see http://dejavu.org"]
         },
         "Catchpoint Analyser": {
             "Unknown Browser Version": [
-                "Mozilla/4.0 (compatible; Catchpoint)"
-            ],
-            "63.0.3239.132": [
+                "Mozilla/4.0 (compatible; Catchpoint)",
                 "Mozilla/5.0 (compatible; Windows NT 6.1; Catchpoint) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
             ]
         },
@@ -4911,19 +4204,13 @@
             ]
         },
         "Cyberduck": {
-            "3.3": [
-                "Cyberduck/3.3 (5552)"
-            ]
+            "3.3": ["Cyberduck/3.3 (5552)"]
         },
         "Datadog Agent": {
-            "5.10.1": [
-                "Datadog Agent/5.10.1"
-            ]
+            "5.10.1": ["Datadog Agent/5.10.1"]
         },
         "Dell Web Monitor": {
-            "1.0": [
-                "DellWebMonitor/1.0 (Web Monitor Agent; HTTP; HTTPS)"
-            ]
+            "1.0": ["DellWebMonitor/1.0 (Web Monitor Agent; HTTP; HTTPS)"]
         },
         "DomainCrawler": {
             "3.0": [
@@ -4933,47 +4220,25 @@
             ]
         },
         "DownloadStudio": {
-            "4.0": [
-                "DownloadStudio/4.0"
-            ]
+            "4.0": ["DownloadStudio/4.0"]
         },
         "Funambol Mozilla Sync Client": {
-            "0.9.1": [
-                "Funambol Mozilla Sync Client v0.9.1"
-            ]
+            "0.9.1": ["Funambol Mozilla Sync Client v0.9.1"]
         },
         "Funambol Outlook Sync Client": {
-            "7.0.7": [
-                "Funambol Outlook Plug-in v. 7.0.7"
-            ]
+            "7.0.7": ["Funambol Outlook Plug-in v. 7.0.7"]
         },
         "GnomeVFS": {
-            "0.2.3": [
-                "gvfs/0.2.3"
-            ],
-            "1.0.3": [
-                "gvfs/1.0.3"
-            ],
-            "1.3.1": [
-                "gvfs/1.3.1"
-            ]
+            "0.2.3": ["gvfs/0.2.3"],
+            "1.0.3": ["gvfs/1.0.3"],
+            "1.3.1": ["gvfs/1.3.1"]
         },
         "GoldenPod": {
-            "0.8.1": [
-                "GoldenPod 0.8.1 (podcatcher) libwwwperl"
-            ]
+            "0.8.1": ["GoldenPod 0.8.1 (podcatcher) libwwwperl"]
         },
         "Google App Engine": {
             "Unknown Browser Version": [
                 "AppEngine-Google; ( http://code.google.com/appengine)"
-            ]
-        },
-        "Google Docs Viewer": {
-            "35.0.1916.114": [
-                "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36,gzip(gfe) (via docs.google.com/viewer)"
-            ],
-            "8.0": [
-                "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:8.0) Gecko/20100101 Firefox/8.0,gzip(gfe) (via docs.google.com/viewer)"
             ]
         },
         "Google Earth": {
@@ -4982,9 +4247,7 @@
             ]
         },
         "Google Friend Connect": {
-            "1.0": [
-                "GoogleFriendConnect/1.0"
-            ]
+            "1.0": ["GoogleFriendConnect/1.0"]
         },
         "Google Listen": {
             "1.0.3.1": [
@@ -4993,28 +4256,22 @@
             ]
         },
         "Google Rich Snippets Testing Tool": {
-            "Unknown Browser Version": [
-                "Googlebot-richsnippets"
-            ]
+            "Unknown Browser Version": ["Googlebot-richsnippets"]
         },
         "Google Wireless Transcoder": {
-            "6.0": [
+            "Unknown Browser Version": [
                 "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0;Google Wireless Transcoder;)"
             ],
-            "525.13": [
+            "3.1": [
                 "Mozilla/5.0 (en-us) AppleWebKit/525.13 (KHTML, like Gecko; Google Wireless Transcoder) Version/3.1 Safari/525.13,Mozilla/5.0 (en-us) AppleWebKit/525.13 (KHTML, like Gecko; Google Wireless Transcoder) Version/3.1 Safari/525.13"
             ]
         },
         "GSiteCrawler": {
-            "v1.23": [
-                "GSiteCrawler/v1.23 rev. 286 (http://gsitecrawler.com/)"
-            ],
-            "v1.12": [
-                "GSiteCrawler/v1.12 rev. 260 (http://gsitecrawler.com/)"
-            ]
+            "v1.23": ["GSiteCrawler/v1.23 rev. 286 (http://gsitecrawler.com/)"],
+            "v1.12": ["GSiteCrawler/v1.12 rev. 260 (http://gsitecrawler.com/)"]
         },
         "Havij": {
-            "7.0": [
+            "Unknown Browser Version": [
                 "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727) Havij"
             ]
         },
@@ -5030,41 +4287,23 @@
             "Personal Edition": [
                 "HTML2JPG Personal Edition, http://www.html2jpg.com"
             ],
-            "Enterprise": [
-                "HTML2JPG Enterprise, http://www.html2jpg.com"
-            ]
+            "Enterprise": ["HTML2JPG Enterprise, http://www.html2jpg.com"]
         },
         "HTTP nagios plugin": {
-            "1.4.13": [
-                "check_http/v2053 (nagios-plugins 1.4.13)"
-            ]
+            "1.4.13": ["check_http/v2053 (nagios-plugins 1.4.13)"]
         },
         "iGetter": {
-            "2": [
-                "iGetter/2 (Macintosh; U; PPC Mac OS X; en)  "
-            ],
-            "1.x": [
-                "iGetter/1.x (Macintosh;G;PPC)  "
-            ],
-            "2.3": [
-                "iGetter/2.3 (Macintosh;G;PPC)"
-            ]
+            "2": ["iGetter/2 (Macintosh; U; PPC Mac OS X; en)  "],
+            "1.x": ["iGetter/1.x (Macintosh;G;PPC)  "],
+            "2.3": ["iGetter/2.3 (Macintosh;G;PPC)"]
         },
         "iVideo": {
-            "Lite 1.2": [
-                "iVideo Lite 1.2 (iPhone; iPhone OS 3.1.2; de_AT)"
-            ]
+            "Lite 1.2": ["iVideo Lite 1.2 (iPhone; iPhone OS 3.1.2; de_AT)"]
         },
         "Jamcast": {
-            "0.9": [
-                "Windows NT/5.1, UPnP/1.0, Jamcast/0.9"
-            ],
-            "1.0": [
-                "Windows NT/5.1, UPnP/1.0, Jamcast/1.0"
-            ],
-            "0.9.8.33": [
-                "Jamcast 0.9.8.33"
-            ]
+            "0.9": ["Windows NT/5.1, UPnP/1.0, Jamcast/0.9"],
+            "1.0": ["Windows NT/5.1, UPnP/1.0, Jamcast/1.0"],
+            "0.9.8.33": ["Jamcast 0.9.8.33"]
         },
         "JS-Kit/Echo": {
             "Unknown Browser Version": [
@@ -5079,15 +4318,11 @@
             ]
         },
         "LFTP": {
-            "3.7.3": [
-                "lftp/3.7.3"
-            ],
-            "3.7.4": [
-                "lftp/3.7.4"
-            ]
+            "3.7.3": ["lftp/3.7.3"],
+            "3.7.4": ["lftp/3.7.4"]
         },
         "LG Web Browser Engine": {
-            "538.2": [
+            "Unknown Browser Version": [
                 "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/538.2 (KHTML, like Gecko) Large Screen WebAppManager Safari/538.2"
             ]
         },
@@ -5109,9 +4344,7 @@
             ]
         },
         "Microsoft Office Existence Discovery": {
-            "Unknown Browser Version": [
-                "Microsoft Office Existence Discovery"
-            ]
+            "Unknown Browser Version": ["Microsoft Office Existence Discovery"]
         },
         "Microsoft WebDAV Client": {
             "Unknown Browser Version": [
@@ -5129,9 +4362,7 @@
             ]
         },
         "Nagstamon": {
-            "3.0.2": [
-                "Nagstamon/3.0.2/Windows"
-            ]
+            "3.0.2": ["Nagstamon/3.0.2/Windows"]
         },
         "NetFront Content Viewer": {
             "1.0": [
@@ -5145,14 +4376,10 @@
             ]
         },
         "Nokia SyncML Client": {
-            "Unknown Browser Version": [
-                "Nokia SyncML HTTP Client"
-            ]
+            "Unknown Browser Version": ["Nokia SyncML HTTP Client"]
         },
         "Novell BorderManager": {
-            "3.0": [
-                "Mozilla/4.0 (compatible; BorderManager 3.0)"
-            ]
+            "3.0": ["Mozilla/4.0 (compatible; BorderManager 3.0)"]
         },
         "Overwolf Client": {
             "0.110.2.28": [
@@ -5163,12 +4390,8 @@
             ]
         },
         "ownCloud Sync Client": {
-            "2.0.0": [
-                "Mozilla/5.0 (Android) ownCloud-android/2.0.0"
-            ],
-            "2.2.4": [
-                "Mozilla/5.0 (Linux) mirall/2.2.4"
-            ]
+            "2.0.0": ["Mozilla/5.0 (Android) ownCloud-android/2.0.0"],
+            "2.2.4": ["Mozilla/5.0 (Linux) mirall/2.2.4"]
         },
         "Paparazzi!": {
             "0.5b5": [
@@ -5176,9 +4399,7 @@
             ]
         },
         "PerfectMail web probe": {
-            "2.0": [
-                "PerfectMail/2.0 (http://perfectmail.com/kb/web_probe)"
-            ]
+            "2.0": ["PerfectMail/2.0 (http://perfectmail.com/kb/web_probe)"]
         },
         "PhantomJS": {
             "1.9.2": [
@@ -5192,30 +4413,18 @@
             ]
         },
         "PHP": {
-            "5.2.8-pl2-gentoo": [
-                "PHP/5.2.8-pl2-gentoo"
-            ],
-            "5.2.6": [
-                "PHP/5.2.6"
-            ],
-            "5.2.8": [
-                "PHP/5.2.8"
-            ],
-            "5.4.23": [
-                "PHP/5.4.23"
-            ]
+            "5.2.8-pl2-gentoo": ["PHP/5.2.8-pl2-gentoo"],
+            "5.2.6": ["PHP/5.2.6"],
+            "5.2.8": ["PHP/5.2.8"],
+            "5.4.23": ["PHP/5.4.23"]
         },
         "Podkicker": {
             "1.0.3": [
                 "Podkicker/1.0.3 Android/4.0.4",
                 "Podkicker Pro/1.0.3 Android/4.0.4"
             ],
-            "1.1.1": [
-                "Podkicker/1.1.1 Android/2.3.2"
-            ],
-            "1.0.7": [
-                "Podkicker Pro/1.0.7 Android/4.0.3"
-            ]
+            "1.1.1": ["Podkicker/1.1.1 Android/2.3.2"],
+            "1.0.7": ["Podkicker Pro/1.0.7 Android/4.0.3"]
         },
         "Powermarks": {
             "3.5": [
@@ -5238,17 +4447,11 @@
             ]
         },
         "Radio Downloader": {
-            "0.8.2.0": [
-                "Radio Downloader 0.8.2.0"
-            ],
-            "0.8.0.0": [
-                "Radio Downloader 0.8.0.0"
-            ]
+            "0.8.2.0": ["Radio Downloader 0.8.2.0"],
+            "0.8.0.0": ["Radio Downloader 0.8.0.0"]
         },
         "Roundcube CardDav Plugin": {
-            "2.0.4": [
-                "RCM CardDAV plugin/2.0.4"
-            ]
+            "2.0.4": ["RCM CardDAV plugin/2.0.4"]
         },
         "RuxitSynthetic": {
             "1.0": [
@@ -5256,17 +4459,12 @@
             ]
         },
         "Seznam WAP Proxy": {
-            "3.0.14": [
-                "Mozilla/5.0 (Windows; U; Windows NT 5.1; cs; rv:1.9.0.14) Gecko/2009082707 Firefox/3.0.14/szn-mobile-transcoder"
-            ],
             "Unknown Browser Version": [
-                "SZN-Image-Resizer"
-            ],
-            "2.0": [
-                "Nokia6230/2.0 (03.15) Profile/MIDP-2.0 Configuration/CLDC-1.1/szn-mobile-transcoder"
-            ],
-            "6.0": [
-                "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 1.1.4322)/szn-mobile-transcoder"
+                "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 1.1.4322)/szn-mobile-transcoder",
+                "Nokia6230/2.0 (03.15) Profile/MIDP-2.0 Configuration/CLDC-1.1/szn-mobile-transcoder",
+                "SZN-Image-Resizer",
+                "Nokia6230/2.0 (03.15) Profile/MIDP-2.0 Configuration/CLDC-1.1/szn-mobile-transcoder",
+                "Mozilla/5.0 (Windows; U; Windows NT 5.1; cs; rv:1.9.0.14) Gecko/2009082707 Firefox/3.0.14/szn-mobile-transcoder"
             ]
         },
         "SmartBrowserPlugin for TC": {
@@ -5281,28 +4479,22 @@
             "1.0.1.1060": [
                 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Spotify/1.0.1.1060 Safari/537.36"
             ],
-            "8.0.0": [
-                "Spotify/8.0.0 Android/22 (Blade A460)"
-            ],
-            "8.2.0": [
-                "Spotify/8.2.0 iOS/10.0.1 (iPhone7,2)"
-            ]
+            "8.0.0": ["Spotify/8.0.0 Android/22 (Blade A460)"],
+            "8.2.0": ["Spotify/8.2.0 iOS/10.0.1 (iPhone7,2)"]
         },
         "sqlmap": {
-            "1.0-dev": [
-                "sqlmap/1.0-dev (http://sqlmap.org)"
-            ],
+            "1.0-dev": ["sqlmap/1.0-dev (http://sqlmap.org)"],
             "1.0-dev-nongit-20151027": [
                 "sqlmap/1.0-dev-nongit-20151027 (http://sqlmap.org)"
             ]
         },
         "Steam Client": {
-            "49.0.2623.110": [
+            "1490228413": [
                 "Mozilla/5.0 (Macintosh; U; MacOS X 10_8_5; en-US; Valve Steam Client/default/1490228413; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36"
-            ],
-            "1.0": [
-                "Valve/Steam HTTP Client 1.0"
             ]
+        },
+        "Steam HTTP Client": {
+            "1.0": ["Valve/Steam HTTP Client 1.0"]
         },
         "tinyCam Monitor": {
             "Unknown Browser Version": [
@@ -5329,48 +4521,27 @@
             ]
         },
         "WebCollage": {
-            "1.129": [
-                "webcollage1/1.129"
-            ],
-            "1.127": [
-                "webcollage-noporn/1.127",
-                "webcollage/1.127"
-            ],
-            "1.148": [
-                "webcollage.modified/1.148"
-            ],
-            "1.133": [
-                "webcollage.pl/1.133"
-            ],
-            "1.107": [
-                "webcollage.perl/1.107"
-            ]
+            "1.129": ["webcollage1/1.129"],
+            "1.127": ["webcollage-noporn/1.127", "webcollage/1.127"],
+            "1.148": ["webcollage.modified/1.148"],
+            "1.133": ["webcollage.pl/1.133"],
+            "1.107": ["webcollage.perl/1.107"]
         },
         "webfs": {
-            "2.0": [
-                "webfs/2.0 (plan 9)"
-            ]
+            "2.0": ["webfs/2.0 (plan 9)"]
         },
         "Wfuzz": {
-            "2.2.2": [
-                "Wfuzz/2.2.2"
-            ]
+            "2.2.2": ["Wfuzz/2.2.2"]
         },
         "WhatWeb": {
-            "0.4.7": [
-                "WhatWeb/0.4.7"
-            ],
-            "0.4.8-dev": [
-                "WhatWeb/0.4.8-dev"
-            ]
+            "0.4.7": ["WhatWeb/0.4.7"],
+            "0.4.8-dev": ["WhatWeb/0.4.8-dev"]
         },
         "WinPodder": {
-            "Unknown Browser Version": [
-                "WinPodder (http://winpodder.com)"
-            ]
+            "Unknown Browser Version": ["WinPodder (http://winpodder.com)"]
         },
         "WkHTMLtoPDF": {
-            "534.34": [
+            "Unknown Browser Version": [
                 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/534.34 (KHTML, like Gecko) wkhtmltopdf Safari/534.34",
                 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/534.34 (KHTML, like Gecko) wkhtmltoimage Safari/534.34",
                 "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) wkhtmltopdf Safari/534.34"
@@ -5382,14 +4553,10 @@
             ]
         },
         "Anonymouse.org": {
-            "Unknown Browser Version": [
-                "http://Anonymouse.org/ (Unix)"
-            ]
+            "Unknown Browser Version": ["http://Anonymouse.org/ (Unix)"]
         },
         "Mr.4x3 Powered": {
-            "Unknown Browser Version": [
-                "Mr.4x3 Powered"
-            ]
+            "Unknown Browser Version": ["Mr.4x3 Powered"]
         },
         "Huawei Browser": {
             "10.0.2.303": [
@@ -5407,7 +4574,7 @@
             ]
         },
         "Cake Browser": {
-            "86.0.4240.99": [
+            "Unknown Browser Version": [
                 "Mozilla/5.0 (Linux; Android 10; BLA-L09 Build/HUAWEIBLA-L09S; Cake) AppleWebKit/537.36 (KHTML, like Gecko) Version/6.0.24 Chrome/86.0.4240.99 Mobile Safari/537.36"
             ]
         },
@@ -5431,12 +4598,8 @@
             "6": [
                 "Mozilla/5.0 (X11; U; Windows NT 6; en-US) AppleWebKit/534.12 (KHTML, like Gecko) Chrome/9.0.587.0 Safari/534.12"
             ],
-            "10": [
-                "BriskBard/1.0 (Windows 10) BriskBard/1.0"
-            ],
-            "95": [
-                "NCSA_Mosaic/3.0 (Windows 95)"
-            ],
+            "10": ["BriskBard/1.0 (Windows 10) BriskBard/1.0"],
+            "95": ["NCSA_Mosaic/3.0 (Windows 95)"],
             "98": [
                 "Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x 4.90; http://www.Abolimba.de)",
                 "Mozilla/2.0 (compatible; MSIE 4.0; Windows 98)",
@@ -5453,9 +4616,7 @@
                 "Mozilla/4.7 (compatible; OffByOne; Windows 2000)",
                 "Miro/2.1-svn (http://www.getmiro.com/; Windows 2000 )"
             ],
-            "2003": [
-                "htmlayout 3.2; Windows 2003; www.terrainformatica.com )"
-            ],
+            "2003": ["htmlayout 3.2; Windows 2003; www.terrainformatica.com )"],
             "5.1": [
                 "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; 2345Explorer 5.0.0.14136)",
                 "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/7.1.0.12633",
@@ -5604,7 +4765,6 @@
                 "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.0.1084.5402 Chrome/19.0.1084.5402 Safari/536.5",
                 "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 YaBrowser/16.11.0.2680 Yowser/2.5 Safari/537.36",
                 "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b2pre) Gecko/20081015 Fennec/1.0a1",
-                "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5.3.5)",
                 "HTC_HD2_T9193 Opera/9.7 (Windows NT 5.1; U; en) V1.49.841.1 (71528)",
                 "Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7 (via ggpht.com)",
                 "Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7 (via ggpht.com GoogleImageProxy)",
@@ -5833,7 +4993,8 @@
                 "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.7.0 Safari/534.34",
                 "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Spotify/1.0.74.380 Safari/537.36",
                 "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/534.34 (KHTML, like Gecko) wkhtmltopdf Safari/534.34",
-                "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/534.34 (KHTML, like Gecko) wkhtmltoimage Safari/534.34"
+                "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/534.34 (KHTML, like Gecko) wkhtmltoimage Safari/534.34",
+                "Axel 2.4 (CYGWIN_NT-6.1-WOW64)"
             ],
             "6.0": [
                 "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)",
@@ -5891,7 +5052,8 @@
                 "Mozilla/5.0 (Windows NT 6.2; WOW64; rv:24.0) Gecko/20100101 Thunderbird/24.2.0",
                 "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36,gzip(gfe) (via docs.google.com/viewer)",
                 "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.59 Safari/537.36 OverwolfClient/0.102.23.0",
-                "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34"
+                "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34",
+                "Links (2.8; CYGWIN_NT-6.2-WOW64 1.7.25(0.270/5/3) i686; GNU C 4.7.3; windows)"
             ],
             "6.3": [
                 "Mozilla/5.0 (Windows NT 6.3; WOW64; Avant TriCore) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36",
@@ -5931,7 +5093,6 @@
                 "Mozilla/5.0 (Windows; U; WinNT; en; Preview) Gecko/20020603 Beonex/0.8-stable",
                 "Mozilla/5.0 (compatible; Konqueror/4.3; Windows) KHTML/4.3.0 (like Gecko)",
                 "Links (0.98; Win32; 80x25)",
-                "Links (2.8; CYGWIN_NT-6.2-WOW64 1.7.25(0.270/5/3) i686; GNU C 4.7.3; windows)",
                 "Mozilla/4.0 (compatible; U; Windows;) Lobo/0.97",
                 "Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) Maple 6.0.00077",
                 "Mozilla/5.0 (Windows; U; Win 9x 4.90; de-DE; rv:0.9.2) Gecko/20010726 Netscape6/6.1",
@@ -6021,9 +5182,7 @@
             "6.4": [
                 "Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36 Edge/12.0"
             ],
-            "3.1": [
-                "NCSA_Mosaic/2.0 (Windows 3.1)"
-            ],
+            "3.1": ["NCSA_Mosaic/2.0 (Windows 3.1)"],
             "XP": [
                 "Opera/9.02 (Windows XP; U; ru)",
                 "SuperBot/4.4.0.60 (Windows XP)",
@@ -6041,16 +5200,6 @@
                 "Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) 320x240; VZW; Motorola-Q9c; Windows Mobile 6.1 Standard",
                 "SAMSUNG-GT-i8000/1.0 (Windows CE; Opera Mobi; U; en) Opera 9.5"
             ],
-            "Phone OS 7.5": [
-                "Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0)"
-            ],
-            "Phone 8.0": [
-                "Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 920)",
-                "Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 520)"
-            ],
-            "Phone 8.1": [
-                "Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch IEMobile/11.0; HTC; Windows Phone 8S by HTC) like Gecko"
-            ],
             "CE 5.1": [
                 "Mozilla/5.0 (Windows; U; Windows CE 5.1; rv:1.8.1a3) Gecko/20060610 Minimo/0.016"
             ],
@@ -6067,6 +5216,26 @@
             ],
             "XP Professional Service Pack 2 build 2600": [
                 "XBMC/9.04-beta1 r19639 (Windows; Windows XP Professional Service Pack 2 build 2600; http://www.xbmc.org)"
+            ]
+        },
+        "Windows Phone": {
+            "6.5.3.5": [
+                "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5.3.5)"
+            ],
+            "7.5": [
+                "Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0)"
+            ],
+            "8.0": [
+                "Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 920)",
+                "Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 520)"
+            ],
+            "8.1": [
+                "Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch IEMobile/11.0; HTC; Windows Phone 8S by HTC) like Gecko",
+                "Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; Microsoft; RM-1074) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537"
+            ],
+            "10.0": [
+                "Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; NOKIA; Lumia 735) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Mobile Safari/537.36 Edge/12.0",
+                "Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; HTC; 0P6B180) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/13.10586"
             ]
         },
         "Nintendo 3DS": {
@@ -6114,7 +5283,6 @@
                 "WorldWideweb (NEXT)",
                 "X-Smiles/1.2-20081113",
                 "Mozilla/3.0 (compatible; AvantGo 3.2)",
-                "Axel 2.4 (CYGWIN_NT-6.1-WOW64)",
                 "sbl-bot (http://sbl.net)",
                 "CyotekWebCopy/1.0 CyotekWebCrawler/1.0",
                 "CyotekWebCopy/1.0 CyotekHTTP/2.0",
@@ -6537,20 +5705,12 @@
             "Unknown Operating System Version": [
                 "AmigaVoyager/2.95 (compatible; MC680x0; AmigaOS)"
             ],
-            "MC680x0": [
-                "AmigaVoyager/3.2 (AmigaOS/MC680x0)"
-            ],
-            "3.9": [
-                "IBrowse/2.3 (AmigaOS 3.9)"
-            ],
-            "4.0": [
-                "Mozilla/5.0 (compatible; IBrowse 3.0; AmigaOS4.0)"
-            ]
+            "MC680x0": ["AmigaVoyager/3.2 (AmigaOS/MC680x0)"],
+            "3.9": ["IBrowse/2.3 (AmigaOS 3.9)"],
+            "4.0": ["Mozilla/5.0 (compatible; IBrowse 3.0; AmigaOS4.0)"]
         },
         "RISC OS": {
-            "4.02": [
-                "Mozilla/3.04 (compatible; ANTFresco/2.13; RISC OS 4.02)"
-            ],
+            "4.02": ["Mozilla/3.04 (compatible; ANTFresco/2.13; RISC OS 4.02)"],
             "5.13": [
                 "Mozilla/3.04 (compatible; NCBrowser/2.35; ANTFresco/2.17; RISC OS-NC 5.13 Laz1UK1309)"
             ],
@@ -6900,9 +6060,7 @@
             "X 10_10": [
                 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Shrook/434l"
             ],
-            "X 10.2": [
-                "iTunes/4.2 (Macintosh; U; PPC Mac OS X 10.2)"
-            ],
+            "X 10.2": ["iTunes/4.2 (Macintosh; U; PPC Mac OS X 10.2)"],
             "X 10.4.11": [
                 "itunes/9.0.2 (Macintosh; Intel Mac OS X 10.4.11) AppleWebKit/531.21.8"
             ],
@@ -6949,9 +6107,7 @@
             "-1.1.5-1ubuntu0.7.10": [
                 "Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.8.1.8) Gecko/20071008 Iceape/1.1.5 (Ubuntu-1.1.5-1ubuntu0.7.10)"
             ],
-            "3.6": [
-                "Guzzle/3.0.7 curl/7.22.0 PHP/5.3.10-1ubuntu3.6"
-            ],
+            "3.6": ["Guzzle/3.0.7 curl/7.22.0 PHP/5.3.10-1ubuntu3.6"],
             "6.4": [
                 "HTTP_Request2/0.5.2 (http://pear.php.net/package/http_request2) PHP/5.2.10-2ubuntu6.4"
             ]
@@ -6963,12 +6119,8 @@
             "Unknown Operating System Version": [
                 "Mozilla/5.0 (compatible; Konqueror/3.5; SunOS)"
             ],
-            "4.1.3": [
-                "NCSA_Mosaic/2.6 (X11; SunOS 4.1.3 sun4m)"
-            ],
-            "4.1.4": [
-                "NCSA Mosaic/1.0 (X11;SunOS 4.1.4 sun4m)"
-            ]
+            "4.1.3": ["NCSA_Mosaic/2.6 (X11; SunOS 4.1.3 sun4m)"],
+            "4.1.4": ["NCSA Mosaic/1.0 (X11;SunOS 4.1.4 sun4m)"]
         },
         "OpenBSD": {
             "i386": [
@@ -7109,8 +6261,7 @@
             ],
             "7_0_3": [
                 "Mozilla/5.0 (iPad; CPU OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Coast/1.1.3.65998 Mobile/11B511 Safari/7534.48.3",
-                "Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Coast/3.1.0.79792 Mobile/11B511 Safari/7534.48.3",
-                "Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; Microsoft; RM-1074) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537"
+                "Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Coast/3.1.0.79792 Mobile/11B511 Safari/7534.48.3"
             ],
             "7_1_1": [
                 "Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Coast/3.0.0.74604 Mobile/11D201 Safari/7534.48.3",
@@ -7167,36 +6318,18 @@
             "7_0": [
                 "Mozilla/5.0 (iPad; CPU OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53"
             ],
-            "10.2.1": [
-                "Snapchat/10.11.1.0 (iPhone6,1; iOS 10.2.1; gzip)"
-            ],
+            "10.2.1": ["Snapchat/10.11.1.0 (iPhone6,1; iOS 10.2.1; gzip)"],
             "9_2": [
                 "Mozilla/5.0 (iPad; U; CPU OS 9_2 like Mac OS X; en-us; iPad5,3) AppleWebKit/534.46 (KHTML, like Gecko) UCBrowser/2.4.0.367 U3/1 Safari/7543.48.3"
             ],
-            "5.0": [
-                "iCatcher! 1.4 (iPod touch; iPhone OS 5.0; en_GB)"
-            ],
-            "5.1": [
-                "iCatcher! 1.6 (iPhone; iPhone OS 5.1; en_US)"
-            ],
-            "5.0.1": [
-                "iCatcher! 1.7 (iPad; iPhone OS 5.0.1; zh_CN)"
-            ],
-            "4.3.5": [
-                "iCatcher! 1.7.1 (iPhone; iPhone OS 4.3.5; en_US)"
-            ],
-            "7.1.2": [
-                "dailymotion/4.0.6 (iPod touch; iOS 7.1.2; Scale/2.00)"
-            ],
-            "8.3": [
-                "dailymotion/4.1 (iPod touch; iOS 8.3; Scale/2.00)"
-            ],
-            "3.1.2": [
-                "iVideo Lite 1.2 (iPhone; iPhone OS 3.1.2; de_AT)"
-            ],
-            "10.0.1": [
-                "Spotify/8.2.0 iOS/10.0.1 (iPhone7,2)"
-            ]
+            "5.0": ["iCatcher! 1.4 (iPod touch; iPhone OS 5.0; en_GB)"],
+            "5.1": ["iCatcher! 1.6 (iPhone; iPhone OS 5.1; en_US)"],
+            "5.0.1": ["iCatcher! 1.7 (iPad; iPhone OS 5.0.1; zh_CN)"],
+            "4.3.5": ["iCatcher! 1.7.1 (iPhone; iPhone OS 4.3.5; en_US)"],
+            "7.1.2": ["dailymotion/4.0.6 (iPod touch; iOS 7.1.2; Scale/2.00)"],
+            "8.3": ["dailymotion/4.1 (iPod touch; iOS 8.3; Scale/2.00)"],
+            "3.1.2": ["iVideo Lite 1.2 (iPhone; iPhone OS 3.1.2; de_AT)"],
+            "10.0.1": ["Spotify/8.2.0 iOS/10.0.1 (iPhone7,2)"]
         },
         "Darwin": {
             "8.11.0": [
@@ -7222,30 +6355,18 @@
                 "MobileSafari/9537.53 CFNetwork/672.0.8 Darwin/14.0.0",
                 "Airmail/249 CFNetwork/720.1.1 Darwin/14.0.0 (x86_64)"
             ],
-            "15.0.0": [
-                "Slack/341631 CFNetwork/758.2.8 Darwin/15.0.0"
-            ],
-            "16.7.0": [
-                "Unibox/408 CFNetwork/811.5.4 Darwin/16.7.0 (x86_64)"
-            ],
-            "8.7.1": [
-                "boxee (alpha/Darwin 8.7.1 i386 - 0.9.11.5591)"
-            ],
-            "9.5.2": [
-                "boxee (alpha/Darwin 9.5.2 i386 - 0.9.11.5591)"
-            ],
+            "15.0.0": ["Slack/341631 CFNetwork/758.2.8 Darwin/15.0.0"],
+            "16.7.0": ["Unibox/408 CFNetwork/811.5.4 Darwin/16.7.0 (x86_64)"],
+            "8.7.1": ["boxee (alpha/Darwin 8.7.1 i386 - 0.9.11.5591)"],
+            "9.5.2": ["boxee (alpha/Darwin 9.5.2 i386 - 0.9.11.5591)"],
             "9.4.0": [
                 "Miro/2.0 (http://www.getmiro.com/; Darwin 9.4.0 Power Macintosh)"
             ],
             "8.11.1": [
                 "Miro/3.0.1 (http://www.getmiro.com/; Darwin 8.11.1 i386)"
             ],
-            "9.8.0": [
-                "PublicRadioPlayer/2.1 CFNetwork/459 Darwin/9.8.0"
-            ],
-            "10.0.0d3": [
-                "PublicRadioApp/1.3 CFNetwork/459 Darwin/10.0.0d3"
-            ]
+            "9.8.0": ["PublicRadioPlayer/2.1 CFNetwork/459 Darwin/9.8.0"],
+            "10.0.0d3": ["PublicRadioApp/1.3 CFNetwork/459 Darwin/10.0.0d3"]
         },
         "Android": {
             "10": [
@@ -7282,9 +6403,7 @@
                 "Mozilla/5.0 (Linux; Android 10; BLA-L09 Build/HUAWEIBLA-L09S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Stargon/3.0.3 Chrome/86.0.4240.99 Mobile Safari/537.36",
                 "Mozilla/5.0 (Linux; Android 10; BLA-L09 Build/HUAWEIBLA-L09S) AppleWebKit/537.36 (KHTML, like Gecko) Soul/4.0 Chrome/86.0.4240.99 Mobile Safari/537.36"
             ],
-            "22": [
-                "Spotify/8.0.0 Android/22 (Blade A460)"
-            ],
+            "22": ["Spotify/8.0.0 Android/22 (Blade A460)"],
             "Unknown Operating System Version": [
                 "slack/20.10.10.0.30010689 (samsung SM-G955F; Android 9)",
                 "slack/20.09.20.0.30010667 (samsung SM-G955F; Android 9)",
@@ -7375,9 +6494,7 @@
                 "YelpWebView/1.5 Android/5.1.1 YelpApp/9.4.1 (x-screen-scale 1.0;)",
                 "Mozilla/5.0 (Linux; Andr0id 5.1.1; TVBox Build/LMY49I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36 OPR/32.0.2128.0 OMI/4.8.0.129.Chronos.69 Model/Swisscom-Marvell-BG4 TV Store/4.8 "
             ],
-            "3.0.12": [
-                "DDG-Android-3.0.12"
-            ],
+            "3.0.12": ["DDG-Android-3.0.12"],
             "8.0.0": [
                 "Mozilla/5.0 (Linux; Android 8.0.0; SM-G950F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.101 Mobile Safari/537.36 (Ecosia android@62.0.3202.101)"
             ],
@@ -7416,10 +6533,6 @@
                 "Mozilla/5.0 (Linux; U; Android 6.0; zh-CN; PE-TL20 Build/HuaweiPE-TL20) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 Quark/2.0.3.954 Mobile Safari/537.36",
                 "Mozilla/5.0 (Linux; Android 6.0; vivo 1601 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36 VivoBrowser/5.2.2"
             ],
-            "4.2.1": [
-                "Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; NOKIA; Lumia 735) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Mobile Safari/537.36 Edge/12.0",
-                "Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; HTC; 0P6B180) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/13.10586"
-            ],
             "8.0": [
                 "Mozilla/5.0 (Linux; Android 8.0; Pixel XL Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.0 Mobile Safari/537.36 EdgA/41.1.35.1"
             ],
@@ -7445,9 +6558,7 @@
                 "Mozilla/5.0 (Linux; Android 2.3.4; MT11i Build/4.0.2.A.0.62) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.123 Mobile Safari/537.22 OPR/14.0.1025.52315",
                 "Mozilla/5.0 (Linux; U; Android 2.3.4; en-US; MT11i Build/4.0.2.A.0.62) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.0.1.275 U3/0.8.0 Mobile Safari/534.31"
             ],
-            "6.12.0": [
-                "Pinterest for Android/6.12.0 (F3113; 6.0)"
-            ],
+            "6.12.0": ["Pinterest for Android/6.12.0 (F3113; 6.0)"],
             "4.4.4": [
                 "Mozilla/5.0 (Linux; Android 4.4.4; D5503 Build/14.4.A.0.157) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 CTX_DIRTY CXM Web by Citrix/1.3.3"
             ],
@@ -7468,12 +6579,8 @@
             "2.2-update1": [
                 "WAFA/1.2.10 (Linux; Android 2.2-update1; Winamp) Replicant/1.0"
             ],
-            "2.1": [
-                "WAFA/1.2.1 (Linux; Android 2.1; Winamp) Replicant/1.0"
-            ],
-            "2.3.2": [
-                "Podkicker/1.1.1 Android/2.3.2"
-            ]
+            "2.1": ["WAFA/1.2.1 (Linux; Android 2.1; Winamp) Replicant/1.0"],
+            "2.3.2": ["Podkicker/1.1.1 Android/2.3.2"]
         },
         "Orbis OS": {
             "Unknown Operating System Version": [
@@ -7513,9 +6620,7 @@
             ]
         },
         "PlayStation Portable System Software": {
-            "2.00": [
-                "Mozilla/4.0 (PSP (PlayStation Portable); 2.00)"
-            ]
+            "2.00": ["Mozilla/4.0 (PSP (PlayStation Portable); 2.00)"]
         },
         "Palm OS": {
             "Unknown Operating System Version": [
