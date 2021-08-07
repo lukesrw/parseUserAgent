@@ -83,7 +83,7 @@ function parseOperatingSystem($user_agent = null)
     );
 }
 
-function parseIsMobile($user_agent = null)
+function parseIsMobile($user_agent = null) 
 {
     $browser = parseBrowser($user_agent);
     $os = parseOperatingSystem($user_agent);
@@ -96,7 +96,8 @@ function parseIsMobile($user_agent = null)
             'PlayStation Portable System Software'
         )) ||
         in_array($browser['browser_name'], array(
-            'Nokia Web Browser'
+            'Nokia Web Browser',
+            'Opera Mini'
         )) ||
         preg_match('/(^|\s|\(|ie)mobile(safari)?/iu', $user_agent)
     );

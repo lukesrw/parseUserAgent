@@ -10,7 +10,7 @@ import * as Generic from "./interfaces/generic";
 const regexes: UserAgentParserInterface = require("../../data/regex.json");
 const cache: Generic.Object = {};
 
-export const MOBILE_BROWSER = ["Nokia Web Browser"];
+export const MOBILE_BROWSER = ["Nokia Web Browser", "Opera Mini"];
 export const MOBILE_OPERATING_SYSTEMS = [
     "Android",
     "iOS",
