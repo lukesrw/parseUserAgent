@@ -1,5 +1,837 @@
 {
     "browser": {
+        "/multizilla v(?<v>[\\d\\w.]+)/i": {
+            "n": "MultiZilla",
+            "w": 9
+        },
+        "/008\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "008",
+            "w": 10
+        },
+        "/abachobot/i": {
+            "n": "ABACHOBot",
+            "w": 10
+        },
+        "/accoona-ai-agent\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Accoona-AI-Agent",
+            "w": 10
+        },
+        "/addsugarspiderbot/i": {
+            "n": "AddSugarSpiderBot",
+            "w": 10
+        },
+        "/anyapexbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "AnyApexBot",
+            "w": 10
+        },
+        "/arachmo(\\/(?<v>[\\d\\w.-]+))?/i": {
+            "n": "Arachmo",
+            "w": 10
+        },
+        "/b-?l-?i-?t-?z-?b-?o-?t(\\/(?<v>[\\d\\w.-]+))?/i": {
+            "n": "BlitzBOT",
+            "w": 10
+        },
+        "/baiduspider(\\/(?<v>[\\d\\w.-]+))?/i": {
+            "n": "Baiduspider",
+            "w": 10
+        },
+        "/becomebot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "BecomeBot",
+            "w": 10
+        },
+        "/beslistbot(\\/|\\s)(?<v>[\\d\\w.-]+)/i": {
+            "n": "BeslistBot",
+            "w": 10
+        },
+        "/billybobbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "BillyBobBot",
+            "w": 10
+        },
+        "/lunascape\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Lunascape",
+            "w": 10
+        },
+        "/netscape navigator\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Netscape Navigator",
+            "w": 10
+        },
+        "/playstation 4( (?<v>[\\w\\d.-]+))?/i": {
+            "n": "PlayStation 4",
+            "w": 10
+        },
+        "/bimbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Bimbot",
+            "w": 10
+        },
+        "/bingbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Bingbot",
+            "w": 10
+        },
+        "/boitho.com-dc\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "boitho.com-dc",
+            "w": 10
+        },
+        "/boitho.com-robot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "boitho.com-robot",
+            "w": 10
+        },
+        "/btbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "btbot",
+            "w": 10
+        },
+        "/catchbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "CatchBot",
+            "w": 10
+        },
+        "/cerberian drtrs version-(?<v>[\\d\\w.]+)/i": {
+            "n": "Cerberian Drtrs",
+            "w": 10
+        },
+        "/charlotte\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Charlotte",
+            "w": 10
+        },
+        "/converacrawler\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "ConveraCrawler",
+            "w": 10
+        },
+        "/cosmos\\/(?<v>[\\da-z.-]+)/i": {
+            "n": "cosmos",
+            "w": 10
+        },
+        "/covario-ids\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Covario IDS",
+            "w": 10
+        },
+        "/dataparksearch\\/(?<v>[\\d\\w.]+)/i": {
+            "n": "DataparkSearch",
+            "w": 10
+        },
+        "/diamondbot/i": {
+            "n": "DiamondBot",
+            "w": 8
+        },
+        "/discobot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Discobot",
+            "w": 10
+        },
+        "/dotbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Dotbot",
+            "w": 10
+        },
+        "/emeraldshield.com webbot/i": {
+            "n": "EmeraldShield.com WebBot",
+            "w": 8
+        },
+        "/envolk\\[its\\]spider\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "envolk[ITS]spider",
+            "w": 10
+        },
+        "/esperanzabot/i": {
+            "n": "EsperanzaBot",
+            "w": 8
+        },
+        "/exabot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Exabot",
+            "w": 10
+        },
+        "/fast enter?prise crawler\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "FAST Enterprise Crawler",
+            "w": 10
+        },
+        "/fast-webcrawler\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "FAST-WebCrawler",
+            "w": 10
+        },
+        "/fdse robot/i": {
+            "n": "FDSE robot",
+            "w": 8
+        },
+        "/findlinks\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "FindLinks",
+            "w": 10
+        },
+        "/furl search (?<v>[\\d\\w.-]+)/i": {
+            "n": "FurlBot",
+            "w": 10
+        },
+        "/fyberspider/i": {
+            "n": "FyberSpider",
+            "w": 8
+        },
+        "/g2crawler/i": {
+            "n": "g2crawler",
+            "w": 8
+        },
+        "/gaisbot\\/(?<v>[\\d\\w.\\+-]+)/i": {
+            "n": "Gaisbot",
+            "w": 10
+        },
+        "/galaxybot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "GalaxyBot",
+            "w": 10
+        },
+        "/geniebot/i": {
+            "n": "genieBot",
+            "w": 8
+        },
+        "/gigabot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Gigabot",
+            "w": 10
+        },
+        "/girafabot/i": {
+            "n": "Girafabot",
+            "w": 8
+        },
+        "/googlebot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Googlebot",
+            "w": 10
+        },
+        "/googlebot-image\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Googlebot-Image",
+            "w": 10
+        },
+        "/gurujibot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "GurujiBot",
+            "w": 10
+        },
+        "/happyfunbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "HappyFunBot",
+            "w": 10
+        },
+        "/hl_ftien_spider(_v(?<v>[\\d\\w.-]+))?/i": {
+            "n": "hl_ftien_spider",
+            "w": 8
+        },
+        "/htdig\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "htdig",
+            "w": 10
+        },
+        "/iaskspider(\\/(?<v>[\\d\\w.-]+))?/i": {
+            "n": "iaskspider",
+            "w": 8
+        },
+        "/ia_archiver(\\/(?<v>[\\d\\w.-]+))?/i": {
+            "n": "ia_archiver",
+            "w": 8
+        },
+        "/iccrawler/i": {
+            "n": "iCCrawler",
+            "w": 8
+        },
+        "/ichiro\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "ichiro",
+            "w": 10
+        },
+        "/igdespyder/i": {
+            "n": "igdeSpyder",
+            "w": 8
+        },
+        "/irlbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "IRLbot",
+            "w": 10
+        },
+        "/issuecrawler/i": {
+            "n": "IssueCrawler",
+            "w": 8
+        },
+        "/jaxified bot/i": {
+            "n": "Jaxified Bot",
+            "w": 8
+        },
+        "/jyxobot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Jyxobot",
+            "w": 10
+        },
+        "/koepabot/i": {
+            "n": "KoepaBot",
+            "w": 8
+        },
+        "/l.webis\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "L.webis",
+            "w": 10
+        },
+        "/lapozzbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "LapozzBot",
+            "w": 10
+        },
+        "/larbin(_(?<v>[\\d\\w.-]+))?/i": {
+            "n": "Larbin",
+            "w": 10
+        },
+        "/ldspider/i": {
+            "n": "LDSpider",
+            "w": 8
+        },
+        "/lexxebot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "LexxeBot",
+            "w": 10
+        },
+        "/linguee bot/i": {
+            "n": "Linguee Bot",
+            "w": 8
+        },
+        "/lmspider/i": {
+            "n": "lmspider",
+            "w": 8
+        },
+        "/mabontland.com/i": {
+            "n": "mabontland",
+            "w": 10
+        },
+        "/magpie-crawler\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "magpie-crawler",
+            "w": 10
+        },
+        "/mediapartners-google\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Mediapartners-Google",
+            "w": 10
+        },
+        "/mj12bot\\/v(?<v>[\\d\\w.-]+)/i": {
+            "n": "MJ12bot",
+            "w": 10
+        },
+        "/mnogosearch-(?<v>[\\d\\w.-]+)/i": {
+            "n": "Mnogosearch",
+            "w": 10
+        },
+        "/mogimogi\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "mogimogi",
+            "w": 10
+        },
+        "/mojeekbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "MojeekBot",
+            "w": 10
+        },
+        "/moreoverbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Moreoverbot",
+            "w": 10
+        },
+        "/morning paper (?<v>[\\d\\w.-]+)/i": {
+            "n": "Morning Paper",
+            "w": 10
+        },
+        "/msnbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "msnbot",
+            "w": 10
+        },
+        "/msrbot/i": {
+            "n": "MSRBot",
+            "w": 8
+        },
+        "/mvaclient/i": {
+            "n": "MVAClient",
+            "w": 8
+        },
+        "/mxbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "mxbot",
+            "w": 10
+        },
+        "/netresearchserver(\\/(?<v>[\\d\\w.-]+))?/i": {
+            "n": "NetResearchServer",
+            "w": 8
+        },
+        "/netseer crawler\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "NetSeer Crawler",
+            "w": 10
+        },
+        "/newsgator\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "NewsGator",
+            "w": 10
+        },
+        "/ng-search\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "NG-Search",
+            "w": 10
+        },
+        "/nicebot/i": {
+            "n": "nicebot",
+            "w": 8
+        },
+        "/noxtrumbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "noxtrumbot",
+            "w": 10
+        },
+        "/nusearch spider/i": {
+            "n": "Nusearch Spider",
+            "w": 8
+        },
+        "/nutchcvs\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "NutchCVS",
+            "w": 10
+        },
+        "/nymesis\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Nymesis",
+            "w": 10
+        },
+        "/\\bobot\\)/i": {
+            "n": "obot",
+            "w": 9
+        },
+        "/oegp v. (?<v>[\\d\\w.-]+)/i": {
+            "n": "oegp",
+            "w": 10
+        },
+        "/omgilibot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "omgilibot",
+            "w": 10
+        },
+        "/omniexplorer_bot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "OmniExplorer_Bot",
+            "w": 10
+        },
+        "/oozbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "OOZBOT",
+            "w": 10
+        },
+        "/orbiter/i": {
+            "n": "Orbiter",
+            "w": 8
+        },
+        "/pagebiteshyperbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "PageBitesHyperBot",
+            "w": 10
+        },
+        "/peew\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Peew",
+            "w": 10
+        },
+        "/polybot (?<v>[\\d\\w.-]+)/i": {
+            "n": "polybot",
+            "w": 10
+        },
+        "/pompos\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Pompos",
+            "w": 10
+        },
+        "/postpost\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "PostPost",
+            "w": 10
+        },
+        "/psbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Psbot",
+            "w": 10
+        },
+        "/qseero v(?<v>[\\d\\w.-]+)/i": {
+            "n": "Qseero",
+            "w": 10
+        },
+        "/radian6/i": {
+            "n": "Radian6",
+            "w": 8
+        },
+        "/giveRAMP.com\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "RAMPyBot",
+            "w": 10
+        },
+        "/rufusbot/i": {
+            "n": "RufusBot",
+            "w": 8
+        },
+        "/sandcrawler/i": {
+            "n": "SandCrawler",
+            "w": 8
+        },
+        "/sbider\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "SBIder",
+            "w": 10
+        },
+        "/scoutjet/i": {
+            "n": "ScoutJet",
+            "w": 8
+        },
+        "/scrubby\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Scrubby",
+            "w": 10
+        },
+        "/searchsight\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "SearchSight",
+            "w": 10
+        },
+        "/seekbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Seekbot",
+            "w": 10
+        },
+        "/semanticdiscovery\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "semanticdiscovery",
+            "w": 10
+        },
+        "/sensis web crawler/i": {
+            "n": "Sensis Web Crawler",
+            "w": 8
+        },
+        "/seochat::bot v(?<v>[\\d\\w.-]+)/i": {
+            "n": "SEOChat::Bot",
+            "w": 10
+        },
+        "/seznambot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "SeznamBot",
+            "w": 10
+        },
+        "/shim-crawler/i": {
+            "n": "Shim-Crawler",
+            "w": 8
+        },
+        "/shopwiki\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "ShopWiki",
+            "w": 10
+        },
+        "/shoula robot/i": {
+            "n": "Shoula robot",
+            "w": 8
+        },
+        "/sitebot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Sitebot",
+            "w": 10
+        },
+        "/snappy\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Snappy",
+            "w": 10
+        },
+        "/sogou spider/i": {
+            "n": "sogou spider",
+            "w": 8
+        },
+        "/sosospider/i": {
+            "n": "Sosospider",
+            "w": 8
+        },
+        "/speedy spider( \\((entireweb; )?(beta)?\\/(?<v>[\\d\\w.-]+))?/i": {
+            "n": "Speedy Spider",
+            "w": 10
+        },
+        "/sqworm\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Sqworm",
+            "w": 10
+        },
+        "/stackrambler\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "StackRambler",
+            "w": 10
+        },
+        "/suggybot v?(?<v>[\\d\\w.-]+)/i": {
+            "n": "suggybot",
+            "w": 10
+        },
+        "/surveybot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "SurveyBot",
+            "w": 10
+        },
+        "/synoobot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "SynooBot",
+            "w": 10
+        },
+        "/teoma/i": {
+            "n": "Teoma",
+            "w": 8
+        },
+        "/terrawizbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "TerrawizBot",
+            "w": 10
+        },
+        "/thesubot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "TheSuBot",
+            "w": 10
+        },
+        "/thumbnail.cz robot (?<v>[\\d\\w.-]+)/i": {
+            "n": "Thumbnail.CZ robot",
+            "w": 10
+        },
+        "/tineye(\\/(?<v>[\\d\\w.-]+))?/i": {
+            "n": "TinEye",
+            "w": 8
+        },
+        "/truwogps\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "truwoGPS",
+            "w": 10
+        },
+        "/turnitinbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "TurnitinBot",
+            "w": 10
+        },
+        "/tweetedtimes bot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "TweetedTimes Bot",
+            "w": 10
+        },
+        "/twengabot/i": {
+            "n": "TwengaBot",
+            "w": 8
+        },
+        "/updated\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "updated",
+            "w": 10
+        },
+        "/urlfilebot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Urlfilebot",
+            "w": 10
+        },
+        "/vagabondo\\/(?<v>[\\d\\w.\\s-]+)/i": {
+            "n": "Vagabondo",
+            "w": 10
+        },
+        "/voilabot( beta)? (?<v>[\\d\\w.-]+)/i": {
+            "n": "VoilaBot",
+            "w": 10
+        },
+        "/vortex\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Vortex",
+            "w": 10
+        },
+        "/vyu2/i": {
+            "n": "VYU2",
+            "w": 8
+        },
+        "/websquash.com/i": {
+            "n": "Websquash.com",
+            "w": 8
+        },
+        "/wf84/i": {
+            "n": "wf84",
+            "w": 8
+        },
+        "/wofindeich robot (?<v>[\\d\\w.-]+)/i": {
+            "n": "WoFindeIch Robot",
+            "w": 10
+        },
+        "/womlpefactory\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "WomlpeFactory",
+            "w": 10
+        },
+        "/yacy/i": {
+            "n": "yacy",
+            "w": 8
+        },
+        "/yahoo! slurp/i": {
+            "n": "Yahoo! Slurp",
+            "w": 10
+        },
+        "/yahooseeker\\/v?(?<v>[\\d\\w.-]+)/i": {
+            "n": "YahooSeeker",
+            "w": 10
+        },
+        "/yahooseeker-testing\\/v?(?<v>[\\d\\w.-]+)/i": {
+            "n": "YahooSeeker-Testing",
+            "w": 10
+        },
+        "/yandexbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "YandexBot",
+            "w": 10
+        },
+        "/yandeximages\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "YandexImages",
+            "w": 10
+        },
+        "/yasaklibot\\/v(?<v>[\\d\\w.-]+)/i": {
+            "n": "Yasaklibot",
+            "w": 10
+        },
+        "/yeti\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Yeti",
+            "w": 10
+        },
+        "/yodaobot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "YodaoBot",
+            "w": 10
+        },
+        "/yooglifetchagent\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "yoogliFetchAgent",
+            "w": 10
+        },
+        "/youdaobot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "YoudaoBot",
+            "w": 10
+        },
+        "/zao\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Zao",
+            "w": 10
+        },
+        "/zealbot (?<v>[\\d\\w.-]+)/i": {
+            "n": "Zealbot",
+            "w": 10
+        },
+        "/zspider\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "zspider",
+            "w": 10
+        },
+        "/zyborg\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "ZyBorg",
+            "w": 10
+        },
+        "/america online browser\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "America Online Browser",
+            "w": 10
+        },
+        "/chromeplus\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "ChromePlus",
+            "w": 10
+        },
+        "/element browser (?<v>[\\d\\w.-]+)/i": {
+            "n": "Element Browser",
+            "w": 10
+        },
+        "/enigmafox\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "EnigmaFox",
+            "w": 10
+        },
+        "/galaxy\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Galaxy",
+            "w": 10
+        },
+        "/hana\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Hana",
+            "w": 10
+        },
+        "/inet browser (?<v>[\\d\\w.-]+)/i": {
+            "n": "iNet Browser",
+            "w": 10
+        },
+        "/kmlite\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "KMLite",
+            "w": 10
+        },
+        "/navscape\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Navscape",
+            "w": 10
+        },
+        "/oregano (?<v>[\\d\\w.-]+)/i": {
+            "n": "Oregano",
+            "w": 10
+        },
+        "/osb-browser\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "osb-browser",
+            "w": 10
+        },
+        "/pogo\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Pogo",
+            "w": 10
+        },
+        "/retawq\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "retawq",
+            "w": 10
+        },
+        "/doris\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Doris",
+            "w": 10
+        },
+        "/dorothy browser/i": {
+            "n": "Dorothy",
+            "w": 10
+        },
+        "/iris\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Iris",
+            "w": 10
+        },
+        "/(teleca|obigo)(\\s|-)(browser )?(?<v>.+?)(;|\\s|$)/i": {
+            "n": "Obigo",
+            "w": 10
+        },
+        "/wii libnup\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Wii",
+            "w": 10
+        },
+        "abilogicbot\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "AbiLogicBot",
+            "w": 10
+        },
+        "/link valet online (?<v>[\\d\\w.-]+)/i": {
+            "n": "Link Valet",
+            "w": 10
+        },
+        "/link validity check/i": {
+            "n": "Link Validity Check",
+            "w": 10
+        },
+        "/linksmanager.com_bot/i": {
+            "n": "LinksManager.com_bot",
+            "w": 10
+        },
+        "/mojoo robot/i": {
+            "n": "Mojoo Robot",
+            "w": 10
+        },
+        "/notifixious/i": {
+            "n": "Notifixious",
+            "w": 10
+        },
+        "/online link validator/i": {
+            "n": "Online Link Validator",
+            "w": 10
+        },
+        "/infowizards reciprocal link system pro/i": {
+            "n": "InfoWizards Reciprocal Link System PRO",
+            "w": 10
+        },
+        "/sitebar\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "SiteBar",
+            "w": 10
+        },
+        "/vivante link checker/i": {
+            "n": "Vivante Link Checker",
+            "w": 10
+        },
+        "/emailsiphon/i": {
+            "n": "EmailSiphon",
+            "w": 10
+        },
+        "/everyfeed-spider\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "everyfeed-spider",
+            "w": 10
+        },
+        "/feedfetcher-google/i": {
+            "n": "FeedFetcher-Google",
+            "w": 10
+        },
+        "/gregarius\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Gregarius",
+            "w": 10
+        },
+        "/magpierss\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "MagpieRSS",
+            "w": 10
+        },
+        "universalfeedparser\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "UniversalFeedParser",
+            "w": 10
+        },
+        "/microsoft url control - (?<v>[\\d\\w.-]+)/i": {
+            "n": "Microsoft URL Control",
+            "w": 10
+        },
+        "/peach\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Peach",
+            "w": 10
+        },
+        "/pxyscand\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "pxyscand",
+            "w": 10
+        },
+        "/!susie/i": {
+            "n": "!Susie",
+            "w": 10
+        },
+        "/cocoal.icio.us\\/(?<v>[\\d\\w.-]+?\\s\\(v\\d+\\))/i": {
+            "n": "Cocoal.icio.us",
+            "w": 10
+        },
+        "/domainsdb.net metacrawler v.(?<v>[\\d\\w.-]+)/i": {
+            "n": "DomainsDB.net MetaCrawler",
+            "w": 10
+        },
+        "/metauri api\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "MetaURI API",
+            "w": 10
+        },
+        "/nitro pdf download/i": {
+            "n": "Nitro PDF",
+            "w": 10
+        },
+        "/urd-magpie\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "URD-MAGPIE",
+            "w": 10
+        },
+        "/webcapture (?<v>[\\d\\w.-]+)/i": {
+            "n": "WebCapture",
+            "w": 10
+        },
         "/(?<v>[\\d\\w.-]+) \\((\\w+)\\) \\(internal dummy connection/i": {
             "n": "Apache Internal Dummy Connection",
             "w": 10
@@ -22,9 +854,9 @@
         },
         "/(blackberry[\\d\\w]+|playbook)(\\/(?<v>[\\d\\w.-]+))?/i": {
             "n": "BlackBerry Browser",
-            "w": 10
+            "w": 9
         },
-        "/(camino|chimera)\\/(?<v>[\\d\\w.-]+)/i": {
+        "/(camino|chimera)\\/(?<v>[\\d\\w\\+.-]+)/i": {
             "n": "Camino",
             "w": 10
         },
@@ -32,9 +864,9 @@
             "n": "Coc Coc",
             "w": 10
         },
-        "/(crmo|crios|\\/jrn|chrome)\\/(?<v>[\\d\\w.-]+)/i": {
+        "/(crmo|crios|chrome)(\\/(?<v>[\\d\\w.-]+))?/i": {
             "n": "Chrome",
-            "w": 8
+            "w": 6
         },
         "/(ddg-\\w+-|duckduckgo\\/)(?<v>[\\d\\w.-]+)/i": {
             "n": "DuckDuckGo",
@@ -48,11 +880,15 @@
             "n": "Microsoft Edge",
             "w": 9
         },
-        "/(fennec|fxios|firefox)\\/(?<v>[\\s\\d\\w.-]+)/i": {
+        "/(fennec|fxios|firefox)( fennec)?((\\/|\\s)(?<v>[\\d\\w\\+.-]+))/i": {
             "n": "Firefox",
             "w": 8
         },
-        "/(maxthon|mxbrowser|myie2)( (?<v>[\\d\\w.-]+))?/i": {
+        "/fennec|fxios|firefox/i": {
+            "n": "Firefox",
+            "w": 7
+        },
+        "/(maxthon|mxbrowser|myie2)((\\s|\\/)\\(?(?<v>[\\d\\w.-]+))?/i": {
             "n": "Maxthon",
             "w": 10
         },
@@ -60,9 +896,13 @@
             "n": "Miro",
             "w": 10
         },
+        "/chromium\\/(?<v>[\\d.]+)/i": {
+            "n": "Chromium",
+            "w": 6
+        },
         "/(mobilesafari|mobile safari|safari)\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "Safari",
-            "w": 7
+            "w": 6
         },
         "/(msoffice|microsoft( office)? outlook) (?<v>[\\d\\w.-]+)/i": {
             "n": "Outlook",
@@ -80,21 +920,25 @@
             "n": "Netscape Navigator",
             "w": 9
         },
-        "/(obigo|wap2|v10c browser|au-mic-[\\w\\d]+|vx9600)(\\/(?<v>[\\d\\w.-]+))?/i": {
+        "/(obigo|teleca|v10c browser|au-mic-[\\w\\d]+|vx9600)(internetbrowser)?(\\/(?<v>[\\d\\w.-]+))?/i": {
             "n": "Obigo",
             "w": 10
         },
         "/(offline explorer|web downloader)\\/(?<v>[\\d\\w.-]+)/i": {
-            "n": "Offline Explorer",
+            "n": "Web Downloader",
             "w": 10
         },
-        "/(opera mini|opios)\\/(?<v>[\\d\\w.-]+)/i": {
+        "/(opera mini|opios)\\/(?<v>\\d{1,}((\\.|_)\\d{1,}){0,})/i": {
             "n": "Opera Mini",
             "w": 10
         },
-        "/(opera|opr|oupeng|\\smms\\/\\d|opios|opt\\/)(\\/|\\s)(?<v>[\\d\\w.-]+)/i": {
+        "/(opera|opr)(\\s|\\/)(?<v>\\d[\\d\\w.-]+)/i": {
             "n": "Opera",
             "w": 9
+        },
+        "/(opera|opr|oupeng|\\smms\\/\\d|opios|opt\\/)( mobi)?((\\/|\\s)(?<v>[\\d\\w.-]+))?/i": {
+            "n": "Opera",
+            "w": 8
         },
         "/(owncloud-\\w+|mirall)\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "ownCloud Sync Client",
@@ -116,7 +960,7 @@
             "n": "Slack App",
             "w": 10
         },
-        "/(tablet browser|maemo) (?<v>[\\d\\w.-]+)/i": {
+        "/maemo browser (?<v>[\\d\\w.-]+)/i": {
             "n": "MicroB",
             "w": 10
         },
@@ -124,9 +968,17 @@
             "n": "Windows Live Mail",
             "w": 9
         },
-        "/(ie\\b|msie|iemobile|zune)(\\s|\\/)(?<v>[\\d\\w.-]+)/i": {
+        "/iemobile (?<v>[\\d.]+)/i": {
+            "n": "Internet Explorer",
+            "w": 9
+        },
+        "/msie.+rv:(?<v>[\\d.]+)/i": {
             "n": "Internet Explorer",
             "w": 8
+        },
+        "/(ie\\b|msie|iemobile|zune)(\\s|\\/)(?<v>[\\d\\w.-]+)/i": {
+            "n": "Internet Explorer",
+            "w": 7
         },
         "/(ubrowser|ucweb|ucbrowser)(\\/(?<v>[\\d\\w.-]+))?/i": {
             "n": "UC Browser",
@@ -145,7 +997,7 @@
             "w": 10
         },
         "/\\/gobrowser(\\/(?<v>[\\d\\w.-]+))?/i": {
-            "n": "GO Browser",
+            "n": "Go Browser",
             "w": 10
         },
         "/\\bline\\/(?<v>[\\d\\w.-]+)/i": {
@@ -178,7 +1030,7 @@
         },
         "/^cpg|dragonfly/i": {
             "n": "CPG Dragonfly RSS Module",
-            "w": 10
+            "w": 9
         },
         "/^curl(\\s|\\/)(?<v>[\\d\\w.-]+)/i": {
             "n": "cURL",
@@ -216,7 +1068,7 @@
             "n": "libwww-perl",
             "w": 10
         },
-        "/^lwp(-|::)\\w+(?<v>[\\d\\w.-]+)/i": {
+        "/^lwp(-|::)\\w+\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "LWP::Simple",
             "w": 10
         },
@@ -308,6 +1160,10 @@
             "n": "Amiga Voyager",
             "w": 10
         },
+        "/voyager\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Voyager",
+            "w": 9
+        },
         "/amigo(\\/(?<v>[\\d\\w.-]+))?|mrchrome/i": {
             "n": "Amigo",
             "w": 9
@@ -344,7 +1200,7 @@
             "n": "anw LoadControl",
             "w": 10
         },
-        "/aol(\\s|build\\/)(?<v>[\\d\\w.-]+)/i": {
+        "/(aol|america online browser)(\\s|build\\/)(?<v>[\\d\\w.-]+)/i": {
             "n": "AOL Explorer",
             "w": 10
         },
@@ -546,7 +1402,7 @@
         },
         "/cfnetwork\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "CFNetwork",
-            "w": 7
+            "w": 6
         },
         "/charon/i": {
             "n": "Charon",
@@ -564,11 +1420,7 @@
             "n": "Cheshire",
             "w": 10
         },
-        "/chromium\\/(?<v>[\\d\\w.-]+)/i": {
-            "n": "Chromium",
-            "w": 10
-        },
-        "/classilla\\/(?<v>[\\d\\w.-]+)/i": {
+        "/classilla(\\/(?<v>\\d[\\d\\w.-]+))?/i": {
             "n": "Classilla",
             "w": 10
         },
@@ -732,10 +1584,6 @@
             "n": "Egencia App",
             "w": 10
         },
-        "/elinks\\/(?<v>[\\d\\w.-]+)/i": {
-            "n": "Elinks",
-            "w": 10
-        },
         "/enigma browser/i": {
             "n": "Enigma Browser",
             "w": 10
@@ -744,7 +1592,7 @@
             "n": "Epic",
             "w": 10
         },
-        "/epiphany\\/(?<v>[\\d\\w.-]+)/i": {
+        "/epiphany(-webkit)?(\\/(?<v>[\\d\\w.-]+))?/i": {
             "n": "GNOME Web",
             "w": 10
         },
@@ -788,7 +1636,7 @@
             "n": "FeedValidator",
             "w": 10
         },
-        "/firebird\\/(?<v>[\\d\\w.-]+)/i": {
+        "/firebird\\/(?<v>[\\d\\w\\+.-]+)/i": {
             "n": "Firebird",
             "w": 10
         },
@@ -864,7 +1712,7 @@
             "n": "GlobalMojo",
             "w": 10
         },
-        "/Go(\\s|-)(http( package|-client))?\\/?(?<v>\\d[\\d\\w.-]+)?( package http)?/i": {
+        "/^go( |-)(http( |-)(package|client)\\/?)?(?<v>[\\d.]+)?( package http)?/i": {
             "n": "Go HTTP Package",
             "w": 10
         },
@@ -900,7 +1748,7 @@
             "n": "goose-extractor",
             "w": 10
         },
-        "/granparadiso\\/(?<v>[\\s\\d\\w.-]+)/i": {
+        "/granparadiso\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "GranParadiso",
             "w": 10
         },
@@ -916,7 +1764,7 @@
             "n": "Google App",
             "w": 10
         },
-        "/gsitecrawler\\/(?<v>[\\d\\w.-]+)/i": {
+        "/gsitecrawler\\/v(?<v>[\\d\\w.-]+)/i": {
             "n": "GSiteCrawler",
             "w": 10
         },
@@ -1024,7 +1872,7 @@
             "n": "IceDragon",
             "w": 10
         },
-        "/iceweasel\\/(?<v>[\\d\\w.-]+)/i": {
+        "/iceweasel(\\/(?<v>[\\d\\w.-]+))?/i": {
             "n": "IceWeasel",
             "w": 10
         },
@@ -1112,7 +1960,7 @@
             "n": "Orange Browser",
             "w": 10
         },
-        "/k-meleon\\/(?<v>[\\d\\w.-]+)/i": {
+        "/k-meleon(\\/|\\s)(?<v>[\\d\\w.-]+)/i": {
             "n": "K-Meleon",
             "w": 10
         },
@@ -1124,7 +1972,7 @@
             "n": "Kapiko",
             "w": 10
         },
-        "/kazehakase\\/(?<v>[\\d\\w.-]+)/i": {
+        "/kazehakase\\/?(?<v>[\\d\\w.-]+)/i": {
             "n": "Kazehakase",
             "w": 10
         },
@@ -1168,7 +2016,7 @@
             "n": "LBrowser",
             "w": 10
         },
-        "/leechcraft\\/(?<v>[\\d\\w.-]+)/i": {
+        "/leechcraft\\/(poshuku )?(?<v>[\\d\\w.]+)/i": {
             "n": "LeechCraft",
             "w": 10
         },
@@ -1200,17 +2048,21 @@
             "n": "LinkExaminer",
             "w": 10
         },
-        "/links\\s\\((?<v>[\\d\\w.-]+)/i": {
-            "n": "Links",
+        "/elinks((\\s\\(|\\/)(?<v>\\d.+?)(\\s|;|$))?/i": {
+            "n": "Elinks",
             "w": 10
+        },
+        "/links((\\s\\(|\\/)(?<v>\\d.+?)(\\s|;|$))?/i": {
+            "n": "Links",
+            "w": 9
         },
         "/linkstash/i": {
             "n": "LinkStash",
             "w": 10
         },
-        "/linkwalker\\/(?<v>[\\d\\w.-]+)/i": {
+        "/linkwalker(\\/(?<v>[\\d\\w.-]+))?/i": {
             "n": "LinkWalker",
-            "w": 10
+            "w": 8
         },
         "/lobo\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "Lobo",
@@ -1244,11 +2096,11 @@
             "n": "LuckNews",
             "w": 10
         },
-        "/lunascape(\\/|\\s)(?<v>[\\d\\w.-]+)/i": {
+        "/lunascape((\\/|\\s)(?<v>[\\d\\w\\s.-]+))?/i": {
             "n": "Lunascape",
             "w": 10
         },
-        "/lynx\\/(?<v>[\\d\\w.-]+)/i": {
+        "/lynx(\\/|\\s\\()(?<v>[\\d\\w.-]+)/i": {
             "n": "Lynx",
             "w": 10
         },
@@ -1288,7 +2140,7 @@
             "n": "Microsoft Office Existence Discovery",
             "w": 10
         },
-        "/midori\\/(?<v>[\\d\\w.-]+)/i": {
+        "/midori(\\/(?<v>[\\d\\w.-]+))?/i": {
             "n": "Midori",
             "w": 10
         },
@@ -1316,17 +2168,21 @@
             "n": "MIUI Browser",
             "w": 10
         },
-        "/mobile content viewer\\/(?<v>[\\d\\w.-]+)/i": {
-            "n": "NetFront Content Viewer",
-            "w": 10
-        },
-        "/mot-\\w+\\/(?<v>[\\d\\w.-]+)/i": {
+        "/mib\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "Motorola Internet Browser",
             "w": 10
         },
+        "/mozilla.+; rv:(?<v>[\\d\\w.]+)/i": {
+            "n": "Mozilla",
+            "w": 7
+        },
         "/mozilla\\/(?<v>[\\d.]+).*gecko\\/\\d+$/i": {
             "n": "Mozilla",
-            "w": 8
+            "w": 6
+        },
+        "/mozilla\\/(?<v>[\\d\\w.]+)/i": {
+            "n": "Netscape Navigator",
+            "w": 1
         },
         "/mplayer(\\/|\\s)(?<v>[\\d\\w.-]+)/i": {
             "n": "MPlayer",
@@ -1342,10 +2198,6 @@
         },
         "/multi-browser (?<v>[\\d\\w.-]+)/i": {
             "n": "Multi-Browser XP",
-            "w": 10
-        },
-        "/multizilla(\\/| v)(?<v>[\\d\\w.-]+)/i": {
-            "n": "MultiZilla",
             "w": 10
         },
         "/mxnitro\\/(?<v>[\\d\\w.-]+)/i": {
@@ -1368,7 +2220,7 @@
             "n": "Nagstamon",
             "w": 10
         },
-        "/namoroka\\/(?<v>[\\s\\d\\w.-]+)/i": {
+        "/namoroka\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "Namoroka",
             "w": 10
         },
@@ -1433,11 +2285,11 @@
             "w": 10
         },
         "/nintendo 3ds/i": {
-            "n": "Nintendo 3DS Browser",
+            "n": "Nintendo 3DS",
             "w": 10
         },
-        "/nintendo wiiu(\\/(?<v>[\\d\\w.-]+))?/i": {
-            "n": "Wii U Internet Browser",
+        "/wiiu.+nintendobrowser\\/(?<v>[\\d\\w.-]+)/i": {
+            "n": "Wii U",
             "w": 10
         },
         "/node-fetch\\/(?<v>[\\d\\w.-]+)/i": {
@@ -1448,9 +2300,9 @@
             "n": "Nokia SyncML Client",
             "w": 10
         },
-        "/nokia[\\w\\d-]+\\/(?<v>[\\d\\w.-]+)/i": {
+        "/nokia([\\w\\d-]+\\/(?<v>\\d[\\d\\w.-]+))?/i": {
             "n": "Nokia Web Browser",
-            "w": 9
+            "w": 7
         },
         "/ntentbrowser\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "NTENT Browser",
@@ -1468,7 +2320,7 @@
             "n": "Omea Reader",
             "w": 10
         },
-        "/omniweb\\/(?<v>[\\d\\w.-]+)/i": {
+        "/omniweb(\\/v?(?<v>[\\d\\w.-]+))?/i": {
             "n": "OmniWeb",
             "w": 10
         },
@@ -1548,16 +2400,16 @@
             "n": "Pinterest App",
             "w": 10
         },
-        "/playstation \\d;? (?<v>[\\d\\w.-]+)/i": {
-            "n": "PlayStation Web Browser",
+        "/playstation 3;? (?<v>[\\d\\w.-]+)/i": {
+            "n": "PlayStation 3",
             "w": 10
         },
-        "/playstation portable\\); (?<v>[\\d\\w.-]+)/i": {
-            "n": "PlayStation Portable Web Browser",
-            "w": 10
+        "/playstation portable/i": {
+            "n": "PlayStation Portable",
+            "w": 8
         },
         "/playstation vita(\\/|\\s)(?<v>[\\d\\w.-]+)/i": {
-            "n": "PlayStation Vita Web Browser",
+            "n": "PlayStation Vita",
             "w": 10
         },
         "/plex\\/(?<v>[\\d\\w.-]+)/i": {
@@ -1616,9 +2468,9 @@
             "n": "Puffin",
             "w": 10
         },
-        "/pycurl\\/(?<v>[\\d\\w.-]+)/i": {
+        "/pycurl(\\/(?<v>[\\d\\w.-]+))?/i": {
             "n": "PycURL",
-            "w": 10
+            "w": 8
         },
         "/python-requests\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "Python-requests",
@@ -1644,7 +2496,7 @@
             "n": "Tesla Car Browser",
             "w": 10
         },
-        "/qtweb(\\/(?<v>[\\d\\w.-]+))?/i": {
+        "/qtweb internet browser(\\/(?<v>[\\d\\w.-]+))?/i": {
             "n": "QtWeb",
             "w": 10
         },
@@ -1776,7 +2628,7 @@
             "n": "Screaming Frog SEO Spider",
             "w": 10
         },
-        "/seamonkey\\/(?<v>[\\d\\w.-]+)/i": {
+        "/seamonkey((\\/|-)(?<v>[\\d\\w.\\+-]+))?/i": {
             "n": "SeaMonkey",
             "w": 9
         },
@@ -1800,7 +2652,7 @@
             "n": "Shiira",
             "w": 10
         },
-        "/shiretoko\\/(?<v>[\\s\\d\\w.-]+)/i": {
+        "/shiretoko\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "Shiretoko",
             "w": 10
         },
@@ -1836,7 +2688,7 @@
             "n": "Skyfire",
             "w": 10
         },
-        "/sleipnir\\/(?<v>[\\d\\w.-]+)/i": {
+        "/sleipnir(\\s|\\/)(?<v>[\\d\\w.-]+)/i": {
             "n": "Sleipnir",
             "w": 10
         },
@@ -1960,7 +2812,7 @@
             "n": "SuperBot",
             "w": 10
         },
-        "/surfbrowser\\/(?<v>[\\d\\w.-]+)/i": {
+        "/surf(\\s?browser)?\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "Surf Browser",
             "w": 10
         },
@@ -2008,8 +2860,8 @@
             "n": "Teleport Pro",
             "w": 10
         },
-        "/tencenttraveler(\\/(?<v>[\\d\\w.-]+))?/i": {
-            "n": "TT Explorer",
+        "/tencenttraveler((\\/|\\s)(?<v>[\\d\\w.-]+))?/i": {
+            "n": "Tencent Traveler",
             "w": 10
         },
         "/tenfourfox\\/(?<v>[\\d\\w.-]+)/i": {
@@ -2066,7 +2918,7 @@
         },
         "/ubuntu;/i": {
             "n": "Ubuntu Web Browser",
-            "w": 8
+            "w": 6
         },
         "/ultrabrowser(\\/|\\s)(?<v>[\\d\\w.-]+)/i": {
             "n": "UltraBrowser",
@@ -2184,7 +3036,7 @@
             "n": "WebCollage",
             "w": 10
         },
-        "/webcopier (?<v>[\\d\\w.-]+)/i": {
+        "/webcopier v(?<v>[\\d\\w.-]+)/i": {
             "n": "WebCopier",
             "w": 10
         },
@@ -2232,9 +3084,9 @@
             "n": "Wfuzz",
             "w": 10
         },
-        "/wget\\/(?<v>[\\d\\w.-]+)/i": {
+        "/wget(\\/(?<v>[\\d\\w.-]+))?/i": {
             "n": "Wget",
-            "w": 10
+            "w": 8
         },
         "/whale\\/(?<v>[\\d\\w.-]+)/i": {
             "n": "Whale",
@@ -2374,25 +3226,17 @@
         }
     },
     "operating_system": {
-        "/win_nt-(?<v>[\\d.]+)/i": {
-            "n": "Windows",
+        "/irix(64)? (?<v>[\\d.]+)/i": {
+            "n": "IRIX",
             "w": 10
         },
         "/windows phone (os )?(?<v>[\\d.]+)/i": {
             "n": "Windows Phone",
             "w": 11
         },
-        "/(; |\\()(windows |winnt)(nt)?\\s?(?<v>[\\s\\d\\w.-]+)(;|\\))/i": {
-            "n": "Windows",
-            "w": 10
-        },
         "/(\\bi|iphone |cpu )os((\\s|_|\\/)(?<v>[\\d\\w.-]+))?/i": {
             "n": "iOS",
             "w": 10
-        },
-        "/^windows nt\\/(?<v>[\\d\\w.-]+)/i": {
-            "n": "Windows",
-            "w": 8
         },
         "/amigaos(\\/|\\s)?(?<v>[\\w\\d.-]+)/i": {
             "n": "AmigaOS",
@@ -2412,7 +3256,7 @@
         },
         "/blackberry(; \\d+\\/)?(?<v>[\\d\\w.-]+)?/i": {
             "n": "BlackBerry OS",
-            "w": 9
+            "w": 8
         },
         "/centos/i": {
             "n": "CentOS",
@@ -2470,8 +3314,8 @@
             "n": "Palm OS",
             "w": 10
         },
-        "/playstation 4/i": {
-            "n": "Orbis OS",
+        "/playstation 4( (?<v>[\\w\\d.-]+))?/i": {
+            "n": "PlayStation 4",
             "w": 10
         },
         "/playstation portable\\); (?<v>[\\w\\d.-]+)/i": {
@@ -2490,24 +3334,60 @@
             "n": "Ubuntu",
             "w": 10
         },
-        "/win(dows )?95/i": {
+        "/windows mobile( (?<v>[\\d.]+))?/i": {
+            "n": "Windows Mobile",
+            "w": 10
+        },
+        "/win(dows\\s|_)?nt(\\s|-|\\/)?(?<v>[\\d.]+)/i": {
             "n": "Windows",
-            "v": 4,
+            "w": 10
+        },
+        "/windows (?<v>[\\d.]+)/i": {
+            "n": "Windows",
+            "w": 8
+        },
+        "/windows ce((\\s|\\/)(?<v>[\\d.]+))?/i": {
+            "n": "Windows CE",
             "w": 9
         },
-        "/win(dows )?98/i": {
+        "/windows 7/i": {
             "n": "Windows",
-            "v": 4.1,
-            "w": 9
+            "v": "6.1",
+            "w": 10
         },
-        "/win(dows|32)/i": {
+        "/win(dows|32)( nt)?/i": {
             "n": "Windows",
             "w": 1
         },
-        "/windows xp/i": {
+        "/windows-vista/i": {
             "n": "Windows",
-            "v": 5.1,
-            "w": 8
+            "w": 10,
+            "v": "6.0"
+        },
+        "/win(dows )?2003/i": {
+            "n": "Windows",
+            "w": 10,
+            "v": "5.2"
+        },
+        "/windows( |_|-)xp/i": {
+            "n": "Windows",
+            "w": 10,
+            "v": "5.1"
+        },
+        "/win(dows )?2000/i": {
+            "n": "Windows",
+            "w": 10,
+            "v": "5.0"
+        },
+        "/win(dows )?98/i": {
+            "n": "Windows",
+            "w": 10,
+            "v": "4.1"
+        },
+        "/win(dows )?95/i": {
+            "n": "Windows",
+            "w": 10,
+            "v": "4"
         }
     }
 }
