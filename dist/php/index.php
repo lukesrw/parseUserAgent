@@ -22,12 +22,7 @@ function parse($category = null, $user_agent = null)
 
     static $regexes = false;
     if (! $regexes) {
-        $regexes = json_decode(
-            file_get_contents(
-                dirname(__DIR__, 2) . '/data/regex.json'
-            ),
-            true
-        );
+        $regexes = json_decode(file_get_contents("./regex.json"), true);
     }
 
     $weight = 0;
@@ -117,4 +112,58 @@ function parseUserAgent($user_agent = null)
             'is_mobile' => parseIsMobile($user_agent)
         )
     );
+}
+
+function parseWindowsVersion($old_version) {
+    $version = $old_version;
+    if (is_array($version)) {
+        $version = $version['operating_system_version'];
+    }
+
+    switch (round($version, 1, PHP_ROUND_HALF_DOWN)) {
+        case 4:
+            $version = "95";
+            break;
+
+        case 4.1:
+            $version = "98";
+            break;
+
+        case 5:
+            $version = "2000";
+            break;
+
+        case 4.9:
+            $version = "Me";
+            break;
+
+        case 5.1:
+        case 5.2:
+            $version = "XP";
+            break;
+
+        case 6:
+            $version = "Vista";
+            break;
+
+        case 6.1:
+            $version = "7";
+            break;
+
+        case 6.2:
+            $version = "8";
+            break;
+
+        case 6.3:
+            $version = "8.1";
+            break;
+    }
+
+    if (is_array($old_version)) {
+        $old_version['operating_system_version'] = $version;
+
+        return $old_version;
+    }
+
+    return $version;
 }
