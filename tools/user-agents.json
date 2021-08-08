@@ -2376,9 +2376,7 @@
                 "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.1) Gecko/20060313 Debian/1.5.dfsg+1.5.0.1-4 Firefox/1.5.0.1"
             ],
             "1.5.0.2": [
-                "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.2) Gecko/20060308 Firefox/1.5.0.2"
-            ],
-            "1.5.0.2": [
+                "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.2) Gecko/20060308 Firefox/1.5.0.2",
                 "Mozilla/5.0 (Windows; U; Windows NT 4.0; en-US; rv:1.8.0.2) Gecko/20060418 Firefox/1.5.0.2;"
             ],
             "1.5.0.3": [
@@ -4063,7 +4061,7 @@
                 "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9) Gecko/2008061920 IceCat/3.0-g1"
             ]
         },
-        "IceDragon": {
+        "Comodo IceDragon": {
             "20.0.1.14": [
                 "Mozilla/5.0 (Windows NT 6.1; rv:20.0) Gecko/20100101 Firefox/20.0 IceDragon/20.0.1.14"
             ],
@@ -8850,7 +8848,7 @@
                 "SonyEricssonK750c/R1BC Browser/SEMC-Browser/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1"
             ]
         },
-        "Silk": {
+        "Amazon Silk": {
             "2.4": [
                 "Mozilla/5.0 (Linux; U; en-us; KFJWI Build/IMM76D) AppleWebKit/535.19 (KHTML like Gecko) Silk/2.4 Safari/535.19 Silk-Acceleratedtrue"
             ],
@@ -8867,7 +8865,7 @@
         "Snapchat App": {
             "10.11.1.0": ["Snapchat/10.11.1.0 (iPhone6,1; iOS 10.2.1; gzip)"]
         },
-        "Surf Browser": {
+        "surf": {
             "3.0": [
                 "Mozilla/5.0 (Android 6.0.1; Xiaomi Redmi 4A) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 SurfBrowser/3.0"
             ],
@@ -10756,7 +10754,7 @@
                 "Azureus 4.3.0.4;Windows 7;Java 1.6.0_18-ea"
             ]
         },
-        "WebCollage": {
+        "Webcollage": {
             "1.93": ["webcollage/1.93"],
             "1.107": ["webcollage.perl/1.107"],
             "1.114": ["webcollage/1.114"],
