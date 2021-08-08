@@ -3,12 +3,9 @@
         /* Basic Options */
         "target": "ESNext",
         "module": "commonjs",
-        "sourceMap": true,
-        "outDir": "dist/src",
+        "outDir": "",
         "rootDir": "src",
         "removeComments": true,
-        "declaration": true,
-        "declarationMap": true,
 
         /* Strict Type-Checking Options */
         "strict": true,
@@ -27,13 +24,11 @@
         "noFallthroughCasesInSwitch": true,
 
         /* Module Resolution Options */
-        // "moduleResolution": "node",
         "noImplicitUseStrict": true,
 
         /* Advanced Options */
         "skipLibCheck": true /* Skip type checking of declaration files. */,
         "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
-        // "esModuleInterop": true,
         "allowSyntheticDefaultImports": true
     }
 }
