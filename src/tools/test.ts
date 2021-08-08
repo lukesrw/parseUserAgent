@@ -1,25 +1,27 @@
-/*global context describe it*/
+import { join } from "path";
+import { parseUserAgent } from "../dist/js";
+import { ParsedUAInterface } from "../dist/js/index";
+
+interface TestUAListInterface {
+    browser: {
+        [browser_name: string]: {
+            [browser_version: string]: string[];
+        };
+    };
+    operating_system: {
+        [operating_system_name: string]: {
+            [operating_system_version: string]: string[];
+        };
+    };
+}
 
 /**
  * Test data
  */
-const user_agents: TestUAListInterface = require("../../../data/user-agents.json");
-
-/**
- * Interfaces (for testing)
- */
-import { ParsedUAInterface } from "../interfaces/user-interface";
-import { TestUAListInterface } from "../interfaces/user-interface-test";
-
-/**
- * Npm packages (for testing)
- */
-// import * as chai from "chai";
-
-/**
- * Self
- */
-import { parseUserAgent } from "..";
+const user_agents: TestUAListInterface = require(join(
+    __dirname,
+    "user-agents.json"
+));
 
 let result: {
     [user_agent: string]: ParsedUAInterface;
