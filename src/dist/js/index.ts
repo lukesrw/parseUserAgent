@@ -1,14 +1,43 @@
-import {
-    UserAgentParserInterface,
-    ParsedBrowserInterface,
-    ParsedOperatingSystemInterface,
-    ParsedUAInterface
-} from "./interfaces/user-interface";
+import { join } from "path";
 
-import * as Generic from "./interfaces/generic";
+export interface ResultInterface {
+    n: string;
+    v?: string;
+    w: number;
+}
 
-const regexes: UserAgentParserInterface = require("../../data/regex.json");
-const cache: Generic.Object = {};
+export interface UserAgentParserInterface {
+    browser: {
+        [regex: string]: ResultInterface;
+    };
+    operating_system: {
+        [regex: string]: ResultInterface;
+    };
+}
+
+export interface ParsedBrowserInterface {
+    browser_name: string;
+    browser_version: string;
+}
+
+export interface ParsedOperatingSystemInterface {
+    operating_system_name: string;
+    operating_system_version: string;
+}
+
+export interface ParsedUAInterface
+    extends ParsedBrowserInterface,
+        ParsedOperatingSystemInterface {
+    is_mobile: boolean;
+}
+
+const regexes: UserAgentParserInterface = require(join(
+    __dirname,
+    "regex.json"
+));
+const cache: {
+    [category: string]: any;
+} = {};
 
 export const MOBILE_BROWSER = ["Nokia Web Browser", "Opera Mini"];
 export const MOBILE_OPERATING_SYSTEMS = [
@@ -142,4 +171,58 @@ export function parseUserAgent(user_agent: string): ParsedUAInterface {
             is_mobile: parseIsMobile(user_agent)
         }
     );
+}
+
+export function parseWindowsVersion(old_version: ParsedUAInterface | string) {
+    let version = old_version;
+    if (typeof version === "object") {
+        version = version.operating_system_version;
+    }
+
+    switch (parseFloat(parseFloat(version).toFixed(1))) {
+        case 4:
+            version = "95";
+            break;
+
+        case 4.1:
+            version = "98";
+            break;
+
+        case 5:
+            version = "2000";
+            break;
+
+        case 4.9:
+            version = "Me";
+            break;
+
+        case 5.1:
+        case 5.2:
+            version = "XP";
+            break;
+
+        case 6:
+            version = "Vista";
+            break;
+
+        case 6.1:
+            version = "7";
+            break;
+
+        case 6.2:
+            version = "8";
+            break;
+
+        case 6.3:
+            version = "8.1";
+            break;
+    }
+
+    if (typeof old_version === "object") {
+        old_version.operating_system_version = version;
+
+        return old_version;
+    }
+
+    return version;
 }
