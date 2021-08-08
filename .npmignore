@@ -1,9 +1,9 @@
 node_modules
 .github
 tsconfig.*
-/src
-/dist/src/clean*
-/dist/src/test
+src
+dist/php
+tools
 *.tgz
 .eslintrc.json
 *.php
