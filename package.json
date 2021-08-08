@@ -22,17 +22,17 @@
         "parseuseragent"
     ],
     "license": "GPL-3.0",
-    "main": "./dist/src/index",
+    "main": "./dist/js/index",
     "name": "parse-user-agent",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/lukesrw/parseUserAgent.git"
     },
     "scripts": {
-        "build": "node clean && node data/compress && tsc",
-        "test": "npm run build && node dist/src/test",
-        "watch-after-start": "node dist/src/index",
-        "watch-end": "node clean && node data/compress",
+        "build": "node clean && tsc && node tools/compress",
+        "test": "npm run build && node tools/test",
+        "watch-after-start": "node dist/js",
+        "watch-end": "node clean && node tools/compress",
         "watch-start": "npm run build"
     },
     "version": "1.1.2"
