@@ -1869,7 +1869,7 @@
             "w": 10
         },
         "/icedragon\\/(?<v>[\\d\\w.-]+)/i": {
-            "n": "IceDragon",
+            "n": "Comodo IceDragon",
             "w": 10
         },
         "/iceweasel(\\/(?<v>[\\d\\w.-]+))?/i": {
@@ -2665,7 +2665,7 @@
             "w": 10
         },
         "/silk\\/(?<v>[\\d\\w.-]+)/i": {
-            "n": "Silk",
+            "n": "Amazon Silk",
             "w": 10
         },
         "/simplepie\\/(?<v>[\\d\\w.-]+)/i": {
@@ -2813,7 +2813,7 @@
             "w": 10
         },
         "/surf(\\s?browser)?\\/(?<v>[\\d\\w.-]+)/i": {
-            "n": "Surf Browser",
+            "n": "surf",
             "w": 10
         },
         "/swiftfox(\\/(?<v>[\\d\\w.-]+))?/i": {
@@ -3033,7 +3033,7 @@
             "w": 10
         },
         "/webcollage.*\\/(?<v>[\\d\\w.-]+)/i": {
-            "n": "WebCollage",
+            "n": "Webcollage",
             "w": 10
         },
         "/webcopier v(?<v>[\\d\\w.-]+)/i": {
