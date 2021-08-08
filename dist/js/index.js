@@ -1,6 +1,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.parseWindowsVersion = exports.parseUserAgent = exports.parseIsMobile = exports.parseOperatingSystem = exports.parseBrowser = exports.parse = exports.UNKNOWN = exports.MOBILE_OPERATING_SYSTEMS = exports.MOBILE_BROWSER = void 0;
-const regexes = require("./regex.json");
+const path_1 = require("path");
+const regexes = require(path_1.join(__dirname, "regex.json"));
 const cache = {};
 exports.MOBILE_BROWSER = ["Nokia Web Browser", "Opera Mini"];
 exports.MOBILE_OPERATING_SYSTEMS = [
