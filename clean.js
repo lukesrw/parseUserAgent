@@ -38,21 +38,25 @@ function isCompiledFile(file, files) {
  * @returns {void}
  */
 async function clean(source = []) {
-    let clean_items = await fs.promises.readdir(path.join(...source));
+    try {
+        let clean_items = await fs.promises.readdir(path.join(...source));
 
-    for (let index = 0; index < clean_items.length; index += 1) {
-        let clean_item_path = path.join(...source.concat(clean_items[index]));
-        let clean_item_stats = await fs.promises.stat(clean_item_path);
-        if (clean_item_stats.isDirectory()) {
-            await clean(source.concat(clean_items[index]));
+        for (let index = 0; index < clean_items.length; index += 1) {
+            let clean_item_path = path.join(
+                ...source.concat(clean_items[index])
+            );
+            let clean_item_stats = await fs.promises.stat(clean_item_path);
+            if (clean_item_stats.isDirectory()) {
+                await clean(source.concat(clean_items[index]));
+            }
+            if (
+                clean_item_stats.isFile() &&
+                isCompiledFile(clean_items[index], clean_items)
+            ) {
+                await fs.promises.unlink(clean_item_path);
+            }
         }
-        if (
-            clean_item_stats.isFile() &&
-            isCompiledFile(clean_items[index], clean_items)
-        ) {
-            await fs.promises.unlink(clean_item_path);
-        }
-    }
+    } catch (_1) {}
 }
 
-clean([__dirname, "dist", "src"]);
+clean([__dirname, "dist", "js"]);
